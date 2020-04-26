@@ -1,0 +1,13 @@
+- id: ls
+  command: ls
+  descriptions:
+    en: Lists the normal files and folders in the current directory
+    es: Enumera los archivos y carpetas normales en el directorio actual
+  gif: example_ls.gif
+
+- id: pwd
+  command: pwd
+  descriptions:
+    en: Outputs the path of the current working directory for this terminal
+    es: Emite la ruta del directorio actual para este terminal
+  gif: example_pwd.gif

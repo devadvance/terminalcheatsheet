@@ -1,0 +1,41 @@
+  <!-- Start navbar -->
+  <nav class="header-navbar">
+    <div class="nav-title">
+      <a href="/" class="text-decoration-none">Terminal Cheat Sheet</a>
+    </div>
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="sidebar-trigger md-hide lg-hide">☰</div>
+    <div class="nav-items sm-hide xs-hide">
+      <ul class="list-reset horiz-list">
+        <li>
+          <amp-accordion layout="container" disable-session-states="" class="navbar-dropdown">
+            <section>
+              <header>More Resources</header>
+              <ul class="list-reset">
+                <li><a href="https://linux.die.net/man/" class="text-decoration-none" target="_blank" rel="noopener">Linux man pages</a></li>
+                <li><a href="#" class="text-decoration-none" target="_blank" rel="noopener">Contact</a></li>
+              </ul>
+            </section>
+          </amp-accordion>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Start sidebar -->
+  <amp-sidebar id="header-sidebar" class="custom-sidebar" layout="nodisplay" side="left">
+    <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="sidebar-trigger sidebar-close-button">✕</div>
+    <ul class="list-reset">
+      <li>
+        <amp-accordion layout="container" disable-session-states="" class="sidebar-dropdown">
+          <section>
+            <header>More Resources</header>
+            <ul class="list-reset">
+              <li><a href="https://linux.die.net/man/" class="text-decoration-none" target="_blank" rel="noopener">Linux man pages</a></li>
+              <li><a href="#" class="text-decoration-none" target="_blank" rel="noopener">Contact</a></li>
+            </ul>
+          </section>
+        </amp-accordion>
+      </li>
+      {% include body-shareicons.html %}
+    </ul>
+  </amp-sidebar>
