@@ -1,0 +1,8 @@
+# Translations for the overall website.
+# Translations for commands are found in the commands.yml file.
+hero_title:
+  en: What is this?
+  es: ¿Que es esto?
+hero_description:
+  en: You might be an aspiring developer. Perhaps you just want to brush up on some basic terminal commands. No matter what, you've found the right place.
+  es: Puedes ser un aspirante a desarrollador de software. Tal vez solo desee repasar algunos comandos básicos del terminal. No importa qué, has encontrado el lugar correcto.

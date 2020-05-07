@@ -1,0 +1,77 @@
+- id: ls
+  command: ls
+  descriptions:
+    en: Lists the normal files and folders in the current directory in condensed format
+    es: Enumera los archivos y carpetas normales en el directorio actual
+  html_terminal: >
+    <span data-ty="input">ls</span>
+    <span data-ty>Applications Desktop Downloads Movies Pictures Documents Library Music Public</span>
+
+- id: pwd
+  command: pwd
+  descriptions:
+    en: Outputs the full path of the current working directory for this terminal
+    es: Emite la ruta del directorio actual para este terminal
+  html_terminal: >
+    <span data-ty="input">pwd</span>
+    <span data-ty>/Users/me</span>
+
+- id: cd
+  command: cd
+  descriptions:
+    en: Change your current working directory. When used by itself, it will default to changing to your home directory. See below for more options
+  html_terminal: >
+    <span data-ty="input">cd</span>
+    <span data-ty>/Users/me</span>
+
+- id: cd_folder
+  command: cd &lt;folder&gt;
+  descriptions:
+    en: Change your current working directory to the desired folder
+  html_terminal: >
+    <span data-ty="input">pwd</span>
+    <span data-ty>/Users/me</span>
+    <span data-ty="input">cd Desktop</span>
+    <span data-ty="input">pwd</span>
+    <span data-ty>/Users/me/Desktop</span>
+
+- id: mkdir
+  command: mkdir &lt;name&gt;
+  descriptions:
+    en: Created a new directory with the desired name. This occurs in your current working directory
+  html_terminal: >
+    <span data-ty="input">ls</span>
+    <span data-ty>Applications Desktop Downloads</span>
+    <span data-ty="input">mkdir example_folder</span>
+    <span data-ty="input">ls</span>
+    <span data-ty>Applications Desktop Downloads example_folder</span>
+
+- id: cat_file
+  command: cat &lt;file&gt;
+  descriptions:
+    en: This command has many uses, but most commonly for beginners, cat is used to output the contents of a file to the terminal
+  html_terminal: >
+    <span data-ty="input">cat hello.txt</span>
+    <span data-ty>Hello World!</span>
+
+- id: cp
+  command: cp &lt;file&gt; &lt;duplicate_file&gt;
+  descriptions:
+    en: The command used to copy files and folders.
+  html_terminal: >
+    <span data-ty="input">ls</span>
+    <span data-ty>hello.txt</span>
+    <span data-ty="input">cp hello.txt hello2.txt</span>
+    <span data-ty="input">ls</span>
+    <span data-ty>hello.txt hello2.txt</span>
+
+- id: mv
+  command: mv &lt;file&gt; &lt;moved_file&gt;
+  descriptions:
+    en: The command used to move files and folders. It is also used to rename files and folders.
+  html_terminal: >
+    <span data-ty="input">ls</span>
+    <span data-ty>hello.txt</span>
+    <span data-ty="input">mv hello.txt hello2.txt</span>
+    <span data-ty="input">ls</span>
+    <span data-ty>hello2.txt</span>
