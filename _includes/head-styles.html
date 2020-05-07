@@ -1,5 +1,6 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
 
 <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
@@ -44,11 +45,10 @@ Copyright (c) Nicolas Gallagher and Jonathan Neal
   --color-neutral-primary: var(--color-neutral-light);
   --color-neutral-secondary: var(--color-neutral-dark);
 
-  /* OLD */
-  --color-purple: #310967;
-  --color-darkgray: #4B4B4B;
-  --color-midgray: #B3B3B3;
-  --color-lightgray: #D8D8D8;
+  /* Colors for the HTML terminal */
+  --color-terminal-bg: #252a33;
+  --color-terminal-text: #eeeeee;
+  --color-terminal-text-subtle: #a2a2a2;
 }
 
 h1 {
@@ -122,7 +122,7 @@ footer {
   width: 100vw;
   max-width: 100vw;
   height: 130px;
-  background-color: var(--color-darkgray);
+  background-color: var(--color-neutral-dark);
   color: #ffffff;
   text-align: center;
   padding: 2.4rem 0;
@@ -407,16 +407,6 @@ article:first-of-type {
 	padding-bottom: 1rem;
 }
 
-.card {
-  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.05);
-  transition: 0.2s;
-  border-radius: 1px;
-  margin: 0 auto 1rem auto;
-  padding: 0px;
-  background-color: var(--color-lightgray);
-  color: var(--color-darkgray);
-}
-
 /* For the generic share icons section */
 .share-icons ul {
   list-style: none;
@@ -426,53 +416,6 @@ article:first-of-type {
   display: inline;
   margin-left: 5px;
   margin-right: 5px;
-}
-
-.placeholder-card {
-  background:
-    linear-gradient(90deg, rgba(211, 211, 211, 0) 0, rgba(211, 211, 211, 0.8) 50%, rgba(211, 211, 211, 0) 100%),
-    linear-gradient(#dddddd 100%, transparent 0),
-    linear-gradient(#dddddd 100%, transparent 0),
-    linear-gradient(#dddddd 100%, transparent 0),
-    linear-gradient(#dddddd 100%, transparent 0);
-  background-blend-mode: darken;
-  background-size:
-    80px 150px,
-    50px 50px,
-    50% 20px,
-    50% 20px,
-    50% 20px;
-  background-repeat: no-repeat;
-  background-position:
-    -150% 0,
-    20px 60px,
-    100px 20px,
-    100px 70px,
-    100px 120px;
-  -webkit-animation: loading 1.0s linear infinite;
-  animation: loading 1.0s linear infinite;
-}
-
-@keyframes loading {
-  to {
-    background-position:
-    70% 0,
-    20px 60px,
-    100px 20px,
-    100px 70px,
-    100px 120px;
-  }
-}
-
-@-webkit-keyframes loading {
-  to {
-    background-position:
-    70% 0,
-    20px 60px,
-    100px 20px,
-    100px 70px,
-    100px 120px;
-  }
 }
 
 /* amp-list doesn't allow for the page to jump when loading.
@@ -540,6 +483,142 @@ article:first-of-type {
 .consentPopup {
   margin-top: 30px;
   padding: 10px;
+}
+
+
+/**
+ * termynal.js
+ *
+ * @author Ines Montani <ines@ines.io>
+ * @version 0.0.1
+ * @license MIT
+ */
+
+[data-termynal] {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin-top: 1rem;
+    background: var(--color-terminal-bg);
+    color: var(--color-terminal-text);
+    font-size: 1rem;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+    border-radius: 4px;
+    padding: 3rem 1rem 1.5rem;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+[data-termynal]:before {
+    content: '';
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    /* A little hack to display the window buttons in one pseudo element. */
+    background: #d9515d;
+    -webkit-box-shadow: 25px 0 0 #f4c025, 50px 0 0 #3ec930;
+            box-shadow: 25px 0 0 #f4c025, 50px 0 0 #3ec930;
+}
+
+[data-termynal]:after {
+    content: 'terminal';
+    position: absolute;
+    color: var(--color-terminal-text-subtle);
+    top: 0.3125rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+[data-ty] {
+    display: block;
+    line-height: 2;
+}
+
+[data-ty]:before {
+    /* Set up defaults and ensure empty lines are displayed. */
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+}
+
+[data-ty="input"]:before,
+[data-ty-prompt]:before {
+    margin-right: 0.75em;
+    color: var(--color-terminal-text-subtle);
+}
+
+[data-ty="input"]:before {
+    content: '$';
+}
+
+[data-ty][data-ty-prompt]:before {
+    content: attr(data-ty-prompt);
+}
+
+[data-ty-cursor]:after {
+    content: attr(data-ty-cursor);
+    font-family: monospace;
+    margin-left: 0.5em;
+    -webkit-animation: blink 1s infinite;
+            animation: blink 1s infinite;
+}
+
+@-webkit-keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Command list */
+
+.command-list {
+  background-color: #f1f1f1;
+  padding: 1rem;
+}
+
+.command-container {
+  border-bottom: 0.0625rem solid #dddddd;
+  margin-bottom: 0.5rem;
+}
+
+.command-details {
+  display: flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.command-name {
+  font-size: 1rem;
+  font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: var(--color-neutral-medium);
+  padding: 0.125rem;
+}
+
+.command-description {
+  margin-left: 1.2rem;
+  vertical-align: top;
+}
+
+.command-show-section {
+  margin-bottom: 1rem;
+}
+
+.command-show-header {
+  width: 8rem;
+  margin-left: auto;
 }
 
 </style>
