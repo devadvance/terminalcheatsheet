@@ -32,6 +32,9 @@ class Termynal {
     constructor(container = '#termynal', options = {}) {
         this.container = (typeof container === 'string') ? document.querySelector(container) : container;
         this.pfx = `data-${options.prefix || 'ty'}`;
+        /* Modified from the pre-fork version, which was originally camel case
+         * for CSS attributes. These are now purely snake case.
+         */
         this.startDelay = options.startDelay
             || parseFloat(this.container.getAttribute(`${this.pfx}-start-delay`)) || 600;
         this.typeDelay = options.typeDelay
@@ -58,10 +61,9 @@ class Termynal {
         this.lines = [...this.container.querySelectorAll(`[${this.pfx}]`)].concat(this.lineData);
 
         /** 
-         * Calculates width and height of Termynal container.
-         * If container is empty and lines are dynamically loaded, defaults to browser `auto` or CSS.
+         * Currently, it does not calculate the size of the Termynal container.
+         * <amp-script> does not support getComputedStyle().
          */ 
-        //const containerStyle = getComputedStyle(this.container);
         this.container.style.width = undefined;
         this.container.style.minHeight = undefined;
 
