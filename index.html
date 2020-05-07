@@ -35,7 +35,10 @@ permalink: /
           <div class="command-show-section">
             <amp-accordion disable-session-states>
               <section>
-                <header class="command-show-header pure-button button-large button-primary">Show me</header>
+                <header class="command-show-header pure-button button-large button-primary">
+                  <span class="show-more">Show Me</span>
+                  <span class="show-less">Hide</span>
+                </header>
                 <amp-script height="300" layout="fixed-height" src="{{ site.url }}/termynal.js">
                   <div class="termynal" data-termynal data-ty-progress-length="10">
                     {{command.html_terminal}}
