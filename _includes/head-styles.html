@@ -588,6 +588,7 @@ article:first-of-type {
 
 .command-details {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 0.5rem;
   align-items: center;
 }
@@ -598,11 +599,13 @@ article:first-of-type {
   white-space: nowrap;
   background-color: var(--color-neutral-medium);
   padding: 0.125rem;
+  flex: 0 1 auto;
+  margin-right: 1.2rem;
 }
 
 .command-description {
-  margin-left: 1.2rem;
   vertical-align: top;
+  flex: 0 1 auto;
 }
 
 .command-show-section {
