@@ -11,7 +11,7 @@
   command: pwd
   descriptions:
     en: Output the full path of the current working directory for this terminal
-    es: Emite la ruta del directorio actual para este terminal
+    es: Emita la ruta del directorio actual para este terminal
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -20,6 +20,7 @@
   command: cd
   descriptions:
     en: Change your current working directory. When used by itself, it will default to changing to your home directory
+    es: Cambia tu directorio de trabajo actual. Cuando se usa solo, por defecto cambiará a su directorio de inicio
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>
@@ -28,6 +29,7 @@
   command: cd &lt;folder&gt;
   descriptions:
     en: Change your current working directory to the desired &lt;folder&gt;
+    es: Cambia su directorio de trabajo actual al &lt;folder&gt deseado
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -39,6 +41,7 @@
   command: cd ..
   descriptions:
     en: Change your current working directory to the parent directory
+    es: Cambia tu directorio de trabajo actual al directorio principal
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me/Desktop</span>
