@@ -2,8 +2,15 @@
 # Translations for commands are found in the commands.yml file.
 # Main page
 supported_langs:
-  en: English
-  es: Español
+  - name: English
+    code: en
+    prefix: 
+  - name: Español
+    code: es
+    prefix: /es
+site_description:
+  en: All the knowledge you need to get up and running on terminals across operating systems.
+  es: Todo el conocimiento que necesita para ponerse en funcionamiento en terminales en todos los sistemas operativos.
 hero_title:
   en: What is this?
   es: ¿Que es esto?
@@ -22,14 +29,28 @@ modify_section_title:
 modify_section_description:
   en: These commands will help you create, modify, and delete files and folders.
   es: Estos comandos lo ayudarán a crear, modificar y eliminar archivos y carpetas.
-more_coming:
+more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
 
+# Buttons
+begin_reading:
+  en: Get started
+  es: Comenzar
+show_me_action:
+  en: Show me
+  es: Enséñame
+hide_action:
+  en: Hide
+  es: Ocultar
+
 # Layout items
 contact:
-  en: Contact
-  es: Contacto
+  en: CONTACT
+  es: CONTACTO
 more_resources:
   en: More resources
   es: Más recursos
+language:
+  en: Language
+  es: Idioma
