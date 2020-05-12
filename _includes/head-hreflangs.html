@@ -1,0 +1,9 @@
+<!-- Use anything that isn't the current lang as an alternate -->
+{% for supported_lang in site.data.translations.supported_langs %}
+  {% if supported_lang.code != page.lang %}
+    <link rel="alternate"
+      hreflang="{{supported_lang.code}}"
+      href="{{site.url}}{{supported_lang.prefix}}{{page.permalink_without_prefix}}" />
+  {% endif %}
+{% endfor %}
+

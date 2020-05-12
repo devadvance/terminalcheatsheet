@@ -9,10 +9,22 @@
         <li>
           <amp-accordion layout="container" disable-session-states="" class="navbar-dropdown">
             <section>
-              <header>More Resources</header>
+              <header>{{site.data.translations.language[page.lang]}}</header>
+              <ul class="list-reset">
+                {% for supported_lang in site.data.translations.supported_langs %}
+                <li><a href="{{supported_lang.prefix}}{{page.permalink_without_prefix}}" class="text-decoration-none">{{supported_lang.name}}</a></li>
+                {% endfor %}
+              </ul>
+            </section>
+          </amp-accordion>
+        </li>
+        <li>
+          <amp-accordion layout="container" disable-session-states="" class="navbar-dropdown">
+            <section>
+              <header>{{site.data.translations.more_resources[page.lang]}}</header>
               <ul class="list-reset">
                 <li><a href="https://linux.die.net/man/" class="text-decoration-none" target="_blank" rel="noopener">Linux man pages</a></li>
-                <li><a href="mailto:hello@terminalcheatsheet.com" class="text-decoration-none" target="_blank" rel="noopener">Contact</a></li>
+                <li><a href="mailto:hello@terminalcheatsheet.com" class="text-decoration-none" target="_blank" rel="noopener">{{site.data.translations.contact[page.lang]}}</a></li>
               </ul>
             </section>
           </amp-accordion>
@@ -28,10 +40,22 @@
       <li>
         <amp-accordion layout="container" disable-session-states="" class="sidebar-dropdown">
           <section>
-            <header>More Resources</header>
+            <header>{{site.data.translations.language[page.lang]}}</header>
+            <ul class="list-reset">
+              {% for supported_lang in site.data.translations.supported_langs %}
+              <li><a href="{{supported_lang.prefix}}{{page.permalink_without_prefix}}" class="text-decoration-none">{{supported_lang.name}}</a></li>
+              {% endfor %}
+            </ul>
+          </section>
+        </amp-accordion>
+      </li>
+      <li>
+        <amp-accordion layout="container" disable-session-states="" class="sidebar-dropdown">
+          <section>
+            <header>{{site.data.translations.more_resources[page.lang]}}</header>
             <ul class="list-reset">
               <li><a href="https://linux.die.net/man/" class="text-decoration-none" target="_blank" rel="noopener">Linux man pages</a></li>
-              <li><a href="mailto:hello@terminalcheatsheet.com" class="text-decoration-none" target="_blank" rel="noopener">Contact</a></li>
+              <li><a href="mailto:hello@terminalcheatsheet.com" class="text-decoration-none" target="_blank" rel="noopener">{{site.data.translations.contact[page.lang]}}</a></li>
             </ul>
           </section>
         </amp-accordion>

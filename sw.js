@@ -4,7 +4,7 @@ if (workbox) {
   console.log(`Workbox loaded`);
 
   workbox.routing.registerRoute(
-    new RegExp('/'),
+    new RegExp('/(.*)'),
     new workbox.strategies.StaleWhileRevalidate({
       cacheName: 'tcs',
     })

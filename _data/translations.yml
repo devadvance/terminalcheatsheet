@@ -1,8 +1,56 @@
 # Translations for the overall website.
 # Translations for commands are found in the commands.yml file.
+# Main page
+supported_langs:
+  - name: English
+    code: en
+    prefix: 
+  - name: Español
+    code: es
+    prefix: /es
+site_description:
+  en: All the knowledge you need to get up and running on terminals across operating systems.
+  es: Todo el conocimiento que necesita para ponerse en funcionamiento en terminales en todos los sistemas operativos.
 hero_title:
   en: What is this?
   es: ¿Que es esto?
 hero_description:
   en: You might be an aspiring developer. Perhaps you just want to brush up on some basic terminal commands. No matter what, you've found the right place.
   es: Puedes ser un aspirante a desarrollador de software. Tal vez solo desee repasar algunos comandos básicos del terminal. No importa qué, has encontrado el lugar correcto.
+basic_section_title:
+  en: The basics
+  es: Los basicos
+basic_section_description:
+  en: These essential commands will help you navigate, explore, and perform simple actions on your terminal.
+  es: Estos comandos esenciales lo ayudarán a navegar, explorar y realizar acciones simples en su terminal.
+modify_section_title:
+  en: Modify files and folders
+  es: Modificar archivos y carpetas
+modify_section_description:
+  en: These commands will help you create, modify, and delete files and folders.
+  es: Estos comandos lo ayudarán a crear, modificar y eliminar archivos y carpetas.
+more_coming_soon:
+  en: More coming soon!
+  es: ¡Más muy pronto!
+
+# Buttons
+begin_reading:
+  en: Get started
+  es: Comenzar
+show_me_action:
+  en: Show me
+  es: Enséñame
+hide_action:
+  en: Hide
+  es: Ocultar
+
+# Layout items
+contact:
+  en: CONTACT
+  es: CONTACTO
+more_resources:
+  en: More resources
+  es: Más recursos
+language:
+  en: Language
+  es: Idioma
