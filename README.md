@@ -4,6 +4,21 @@
 
 For the novice and intermediate users of terminals on Linux, MacOS, and other operating systems, finding, understanding, learning, remembering common commands is an essential skill. There are a variety of one-off websites, GitHub gists, marketing pages, etc. that have these commands, but few provide the type of user-centered design that makes learning even easier.
 
+## Tech stack
+
+* [Jekyll](https://jekyllrb.com/) - static site builder that works with GitHub pages
+* [AMP](https://amp.dev/documentation/components/) - used to enforce speed, simplicity, and SEO
+
+**Libraries**
+
+* [PureCSS](https://purecss.io/) - used for basic components and grid
+* [Workbox](https://developers.google.com/web/tools/workbox) - used for offline support/PWA functionality
+* [Termynal](https://github.com/ines/termynal) - modified a bit to work with `<amp-script>`
+
+## Running locally
+
+Checkout the code from GitHub and then run `jekyll serve` in the repo directory.
+
 ## Internationalization (i18)
 
 ### How it works
