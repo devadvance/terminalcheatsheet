@@ -19,6 +19,8 @@ For the novice and intermediate users of terminals on Linux, MacOS, and other op
 
 Checkout the code from GitHub and then run `jekyll serve` in the repo directory.
 
+Since this is AMP code, make sure you [validate locally](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_amp/#browser-developer-console) before merging.
+
 ## Internationalization (i18)
 
 ### How it works
