@@ -46,11 +46,14 @@ hide_action:
 
 # Layout items
 contact:
-  en: CONTACT
-  es: CONTACTO
+  en: Contact
+  es: Contacto
 more_resources:
   en: More resources
   es: Más recursos
 language:
   en: Language
   es: Idioma
+feedback:
+  en: Feedback
+  es: Comentarios
