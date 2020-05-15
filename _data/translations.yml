@@ -8,52 +8,70 @@ supported_langs:
   - name: Español
     code: es
     prefix: /es
+  - name: العربي
+    code: ar
+    prefix: /ar
 site_description:
   en: All the knowledge you need to get up and running on terminals across operating systems.
   es: Todo el conocimiento que necesita para ponerse en funcionamiento en terminales en todos los sistemas operativos.
+  ar: كل ما تحتاجه من المعرفة للحصول على الأجهزة الطرفية وتشغيلها عبر أنظمة التشغيل
 hero_title:
   en: What is this?
   es: ¿Que es esto?
+  ar: ما هذا؟
 hero_description:
   en: You might be an aspiring developer. Perhaps you just want to brush up on some basic terminal commands. No matter what, you've found the right place.
   es: Puedes ser un aspirante a desarrollador de software. Tal vez solo desee repasar algunos comandos básicos del terminal. No importa qué, has encontrado el lugar correcto.
+  ar: قد تكون مطورًا طموحًا. ربما تريد فقط تنظيف بعض أوامر المحطة الطرفية الأساسية. مهما وجدت ، لقد وجدت المكان الصحيح.
 basic_section_title:
   en: The basics
   es: Los basicos
+  ar: أساسيات
 basic_section_description:
   en: These essential commands will help you navigate, explore, and perform simple actions on your terminal.
   es: Estos comandos esenciales lo ayudarán a navegar, explorar y realizar acciones simples en su terminal.
+  ar: ستساعدك هذه الأوامر الأساسية على التنقل واستكشاف وتنفيذ إجراءات بسيطة على جهازك.
 modify_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
+  ar: تعديل الملفات والمجلدات
 modify_section_description:
   en: These commands will help you create, modify, and delete files and folders.
   es: Estos comandos lo ayudarán a crear, modificar y eliminar archivos y carpetas.
+  ar:  ستساعدك هذه الأوامر على إنشاء وتعديل وحذف الملفات والمجلدات.
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
+  ar: المزيد قادم قريبا!
 
 # Buttons
 begin_reading:
   en: Get started
   es: Comenzar
+  ar: أبدا
 show_me_action:
   en: Show me
   es: Enséñame
+  ar: أرني
 hide_action:
   en: Hide
   es: Ocultar
+  ar: إخفاء
 
 # Layout items
 contact:
   en: Contact
   es: Contacto
+  ar: اتصل
 more_resources:
   en: More resources
   es: Más recursos
+  ar: المزيد من الموارد
 language:
   en: Language
   es: Idioma
+  ar: لغة
 feedback:
   en: Feedback
   es: Comentarios
+  ar: اقتراحات

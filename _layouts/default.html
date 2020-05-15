@@ -1,5 +1,5 @@
 <!doctype html>
-<html amp="" lang="{{page.lang}}">
+<html amp="" {% if page.direction %}dir="{{page.direction}}"{% endif %} lang="{{page.lang}}">
 <head>
   {% include head-meta.html %}
   {% include head-hreflangs.html %}

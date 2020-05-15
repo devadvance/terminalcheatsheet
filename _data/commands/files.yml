@@ -3,6 +3,7 @@
   descriptions:
     en: This command has many uses, but most commonly for beginners, cat is used to output the contents of a &lt;file&gt; to the terminal
     es: Este comando tiene muchos usos, pero más comúnmente para principiantes, cat se usa para enviar el contenido de un archivo al terminal
+    ar: يستخدم هذا الأمر العديد من الاستخدامات ، ولكن الأكثر شيوعًا للمبتدئين ، يتم استخد cat لإخراج محتويات ملف ملف المحطة
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
@@ -12,6 +13,7 @@
   descriptions:
     en: Create a new directory with the desired &lt;name&gt;. This occurs in your current working directory
     es: Cree un nuevo directorio con el nombre deseado. Esto ocurre en su directorio de trabajo actual
+    ar: إنشاء دليل جديد بالاسم المطلوب ؛. يحدث هذا في دليل العمل الحالي الخاص بك
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music</span>
@@ -24,6 +26,7 @@
   descriptions:
     en: Make a copy of a file
     es: Hacer una copia de un archivo
+    ar: عمل نسخة من ملف
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -36,6 +39,7 @@
   descriptions:
     en: Move files and folders. Can also rename files and folders
     es: Mover archivos y carpetas. También puede renombrar archivos y directorios
+    ar: نقل الملفات والمجلدات. يمكن أيضًا إعادة تسمية الملفات والمجلدات
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -48,6 +52,7 @@
   descriptions:
     en: Delete &lt;file&gt;
     es: Borrar archivo
+    ar: حذف ملف
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
@@ -60,6 +65,7 @@
   descriptions:
     en: Delete a &lt;folder&gt; recursively, which means the folder and everything in it
     es: Eliminar recursivamente un directorio, lo que significa el directorio y todo lo que contiene
+    ar: حذف مجلد بشكل متكرر ، مما يعني المجلد وكل شيء فيه
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder hello.txt</span>

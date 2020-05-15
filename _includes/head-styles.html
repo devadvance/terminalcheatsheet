@@ -464,6 +464,7 @@ article:first-of-type {
 }
 
 [data-termynal] {
+    direction: ltr;
     width: 100%;
     height: 100%;
     max-width: 100%;
@@ -603,6 +604,18 @@ section:not([expanded]) > header > .show-less {
 .copy-frame {
   margin-left: auto;
   margin-top: 0.3125rem;
+}
+
+/* swap margins for rtl languages */
+.rtl {
+  margin-right: 0;
+  margin-left: 1.2rem;
+}
+
+/* push buttons left for rtl languages */
+.button-rtl {
+  margin-right: auto;
+  margin-left: unset;
 }
 
 </style>
