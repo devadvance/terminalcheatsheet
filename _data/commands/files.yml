@@ -1,68 +1,75 @@
-- id: cat_file
-  command: cat &lt;file&gt;
-  descriptions:
-    en: This command has many uses, but most commonly for beginners, cat is used to output the contents of a &lt;file&gt; to the terminal
-    es: Este comando tiene muchos usos, pero más comúnmente para principiantes, cat se usa para enviar el contenido de un archivo al terminal
-  html_terminal: >
-    <span data-ty="input">cat hello.txt</span>
-    <span data-ty>Hello World!</span>
+title:
+  en: Modify files and folders
+  es: Modificar archivos y carpetas
+description:
+  en: These commands will help you create, modify, and delete files and folders.
+  es: Estos comandos lo ayudarán a crear, modificar y eliminar archivos y carpetas.
+commands:
+  - id: cat_file
+    command: cat &lt;file&gt;
+    descriptions:
+      en: This command has many uses, but most commonly for beginners, cat is used to output the contents of a &lt;file&gt; to the terminal
+      es: Este comando tiene muchos usos, pero más comúnmente para principiantes, cat se usa para enviar el contenido de un archivo al terminal
+    html_terminal: >
+      <span data-ty="input">cat hello.txt</span>
+      <span data-ty>Hello World!</span>
 
-- id: mkdir
-  command: mkdir &lt;name&gt;
-  descriptions:
-    en: Create a new directory with the desired &lt;name&gt;. This occurs in your current working directory
-    es: Cree un nuevo directorio con el nombre deseado. Esto ocurre en su directorio de trabajo actual
-  html_terminal: >
-    <span data-ty="input">ls</span>
-    <span data-ty>Desktop Music</span>
-    <span data-ty="input">mkdir example_folder</span>
-    <span data-ty="input">ls</span>
-    <span data-ty>Desktop Music example_folder</span>
+  - id: mkdir
+    command: mkdir &lt;name&gt;
+    descriptions:
+      en: Create a new directory with the desired &lt;name&gt;. This occurs in your current working directory
+      es: Cree un nuevo directorio con el nombre deseado. Esto ocurre en su directorio de trabajo actual
+    html_terminal: >
+      <span data-ty="input">ls</span>
+      <span data-ty>Desktop Music</span>
+      <span data-ty="input">mkdir example_folder</span>
+      <span data-ty="input">ls</span>
+      <span data-ty>Desktop Music example_folder</span>
 
-- id: cp
-  command: cp &lt;file&gt; &lt;duplicate_file&gt;
-  descriptions:
-    en: Make a copy of a file
-    es: Hacer una copia de un archivo
-  html_terminal: >
-    <span data-ty="input">ls</span>
-    <span data-ty>hello.txt</span>
-    <span data-ty="input">cp hello.txt hello2.txt</span>
-    <span data-ty="input">ls</span>
-    <span data-ty>hello.txt hello2.txt</span>
+  - id: cp
+    command: cp &lt;file&gt; &lt;duplicate_file&gt;
+    descriptions:
+      en: Make a copy of a file
+      es: Hacer una copia de un archivo
+    html_terminal: >
+      <span data-ty="input">ls</span>
+      <span data-ty>hello.txt</span>
+      <span data-ty="input">cp hello.txt hello2.txt</span>
+      <span data-ty="input">ls</span>
+      <span data-ty>hello.txt hello2.txt</span>
 
-- id: mv
-  command: mv &lt;file&gt; &lt;moved_file&gt;
-  descriptions:
-    en: Move files and folders. Can also rename files and folders
-    es: Mover archivos y carpetas. También puede renombrar archivos y directorios
-  html_terminal: >
-    <span data-ty="input">ls</span>
-    <span data-ty>hello.txt</span>
-    <span data-ty="input">mv hello.txt hello2.txt</span>
-    <span data-ty="input">ls</span>
-    <span data-ty>hello2.txt</span>
+  - id: mv
+    command: mv &lt;file&gt; &lt;moved_file&gt;
+    descriptions:
+      en: Move files and folders. Can also rename files and folders
+      es: Mover archivos y carpetas. También puede renombrar archivos y directorios
+    html_terminal: >
+      <span data-ty="input">ls</span>
+      <span data-ty>hello.txt</span>
+      <span data-ty="input">mv hello.txt hello2.txt</span>
+      <span data-ty="input">ls</span>
+      <span data-ty>hello2.txt</span>
 
-- id: rm_file
-  command: mv &lt;file&gt;
-  descriptions:
-    en: Delete &lt;file&gt;
-    es: Borrar archivo
-  html_terminal: >
-    <span data-ty="input">ls</span>
-    <span data-ty>hello.txt world.txt</span>
-    <span data-ty="input">rm hello.txt</span>
-    <span data-ty="input">ls</span>
-    <span data-ty>world.txt</span>
+  - id: rm_file
+    command: mv &lt;file&gt;
+    descriptions:
+      en: Delete &lt;file&gt;
+      es: Borrar archivo
+    html_terminal: >
+      <span data-ty="input">ls</span>
+      <span data-ty>hello.txt world.txt</span>
+      <span data-ty="input">rm hello.txt</span>
+      <span data-ty="input">ls</span>
+      <span data-ty>world.txt</span>
 
-- id: rm_recursive
-  command: rm -f &lt;folder&gt;
-  descriptions:
-    en: Delete a &lt;folder&gt; recursively, which means the folder and everything in it
-    es: Eliminar recursivamente un directorio, lo que significa el directorio y todo lo que contiene
-  html_terminal: >
-    <span data-ty="input">ls</span>
-    <span data-ty>Desktop Music example_folder hello.txt</span>
-    <span data-ty="input">rm -r example_folder</span>
-    <span data-ty="input">ls</span>
-    <span data-ty>Desktop Music hello.txt</span>
+  - id: rm_recursive
+    command: rm -f &lt;folder&gt;
+    descriptions:
+      en: Delete a &lt;folder&gt; recursively, which means the folder and everything in it
+      es: Eliminar recursivamente un directorio, lo que significa el directorio y todo lo que contiene
+    html_terminal: >
+      <span data-ty="input">ls</span>
+      <span data-ty>Desktop Music example_folder hello.txt</span>
+      <span data-ty="input">rm -r example_folder</span>
+      <span data-ty="input">ls</span>
+      <span data-ty>Desktop Music hello.txt</span>

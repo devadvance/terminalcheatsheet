@@ -10,17 +10,19 @@
     </div>
   </div>
 </article>
-    
+
+{% assign command-files = site.data.commands %}
+{% for file in command-files %}
+{% assign list = file[1] %}
 <article class="commands-section section-neutral-primary" id="basics">
   <div class="pure-g">
       <div class="pure-u-md-1-8"></div>
       <div class="pure-u-1 pure-u-md-3-4">
-      <h2 class="center">{{site.data.translations.basic_section_title[page.lang]}}</h2>
-      <p class="center">{{site.data.translations.basic_section_description[page.lang]}}</p>
+      <h2 class="center">{{list.title[page.lang]}}</h2>
+      <p class="center">{{list.description[page.lang]}}</p>
 
       <div class="command-list">
-
-        {% for command in site.data.commands.basic %}
+        {% for command in list.commands %}
         <div class="command-container">
           <div class="command-details">
             <div class="command-name">{{command.command}}</div>
@@ -46,7 +48,7 @@
                 </header>
                 <amp-script height="300" layout="fixed-height" src="{{ site.url }}/termynal.js">
                   <div class="termynal" data-termynal data-ty-progress-length="10" data-ty-line-delay="800">
-                    {{command.html_terminal}}
+                    {{file.command.html_terminal}}
                   </div>
                 </amp-script>
               </section>
@@ -54,60 +56,10 @@
           </div>
         </div>
         {% endfor %}
-
       </div>
-    </div>
   </div>
 </article>
-
-<article class="commands-section section-neutral-primary" id="files">
-  <div class="pure-g">
-      <div class="pure-u-md-1-8"></div>
-      <div class="pure-u-1 pure-u-md-3-4">
-      <h2 class="center">{{site.data.translations.modify_section_title[page.lang]}}</h2>
-      <p class="center">{{site.data.translations.modify_section_description[page.lang]}}</p>
-
-      <div class="command-list">
-
-        {% for command in site.data.commands.files %}
-        <div class="command-container">
-          <div class="command-details">
-            <div class="command-name">{{command.command}}</div>
-            <div class="command-description">{{command.descriptions[page.lang]}}</div>
-            <amp-iframe sandbox="allow-scripts"
-              class="copy-frame"
-              title="Command copy button iframe"
-              width="84"
-              height="36"
-              frameborder="0"
-              src="{{site.url}}/copier.html#{{command.command}}">
-              <button class="pure-button button-large button-primary"
-                placeholder
-                disabled>Copy</button>
-            </amp-iframe>
-          </div>
-          <div class="command-show-section">
-            <amp-accordion disable-session-states>
-              <section>
-                <header class="command-show-header pure-button button-large button-primary">
-                  <span class="show-more">{{site.data.translations.show_me_action[page.lang]}}</span>
-                  <span class="show-less">{{site.data.translations.hide_action[page.lang]}}</span>
-                </header>
-                <amp-script height="300" layout="fixed-height" src="{{ site.url }}/termynal.js">
-                  <div class="termynal" data-termynal data-ty-progress-length="10" data-ty-line-delay="800">
-                    {{command.html_terminal}}
-                  </div>
-                </amp-script>
-              </section>
-            </amp-accordion>
-          </div>
-        </div>
-        {% endfor %}
-
-      </div>
-    </div>
-  </div>
-</article>
+{% endfor %}
 
 <article class="commands-section section-neutral-primary" id="more">
   <div class="pure-g">

@@ -1,50 +1,57 @@
-- id: ls
-  command: ls
-  descriptions:
-    en: List the normal files and folders in the current directory in condensed format
-    es: Enumera los archivos y carpetas normales en el directorio actual
-  html_terminal: >
-    <span data-ty="input">ls</span>
-    <span data-ty>Desktop Documents Music</span>
+title:
+  en: The basics
+  es: Los basicos
+description:
+  en: These essential commands will help you navigate, explore, and perform simple actions on your terminal.
+  es: Estos comandos esenciales lo ayudarán a navegar, explorar y realizar acciones simples en su terminal.
+commands:
+  - id: ls
+    command: ls
+    descriptions:
+      en: List the normal files and folders in the current directory in condensed format
+      es: Enumera los archivos y carpetas normales en el directorio actual
+    html_terminal: >
+      <span data-ty="input">ls</span>
+      <span data-ty>Desktop Documents Music</span>
 
-- id: pwd
-  command: pwd
-  descriptions:
-    en: Output the full path of the current working directory for this terminal
-    es: Emita la ruta del directorio actual para este terminal
-  html_terminal: >
-    <span data-ty="input">pwd</span>
-    <span data-ty>/Users/me</span>
+  - id: pwd
+    command: pwd
+    descriptions:
+      en: Output the full path of the current working directory for this terminal
+      es: Emita la ruta del directorio actual para este terminal
+    html_terminal: >
+      <span data-ty="input">pwd</span>
+      <span data-ty>/Users/me</span>
 
-- id: cd
-  command: cd
-  descriptions:
-    en: Change your current working directory. When used by itself, it will default to changing to your home directory
-    es: Cambia tu directorio de trabajo actual. Cuando se usa solo, por defecto cambiará a su directorio de inicio
-  html_terminal: >
-    <span data-ty="input">cd</span>
-    <span data-ty>/Users/me</span>
+  - id: cd
+    command: cd
+    descriptions:
+      en: Change your current working directory. When used by itself, it will default to changing to your home directory
+      es: Cambia tu directorio de trabajo actual. Cuando se usa solo, por defecto cambiará a su directorio de inicio
+    html_terminal: >
+      <span data-ty="input">cd</span>
+      <span data-ty>/Users/me</span>
 
-- id: cd_folder
-  command: cd &lt;folder&gt;
-  descriptions:
-    en: Change your current working directory to the desired &lt;folder&gt;
-    es: Cambia su directorio de trabajo actual al &lt;folder&gt deseado
-  html_terminal: >
-    <span data-ty="input">pwd</span>
-    <span data-ty>/Users/me</span>
-    <span data-ty="input">cd Desktop</span>
-    <span data-ty="input">pwd</span>
-    <span data-ty>/Users/me/Desktop</span>
+  - id: cd_folder
+    command: cd &lt;folder&gt;
+    descriptions:
+      en: Change your current working directory to the desired &lt;folder&gt;
+      es: Cambia su directorio de trabajo actual al &lt;folder&gt deseado
+    html_terminal: >
+      <span data-ty="input">pwd</span>
+      <span data-ty>/Users/me</span>
+      <span data-ty="input">cd Desktop</span>
+      <span data-ty="input">pwd</span>
+      <span data-ty>/Users/me/Desktop</span>
 
-- id: cd_back
-  command: cd ..
-  descriptions:
-    en: Change your current working directory to the parent directory
-    es: Cambia tu directorio de trabajo actual al directorio principal
-  html_terminal: >
-    <span data-ty="input">pwd</span>
-    <span data-ty>/Users/me/Desktop</span>
-    <span data-ty="input">cd ..</span>
-    <span data-ty="input">pwd</span>
-    <span data-ty>/Users/me</span>
+  - id: cd_back
+    command: cd ..
+    descriptions:
+      en: Change your current working directory to the parent directory
+      es: Cambia tu directorio de trabajo actual al directorio principal
+    html_terminal: >
+      <span data-ty="input">pwd</span>
+      <span data-ty>/Users/me/Desktop</span>
+      <span data-ty="input">cd ..</span>
+      <span data-ty="input">pwd</span>
+      <span data-ty>/Users/me</span>

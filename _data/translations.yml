@@ -17,18 +17,6 @@ hero_title:
 hero_description:
   en: You might be an aspiring developer. Perhaps you just want to brush up on some basic terminal commands. No matter what, you've found the right place.
   es: Puedes ser un aspirante a desarrollador de software. Tal vez solo desee repasar algunos comandos básicos del terminal. No importa qué, has encontrado el lugar correcto.
-basic_section_title:
-  en: The basics
-  es: Los basicos
-basic_section_description:
-  en: These essential commands will help you navigate, explore, and perform simple actions on your terminal.
-  es: Estos comandos esenciales lo ayudarán a navegar, explorar y realizar acciones simples en su terminal.
-modify_section_title:
-  en: Modify files and folders
-  es: Modificar archivos y carpetas
-modify_section_description:
-  en: These commands will help you create, modify, and delete files and folders.
-  es: Estos comandos lo ayudarán a crear, modificar y eliminar archivos y carpetas.
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
