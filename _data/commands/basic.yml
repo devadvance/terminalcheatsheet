@@ -3,6 +3,7 @@
   descriptions:
     en: List the normal files and folders in the current directory in condensed format
     es: Enumera los archivos y carpetas normales en el directorio actual
+    ar: سرد الملفات والمجلدات العادية في الدليل الحالي بتنسيق مكثف
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Documents Music</span>
@@ -12,6 +13,7 @@
   descriptions:
     en: Output the full path of the current working directory for this terminal
     es: Emita la ruta del directorio actual para este terminal
+    ar: إخراج المسار الكامل لدليل العمل الحالي لهذه المحطة
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -21,6 +23,7 @@
   descriptions:
     en: Change your current working directory. When used by itself, it will default to changing to your home directory
     es: Cambia tu directorio de trabajo actual. Cuando se usa solo, por defecto cambiará a su directorio de inicio
+    ar: تغيير دليل العمل الحالي الخاص بك. عند استخدامه بمفرده ، سيتم تغييره افتراضيًا إلى دليل المنزل 
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>
@@ -30,6 +33,7 @@
   descriptions:
     en: Change your current working directory to the desired &lt;folder&gt;
     es: Cambia su directorio de trabajo actual al &lt;folder&gt deseado
+    ar: تغيير دليل العمل الحالي الخاص بك إلى المجلد المطلو
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -42,6 +46,7 @@
   descriptions:
     en: Change your current working directory to the parent directory
     es: Cambia tu directorio de trabajo actual al directorio principal
+    ar: تغيير دليل العمل الحالي الخاص بك إلى الدليل الأصل
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me/Desktop</span>
