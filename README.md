@@ -60,7 +60,7 @@ The website supports internationalization (i18n) without the use of additional J
 
 `_includes/i18n/*` contains the actual content of each page. This content is internationalized by combining translations from `_data/translations.yml` and `_data/commands/*.yml` with the `page.lang` variable.
 
-`i18n/*` contains the pages for each language. These only contain some [front matter](https://jekyllrb.com/docs/front-matter/) and the include for the actual content from `_includes/i18n/*`. Most importantly, the `page.lang` variable is set at the top.
+`i18n/*` contains the pages for each language. These only contain some [front matter](https://jekyllrb.com/docs/front-matter/) and the include for the actual content from `_includes/i18n/*`. Most importantly, the `page.lang` variable is set at the top. If the language uses a [RTL script](https://en.wikipedia.org/wiki/Right-to-left), make sure you set `page.direction` to `rtl` as well to automatically reflow the correct parts of the site. 
 
 The default language of the site is English, so the files outside of the `i18n` directory have the language set to English in `page.lang`. They also include the actual content from `_includes/i18n/*`.
 
