@@ -23,10 +23,10 @@
         {% for command in site.data.commands.basic %}
         <div class="command-container">
           <div class="command-details">
-            <div class="command-name {% if page.direction %}rtl{% endif %}">{{command.command}}</div>
-            <div class="command-description {% if page.direction %}rtl{% endif %}">{{command.descriptions[page.lang]}}</div>
+            <div class="command-name{% if page.direction == "rtl" %} general-rtl{% endif %}">{{command.command}}</div>
+            <div class="command-description{% if page.direction == "rtl" %} general-rtl{% endif %}">{{command.descriptions[page.lang]}}</div>
             <amp-iframe sandbox="allow-scripts"
-              class="copy-frame {% if page.direction %}button-rtl{% endif %}"
+              class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
               title="Command copy button iframe"
               width="84"
               height="36"
@@ -40,7 +40,7 @@
           <div class="command-show-section">
             <amp-accordion disable-session-states>
               <section>
-                <header class="command-show-header pure-button button-large button-primary {% if page.direction %}button-rtl{% endif %}">
+                <header class="command-show-header pure-button button-large button-primary{% if page.direction == "rtl" %} button-rtl{% endif %}">
                   <span class="show-more">{{site.data.translations.show_me_action[page.lang]}}</span>
                   <span class="show-less">{{site.data.translations.hide_action[page.lang]}}</span>
                 </header>
@@ -72,10 +72,10 @@
         {% for command in site.data.commands.files %}
         <div class="command-container">
           <div class="command-details">
-            <div class="command-name {% if page.direction %}rtl{% endif %}">{{command.command}}</div>
-            <div class="command-description {% if page.direction %}rtl{% endif %}">{{command.descriptions[page.lang]}}</div>
+            <div class="command-name{% if page.direction == "rtl" %} general-rtl{% endif %}">{{command.command}}</div>
+            <div class="command-description{% if page.direction == "rtl" %} general-rtl{% endif %}">{{command.descriptions[page.lang]}}</div>
             <amp-iframe sandbox="allow-scripts"
-              class="copy-frame {% if page.direction %}button-rtl{% endif %}"
+              class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
               title="Command copy button iframe"
               width="84"
               height="36"
@@ -89,7 +89,7 @@
           <div class="command-show-section">
             <amp-accordion disable-session-states>
               <section>
-                <header class="command-show-header pure-button button-large button-primary  {% if page.direction %}button-rtl{% endif %}">
+                <header class="command-show-header pure-button button-large button-primary {% if page.direction == "rtl" %} button-rtl{% endif %}">
                   <span class="show-more">{{site.data.translations.show_me_action[page.lang]}}</span>
                   <span class="show-less">{{site.data.translations.hide_action[page.lang]}}</span>
                 </header>
