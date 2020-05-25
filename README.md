@@ -85,7 +85,6 @@ The default language of the site is English, so the files outside of the `i18n` 
 
 The default language of the site is English, so the files outside of the `i18n` directory have the language set to English in `page.lang` and the content written in markdown as English.
 
-
 ### How to add new content
 
 **You should not add new content without appropriate translations!**
@@ -109,3 +108,10 @@ In the structure above, you'll need to add:
 * A markdown page for each language in the appropriate folder within `i18n`
 * Front matter set correctly in each page
 * Internationalized assets in the `assets` directory
+
+#### Specifics for adding guides
+
+Make sure you:
+
+* Add the guide to the `_data/guides/guide-index.yml` file so that the navbar auto-generates correctly.
+* TBD
