@@ -58,7 +58,9 @@ h1 {
   font-family: Oswald, sans-serif;
   font-weight: 800;
   font-size: 3.2rem;
-  margin: 0 0 1.6rem 0; 
+  margin: 0 0 1.6rem 0;
+  /*Aligning all h1s to center*/
+  text-align: center;
 }
 
 h2 {
@@ -326,11 +328,21 @@ a.pure-button {
   .xs-hide {
     display: none
   }
+
+  .guideimages {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 40.06rem) and (max-width: 52rem) {
   .sm-hide {
     display: none
+  }
+
+  .guideimages {
+    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -338,11 +350,21 @@ a.pure-button {
   .md-hide {
     display: none
   }
+
+  .guideimages {
+    width: 70%;
+    max-width: 70%;
+  }
 }
 
 @media (min-width: 64.06rem) {
   .lg-hide {
     display: none
+  }
+
+  .guideimages {
+    width: 50%;
+    max-width: 50%;
   }
 }
 
@@ -551,6 +573,15 @@ article:first-of-type {
     }
 }
 
+/* For code sections */
+code, .command-name {
+  font-size: 1rem;
+  font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: var(--color-neutral-medium);
+  padding: 0.125rem;
+}
+
 /* Command list */
 .command-list {
   background-color: #f1f1f1;
@@ -570,11 +601,6 @@ article:first-of-type {
 }
 
 .command-name {
-  font-size: 1rem;
-  font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
-  white-space: nowrap;
-  background-color: var(--color-neutral-medium);
-  padding: 0.125rem;
   flex: 0 1 auto;
   margin-right: 1.2rem;
 }
@@ -616,6 +642,23 @@ section:not([expanded]) > header > .show-less {
 .button-rtl {
   margin-right: auto;
   margin-left: unset;
+}
+
+/* For guides */
+.guideimages {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+imgcaption {
+  font-size: 0.9rem;
+  font-style: italic;
+  display: block;
+}
+
+#markdown-toc {
+  line-height: 1.5rem;
+  font-size: 1.1rem;
 }
 
 </style>
