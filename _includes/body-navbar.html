@@ -56,7 +56,7 @@
             <header>{{site.data.translations.language[page.lang]}}</header>
             <ul class="list-reset">
               {% for supported_lang in site.data.translations.supported_langs %}
-              <li><a href="{{supported_lang.prefix}}{{page.permalink_without_prefix}}" class="text-decoration-none">{{supported_lang.name}}</a></li>
+              <li><a href="{{supported_lang[1].prefix}}{{page.permalink_without_prefix}}" class="text-decoration-none">{{supported_lang[1].name}}</a></li>
               {% endfor %}
             </ul>
           </section>
