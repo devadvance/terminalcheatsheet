@@ -23,7 +23,7 @@
         {% for command in site.data.commands.basic %}
         <div class="command-container">
           <div class="command-details">
-            <div class="command-name{% if page.direction == "rtl" %} general-rtl{% endif %}">{{command.command}}</div>
+            <div class="command-name{% if page.direction == "rtl" %} general-rtl{% endif %}" dir="ltr">{{command.command}}</div>
             <div class="command-description{% if page.direction == "rtl" %} general-rtl{% endif %}">{{command.descriptions[page.lang]}}</div>
             <amp-iframe sandbox="allow-scripts"
               class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
@@ -45,7 +45,7 @@
                   <span class="show-less">{{site.data.translations.hide_action[page.lang]}}</span>
                 </header>
                 <amp-script height="300" layout="fixed-height" src="{{ site.url }}/termynal.js">
-                  <div class="termynal" data-termynal data-ty-progress-length="10" data-ty-line-delay="800">
+                  <div class="termynal" data-termynal data-ty-progress-length="10" data-ty-line-delay="800" dir="ltr">
                     {{command.html_terminal}}
                   </div>
                 </amp-script>
@@ -72,7 +72,7 @@
         {% for command in site.data.commands.files %}
         <div class="command-container">
           <div class="command-details">
-            <div class="command-name{% if page.direction == "rtl" %} general-rtl{% endif %}">{{command.command}}</div>
+            <div class="command-name{% if page.direction == "rtl" %} general-rtl{% endif %}" dir="ltr">{{command.command}}</div>
             <div class="command-description{% if page.direction == "rtl" %} general-rtl{% endif %}">{{command.descriptions[page.lang]}}</div>
             <amp-iframe sandbox="allow-scripts"
               class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
@@ -94,7 +94,7 @@
                   <span class="show-less">{{site.data.translations.hide_action[page.lang]}}</span>
                 </header>
                 <amp-script height="300" layout="fixed-height" src="{{ site.url }}/termynal.js">
-                  <div class="termynal" data-termynal data-ty-progress-length="10" data-ty-line-delay="800">
+                  <div class="termynal" data-termynal data-ty-progress-length="10" data-ty-line-delay="800" dir="ltr">
                     {{command.html_terminal}}
                   </div>
                 </amp-script>
