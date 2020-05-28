@@ -2,15 +2,15 @@
 # Translations for commands are found in the commands.yml file.
 # Main page
 supported_langs:
-  - name: English
-    code: en
-    prefix: 
-  - name: Español
-    code: es
-    prefix: /es
-  - name: العربي
-    code: ar
-    prefix: /ar
+    en:
+      name: English
+      prefix: 
+    es:
+      name: Español
+      prefix: /es
+    ar:
+      name: العربي
+      prefix: /ar
 site_description:
   en: All the knowledge you need to get up and running on terminals across operating systems.
   es: Todo el conocimiento que necesita para ponerse en funcionamiento en terminales en todos los sistemas operativos.
@@ -67,6 +67,10 @@ more_resources:
   en: More resources
   es: Más recursos
   ar: المزيد من الموارد
+guides:
+  en: Guides
+  es: Guías
+  ar: دليل
 language:
   en: Language
   es: Idioma

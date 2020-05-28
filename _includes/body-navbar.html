@@ -1,10 +1,10 @@
   <!-- Start navbar -->
   <nav class="header-navbar">
     <div class="nav-title">
-      <a href="/" class="text-decoration-none">Terminal Cheat Sheet</a>
+      <a href="{{site.data.translations.supported_langs[page.lang].prefix}}/" class="text-decoration-none">Terminal Cheat Sheet</a>
     </div>
-    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="sidebar-trigger md-hide lg-hide">☰</div>
-    <div class="nav-items sm-hide xs-hide">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="sidebar-trigger lg-hide">☰</div>
+    <div class="nav-items md-hide sm-hide xs-hide">
       <ul class="list-reset horiz-list">
         <li>
           <amp-accordion layout="container" disable-session-states="" class="navbar-dropdown">
@@ -12,7 +12,19 @@
               <header>{{site.data.translations.language[page.lang]}}</header>
               <ul class="list-reset">
                 {% for supported_lang in site.data.translations.supported_langs %}
-                <li><a href="{{supported_lang.prefix}}{{page.permalink_without_prefix}}" class="text-decoration-none">{{supported_lang.name}}</a></li>
+                <li><a href="{{supported_lang[1].prefix}}{{page.permalink_without_prefix}}" class="text-decoration-none">{{supported_lang[1].name}}</a></li>
+                {% endfor %}
+              </ul>
+            </section>
+          </amp-accordion>
+        </li>
+        <li>
+          <amp-accordion layout="container" disable-session-states="" class="navbar-dropdown">
+            <section>
+              <header>{{site.data.translations.guides[page.lang]}}</header>
+              <ul class="list-reset">
+                {% for guide in site.data.guides.guide-index %}
+                <li><a href="{{guide.link[page.lang]}}" class="text-decoration-none">{{guide.title[page.lang]}}</a></li>
                 {% endfor %}
               </ul>
             </section>
@@ -44,7 +56,19 @@
             <header>{{site.data.translations.language[page.lang]}}</header>
             <ul class="list-reset">
               {% for supported_lang in site.data.translations.supported_langs %}
-              <li><a href="{{supported_lang.prefix}}{{page.permalink_without_prefix}}" class="text-decoration-none">{{supported_lang.name}}</a></li>
+              <li><a href="{{supported_lang[1].prefix}}{{page.permalink_without_prefix}}" class="text-decoration-none">{{supported_lang[1].name}}</a></li>
+              {% endfor %}
+            </ul>
+          </section>
+        </amp-accordion>
+      </li>
+      <li>
+        <amp-accordion layout="container" disable-session-states="" class="sidebar-dropdown">
+          <section>
+            <header>{{site.data.translations.guides[page.lang]}}</header>
+            <ul class="list-reset">
+              {% for guide in site.data.guides.guide-index %}
+              <li><a href="{{guide.link[page.lang]}}" class="text-decoration-none">{{guide.title[page.lang]}}</a></li>
               {% endfor %}
             </ul>
           </section>
