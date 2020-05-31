@@ -5,22 +5,26 @@
       <h1>{{site.data.translations.hero_title[page.lang]}}</h1>
       <p>{{site.data.translations.hero_description[page.lang]}}</p>
       <div class="centering-div">
-        <a href="#basics" class="pure-button button-large button-primary">{{site.data.translations.begin_reading[page.lang]}}</a>
+        <a href="#basic" class="pure-button button-large button-primary">{{site.data.translations.begin_reading[page.lang]}}</a>
       </div>
     </div>
   </div>
 </article>
     
-<article class="commands-section section-neutral-primary" id="basics">
+{% for file in site.data.commands %}
+{% assign section = file[0] %}
+{% assign title = file[0] | append: '_section_title' %}
+{% assign description = file[0] | append: '_section_description' %}
+<article class="commands-section section-neutral-primary" id="{{section}}">
   <div class="pure-g">
       <div class="pure-u-md-1-8"></div>
       <div class="pure-u-1 pure-u-md-3-4">
-      <h2 class="center">{{site.data.translations.basic_section_title[page.lang]}}</h2>
-      <p class="center">{{site.data.translations.basic_section_description[page.lang]}}</p>
+      <h2 class="center">{{site.data.translations.[title][page.lang]}}</h2>
+      <p class="center">{{site.data.translations.[description][page.lang]}}</p>
 
       <div class="command-list">
 
-        {% for command in site.data.commands.basic %}
+        {% for command in site.data.commands.[section] %}
         <div class="command-container">
           <div class="command-details">
             <div class="command-name{% if page.direction == "rtl" %} general-rtl{% endif %}" dir="ltr">{{command.command}}</div>
@@ -59,55 +63,7 @@
     </div>
   </div>
 </article>
-
-<article class="commands-section section-neutral-primary" id="files">
-  <div class="pure-g">
-      <div class="pure-u-md-1-8"></div>
-      <div class="pure-u-1 pure-u-md-3-4">
-      <h2 class="center">{{site.data.translations.modify_section_title[page.lang]}}</h2>
-      <p class="center">{{site.data.translations.modify_section_description[page.lang]}}</p>
-
-      <div class="command-list">
-
-        {% for command in site.data.commands.files %}
-        <div class="command-container">
-          <div class="command-details">
-            <div class="command-name{% if page.direction == "rtl" %} general-rtl{% endif %}" dir="ltr">{{command.command}}</div>
-            <div class="command-description{% if page.direction == "rtl" %} general-rtl{% endif %}">{{command.descriptions[page.lang]}}</div>
-            <amp-iframe sandbox="allow-scripts"
-              class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-              title="Command copy button iframe"
-              width="84"
-              height="36"
-              frameborder="0"
-              src="{{site.url}}/copier.html#{{command.command}}">
-              <button class="pure-button button-large button-primary"
-                placeholder
-                disabled>Copy</button>
-            </amp-iframe>
-          </div>
-          <div class="command-show-section">
-            <amp-accordion disable-session-states>
-              <section>
-                <header class="command-show-header pure-button button-large button-primary {% if page.direction == "rtl" %} button-rtl{% endif %}">
-                  <span class="show-more">{{site.data.translations.show_me_action[page.lang]}}</span>
-                  <span class="show-less">{{site.data.translations.hide_action[page.lang]}}</span>
-                </header>
-                <amp-script height="300" layout="fixed-height" src="{{ site.url }}/termynal.js">
-                  <div class="termynal" data-termynal data-ty-progress-length="10" data-ty-line-delay="800" dir="ltr">
-                    {{command.html_terminal}}
-                  </div>
-                </amp-script>
-              </section>
-            </amp-accordion>
-          </div>
-        </div>
-        {% endfor %}
-
-      </div>
-    </div>
-  </div>
-</article>
+{% endfor %}
 
 <article class="commands-section section-neutral-primary" id="more">
   <div class="pure-g">
