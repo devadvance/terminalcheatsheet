@@ -31,11 +31,11 @@ basic_section_description:
   en: These essential commands will help you navigate, explore, and perform simple actions on your terminal.
   es: Estos comandos esenciales lo ayudarán a navegar, explorar y realizar acciones simples en su terminal.
   ar: ستساعدك هذه الأوامر الأساسية على التنقل واستكشاف وتنفيذ إجراءات بسيطة على جهازك.
-modify_section_title:
+files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
   ar: تعديل الملفات والمجلدات
-modify_section_description:
+files_section_description:
   en: These commands will help you create, modify, and delete files and folders.
   es: Estos comandos lo ayudarán a crear, modificar y eliminar archivos y carpetas.
   ar:  ستساعدك هذه الأوامر على إنشاء وتعديل وحذف الملفات والمجلدات.
