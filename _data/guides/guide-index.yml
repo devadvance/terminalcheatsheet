@@ -9,3 +9,13 @@
     en: /guides/open-terminal-macos
     es: /es/guides/open-terminal-macos
     ar: /ar/guides/open-terminal-macos
+
+- id: navigate-work-files
+  title:
+    en: How to navigate and work with files on a terminal
+    es: Cómo navegar y trabajar con archivos en una terminal
+    ar: كيفية التنقل والعمل مع الملفات الموجودة على محطة طرفية
+  link:
+    en: /guides/navigate-work-files
+    es: /es/guides/navigate-work-files
+    ar: /ar/guides/navigate-work-files
