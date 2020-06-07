@@ -38,19 +38,19 @@ Type `ls` into your terminal and you will see the files and folders in your curr
   <amp-img src="/assets/guides/navigate-work-files/ls.png" width="500" height="350" alt="terminal list command" layout="fixed"></amp-img>
 </div>
 
-This is the equivalent of opening your Finder window and looking at the contents of any folder. We're taking a peek inside another folder, while remaining in our current directory.
+This is the equivalent of opening your Finder window and looking at the contents of any folder.
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/finder-files.png" width="500" height="350" alt="MacOS folder files" layout="fixed"></amp-img>
 </div>
 
-You can also list all the files in directories that aren't your working directory like by typing  `ls <folder>`.
+You can also list all the files in directories that aren't your working directory like by typing  `ls <folder>`. We're taking a peek inside another folder, while remaining in our current directory.
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-folder.png" width="500" height="350" alt="ls command folder" layout="fixed"></amp-img>
 </div>
 
-This is the equivalent of looking at the contents of a folder in your working directory.
+This is the equivalent of looking at the contents of a folder in your working directory. 
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/finder-click-folder.png" width="500" height="350" alt="MacOS folder contents peek" layout="fixed"></amp-img>
