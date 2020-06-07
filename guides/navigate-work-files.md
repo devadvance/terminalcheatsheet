@@ -56,7 +56,7 @@ This is the equivalent of looking at the contents of a folder in your working di
   <amp-img src="/assets/guides/navigate-work-files/finder-click-folder.png" width="500" height="350" alt="MacOS folder contents peek" layout="fixed"></amp-img>
 </div>
 
-Try typing `ls -a` to to display all files, including files with filenames that start with a dot. These files are hidden by default. A common example of such a file is a '.gitignore' file. Note how we are no displaying **.hidden-file** now, which wasn't being displayed with the **ls** command.
+Try typing `ls -a` to to display all files, including files with filenames that start with a dot. These files are hidden by default. A common example of such a file is a '.gitignore' file. Note how we are no longer displaying **.hidden-file** now, which wasn't being displayed with the **ls** command.
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-all.png" width="500" height="350" alt="terminal ls all command" layout="fixed"></amp-img>
