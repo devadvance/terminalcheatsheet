@@ -97,3 +97,9 @@ A useful command when working in terminal is `cat [FILE_NAME]`. The command **ca
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/cat.png" width="500" height="350" alt="terminal cat command" layout="fixed"></amp-img>
 </div>
+
+## Conclusion
+
+Congrats! You now know how to navigate through directories in your terminal and change your current working directory. You can explore the contents of directories. You can also look at contents of files. 
+
+The next step is learning how to create and modify files and directories. 
