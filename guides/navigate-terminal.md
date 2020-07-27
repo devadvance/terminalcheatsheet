@@ -21,7 +21,7 @@ This guide is intended to teach you the basics of navigating files and folders o
 In order follow this guide, you will need:
 
 * Access to a Unix terminal on any Linux or a MacOS environment.
-* To know how to open a Terminal. If you are not sure, see the instructions for [macOS](open-terminal-macos) or Linux.
+* To know how to open a Terminal. If you are not sure, see the instructions for [macOS](open-terminal-macos) or Linux (coming soon).
 
 ## Let's get started!
 
@@ -43,7 +43,7 @@ Next, you can explore the contents of the working directory. Type `ls` into your
   <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" layout="fixed"></amp-img>
 </div>
 
-This is the similar to opening your file browser application and looking at the contents of your working directory folder:
+This is similar to opening your file browser application and looking at the contents of your working directory folder:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" layout="fixed"></amp-img>
@@ -83,18 +83,18 @@ Similar to many terminal commmands, you can combine these two options. To do thi
   <amp-img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" layout="fixed"></amp-img>
 </div>
 
-## Navigating directories
+## Navigating folders
 
-You may have noticed that our working directory has multiple parts in the name. In general, the `/` (slash) character means that you within a folder. So, when you see `/home/user/examples` as your working directory, that means that:
+You may have noticed that our working directory has multiple parts in the name. In general, the `/` (slash) character means that you are within a folder. So, when you see `/home/user/examples` as your working directory, that means that:
 
 * You are inside of the **examples** folder, which is your working directory.
 * The **examples** folder is inside of the **user** folder.
 * The **user** folder is inside of the **home** folder.
 * The **home** folder is inside of your computer file system and there is nothing beyond it.
 
-Now we can change our working directory. First, choose a folder from when you typed `ls` into the terminal. Next, type `cd [FOLDER_NAME]` and press **Enter**. Your working directory is now changed.
+Now we can change our working directory. In our example, we saw two folders when using `ls` to list everything (**folder1** and **folder2**).
 
-`cd` stands for 'change directory'. You can type `pwd` again and press **Enter** to verify that you changed your working directory. In our sample, we changed our working directory to **folder1**:
+Type `cd [FOLDER_NAME]` and press **Enter**. Your working directory is now changed. `cd` stands for 'change directory'. You can type `pwd` again and press **Enter** to verify that you changed your working directory. In our sample, we changed our working directory to **folder1**:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="termianl cd command" layout="fixed"></amp-img>
@@ -112,7 +112,7 @@ If you wanted to go "up" to our previous folder, you can type `cd ..` and press 
   <amp-img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" layout="fixed"></amp-img>
 </div>
 
-This idea of going "down" into a directory or "up" out of a directory is very common when using terminal.
+This idea of going "down" into a folder or "up" out of a folder is very common when using terminal. When terminal commands, you use the names of folders when going "down" a level and `..` to mean going "up" a level.
 
 ## Viewing file contents
 
