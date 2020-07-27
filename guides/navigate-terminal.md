@@ -21,7 +21,7 @@ This guide is intended to teach you the basics of navigating files and folders o
 In order follow this guide, you will need:
 
 * Access to a Unix terminal on any Linux or a MacOS environment.
-* To know how to open a Terminal. If you are not sure, see the instructions for [macOS](open-terminal-macos) or Linux (coming soon).
+* To know how to open a terminal window. If you are not sure, see the instructions for [macOS](open-terminal-macos) or Linux (coming soon).
 
 ## Let's get started!
 
