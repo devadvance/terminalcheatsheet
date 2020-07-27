@@ -12,10 +12,10 @@
 
 - id: navigate-work-files
   title:
-    en: How to navigate and work with files on a terminal
-    es: Cómo navegar y trabajar con archivos en una terminal
+    en: How to navigate files and folders on a terminal
+    es: Cómo navegar con archivos y directorios en una terminal
     ar: كيفية التنقل والعمل مع الملفات الموجودة على محطة طرفية
   link:
-    en: /guides/navigate-work-files
-    es: /es/guides/navigate-work-files
-    ar: /ar/guides/navigate-work-files
+    en: /guides/navigate-terminal
+    es: /es/guides/navigate-terminal
+    ar: /ar/guides/navigate-terminal
