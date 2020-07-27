@@ -34,31 +34,31 @@ As soon as you open terminal, you will be inside of a working directory. Type `p
 In the sample screenshot below, our working directory is a folder called **examples**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" layout="responsive"></amp-img>
 </div>
 
 Next, you can explore the contents of the working directory. Type `ls` into your terminal and press **Enter**. `ls` stands for "list". This command will list all the files and folders in your working directory:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" layout="responsive"></amp-img>
 </div>
 
 This is similar to opening your file browser application and looking at the contents of your working directory folder:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" layout="responsive"></amp-img>
 </div>
 
 You can list all the contents in folders that aren't your working directory by typing `ls [FOLDER_NAME]`. This is like taking a peek inside another folder, without changing our working directory. In the example below, we are looking at the contents of **folder1**. We can see that folder1 has only one file called **file3.pdf**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command folder" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command folder" layout="responsive"></amp-img>
 </div>
 
 This is similar to looking at the contents of a folder within your working directory in your file browser application:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="file browser folder peek" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="file browser folder peek" layout="responsive"></amp-img>
 </div>
 
 The `ls` command has additional options that can change how it functions.
@@ -68,19 +68,19 @@ Try typing `ls -a` and pressing **Enter** to display all files, including hidden
 Note how we can now see **.hidden-file**, which wasn't being displayed with the previous `ls` command:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" layout="responsive"></amp-img>
 </div>
 
 Another option for listing files is typing `ls -l` and pressing **Enter**. This option generates a long listing. In addition to the names of files and folders, it will also show attributes, such as when they were last modified and their size:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" layout="responsive"></amp-img>
 </div>
 
 Similar to many terminal commmands, you can combine these two options. To do this, type `ls -la` and press **Enter**, which will list **all** items in **long** format:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" layout="responsive"></amp-img>
 </div>
 
 ## Navigating folders
@@ -97,19 +97,19 @@ Now we can change our working directory. In our example, we saw two folders when
 Type `cd [FOLDER_NAME]` and press **Enter**. Your working directory is now changed. `cd` stands for 'change directory'. You can type `pwd` again and press **Enter** to verify that you changed your working directory. In our sample, we changed our working directory to **folder1**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="termianl cd command" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="termianl cd command" layout="responsive"></amp-img>
 </div>
 
 This is similar to clicking into a folder in your file browser application. You have completely switched the folder you are in:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="MacOS folder change directory" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="MacOS folder change directory" layout="responsive"></amp-img>
 </div>
 
 If you wanted to go "up" to our previous folder, you can type `cd ..` and press **Enter**. This will bring you up one folder level:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" layout="responsive"></amp-img>
 </div>
 
 This idea of going "down" into a folder or "up" out of a folder is very common when using terminal. When terminal commands, you use the names of folders when going "down" a level and `..` to mean going "up" a level.
@@ -123,7 +123,7 @@ For text files, a useful command when working in terminal is typing `cat [FILE_N
 One of the most common uses is to display the contents of a text file in the terminal. In the screenshot below, we are displaying the contents of **hello.txt** in our working directory:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="terminal cat command" layout="fixed"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="terminal cat command" layout="responsive"></amp-img>
 </div>
 
 ## Conclusion
