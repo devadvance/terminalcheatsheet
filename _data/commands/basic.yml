@@ -29,10 +29,10 @@
     <span data-ty>/Users/me</span>
 
 - id: cd_folder
-  command: cd &lt;folder&gt;
+  command: cd [FOLDER]
   descriptions:
-    en: Change your current working directory to the desired &lt;folder&gt;
-    es: Cambia su directorio de trabajo actual al &lt;folder&gt deseado
+    en: Change your current working directory to the desired [FOLDER]
+    es: Cambia su directorio de trabajo actual al [FOLDER] deseado
     ar: تغيير دليل العمل الحالي الخاص بك إلى المجلد المطلو
   html_terminal: >
     <span data-ty="input">pwd</span>
