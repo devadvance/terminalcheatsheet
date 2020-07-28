@@ -48,7 +48,7 @@
     <span data-ty>hello2.txt</span>
 
 - id: rm_file
-  command: mv &lt;file&gt;
+  command: rm &lt;file&gt;
   descriptions:
     en: Delete &lt;file&gt;
     es: Borrar archivo
