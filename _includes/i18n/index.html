@@ -27,7 +27,7 @@
         {% for command in site.data.commands.[section] %}
         <div class="command-container">
           <div class="command-details">
-            <div class="command-name{% if page.direction == "rtl" %} general-rtl{% endif %}" dir="ltr">{{command.command}}</div>
+            <code class="command-name{% if page.direction == "rtl" %} general-rtl{% endif %}" dir="ltr">{{command.command}}</code>
             <div class="command-description{% if page.direction == "rtl" %} general-rtl{% endif %}">{{command.descriptions[page.lang]}}</div>
             <amp-iframe sandbox="allow-scripts"
               class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"

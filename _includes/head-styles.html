@@ -577,9 +577,17 @@ article:first-of-type {
 code, .command-name {
   font-size: 1rem;
   font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
-  white-space: nowrap;
   background-color: var(--color-neutral-medium);
-  padding: 0.125rem;
+  margin: 0.125rem;
+  overflow: visible;
+}
+
+.command-name {
+  white-space: nowrap;
+}
+
+pre.highlight {
+  background-color: var(--color-neutral-medium);
 }
 
 /* Command list */

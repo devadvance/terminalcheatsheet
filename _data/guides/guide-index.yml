@@ -19,3 +19,14 @@
     en: /guides/navigate-terminal
     es: /es/guides/navigate-terminal
     ar: /ar/guides/navigate-terminal
+
+- id: curl-rest-api
+  title:
+    en: How to use curl to test a REST API
+    es: Cómo usar curl para probar un API REST (servicios web)
+    ar: كيفية استخدام curl لاختبار REST API
+  link:
+    en: /guides/curl-rest-api
+    es: /es/guides/curl-rest-api
+    ar: /ar/guides/curl-rest-api
+
