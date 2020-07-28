@@ -23,7 +23,7 @@ In order follow this guide, you will need:
 * Access to a Unix terminal on any Linux or a MacOS environment.
 * To know how to open a terminal window. If you are not sure, see the instructions for [macOS](open-terminal-macos) or Linux (coming soon).
 * A REST API that you want to interact with. We are using https://jsonplaceholder.typicode.com as an example in this guide.
-* The curl utility installed on your computer. Most macOS and Linux computers have it preinstalled. If not, you'll need to review the technical instructions [here](https://curl.haxx.se/docs/install.html).
+* The curl utility installed on your computer. Most macOS and Linux computers have it preinstalled. If not, you'll need to review the technical instructions [on the curl installation website](https://curl.haxx.se/docs/install.html){:target="_blank" rel="noopener"}.
 
 ## Let's start with GET!
 
@@ -31,7 +31,7 @@ Start by opening your terminal.
 
 curl is a "command-line tool for transferring data specified with URL syntax", which makes it very useful for interacting with REST APIs and other web resources. It has thousands of uses, but we are going to review just a few in this guide.
 
-Let us say you have a REST API that you want to interact with. For example, [https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/1) returns JSON data that looks like this:
+Let us say you have a REST API that you want to interact with. For example, [https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} returns JSON data that looks like this:
 
 ```
 {
