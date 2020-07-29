@@ -61,7 +61,7 @@
     <span data-ty>world.txt</span>
 
 - id: rm_recursive
-  command: rm -f [FOLDER]
+  command: rm -r [FOLDER]
   descriptions:
     en: Delete a [FOLDER] recursively, which means the folder and everything in it
     es: Eliminar recursivamente un directorio, lo que significa el directorio y todo lo que contiene
