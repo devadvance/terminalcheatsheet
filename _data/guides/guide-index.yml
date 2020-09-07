@@ -30,3 +30,13 @@
     es: /es/guides/curl-rest-api
     ar: /ar/guides/curl-rest-api
 
+- id: basic-web-server-macos-linux
+  title:
+    en: How to start a basic web server on macOS or Linux
+    es: Cómo iniciar un servidor web básico en macOS o Linux
+    ar: كيفية بدء تشغيل خادم ويب أساسي على نظام macOS أو Linux
+  link:
+    en: /guides/basic-web-server-macos-linux
+    es: /es/guides/basic-web-server-macos-linux
+    ar: /ar/guides/basic-web-server-macos-linux
+
