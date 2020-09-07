@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN apt update
 
-RUN apt install -y nano vim curl iputils-ping
+RUN apt install -y nano vim curl iputils-ping python3
 
 RUN echo "PS1=\"user@computer\$ \"" >> /root/.bashrc
 
