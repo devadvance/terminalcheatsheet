@@ -23,7 +23,7 @@
 - id: curl-rest-api
   title:
     en: How to use curl to test a REST API
-    es: Cómo usar curl para probar un API REST (servicios web)
+    es: Cómo usar curl para probar una API REST (servicios web)
     ar: كيفية استخدام curl لاختبار REST API
   link:
     en: /guides/curl-rest-api
