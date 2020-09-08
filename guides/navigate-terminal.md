@@ -20,7 +20,7 @@ This guide is intended to teach you the basics of navigating files and folders o
 
 In order follow this guide, you will need:
 
-* Access to a Unix terminal on any Linux or a MacOS environment.
+* Access to a Unix terminal on any Linux or a macOS environment.
 * To know how to open a terminal window. If you are not sure, see the instructions for [macOS](open-terminal-macos) or Linux (coming soon).
 
 ## Let's get started!
@@ -103,7 +103,7 @@ Type `cd [FOLDER_NAME]` and press **Enter**. Your working directory is now chang
 This is similar to clicking into a folder in your file browser application. You have completely switched the folder you are in:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="MacOS folder change directory" layout="responsive"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="macOS folder change directory" layout="responsive"></amp-img>
 </div>
 
 If you wanted to go "up" to our previous folder, you can type `cd ..` and press **Enter**. This will bring you up one folder level:

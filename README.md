@@ -2,7 +2,7 @@
 
 ## What is this?
 
-For the novice and intermediate users of terminals on Linux, MacOS, and other operating systems, finding, understanding, learning, remembering common commands is an essential skill. There are a variety of one-off websites, GitHub gists, marketing pages, etc. that have these commands, but few provide the type of user-centered design that makes learning even easier.
+For the novice and intermediate users of terminals on Linux, macOS, and other operating systems, finding, understanding, learning, remembering common commands is an essential skill. There are a variety of one-off websites, GitHub gists, marketing pages, etc. that have these commands, but few provide the type of user-centered design that makes learning even easier.
 
 ## Tech stack
 

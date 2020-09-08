@@ -2,9 +2,9 @@
 
 - id: open-terminal-macos
   title:
-    en: How to open terminal on MacOS
-    es: Cómo abrir terminal en MacOS
-    ar: كيفية استدعاء محطة على MacOS
+    en: How to open terminal on macOS
+    es: Cómo abrir terminal en macOS
+    ar: كيفية استدعاء محطة على macOS
   link:
     en: /guides/open-terminal-macos
     es: /es/guides/open-terminal-macos
