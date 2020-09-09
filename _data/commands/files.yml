@@ -11,8 +11,8 @@
 - id: mkdir
   command: mkdir [FOLDER_NAME]
   descriptions:
-    en: Create a new directory with the desired [FOLDER_NAME]. This occurs in your current working directory
-    es: Cree un nuevo directorio con el nombre deseado. Esto ocurre en su directorio de trabajo actual
+    en: Create a new folder with the desired [FOLDER_NAME]. This occurs in your current working directory
+    es: Cree una nueva carpeta con el nombre deseado. Esto ocurre en su directorio de trabajo actual
     ar: إنشاء دليل جديد بالاسم المطلوب ؛. يحدث هذا في دليل العمل الحالي الخاص بك
   html_terminal: >
     <span data-ty="input">ls</span>
@@ -38,7 +38,7 @@
   command: mv [FILE] [MOVED_FILE]
   descriptions:
     en: Move files and folders. Can also rename files and folders
-    es: Mover archivos y carpetas. También puede renombrar archivos y directorios
+    es: Mover archivos y carpetas. También puede renombrar archivos y carpetas
     ar: نقل الملفات والمجلدات. يمكن أيضًا إعادة تسمية الملفات والمجلدات
   html_terminal: >
     <span data-ty="input">ls</span>
@@ -64,7 +64,7 @@
   command: rm -r [FOLDER]
   descriptions:
     en: Delete a [FOLDER] recursively, which means the folder and everything in it
-    es: Eliminar recursivamente un directorio, lo que significa el directorio y todo lo que contiene
+    es: Eliminar recursivamente un [FOLDER], lo que significa el carpetas y todo lo que contiene
     ar: حذف مجلد بشكل متكرر ، مما يعني المجلد وكل شيء فيه
   html_terminal: >
     <span data-ty="input">ls</span>
