@@ -1,7 +1,7 @@
 ---
 layout: guide-layout
-title: Cómo navegar con archivos y carpetas en una terminal
-excerpt: Cómo navegar con archivos y carpetas en una terminal
+title: Cómo navegar con archivos y carpetas en un terminal
+excerpt: Cómo navegar con archivos y carpetas en un terminal
 permalink: /es/guides/navigate-terminal
 permalink_without_prefix: /guides/navigate-terminal
 lang: es
