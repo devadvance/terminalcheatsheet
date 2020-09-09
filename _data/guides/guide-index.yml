@@ -13,7 +13,7 @@
 - id: navigate-work-files
   title:
     en: How to navigate files and folders on a terminal
-    es: Cómo navegar con archivos y carpetas en una terminal
+    es: Cómo navegar con archivos y carpetas en un terminal
     ar: كيفية التنقل والعمل مع الملفات الموجودة على محطة طرفية
   link:
     en: /guides/navigate-terminal
