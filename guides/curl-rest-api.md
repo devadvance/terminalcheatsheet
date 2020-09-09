@@ -20,9 +20,9 @@ This guide is intended to teach you the basics of interacting with a REST API us
 
 In order follow this guide, you will need:
 
-* Access to a Unix terminal on any Linux or a MacOS environment.
+* Access to a Unix terminal on any Linux or a macOS environment.
 * To know how to open a terminal window. If you are not sure, see the instructions for [macOS](open-terminal-macos) or Linux (coming soon).
-* A REST API that you want to interact with. We are using https://jsonplaceholder.typicode.com as an example in this guide.
+* A REST API that you want to interact with. We are using `https://jsonplaceholder.typicode.com` as an example in this guide.
 * The curl utility installed on your computer. Most macOS and Linux computers have it preinstalled. If not, you'll need to review the technical instructions [on the curl installation website](https://curl.haxx.se/docs/install.html){:target="_blank" rel="noopener"}.
 
 ## Let's start with GET!
@@ -76,7 +76,11 @@ The **POST** HTTP request method is very frequently used to create or update dat
 * `-H [HTTP_HEADER]` - When sending data to a server, we need to tell the server how to interpret those 1s and 0s. It could be JSON data, a form, an email, etc.
 * `-d [YOUR_DATA]` - Finally, we need to specify which data `curl` should send to the server.
 
-Let's put these options together into a complete command: `curl -X POST -H 'Content-Type: application/json' -d '{"title": "foo","body": "bar","userId": 123}' https://jsonplaceholder.typicode.com/posts`. You can type or copy that into your terminal window and press **Enter** to send it, like this:
+Let's put these options together into a complete command:
+
+`curl -X POST -H 'Content-Type: application/json' -d '{"title": "foo","body": "bar","userId": 123}' https://jsonplaceholder.typicode.com/posts`
+
+You can type or copy that into your terminal window and press **Enter** to send it, like this:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-post-basic-en.gif" width="665" height="387" alt="Demo of POST curl command" layout="responsive"></amp-anim>
