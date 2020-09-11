@@ -79,13 +79,13 @@ If you see the above, the web server is now running on your computer.
 
 ## Check your web content
 
-Next, we can check if our web content is showing in a web browser. We can open a local URL to see the content: `http://0.0.0.0:8000` <amp-iframe sandbox="allow-scripts"
+Next, we can check if our web content is showing in a web browser. We can open a local URL to see the content: `http://localhost:8000` <amp-iframe sandbox="allow-scripts"
   class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
   title="Command copy button iframe"
   width="84"
   height="36"
   frameborder="0"
-  src="{{site.url}}/copier.html#http://0.0.0.0:8000">
+  src="{{site.url}}/copier.html#http://localhost:8000">
   <button class="pure-button button-large button-primary"
     placeholder
     disabled>Copy</button>
