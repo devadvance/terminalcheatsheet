@@ -47,7 +47,7 @@ direction: rtl
 يشبه هذا فتح تطبيق متصفح الملفات الخاص بك والنظر في محتويات مجلد دليل العمل الخاص بك:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="متصفح الملفات تظهر المحتويات" layout="responsive"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/ls-finder-ar.png" width="665" height="387" alt="متصفح الملفات تظهر المحتويات" layout="responsive"></amp-img>
 </div>
 
 يمكنك سرد جميع المحتويات في المجلدات التي ليست دليل عملك عن طريق كتابة `ls [FOLDER_NAME]`. يشبه هذا إلقاء نظرة خاطفة داخل مجلد آخر ، دون تغيير دليل العمل الخاص بنا. في المثال أدناه ، نبحث في محتويات **folder1**. يمكننا أن نرى أن **folder1** بها ملف واحد فقط يسمى **file3.pdf**:
@@ -59,7 +59,7 @@ direction: rtl
 يشبه هذا النظر في محتويات مجلد داخل دليل العمل الخاص بك في تطبيق متصفح الملفات الخاص بك:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="ملف متصفح ملف نظرة خاطفة" layout="responsive"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-finder-ar.png" width="665" height="387" alt="ملف متصفح ملف نظرة خاطفة" layout="responsive"></amp-img>
 </div>
 
 يحتوي الأمر `ls` على خيارات إضافية يمكنها تغيير طريقة عملها.
@@ -104,7 +104,7 @@ direction: rtl
 هذا مشابه للنقر فوق مجلد في تطبيق متصفح الملفات الخاص بك. لقد قمت بتبديل المجلد الذي أنت فيه تمامًا:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="macOS مجلد تغيير الدليل" layout="responsive"></amp-img>
+  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-finder-ar.png" width="665" height="387" alt="macOS مجلد تغيير الدليل" layout="responsive"></amp-img>
 </div>
 
 إذا أردت الانتقال "لأعلى" إلى المجلد السابق ، يمكنك كتابة `cd ..` والضغط على **Enter**. سيؤدي ذلك إلى رفع مستوى مجلد واحد:
