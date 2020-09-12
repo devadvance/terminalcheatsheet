@@ -100,7 +100,7 @@ In our example above, this is what we see in a web browser:
 In our example, we did not have a file called **index.html** so our web browser listed the available files. You can click on a specific file to see it in the browser. Let us click on the **hello.html** that we checked earlier:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Directory listing in the web browser" layout="responsive"></amp-img>
+  <amp-img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Hello world page" layout="responsive"></amp-img>
 </div>
 
 We now see the web page!
