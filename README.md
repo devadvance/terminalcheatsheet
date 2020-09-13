@@ -126,6 +126,37 @@ Make sure you:
 * Add the guide to the `_data/guides/guide-index.yml` file so that the navbar auto-generates correctly.
 * Try to be consistent with other guides by adding sections like "Introduction", "Prerequisites", and a table of contents
 
+## Tips for creating example assets (images, GIFs)
+
+### Use the demo environment
+
+Using Docker, we can keep the demo environment consistent across collaborators. 
+
+To create a new image:
+
+```
+docker build -t testimage:v1 --no-cache .
+```
+
+To run and attach to the container:
+
+```
+docker run -it -p 8000:8000 testimage:v1 bash
+```
+
+Another small nit: keeping the dates consistent on files and folders helps to create consistency across the guides. To do this, you can update the modified date to 2020-01-01. Within the `demo_env` folder, you can do this:
+
+```
+touch -mt 202001010000 *
+```
+
+### Keeping assets consistent on macOS
+
+A few tips to keep the screenshots and GIFs consistent:
+
+* Use a tool like BetterTouchTool to create a reuseable window size snapping area. A lot of the assets are 665x387 right now, so this helps to be consistent with that
+* When taking screenshots with the built-in macOS tool, use `CMD + Shift + 4`, then press `space` to make it a window screenshot, and then hold `Alt` when clicking to avoid capturing the window shadow effect
+
 ## Known issues
 
 * The 404 page defaults to English no matter what context you came from
