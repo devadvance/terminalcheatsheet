@@ -14,7 +14,7 @@ lang: es
 
 ## Introducción
 
-Si está trabajando en páginas web u otro contenido web, es posible que necesite una forma fácil y rápida de iniciar un servidor web básico. Esta guía le enseñará un comando de Python simple para iniciar un servidor web básico en su computadora. A medida que siga estas instrucciones, tenga en cuenta que los archivos y carpetas de su computadora probablemente serán diferentes de los ejemplos. Si ya tiene mucha experiencia con el terminal, consulte [los comandos en la página de inicio para obtener material de referencia rápida](/es/).
+Si está trabajando en páginas web u otro contenido web, es posible que necesite una forma fácil y rápida de iniciar un servidor web básico. Esta guía le enseñará un comando de Python para iniciar un servidor web básico en su computadora. A medida que siga estas instrucciones, tenga en cuenta que los archivos y carpetas de su computadora probablemente serán diferentes de los ejemplos. Si ya tiene mucha experiencia con el terminal, consulte [los comandos en la página de inicio para obtener material de referencia rápida](/es/).
 
 ## Prerrequisitos
 
@@ -35,13 +35,13 @@ Digamos que su contenido web está en la carpeta `/home/user/examples`. Queremos
 2. Compruebe si tenemos contenido web en la carpeta que usando `ls`.
 3. Compruebe si el contenido web está en el formato correcto, como HTML, usando `cat`.
 
-Así es como se ve:
+Aquí está el conjunto de pasos:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navegar y comprobar el contenido web" layout="responsive"></amp-anim>
 </div>
 
-En el ejemplo anterior, usamos `pwd` para ver que `/home/user/examples` es el **directorio de trabajo** actual. Luego usamos `ls` para listar el contenido del directorio de trabajo para asegurarnos de que tenemos un archivo HTML allí. Puede ver el archivo **hello.html**.
+Usamos `pwd` para ver que `/home/user/examples` es el **directorio de trabajo** actual. Luego usamos `ls` para listar el contenido del directorio de trabajo para asegurarnos de que tenemos un archivo HTML allí. Puede ver el archivo **hello.html**.
 
 Finalmente, vemos el contenido de **hello.html** usando `cat` para asegurarnos de que sea realmente HTML.
 
