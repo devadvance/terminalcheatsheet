@@ -130,7 +130,7 @@ Make sure you:
 
 ### Use the demo environment
 
-Using Docker, we can keep the demo environment consistent across collaborators. 
+Using Docker, we can keep the demo environment consistent across collaborators. Note: all of these commands are from within the `demo_env` folder.
 
 To create a new image:
 
@@ -144,7 +144,7 @@ To run and attach to the container:
 docker run -it -p 8000:8000 testimage:v1 bash
 ```
 
-Another small nit: keeping the dates consistent on files and folders helps to create consistency across the guides. To do this, you can update the modified date to 2020-01-01. Within the `demo_env` folder, you can do this:
+Keeping the dates consistent on files and folders helps to create consistency across the guides. To do this, you can update the modified date to 2020-01-01:
 
 ```
 touch -mt 202001010000 *
@@ -155,7 +155,7 @@ touch -mt 202001010000 *
 A few tips to keep the screenshots and GIFs consistent:
 
 * Use a tool like BetterTouchTool to create a reuseable window size snapping area. A lot of the assets are 665x387 right now, so this helps to be consistent with that
-* When taking screenshots with the built-in macOS tool, use `CMD + Shift + 4`, then press `space` to make it a window screenshot, and then hold `Alt` when clicking to avoid capturing the window shadow effect
+* When taking screenshots with the built-in macOS tool, use `CMD + Shift + 4`, then press `Space` to make it a window screenshot, and then hold `Alt` when clicking to avoid capturing the window shadow effect
 
 ## Known issues
 
