@@ -4,6 +4,8 @@
 
 For the novice and intermediate users of terminals on Linux, macOS, and other operating systems, finding, understanding, learning, remembering common commands is an essential skill. There are a variety of one-off websites, GitHub gists, marketing pages, etc. that have these commands, but few provide the type of user-centered design that makes learning even easier.
 
+Terminal Cheat Sheet aims to balance approachability through simple content, reduced friction by localizing, accessibility through best practices like WCAG, and performance through the use of static content. It's also meant to complement, not replace, options like man pages or detailed user guides.
+
 ## Tech stack
 
 * [Jekyll](https://jekyllrb.com/) - static site builder that works with GitHub pages
@@ -15,17 +17,25 @@ For the novice and intermediate users of terminals on Linux, macOS, and other op
 * [Workbox](https://developers.google.com/web/tools/workbox) - used for offline support/PWA functionality
 * [Termynal](https://github.com/ines/termynal) - modified a bit to work with `<amp-script>`
 
+**Infra**
+
+* GitHub for source and deployment
+* GitHub Pages for hosting the content
+* Cloudflare for CDN
+
 ## Running locally
+
+You'll need to set up Jekyll for local development. See https://jekyllrb.com/docs/installation/ for instructions.
 
 Checkout the code from GitHub and then run `jekyll serve` in the repo directory.
 
 Since this is AMP code, make sure you [validate locally](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_amp/#browser-developer-console) before merging.
 
-## Internationalization (i18)
+## Internationalization/localization (i18n/l10n)
 
 ### How it works
 
-The website supports internationalization (i18n) without the use of additional Jekyll plugins. There are many parts of the site that use this work, but the main parts for new pages are in the following structure:
+The website is internationalized to support localization through translations, asset variations, and more. This is done without the use of additional Jekyll plugins. There are many parts of the site that use this work, but the main parts for new pages are in the following structure:
 
 ```
 ├── _data
@@ -73,7 +83,7 @@ The website supports internationalization (i18n) without the use of additional J
 
 #### For pages written in HTML using data
 
-`_includes/i18n/*` contains the actual content of each page. This content is internationalized by combining translations from `_data/translations.yml` and `_data/commands/*.yml` with the `page.lang` variable.
+`_includes/i18n/*` contains the actual content of each page. This content is localized by combining translations from `_data/translations.yml` and `_data/commands/*.yml` with the `page.lang` variable.
 
 `i18n/*` contains the pages for each language. These only contain some [front matter](https://jekyllrb.com/docs/front-matter/) and the include for the actual content from `_includes/i18n/*`. Most importantly, the `page.lang` variable is set at the top. If the language uses a [RTL script](https://en.wikipedia.org/wiki/Right-to-left), make sure you set `page.direction` to `rtl` as well to automatically reflow the correct parts of the site. 
 
@@ -98,7 +108,7 @@ In the structure above, you'll need to add:
 * A page for each language in the appropriate folder within `i18n`
 * The actual content page under `_includes/i18n`
 * Front matter set correctly in each page
-* Internationalized assets in the `assets` directory
+* Localized assets in the `assets` directory
 
 #### Add a new page in markdown
 
@@ -107,11 +117,17 @@ In the structure above, you'll need to add:
 * An English markdown page in the top directory
 * A markdown page for each language in the appropriate folder within `i18n`
 * Front matter set correctly in each page
-* Internationalized assets in the `assets` directory
+* Localized assets in the `assets` directory. For screenshots/GIFs of terminal interaction, it may be OK to use the English locale for most cases
 
 #### Specifics for adding guides
 
 Make sure you:
 
 * Add the guide to the `_data/guides/guide-index.yml` file so that the navbar auto-generates correctly.
-* TBD
+* Try to be consistent with other guides by adding sections like "Introduction", "Prerequisites", and a table of contents
+
+## Known issues
+
+* The 404 page defaults to English no matter what context you came from
+* It's sometimes hard to highlight LTR code mixed with RTL prose
+* The use of i18n versus l10n needs some cleanup
