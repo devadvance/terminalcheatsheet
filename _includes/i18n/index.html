@@ -5,7 +5,7 @@
       <h1>{{site.data.translations.hero_title[page.lang]}}</h1>
       <p>{{site.data.translations.hero_description[page.lang]}}</p>
       <div class="centering-div">
-        <a href="#basic" class="pure-button button-large button-primary">{{site.data.translations.begin_reading[page.lang]}}</a>
+        <a href="#basic" class="pure-button button-large button-primary">{{site.data.translations.begin_reading[page.lang]}}</a> <a href="{{site.data.translations.supported_langs[page.lang].prefix}}/guides/" class="pure-button button-large button-primary lg-hide">{{site.data.translations.guides_available_title[page.lang]}}</a>
       </div>
     </div>
   </div>
@@ -70,6 +70,9 @@
     <div class="pure-u-md-1-8"></div>
     <div class="pure-u-1 pure-u-md-3-4 center">
       <p>{{site.data.translations.more_coming_soon[page.lang]}}</p>
+      <div class="centering-div">
+        <a href="{{site.data.translations.supported_langs[page.lang].prefix}}/guides/" class="pure-button button-large button-primary">{{site.data.translations.guides_available_title[page.lang]}}</a>
+      </div>
     </div>
   </div>
 </article>
