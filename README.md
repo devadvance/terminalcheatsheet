@@ -141,4 +141,4 @@ Make sure you:
 
 SPDX-License-Identifier: Apache-2.0
 
-See (LICENSE)[LICENSE] for full text.
+See [LICENSE](LICENSE) for full text.

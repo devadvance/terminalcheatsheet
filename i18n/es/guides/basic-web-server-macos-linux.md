@@ -14,7 +14,7 @@ lang: es
 
 ## Introducción
 
-Si está trabajando en páginas web u otro contenido web, es posible que necesite una forma fácil y rápida de iniciar un servidor web básico. Esta guía le enseñará un comando de Python simple para iniciar un servidor web básico en su computadora. Si es un usuario avanzado que ya tiene experiencia con el terminal, esta guía es menos útil. A medida que siga estas instrucciones, tenga en cuenta que los archivos y carpetas de su computadora probablemente serán diferentes de los ejemplos.
+Si está trabajando en páginas web u otro contenido web, es posible que necesite una forma fácil y rápida de iniciar un servidor web básico. Esta guía le enseñará un comando de Python simple para iniciar un servidor web básico en su computadora. A medida que siga estas instrucciones, tenga en cuenta que los archivos y carpetas de su computadora probablemente serán diferentes de los ejemplos. Si ya tiene mucha experiencia con el terminal, consulte [los comandos en la página de inicio para obtener material de referencia rápida](/es/).
 
 ## Prerrequisitos
 

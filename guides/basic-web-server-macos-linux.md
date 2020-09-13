@@ -14,7 +14,7 @@ lang: en
 
 ## Introduction
 
-If you are working on webpages or other web content, you may need a easy and quick way to start a basic web server. This guide will teach you a simple Python command to start a basic web server on your computer. If you are an advanced user who already has experience with terminal, this guide is less useful. As you follow these instructions, keep in mind that your computer's files and folders likely will be different from the samples.
+If you are working on webpages or other web content, you may need a easy and quick way to start a basic web server. This guide will teach you a simple Python command to start a basic web server on your computer. As you follow these instructions, keep in mind that your computer's files and folders likely will be different from the samples. If you already have a lot of experience with the terminal, check out [the commands on the homepage for quick reference material](/).
 
 ## Prerequisites
 

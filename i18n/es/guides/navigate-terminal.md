@@ -14,7 +14,7 @@ lang: es
 
 ## Introducción
 
-Esta guía le enseñará los conceptos básicos de la navegación de archivos y carpetas en un terminal. Si es un usuario avanzado que ya tiene experiencia con el terminal, esta guía es menos útil. A medida que siga estas instrucciones, tenga en cuenta que los archivos y carpetas de su computadora probablemente serán diferentes de los ejemplos.
+Esta guía le enseñará los conceptos básicos de la navegación de archivos y carpetas en un terminal. A medida que siga estas instrucciones, tenga en cuenta que los archivos y carpetas de su computadora probablemente serán diferentes de los ejemplos. Si ya tiene mucha experiencia con el terminal, consulte [los comandos en la página de inicio para obtener material de referencia rápida](/es/).
 
 ## Prerrequisitos
 

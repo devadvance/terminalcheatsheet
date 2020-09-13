@@ -14,7 +14,7 @@ lang: es
 
 ## Introducción
 
-El objetivo de esta guía es enseñarle cómo encontrar el terminal en macOS y cómo abrir el terminal en macOS. Si es un usuario avanzado que ya tiene experiencia con el terminal, esta guía es menos útil.
+El objetivo de esta guía es enseñarle cómo encontrar el terminal en macOS y cómo abrir el terminal en macOS. Si ya tiene mucha experiencia con el terminal, consulte [los comandos en la página de inicio para obtener material de referencia rápida](/es/).
 
 ## Prerrequisitos
 
