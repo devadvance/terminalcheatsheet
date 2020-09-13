@@ -131,3 +131,14 @@ Make sure you:
 * The 404 page defaults to English no matter what context you came from
 * It's sometimes hard to highlight LTR code mixed with RTL prose
 * The use of i18n versus l10n needs some cleanup
+
+## Contributors
+
+* [devadvance](https://github.com/devadvance)
+* [dontcallmebigguy](https://github.com/dontcallmebigguy)
+
+## License
+
+SPDX-License-Identifier: Apache-2.0
+
+See (LICENSE)[LICENSE] for full text.
