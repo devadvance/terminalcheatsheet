@@ -79,3 +79,13 @@ feedback:
   en: Feedback
   es: Comentarios
   ar: اقتراحات
+
+# Guide index
+guides_available_title:
+  en: Available guides
+  es: Guías disponibles
+  ar: الأدلة المتاحة
+guides_available_desc:
+  en: Here are all of the guides that are currently available.
+  es: Aquí están todas las guías que están disponibles actualmente.
+  ar: فيما يلي كافة الأدلة المتوفرة حاليًا.
