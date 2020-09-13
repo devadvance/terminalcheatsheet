@@ -14,14 +14,14 @@ lang: en
 
 ## Introduction
 
-This guide is intended to teach you the basics of interacting with a REST API using [curl](https://github.com/curl/curl). If you are an advanced user who already has experience with terminal, this guide is less useful. As you follow these instructions, keep in mind that your computer's files and folders likely will be different from the samples.
+This guide is intended to teach you the basics of interacting with a REST API using [curl](https://github.com/curl/curl). As you follow these instructions, keep in mind that your computer's files and folders likely will be different from the samples. If you already have a lot of experience with terminal on macOS, check out [the commands on the homepage for quick reference material](/).
 
 ## Prerequisites
 
 In order follow this guide, you will need:
 
 * Access to a Unix terminal on any Linux or a macOS environment.
-* To know how to open a terminal window. If you are not sure, see the instructions for [macOS](open-terminal-macos) or Linux (coming soon).
+* To know how to open a terminal window. If you are not sure, visit the instructions for [macOS](open-terminal-macos) or Linux (coming soon).
 * A REST API that you want to interact with. We are using `https://jsonplaceholder.typicode.com` as an example in this guide.
 * The curl utility installed on your computer. Most macOS and Linux computers have it preinstalled. If not, you'll need to review the technical instructions [on the curl installation website](https://curl.haxx.se/docs/install.html){:target="_blank" rel="noopener"}.
 
@@ -31,7 +31,7 @@ Start by opening your terminal.
 
 curl is a "command-line tool for transferring data specified with URL syntax", which makes it very useful for interacting with REST APIs and other web resources. It has thousands of uses, but we are going to review just a few in this guide.
 
-Let us say you have a REST API that you want to interact with. For example, [https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} returns JSON data that looks like this:
+Let us say you have a REST API that you want to interact with. For example, [https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} returns JSON data that is similar to this:
 
 ```
 {
@@ -44,7 +44,7 @@ Let us say you have a REST API that you want to interact with. For example, [htt
 
 While we can open this example URL in our web browser, many REST APIs will not let us do that. Let's try using curl instead.
 
-In your terminal window, type `curl https://jsonplaceholder.typicode.com/todos/1` and press **Enter**. You should see a result similar to this:
+In your terminal window, type `curl https://jsonplaceholder.typicode.com/todos/1` and press **Enter**. You should experience a result similar to this:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-get-basic-en.gif" width="665" height="387" alt="Demo of basic curl command" layout="responsive"></amp-anim>
@@ -58,7 +58,7 @@ Let's add the `-o` option to save the output as a file instead of showing it dir
   <amp-anim src="/assets/guides/curl-rest-api/curl-get-output-en.gif" width="665" height="387" alt="Demo of basic curl command with file output" layout="responsive"></amp-anim>
 </div>
 
-If we want, we can see more detailed information about this interaction over the network. To do this, you can add the `-v` option to any `curl` command. Type `curl -v https://jsonplaceholder.typicode.com/todos/1` and press **Enter**:
+If we want, we can examine more detailed information about this interaction over the network. To do this, you can add the `-v` option to any `curl` command. Type `curl -v https://jsonplaceholder.typicode.com/todos/1` and press **Enter**:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-get-verbose-en.gif" width="665" height="387" alt="Demo of basic curl command with verbose output" layout="responsive"></amp-anim>
@@ -124,7 +124,7 @@ You can also use a data file the same way you did with the **POST** HTTP request
 
 ### DELETE
 
-If you want to remove data from the server, you will likely use the **DELETE** HTTP request method when interacting with a REST API. This is a bit more simple compared to the previous examples. You will use `-X DELETE` to specify the **DELETE** HTTP request method and specify a specific resource URL to delete. Try it by typing `curl -X DELETE https://jsonplaceholder.typicode.com/posts/1` and pressing **Enter**:
+If you want to remove data from the server, you will likely use the **DELETE** HTTP request method when interacting with a REST API. This is a bit more plain compared to the previous examples. You will use `-X DELETE` to specify the **DELETE** HTTP request method and specify a specific resource URL to delete. Try it by typing `curl -X DELETE https://jsonplaceholder.typicode.com/posts/1` and pressing **Enter**:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-delete-basic-en.gif" width="665" height="387" alt="Demo of DELETE curl command" layout="responsive"></amp-anim>
@@ -144,7 +144,7 @@ Let's try it by typing in `curl -v -X OPTIONS https://jsonplaceholder.typicode.c
   <amp-anim src="/assets/guides/curl-rest-api/curl-options-verbose-en.gif" width="665" height="387" alt="Demo of OPTIONS curl command with verbose output" layout="responsive"></amp-anim>
 </div>
 
-As you scroll through your terminal window, you will see information like this:
+As you scroll through your terminal window, you will observe information like this:
 
 ```
 ...
@@ -153,7 +153,7 @@ As you scroll through your terminal window, you will see information like this:
 ...
 ```
 
-That tells you which HTTP request methods the REST API server allows. It also tells you that authenticating and using credentials is allowed.
+That tells you which HTTP request methods the REST API server allows. It also tells you that the server will allow you to authenticate and use credentials.
 
 ## Wrapping up
 

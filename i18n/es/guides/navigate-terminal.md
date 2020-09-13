@@ -14,7 +14,7 @@ lang: es
 
 ## Introducción
 
-Esta guía le enseñará los conceptos básicos de la navegación de archivos y carpetas en un terminal. Si es un usuario avanzado que ya tiene experiencia con el terminal, esta guía es menos útil. A medida que siga estas instrucciones, tenga en cuenta que los archivos y carpetas de su computadora probablemente serán diferentes de los ejemplos.
+Esta guía le enseñará los conceptos básicos de la navegación de archivos y carpetas en un terminal. A medida que siga estas instrucciones, tenga en cuenta que los archivos y carpetas de su computadora probablemente serán diferentes de los ejemplos. Si ya tiene mucha experiencia con el terminal, consulte [los comandos en la página de inicio para obtener material de referencia rápida](/es/).
 
 ## Prerrequisitos
 
@@ -37,19 +37,19 @@ En la captura de pantalla de muestra a continuación, nuestro directorio de trab
   <amp-img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal comando pwd" layout="responsive"></amp-img>
 </div>
 
-A continuación, puede explorar el contenido del directorio de trabajo. Escribe `ls` en su terminal y presiona **Enter**. `ls` significa "lista" (inglés: "list"). Este comando enumerará todos los archivos y carpetas en su directorio de trabajo:
+A continuación, puede explorar el contenido del directorio de trabajo. Escribe `ls` en su terminal y presiona **Enter**. `ls` significa "lista" (inglés: "list"). Este comando enumera todos los archivos y carpetas en su directorio de trabajo. En nuestra muestra, muestra todos los archivos y carpetas en **examples**:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal comando ls" layout="responsive"></amp-img>
 </div>
 
-Esto es similar a abrir el administrador de archivos y mirar el contenido de la carpeta del directorio de trabajo:
+Esto es similar a abrir el administrador de archivos y observar el contenido de la carpeta del directorio de trabajo:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-finder-es.png" width="665" height="387" alt="administrador de archivos mirar el contenido" layout="responsive"></amp-img>
 </div>
 
-Puede enumerar todo el contenido en carpetas que no son su directorio de trabajo escribiendo `ls [NOMBRE_DE_CARPETA]`. Esto es como echar un vistazo dentro de otra carpeta, sin cambiar nuestro directorio de trabajo. En el siguiente ejemplo, estamos viendo el contenido de la **carpeta1**. Podemos ver que la **carpeta1** solo tiene un archivo llamado **file3.pdf**:
+Puede enumerar todo el contenido en carpetas que no son su directorio de trabajo escribiendo `ls [NOMBRE_DE_CARPETA]`. Esto es como echar un vistazo dentro de otra carpeta, sin cambiar nuestro directorio de trabajo. En el siguiente ejemplo, estamos viendo el contenido de la **carpeta1**. Podemos observar que la **carpeta1** solo tiene un archivo llamado **file3.pdf**:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls comando con un carpeta" layout="responsive"></amp-img>
@@ -65,13 +65,13 @@ El `ls` comando tiene opciones adicionales que pueden cambiar su funcionamiento.
 
 Intente escribir `ls -a` y presionar **Enter** para mostrar todos los archivos, incluidos los ocultos. En muchas computadoras, estos archivos comienzan con un punto y están ocultos por defecto. Los ejemplos comunes de estos archivos incluyen cosas como "_.DS_Store_" (en macOS), "_.profile_" (en Linux) y "_.gitignore_" (cuando se usa Git para sus proyectos).
 
-Observe cómo ahora podemos ver **.hidden-file**, que no se mostraba con el comando `ls` anterior:
+Observe cómo ahora podemos observar **.hidden-file**, que no se mostraba con el comando `ls` anterior:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal comando ls todo" layout="responsive"></amp-img>
 </div>
 
-Otra opción para listar archivos es escribir `ls -l` y presionar **Enter**. Esta opción genera una lista larga. Además de los nombres de los archivos y carpetas, también mostrará atributos, como cuándo se modificaron por última vez y su tamaño:
+Otra opción para listar archivos es escribir `ls -l` y presionar **Enter**. Esta opción genera una lista larga. Esto significa que muestra detalles adicionales de los archivos y carpetas. Además de los nombres de los archivos y carpetas, también mostrará atributos, como cuándo se modificaron por última vez y su tamaño:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal comando ls largo" layout="responsive"></amp-img>
@@ -114,7 +114,7 @@ Si desea ir "arriba" a nuestra carpeta anterior, puede escribir `cd ..` y presio
 
 Esta idea de "bajar" a una carpeta o "subir" fuera de una carpeta es muy común cuando se usa el terminal. Cuando el terminal ordena, usa los nombres de las carpetas cuando "baja" un nivel y `..` significa que "sube" un nivel.
 
-## Ver el contenido del archivo
+## Examinar el contenido del archivo
 
 Probablemente esté emocionado de comenzar a trabajar con archivos con terminal. Esto puede depender del _tipo_ de archivo, ya que ver un archivo de imagen es diferente a leer un documento.
 
