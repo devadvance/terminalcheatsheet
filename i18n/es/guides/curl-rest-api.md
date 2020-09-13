@@ -154,7 +154,7 @@ A medida que se desplaza por la ventana de su terminal, verá información como 
 ...
 ```
 
-Eso le dice qué métodos HTTP permite el servidor de API REST. También le dice que está permitido autenticar y usar credenciales.
+Eso le dice qué métodos HTTP permite el servidor de API REST. También le dice que el servidor le permitirá autenticarse y usar credenciales.
 
 ## Terminando
 

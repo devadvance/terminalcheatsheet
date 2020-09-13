@@ -153,7 +153,7 @@ As you scroll through your terminal window, you will see information like this:
 ...
 ```
 
-That tells you which HTTP request methods the REST API server allows. It also tells you that authenticating and using credentials is allowed.
+That tells you which HTTP request methods the REST API server allows. It also tells you that the server will allow you to authenticate and use credentials.
 
 ## Wrapping up
 
