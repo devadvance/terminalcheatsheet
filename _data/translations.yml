@@ -20,9 +20,9 @@ hero_title:
   es: ¿Que es esto?
   ar: ما هذا؟
 hero_description:
-  en: You might be an aspiring developer. Perhaps you just want to brush up on some basic terminal commands. No matter what, you've found the right place.
-  es: Puedes ser un aspirante a desarrollador de software. Tal vez solo desee repasar algunos comandos básicos del terminal. No importa qué, has encontrado el lugar correcto.
-  ar: قد تكون مطورًا طموحًا. ربما تريد فقط تنظيف بعض أوامر المحطة الطرفية الأساسية. مهما وجدت ، لقد وجدت المكان الصحيح.
+  en: You might be an aspiring developer. Perhaps you just want to brush up on some basic terminal commands. No matter what, you've found the right place. Visit the menu for other languages.
+  es: Puedes ser un aspirante a desarrollador de software. Tal vez solo desee repasar algunos comandos básicos del terminal. No importa qué, has encontrado el lugar correcto. Visite el menú para otros idiomas.
+  ar: قد تكون مطورًا طموحًا. ربما تريد فقط تنظيف بعض أوامر المحطة الطرفية الأساسية. مهما وجدت ، لقد وجدت المكان الصحيح. قم بزيارة القائمة للغات أخرى.
 basic_section_title:
   en: The basics
   es: Los basicos
