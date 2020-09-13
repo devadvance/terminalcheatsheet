@@ -4,7 +4,7 @@
 
 For the novice and intermediate users of terminals on Linux, macOS, and other operating systems, finding, understanding, learning, remembering common commands is an essential skill. There are a variety of one-off websites, GitHub gists, marketing pages, etc. that have these commands, but few provide the type of user-centered design that makes learning even easier.
 
-Terminal Cheat Sheet aims to balance approachability through simple content, reduced friction by localizing, accessibility through best practices like WCAG, and performance through the use of static content. It's also meant to complement, not replace, options like man pages or detailed user guides.
+Terminal Cheat Sheet aims to balance approachability through straightforward content, reduced friction by localizing, accessibility through best practices like WCAG, and performance through the use of static content. It's also meant to complement, not replace, options like [man pages](https://en.wikipedia.org/wiki/Man_page) or detailed user guides.
 
 ## Tech stack
 
@@ -25,7 +25,7 @@ Terminal Cheat Sheet aims to balance approachability through simple content, red
 
 ## Running locally
 
-You'll need to set up Jekyll for local development. See https://jekyllrb.com/docs/installation/ for instructions.
+You'll need to set up Jekyll for local development. Visit https://jekyllrb.com/docs/installation/ for instructions.
 
 Checkout the code from GitHub and then run `jekyll serve` in the repo directory.
 
@@ -141,4 +141,4 @@ Make sure you:
 
 SPDX-License-Identifier: Apache-2.0
 
-See [LICENSE](LICENSE) for full text.
+Visit [LICENSE](LICENSE) for full text.

@@ -21,7 +21,7 @@ This guide is intended to teach you the basics of navigating files and folders o
 In order follow this guide, you will need:
 
 * Access to a Unix terminal on any Linux or a macOS environment.
-* To know how to open a terminal window. If you are not sure, see the instructions for [macOS](open-terminal-macos) or Linux (coming soon).
+* To know how to open a terminal window. If you are not sure, visit the instructions for [macOS](open-terminal-macos) or Linux (coming soon).
 
 ## Let's get started!
 
@@ -43,19 +43,19 @@ Next, you can explore the contents of the working directory. Type `ls` into your
   <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" layout="responsive"></amp-img>
 </div>
 
-This is similar to opening your file browser application and looking at the contents of your working directory folder:
+This is similar to opening your file browser application and examining at the contents of your working directory folder:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" layout="responsive"></amp-img>
 </div>
 
-You can list all the contents in folders that aren't your working directory by typing `ls [FOLDER_NAME]`. This is like taking a peek inside another folder, without changing our working directory. In the example below, we are looking at the contents of **folder1**. We can see that **folder1** has only one file called **file3.pdf**:
+You can list all the contents in folders that aren't your working directory by typing `ls [FOLDER_NAME]`. This is like taking a peek inside another folder, without changing our working directory. In the example below, we are examining at the contents of **folder1**. We can observe that **folder1** has only one file called **file3.pdf**:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command folder" layout="responsive"></amp-img>
 </div>
 
-This is similar to looking at the contents of a folder within your working directory in your file browser application:
+This is similar to examining at the contents of a folder within your working directory in your file browser application:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="file browser folder peek" layout="responsive"></amp-img>
@@ -65,13 +65,13 @@ The `ls` command has additional options that can change how it functions.
 
 Try typing `ls -a` and pressing **Enter** to display all files, including hidden files. On many computers, these files begin with a period and are hidden by default. Common examples of these files include things like "*.DS_Store*" (on macOS), "*.profile*" (on Linux), and "*.gitignore*" (when using Git for your projects).
 
-Note how we can now see **.hidden-file**, which wasn't being displayed with the previous `ls` command:
+Note how we can now observe **.hidden-file**, which wasn't being displayed with the previous `ls` command:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" layout="responsive"></amp-img>
 </div>
 
-Another option for listing files is typing `ls -l` and pressing **Enter**. This option generates a long listing. In addition to the names of files and folders, it will also show attributes, such as when they were last modified and their size:
+Another option for listing files is typing `ls -l` and pressing **Enter**. This option generates a long listing. This means that it displays additional details for the files and folders. In addition to the names of files and folders, it will also show attributes, such as when they were last modified and their size:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" layout="responsive"></amp-img>
@@ -85,7 +85,7 @@ Similar to many terminal commmands, you can combine these two options. To do thi
 
 ## Navigating folders
 
-You may have noticed that our working directory has multiple parts in the name. In general, the `/` (slash) character means that you are within a folder. So, when you see `/home/user/examples` as your working directory, that means that:
+You may have noticed that our working directory has multiple parts in the name. In general, the `/` (slash) character means that you are within a folder. So, when you observe `/home/user/examples` as your working directory, that means that:
 
 * You are inside of the **examples** folder, which is your working directory.
 * The **examples** folder is inside of the **user** folder.
@@ -128,6 +128,6 @@ One of the most common uses is to display the contents of a text file in the ter
 
 ## Conclusion
 
-Well done! You now know the essentials of navigating files and folders in your terminal. This includes changing your working directory, listing files and folders, and seeing the contents of a text file.
+Well done! You now know the essentials of navigating files and folders in your terminal. This includes changing your working directory, listing files and folders, and viewing the contents of a text file.
 
 In a future guide, you will learn how to create and modify files and folders.

@@ -41,7 +41,7 @@ Aquí está el conjunto de pasos:
   <amp-anim src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navegar y comprobar el contenido web" layout="responsive"></amp-anim>
 </div>
 
-Usamos `pwd` para ver que `/home/user/examples` es el **directorio de trabajo** actual. Luego usamos `ls` para listar el contenido del directorio de trabajo para asegurarnos de que tenemos un archivo HTML allí. Puede ver el archivo **hello.html**.
+Usamos `pwd` para ver que `/home/user/examples` es el **directorio de trabajo** actual. Luego usamos `ls` para listar el contenido del directorio de trabajo para asegurarnos de que tenemos un archivo HTML allí. Puede observar el archivo **hello.html**.
 
 Finalmente, vemos el contenido de **hello.html** usando `cat` para asegurarnos de que sea realmente HTML.
 
@@ -79,7 +79,7 @@ Si ve lo anterior, el servidor web ahora se está ejecutando en su computadora.
 
 ## Revisar su contenido web
 
-A continuación, podemos comprobar si nuestro contenido web se muestra en un navegador web. Podemos abrir una URL local para ver el contenido: `http://localhost:8000` <amp-iframe sandbox="allow-scripts"
+A continuación, podemos comprobar si nuestro contenido web se muestra en un navegador web. Podemos abrir una URL local para observar el contenido: `http://localhost:8000` <amp-iframe sandbox="allow-scripts"
   class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
   title="Command copy button iframe"
   width="84"
@@ -97,7 +97,7 @@ En nuestro ejemplo anterior, esto es lo que vemos en un navegador web:
   <amp-img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Lista del directorios y archivos en el navegador web" layout="responsive"></amp-img>
 </div>
 
-En nuestro ejemplo, no teníamos un archivo llamado **index.html**, por lo que nuestro navegador web enumeró los archivos disponibles. Puede hacer clic en un archivo específico para verlo en el navegador. Hagamos clic en el **hello.html** que verificamos anteriormente:
+En nuestro ejemplo, no teníamos un archivo llamado **index.html**, por lo que nuestro navegador web enumeró los archivos disponibles. Puede hacer clic en un archivo específico para observarlo en el navegador. Hagamos clic en el **hello.html** que verificamos anteriormente:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="La página web Hello World" layout="responsive"></amp-img>
@@ -109,7 +109,7 @@ En nuestro ejemplo, no teníamos un archivo llamado **index.html**, por lo que n
 
 Cuando haya terminado de usar el servidor web, puede detenerlo desde el terminal. Para hacer esto, presione `Ctrl-C` en su teclado. Esto significa presionar las teclas `Ctrl` y `C` al mismo tiempo.
 
-Verá un resultado como este:
+Observará un resultado como este:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Detengar servidor web Python" layout="responsive"></amp-anim>

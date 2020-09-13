@@ -43,13 +43,13 @@ A continuación, puede explorar el contenido del directorio de trabajo. Escribe 
   <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal comando ls" layout="responsive"></amp-img>
 </div>
 
-Esto es similar a abrir el administrador de archivos y mirar el contenido de la carpeta del directorio de trabajo:
+Esto es similar a abrir el administrador de archivos y observar el contenido de la carpeta del directorio de trabajo:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-finder-es.png" width="665" height="387" alt="administrador de archivos mirar el contenido" layout="responsive"></amp-img>
 </div>
 
-Puede enumerar todo el contenido en carpetas que no son su directorio de trabajo escribiendo `ls [NOMBRE_DE_CARPETA]`. Esto es como echar un vistazo dentro de otra carpeta, sin cambiar nuestro directorio de trabajo. En el siguiente ejemplo, estamos viendo el contenido de la **carpeta1**. Podemos ver que la **carpeta1** solo tiene un archivo llamado **file3.pdf**:
+Puede enumerar todo el contenido en carpetas que no son su directorio de trabajo escribiendo `ls [NOMBRE_DE_CARPETA]`. Esto es como echar un vistazo dentro de otra carpeta, sin cambiar nuestro directorio de trabajo. En el siguiente ejemplo, estamos viendo el contenido de la **carpeta1**. Podemos observar que la **carpeta1** solo tiene un archivo llamado **file3.pdf**:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls comando con un carpeta" layout="responsive"></amp-img>
@@ -65,7 +65,7 @@ El `ls` comando tiene opciones adicionales que pueden cambiar su funcionamiento.
 
 Intente escribir `ls -a` y presionar **Enter** para mostrar todos los archivos, incluidos los ocultos. En muchas computadoras, estos archivos comienzan con un punto y están ocultos por defecto. Los ejemplos comunes de estos archivos incluyen cosas como "_.DS_Store_" (en macOS), "_.profile_" (en Linux) y "_.gitignore_" (cuando se usa Git para sus proyectos).
 
-Observe cómo ahora podemos ver **.hidden-file**, que no se mostraba con el comando `ls` anterior:
+Observe cómo ahora podemos observar **.hidden-file**, que no se mostraba con el comando `ls` anterior:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal comando ls todo" layout="responsive"></amp-img>
@@ -114,7 +114,7 @@ Si desea ir "arriba" a nuestra carpeta anterior, puede escribir `cd ..` y presio
 
 Esta idea de "bajar" a una carpeta o "subir" fuera de una carpeta es muy común cuando se usa el terminal. Cuando el terminal ordena, usa los nombres de las carpetas cuando "baja" un nivel y `..` significa que "sube" un nivel.
 
-## Ver el contenido del archivo
+## Examinar el contenido del archivo
 
 Probablemente esté emocionado de comenzar a trabajar con archivos con terminal. Esto puede depender del _tipo_ de archivo, ya que ver un archivo de imagen es diferente a leer un documento.
 

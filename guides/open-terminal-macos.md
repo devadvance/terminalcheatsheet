@@ -47,7 +47,7 @@ Now you can press `Enter` or click on the result to open terminal.
 
 ## How to open terminal with Finder
 
-Start from the desktop screen of your computer or a Finder window. You will see **Finder** in the menu bar if you are in the right location. Now, click on the **Go** button on the menu bar and click on **Utilities** to open Finder to the right location.
+Start from the desktop screen of your computer or a Finder window. You will note **Finder** in the menu bar if you are in the right location. Now, click on the **Go** button on the menu bar and click on **Utilities** to open Finder to the right location.
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/open-terminal-macos/go-menu-en.png" width="470" height="420" alt="Finder go menu open" layout="responsive"></amp-img>

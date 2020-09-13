@@ -45,7 +45,7 @@ Supongamos que tiene una API REST con la que desea interactuar. Por ejemplo, [ht
 
 Si bien podemos abrir esta URL de ejemplo en nuestro navegador web, muchas API REST no nos permitirán hacerlo. Intentemos usar curl en su lugar.
 
-En la ventana de su terminal, escriba `curl https://jsonplaceholder.typicode.com/todos/1` y presione **Enter**. Debería ver un resultado similar a este:
+En la ventana de su terminal, escriba `curl https://jsonplaceholder.typicode.com/todos/1` y presione **Enter**. Debería observar un resultado similar a este:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-get-basic-en.gif" width="665" height="387" alt="Usando curl" layout="responsive"></amp-anim>
@@ -59,7 +59,7 @@ Podemos agregar la opción `-o` para guardar la salida como un archivo en lugar 
   <amp-anim src="/assets/guides/curl-rest-api/curl-get-output-en.gif" width="665" height="387" alt="Usando el método HTTP GET con curl y salida como un archivo" layout="responsive"></amp-anim>
 </div>
 
-Si queremos, podemos ver información más detallada sobre esta interacción a través de la red. Para hacerlo, puede agregar la opción `-v` a cualquier comando `curl`. Escribe `curl -v https://jsonplaceholder.typicode.com/todos/1` y presiona **Enter**:
+Si queremos, podemos observar información más detallada sobre esta interacción a través de la red. Para hacerlo, puede agregar la opción `-v` a cualquier comando `curl`. Escribe `curl -v https://jsonplaceholder.typicode.com/todos/1` y presiona **Enter**:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-get-verbose-en.gif" width="665" height="387" alt="Usando un comando básico con salida detallada" layout="responsive"></amp-anim>
@@ -87,7 +87,7 @@ Puede escribirlo o copiarlo en la ventana de su terminal y presionar **Enter** p
   <amp-anim src="/assets/guides/curl-rest-api/curl-post-basic-en.gif" width="665" height="387" alt="Usando el método HTTP POST con curl" layout="responsive"></amp-anim>
 </div>
 
-Como puede ver, esa fue una gran cantidad de datos para intentar poner en un solo comando. En lugar de esto, podemos enviar datos utilizando un archivo para que sea más fácil y repetible.
+Esa fue una gran cantidad de datos para intentar poner en un solo comando. En lugar de esto, podemos enviar datos utilizando un archivo para que sea más fácil y repetible.
 
 Cree un nuevo archivo llamado `data.json` con los siguientes datos:
 
@@ -137,7 +137,7 @@ Notará que muchas API REST devuelven los datos eliminados o no devuelven datos 
 
 A veces, necesitamos saber qué tipos de solicitudes o datos podemos enviar a un servidor. Para hacer esto, puede utilizar el método HTTP **OPTIONS**.
 
-Deberá utilizar la opción `-v` que aprendió anteriormente. Esto activará una salida más detallada para que pueda ver las "opciones" que admite el servidor.
+Deberá utilizar la opción `-v` que aprendió anteriormente. Esto activará una salida más detallada para que pueda examinar las "opciones" que admite el servidor.
 
 Podemos probarlo escribiendo `curl -v -X OPTIONS https://jsonplaceholder.typicode.com/posts` y presionando **Enter**:
 
@@ -145,7 +145,7 @@ Podemos probarlo escribiendo `curl -v -X OPTIONS https://jsonplaceholder.typicod
   <amp-anim src="/assets/guides/curl-rest-api/curl-options-verbose-en.gif" width="665" height="387" alt="Usando el método HTTP OPTIONS con curl con salida detallada" layout="responsive"></amp-anim>
 </div>
 
-A medida que se desplaza por la ventana de su terminal, verá información como esta:
+A medida que se desplaza por la ventana de su terminal, observará información como esta:
 
 ```
 ...

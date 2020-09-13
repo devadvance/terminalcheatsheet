@@ -47,7 +47,7 @@ Ahora puede presionar `Enter` o hacer clic en el resultado para abrir el termina
 
 ## Cómo abrir el terminal con Finder
 
-Comience desde el escritorio de su computadora o desde una ventana del Finder. Verás **Finder** en la barra de menú si estás en el lugar correcto. Ahora, haga clic en el botón **Ir** en la barra de menú y haga clic en **Utilidades** para abrir el Finder en la ubicación correcta.
+Comience desde el escritorio de su computadora o desde una ventana del Finder. Notará **Finder** en la barra de menú si estás en el lugar correcto. Ahora, haga clic en el botón **Ir** en la barra de menú y haga clic en **Utilidades** para abrir el Finder en la ubicación correcta.
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/open-terminal-macos/go-menu-es.png" width="650" height="420" alt="Ir en Finder" layout="responsive"></amp-img>
