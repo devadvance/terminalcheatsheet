@@ -72,7 +72,7 @@ direction: rtl
   <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="المحطة ls all أمر" layout="responsive"></amp-img>
 </div>
 
-خيار آخر لسرد الملفات هو كتابة `ls -l` والضغط على **Enter**. هذا الخيار يولد قائمة طويلة. بالإضافة إلى أسماء الملفات والمجلدات ، سيعرض أيضًا سمات ، مثل تاريخ آخر تعديل لها وحجمها:
+خيار آخر لسرد الملفات هو كتابة `ls -l` والضغط على **Enter**. هذا الخيار يولد قائمة طويلة. هذا يعني أنه يعرض تفاصيل إضافية للملفات والمجلدات. بالإضافة إلى أسماء الملفات والمجلدات ، سيعرض أيضًا سمات ، مثل تاريخ آخر تعديل لها وحجمها:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="المحطة ls long أمر" layout="responsive"></amp-img>

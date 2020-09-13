@@ -22,7 +22,7 @@ direction: rtl
 
 من أجل اتباع هذا الدليل ، ستحتاج إلى:
 
-* نسخة حديثة من macOS
+* macOS Sierra (10.12) أو أعلى
 * لإلمام ببرنامج Finder وتفاعلات نظام macOS الأساسية
 
 ## كيفية فتح المحطة الطرفية مع البحث Spotlight
@@ -49,7 +49,7 @@ direction: rtl
 
 ## كيفية فتح الوحدة الطرفية باستخدام Finder
 
-ابدأ من شاشة سطح المكتب لجهاز الكمبيوتر الخاص بك أو من نافذة Finder. سترى **Finder** في شريط القائمة إذا كنت في الموقع الصحيح. الآن ، انقر فوق الزر **Go** في شريط القائمة وانقر فوق **Utilities** لفتح Finder إلى الموقع الصحيح. تبدو هذه العملية كما يلي:
+ابدأ من شاشة سطح المكتب لجهاز الكمبيوتر الخاص بك أو من نافذة Finder. سترى **Finder** في شريط القائمة إذا كنت في الموقع الصحيح. الآن ، انقر فوق الزر **Go** في شريط القائمة وانقر فوق **Utilities** لفتح Finder إلى الموقع الصحيح.
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/open-terminal-macos/go-menu-ar.png" width="500" height="430" alt="مكتشف مفتوح" layout="responsive"></amp-img>
@@ -63,10 +63,10 @@ direction: rtl
 
 ## تم الانتهاء من! المحطة مفتوحة!
 
-سواء استخدمت Spotlight أو Finder ، سيتم فتح الوحدة الطرفية ويبدو كما يلي:
+سواء استخدمت Spotlight أو Finder ، ستفتح نافذة طرفية.
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/open-terminal-macos/terminal-open-ar.png" width="585" height="389" alt="نافذة طرفية مفتوحة" layout="responsive"></amp-img>
 </div>
 
-الآن بعد أن تعرفت على كيفية العثور على المحطة الطرفية وفتحها ، يمكنك البدء في استخدامها!
+الآن بعد أن فتحت جهازك الطرفي ، جرب بعض الأوامر الموجودة في [ورقة الغش](/ar/#basic).

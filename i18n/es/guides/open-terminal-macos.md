@@ -20,7 +20,7 @@ El objetivo de esta guía es enseñarle cómo encontrar el terminal en macOS y c
 
 Para seguir esta guía, necesitará:
 
-* Una versión reciente de macOS
+* macOS Sierra (10.12) o superior
 * Familiaridad con Finder e interacciones básicas en macOS
 
 ## Cómo abrir el terminal con Spotlight
@@ -47,7 +47,7 @@ Ahora puede presionar `Enter` o hacer clic en el resultado para abrir el termina
 
 ## Cómo abrir el terminal con Finder
 
-Comience desde el escritorio de su computadora o desde una ventana del Finder. Verás **Finder** en la barra de menú si estás en el lugar correcto. Ahora, haga clic en el botón **Ir** en la barra de menú y haga clic en **Utilidades** para abrir el Finder en la ubicación correcta. Este proceso se ve así:
+Comience desde el escritorio de su computadora o desde una ventana del Finder. Verás **Finder** en la barra de menú si estás en el lugar correcto. Ahora, haga clic en el botón **Ir** en la barra de menú y haga clic en **Utilidades** para abrir el Finder en la ubicación correcta.
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/open-terminal-macos/go-menu-es.png" width="650" height="420" alt="Ir en Finder" layout="responsive"></amp-img>
@@ -61,10 +61,10 @@ Al hacer clic en esto, se abre el directioria **Utilidades**. Ahora, busque la a
 
 ## ¡Terminado! ¡La terminal está abierta!
 
-El terminal se abrirá y se verá así:
+Ya sea que haya utilizado Spotlight o Finder, se abrirá una ventana del terminal.
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/open-terminal-macos/terminal-open-es.png" width="585" height="389" alt="Una ventana de terminal abierta" layout="responsive"></amp-img>
 </div>
 
-¡Ahora que sabe cómo encontrar y abrir el terminal, puede comenzar a usarlo!
+Ahora que ha abierto el terminal, pruebe algunos de los comandos de la [hoja de trucos](/es/#basic).

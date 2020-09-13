@@ -37,7 +37,7 @@ In the sample screenshot below, our working directory is a folder called **examp
   <amp-img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" layout="responsive"></amp-img>
 </div>
 
-Next, you can explore the contents of the working directory. Type `ls` into your terminal and press **Enter**. `ls` stands for "list". This command will list all the files and folders in your working directory:
+Next, you can explore the contents of the working directory. Type `ls` into your terminal and press **Enter**. `ls` stands for "list". This command lists all the files and folders in your working directory. In our sample, it shows all of the files and folders in **examples**:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" layout="responsive"></amp-img>

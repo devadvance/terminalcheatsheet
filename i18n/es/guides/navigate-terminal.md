@@ -37,7 +37,7 @@ En la captura de pantalla de muestra a continuación, nuestro directorio de trab
   <amp-img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal comando pwd" layout="responsive"></amp-img>
 </div>
 
-A continuación, puede explorar el contenido del directorio de trabajo. Escribe `ls` en su terminal y presiona **Enter**. `ls` significa "lista" (inglés: "list"). Este comando enumerará todos los archivos y carpetas en su directorio de trabajo:
+A continuación, puede explorar el contenido del directorio de trabajo. Escribe `ls` en su terminal y presiona **Enter**. `ls` significa "lista" (inglés: "list"). Este comando enumera todos los archivos y carpetas en su directorio de trabajo. En nuestra muestra, muestra todos los archivos y carpetas en **examples**:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal comando ls" layout="responsive"></amp-img>
@@ -71,7 +71,7 @@ Observe cómo ahora podemos ver **.hidden-file**, que no se mostraba con el coma
   <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal comando ls todo" layout="responsive"></amp-img>
 </div>
 
-Otra opción para listar archivos es escribir `ls -l` y presionar **Enter**. Esta opción genera una lista larga. Además de los nombres de los archivos y carpetas, también mostrará atributos, como cuándo se modificaron por última vez y su tamaño:
+Otra opción para listar archivos es escribir `ls -l` y presionar **Enter**. Esta opción genera una lista larga. Esto significa que muestra detalles adicionales de los archivos y carpetas. Además de los nombres de los archivos y carpetas, también mostrará atributos, como cuándo se modificaron por última vez y su tamaño:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal comando ls largo" layout="responsive"></amp-img>
