@@ -2,7 +2,7 @@
 
 ## Description
 
-_Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change._
+_Please include a summary of this change and the issue(s) you are fixing. Include any context or information that will help a reviewer verify this PR quickly. List any caveats or issues with this change up front._
 
 Fixes # (issue)
 
