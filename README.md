@@ -31,6 +31,10 @@ Checkout the code from GitHub and then run `jekyll serve` in the repo directory.
 
 Since this is AMP code, make sure you [validate locally](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_amp/#browser-developer-console) before merging.
 
+## Contributing
+
+Contributions welcomed! See [CONTRIBUTING.md](CONTRIBUTING.md) if you would like to contribute!
+
 ## Internationalization/localization (i18n/l10n)
 
 ### How it works
