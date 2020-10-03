@@ -1,7 +1,7 @@
 ---
 layout: guide-layout
-titre: Comment lancer un serveur web basique sur macOS ou Linux
-extrait: Ce guide vous apprend à utiliser Python pour lancer un serveur web basique à partir de n'importe quel dossier sur votre machine sous macOS ou Linux.
+title: Comment lancer un serveur web basique sur macOS ou Linux
+excerpt: Ce guide vous apprend à utiliser Python pour lancer un serveur web basique à partir de n'importe quel dossier sur votre machine sous macOS ou Linux.
 permalink: /fr/guides/basic-web-server-macos-linux
 permalink_without_prefix: /guides/basic-web-server-macos-linux
 lang: fr
