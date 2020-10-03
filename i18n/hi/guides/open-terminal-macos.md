@@ -28,20 +28,20 @@
 कीबोर्ड शॉर्टकट का उपयोग करके या बटन दबाकर स्पॉटलाइट खोज खोलकर शुरुआत करें. कीबोर्ड शॉर्टकट `⌘ command + SPACE` है. वैकल्पिक रूप से, आप अपने मेनू बार के शीर्ष दाईं ओर आवर्धक ग्लास बटन दबा सकते हैं। यह इस तरह दिखता है:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/spotlight-button-en.png" width="90" height="70" alt="Spotlight search button" layout="fixed"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/spotlight-button-en.png" width="90" height="70" alt="Spotlight search button" layout="fixed"></amp-img>
 </div>
 
 एक बार जब आप कीबोर्ड शॉर्टकट का उपयोग करते हैं या बटन दबाते हैं, तो स्पॉटलाइट सर्च बार पॉप हो जाएगा। यह इस तरह दिखता है:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/spotlight-search-en.png" width="680" height="56" alt="Spotlight search bar" layout="responsive"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/spotlight-search-en.png" width="680" height="56" alt="Spotlight search bar" layout="responsive"></amp-img>
 </div>
 
 
 अब आप टर्मिनल एप्लिकेशन को खोजने के लिए सर्च बॉक्स में `Terminal` टाइप कर सकते हैं। खोज परिणाम इस तरह दिखाई देंगे:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/spotlight-results-en.png" width="680" height="430" alt="Spotlight search results" layout="responsive"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/spotlight-results-en.png" width="680" height="430" alt="Spotlight search results" layout="responsive"></amp-img>
 </div>
 
 अब आप `Enter` दबा सकते हैं या टर्मिनल खोलने के लिए परिणाम पर क्लिक कर सकते हैं।
@@ -51,13 +51,13 @@
 अपने कंप्यूटर के डेस्कटॉप स्क्रीन या एक खोजक विंडो से शुरू करें। यदि आप सही स्थान पर हैं, तो आप मेनू बार में **Finder** नोट करेंगे। अब, मेन्यू बार पर ** गो ** बटन पर क्लिक करें और फाइंडर को सही स्थान पर खोलने के लिए ** यूटिलिटीज ** पर क्लिक करें।
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/go-menu-en.png" width="470" height="420" alt="Finder go menu open" layout="responsive"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/go-menu-en.png" width="470" height="420" alt="Finder go menu open" layout="responsive"></amp-img>
 </div>
 
 Clicking on this opens the **Utilities** folder. Now, look for the **Terminal** application in this folder, and double click it to open it.
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/finder-utilities-en.png" width="865" height="471" alt="Browse Utilities folder in Finder" layout="responsive"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/finder-utilities-en.png" width="865" height="471" alt="Browse Utilities folder in Finder" layout="responsive"></amp-img>
 </div>
 
 ## ख़त्म ! टर्मिनल खुल चुक ा!
@@ -65,7 +65,7 @@ Clicking on this opens the **Utilities** folder. Now, look for the **Terminal** 
 चाहे आपने स्पॉटलाइट या फाइंडर का उपयोग किया हो, एक टर्मिनल विंडो खुलेगी।
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/terminal-open-en.png" width="585" height="389" alt="An open terminal window" layout="responsive"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/terminal-open-en.png" width="585" height="389" alt="An open terminal window" layout="responsive"></amp-img>
 </div>
 
 अब जब आपने अपना टर्मिनल खोल दिया है, तो कुछ कमांड्स पर प्रयास करें [cheat sheet](/#basic)!
