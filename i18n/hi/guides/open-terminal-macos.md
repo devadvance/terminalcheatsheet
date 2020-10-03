@@ -24,31 +24,31 @@
 * macOS सिएरा (10.12) या उच्चतर
 * खोजक और बुनियादी macOS बातचीत के साथ परिचित
 
-## How to open terminal with Spotlight search
-
-Start by opening Spotlight search by using the keyboard shortcut or pressing the button. The keyboard shortcut is `⌘ command + SPACE`. Alternatively, you can press the magnifying glass button (🔍) on the top right of your menu bar. It looks like this:
+## स्पॉटलाइट खोज के साथ टर्मिनल कैसे खोलें
+कीबोर्ड शॉर्टकट का उपयोग करके या बटन दबाकर स्पॉटलाइट खोज खोलकर शुरुआत करें. कीबोर्ड शॉर्टकट `⌘ command + SPACE` है. वैकल्पिक रूप से, आप अपने मेनू बार के शीर्ष दाईं ओर आवर्धक ग्लास बटन दबा सकते हैं। यह इस तरह दिखता है:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/open-terminal-macos/spotlight-button-en.png" width="90" height="70" alt="Spotlight search button" layout="fixed"></amp-img>
 </div>
 
-Once you use the keyboard shortcut or press the button, the Spotlight search bar will pop up. It looks like this:
+एक बार जब आप कीबोर्ड शॉर्टकट का उपयोग करते हैं या बटन दबाते हैं, तो स्पॉटलाइट सर्च बार पॉप हो जाएगा। यह इस तरह दिखता है:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/open-terminal-macos/spotlight-search-en.png" width="680" height="56" alt="Spotlight search bar" layout="responsive"></amp-img>
 </div>
 
-Now you can type `terminal` into the search box to find the terminal application. The search results will look like this:
+
+अब आप टर्मिनल एप्लिकेशन को खोजने के लिए सर्च बॉक्स में `Terminal` टाइप कर सकते हैं। खोज परिणाम इस तरह दिखाई देंगे:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/open-terminal-macos/spotlight-results-en.png" width="680" height="430" alt="Spotlight search results" layout="responsive"></amp-img>
 </div>
 
-Now you can press `Enter` or click on the result to open terminal.
+अब आप `Enter` दबा सकते हैं या टर्मिनल खोलने के लिए परिणाम पर क्लिक कर सकते हैं।
 
-## How to open terminal with Finder
+## फाइंडर के साथ टर्मिनल कैसे खोलें
 
-Start from the desktop screen of your computer or a Finder window. You will note **Finder** in the menu bar if you are in the right location. Now, click on the **Go** button on the menu bar and click on **Utilities** to open Finder to the right location.
+अपने कंप्यूटर के डेस्कटॉप स्क्रीन या एक खोजक विंडो से शुरू करें। यदि आप सही स्थान पर हैं, तो आप मेनू बार में **Finder** नोट करेंगे। अब, मेन्यू बार पर ** गो ** बटन पर क्लिक करें और फाइंडर को सही स्थान पर खोलने के लिए ** यूटिलिटीज ** पर क्लिक करें।
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/open-terminal-macos/go-menu-en.png" width="470" height="420" alt="Finder go menu open" layout="responsive"></amp-img>
@@ -60,13 +60,13 @@ Clicking on this opens the **Utilities** folder. Now, look for the **Terminal** 
   <amp-img src="/assets/guides/open-terminal-macos/finder-utilities-en.png" width="865" height="471" alt="Browse Utilities folder in Finder" layout="responsive"></amp-img>
 </div>
 
-## Finished! Terminal is open!
+## ख़त्म ! टर्मिनल खुल चुक ा!
 
-Whether you used Spotlight or Finder, a terminal window will open.
+चाहे आपने स्पॉटलाइट या फाइंडर का उपयोग किया हो, एक टर्मिनल विंडो खुलेगी।
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/open-terminal-macos/terminal-open-en.png" width="585" height="389" alt="An open terminal window" layout="responsive"></amp-img>
 </div>
 
-Now that you have opened your terminal, try out some of the commands on the [cheat sheet](/#basic)!
+अब जब आपने अपना टर्मिनल खोल दिया है, तो कुछ कमांड्स पर प्रयास करें [cheat sheet](/#basic)!
 
