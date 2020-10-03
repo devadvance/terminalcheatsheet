@@ -9,7 +9,7 @@ This is a small project right now, so the steps are fairly quick:
 * Check out the [README](README.md) for instructions on getting up and running. It also covers the tech we use and how the site is structure and deployed.
 * (Recommended) use an issue to let folks know you're going to work on something. Either ask if you can be added to an existing issue, or create a new one and add yourself.
 * Fork the repo and make changes in a branch on your fork.
-* As of 2020Q4, we merge directly to head, so create a [pull request](https://github.com/devadvance/terminalcheatsheet/compare) against the default branch.
+* As of 2020Q4, we merge directly to staging, so create a [pull request](https://github.com/devadvance/terminalcheatsheet/compare) against the staging (default) branch.
 
 For any pull request, we prefer these be included:
 
@@ -30,3 +30,5 @@ Visit the [README](README.md) for how to localize and the structure we use.
 ## Don't know where to start?
 
 A good place to start is checking the [existing issues](https://github.com/devadvance/terminalcheatsheet/issues) to check if something interests you. If not, you are welcome add a new issue and (optionally) pick it up!
+
+We are especially interested in supporting new locales, so if Terminal Cheat Sheet isn't translated in your language, please contribute!
