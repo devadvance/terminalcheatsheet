@@ -8,21 +8,21 @@
 भाषा: हिन्दी
 ---
 
-**Table of contents**
+*विषय - सूची**
 
-* TOC
-{:toc}
+* टीओसी
+{:टीओसी}
 
-## Introduction
+## प्रस्तावना
 
-This guide is intended to teach you how to find terminal on macOS and how to open terminal on macOS. If you already have a lot of experience with the terminal, check out [the commands on the homepage for quick reference material](/).
+इस पथप्रदर्शक का उद्देश्य आपको यह सिखाना है कि macOS पर टर्मिनल कैसे खोजें और macOS पर टर्मिनल कैसे खोलें। यदि आपके पास टर्मिनल के साथ पहले से ही बहुत अनुभव है, तो देखें [त्वरित संदर्भ सामग्री के लिए होमपेज पर कमांड](/).
 
-## Prerequisites
+## आवश्यक शर्तें
 
-In order follow this guide, you will need:
+इस पथप्रदर्शक का पालन करने के लिए, आपको आवश्यकता होगी:
 
-* macOS Sierra (10.12) or higher
-* Familiarity with Finder and basic macOS interactions
+* macOS सिएरा (10.12) या उच्चतर
+* खोजक और बुनियादी macOS बातचीत के साथ परिचित
 
 ## How to open terminal with Spotlight search
 
