@@ -11,81 +11,102 @@ supported_langs:
     ar:
       name: العربي
       prefix: /ar
+    fr:
+      name: Français
+      prefix: /fr
 site_description:
   en: All the knowledge you need to get up and running on terminals across operating systems.
   es: Todo el conocimiento que necesita para ponerse en funcionamiento en terminales en todos los sistemas operativos.
   ar: كل ما تحتاجه من المعرفة للحصول على الأجهزة الطرفية وتشغيلها عبر أنظمة التشغيل
+  fr: Toutes ce que vous avez besoin de savoir pour utiliser des terminaux sur différents systèmes d'exploitation.
 hero_title:
   en: What is this?
   es: ¿Que es esto?
   ar: ما هذا؟
+  fr: Qu'est-ce que c'est ?
 hero_description:
   en: You might be an aspiring developer. Perhaps you just want to brush up on some basic terminal commands. No matter what, you've found the right place. Visit the menu for other languages.
   es: Puedes ser un aspirante a desarrollador de software. Tal vez solo desee repasar algunos comandos básicos del terminal. No importa qué, has encontrado el lugar correcto. Visite el menú para otros idiomas.
   ar: قد تكون مطورًا طموحًا. ربما تريد فقط تنظيف بعض أوامر المحطة الطرفية الأساسية. مهما وجدت ، لقد وجدت المكان الصحيح. قم بزيارة القائمة للغات أخرى.
+  fr: Vous pourriez vouloir devenir développeur. Peut-être voulez-vous juste faire le point sur quelques commandes basique du terminal. Dans tous les cas, vous êtes au bon endroit. Visitez le menu pour d'autres langues.
 basic_section_title:
   en: The basics
   es: Los basicos
   ar: أساسيات
+  fr: Les bases
 basic_section_description:
   en: These essential commands will help you navigate, explore, and perform simple actions on your terminal.
   es: Estos comandos esenciales lo ayudarán a navegar, explorar y realizar acciones simples en su terminal.
   ar: ستساعدك هذه الأوامر الأساسية على التنقل واستكشاف وتنفيذ إجراءات بسيطة على جهازك.
+  fr: Ces commmandes essentielles vous aideront à naviguer, explorer, et à réaliser de simples actions dans votre terminal.
 files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
   ar: تعديل الملفات والمجلدات
+  fr: Modifier des fichiers et dossiers
 files_section_description:
   en: These commands will help you create, modify, and delete files and folders.
   es: Estos comandos lo ayudarán a crear, modificar y eliminar archivos y carpetas.
   ar:  ستساعدك هذه الأوامر على إنشاء وتعديل وحذف الملفات والمجلدات.
+  fr: Ces commandes vous aideront à créer, modifier, et supprimer des fichiers ainsi que des dossiers.
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
   ar: المزيد قادم قريبا!
+  fr: Plus à venir !
 
 # Buttons
 begin_reading:
   en: Get started
   es: Comenzar
   ar: أبدا
+  fr: Commencer
 show_me_action:
   en: Show me
   es: Enséñame
   ar: أرني
+  fr: Montrer
 hide_action:
   en: Hide
   es: Ocultar
   ar: إخفاء
+  fr: Cacher
 
 # Layout items
 contact:
   en: Contact
   es: Contacto
   ar: اتصل
+  fr: Contact
 more_resources:
   en: More resources
   es: Más recursos
   ar: المزيد من الموارد
+  fr: Plus de ressources
 guides:
   en: Guides
   es: Guías
   ar: دليل
+  fr: Guides
 language:
   en: Language
   es: Idioma
   ar: لغة
+  fr: Langue
 feedback:
   en: Feedback
   es: Comentarios
   ar: اقتراحات
+  fr: Commentaires
 
 # Guide index
 guides_available_title:
   en: Available guides
   es: Guías disponibles
   ar: الأدلة المتاحة
+  fr: Guides disponibles
 guides_available_desc:
   en: Here are all of the guides that are currently available.
   es: Aquí están todas las guías que están disponibles actualmente.
   ar: فيما يلي كافة الأدلة المتوفرة حاليًا.
+  fr: Voici tous les guides actuellement disponibles.
