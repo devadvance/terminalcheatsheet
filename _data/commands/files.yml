@@ -12,7 +12,7 @@
 - id: mkdir
   command: mkdir [FOLDER_NAME]
   descriptions:
-    en: Create a new folder with the desired [FOLDER_NAME]. This occurs in your current working directory
+---en: Create a new folder with the desired [FOLDER_NAME]. This occurs in your current working directory
     es: Cree una nueva carpeta con el nombre deseado. Esto ocurre en su directorio de trabajo actual
     ar: إنشاء دليل جديد بالاسم المطلوب ؛. يحدث هذا في دليل العمل الحالي الخاص بك
     hi: वांछित नाम के साथ एक नया फ़ोल्डर बनाएं | यह आपके वर्तमान निर्देशिका मे होगा
