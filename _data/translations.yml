@@ -41,8 +41,8 @@ site_description:
     em terminair de vários sistemas operacionais
   id: Semua hal yang kamu butuhkan untuk memulai dan menjalankan
     terminal disemua sistem operasi.
-  te: మీకు అవసరమైన అన్ని జ్ఞానం లేచి నడుస్తుంది
-    ఆపరేటింగ్ సిస్టమ్స్ అంతటా టెర్మినల్స్ పై.
+  te: ఆపరేటింగ్ సిస్టమ్స్ అంతటా టెర్మినల్స్ పై
+మీకు అవసరమైన సమాచారం ఇక్కడ తెలుసుకొండి
 hero_title:
   en: What is this?
   es: ¿Que es esto?
@@ -82,9 +82,9 @@ hero_description:
     mungkin kamu hanya memoles beberapa perintah terminal dasar.
     Bukan masalah, kamu telah menemukan tempat yang tepat.
     Kunjungi menu untuk bahasa lain.
-  te: మీరు develop త్సాహిక డెవలపర్ కావచ్చు.
-    బహుశా మీరు కొన్ని ప్రాథమిక టెర్మినల్ ఆదేశాలను బ్రష్ చేయాలనుకుంటున్నారు.
-    ఉన్నా, మీరు సరైన స్థలాన్ని కనుగొన్నారు.
+  te: మీరు ఉత్సాహఉన్న డెవలపర్ కావచ్చు.
+    బహుశా మీరు కొన్ని ప్రాథమిక టెర్మినల్ కమాండ్స్ మెరగించుకోవాలనుకుంటున్న
+   ఏమైనా, మీరు సరైన వెబ్సైటు కనుగొన్నారు.
     ఇతర భాషల కోసం మెనుని సందర్శించండి.
 basic_section_title:
   en: The basics
@@ -110,8 +110,8 @@ basic_section_description:
     explore e execute ações simples em seu terminal.
   id: Berikut perintah-perintah penting yang akan membantumu bernavigasi,
     menjelajah, and melakukan tindakan sederhana di terminal kamu.
-  te: ఈ ముఖ్యమైన ఆదేశాలు నావిగేట్ చెయ్యడానికి మీకు సహాయపడతాయి,
-    మీ టెర్మినల్‌ లో అన్వేషించండి మరియు సాధారణ చర్యలను చేయండి.
+  te: మీ టెర్మినల్‌ లో నావిగేట్ చెయ్యడానికి, అన్వేషించడానికి, మరియు సాధారణ చర్యలను
+చేయడానికి ఈ ముఖ్యమైన కమాండ్స్ మీకు సహాయపడతాయి,
 files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
@@ -136,8 +136,8 @@ files_section_description:
     modificar e excluir arquivos e pastas.
   id: Perintah ini akan membantumu membuat,
     memodifikasi, dan menghapus file dan folder.
-  te: ఈ ఆదేశాలు మీకు సృష్టించడానికి సహాయపడతాయి,
-    ఫైల్‌లను మరియు ఫోల్డర్‌లను సవరించండి మరియు తొలగించండి.
+  te:ఫైల్‌లను మరియు ఫోల్డర్‌లను సృష్టించడానికి, సవరించడానికి, మరియు
+తొలగించడానికి ఈ కమాండ్స్ మీకు సృష్టించడానికి సహాయపడతాయి
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
@@ -165,7 +165,7 @@ show_me_action:
   fr: Montrer
   pt: Mostrar
   id: Tunjukkan
-  te: నాకు చూపించు
+  te: చూపించు 
 hide_action:
   en: Hide
   es: Ocultar
