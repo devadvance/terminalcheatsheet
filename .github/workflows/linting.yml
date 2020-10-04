@@ -1,14 +1,15 @@
 name: linting
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the staging branch
+# Controls when the action will run. Triggers the workflow on push or
+# pull request events but only for the staging branch
 on:
   push:
     branches: [ staging ]
   pull_request:
     branches: [ staging ]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# A workflow run is made up of one or more jobs that can run
+# sequentially or in parallel
 jobs:
   lint:
     runs-on: ubuntu-latest

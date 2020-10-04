@@ -3,6 +3,9 @@
 
 extends: default
 
+ignore: |
+  .github/workflows/
+
 rules:
   document-start: disable
   comments:
