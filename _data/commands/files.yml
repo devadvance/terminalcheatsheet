@@ -9,6 +9,8 @@
       للمبتدئين ، يتم استخد cat لإخراج محتويات ملف ملف المحطة
     hi: इस आदेश के कई उपयोग हैं, लेकिन शुरुआती लोगों के लिए इस्का इस्तेमाल
       फ़ाइल सामग्री को आउटपुट करने मे काम आता है
+      
+    te: ఈ ఆదేశానికి చాలా ఉపయోగాలు ఉన్నాయి, కాని సాధారణంగా ప్రారంభకులకు, [FILE] యొక్క విషయాలను టెర్మినల్‌కు అవుట్పుట్ చేయడానికి పిల్లి ఉపయోగించబడుతుంది
     id: Perintah ini banyak kegunaannya, namun umumnya untuk pemula,
       cat digunakan untuk memunculkan isi dari [FILE] ke terminal
   html_terminal: >
@@ -26,6 +28,8 @@
       يحدث هذا في دليل العمل الحالي الخاص بك
     hi: वांछित नाम के साथ एक नया फ़ोल्डर बनाएं |
       यह आपके वर्तमान निर्देशिका मे होगा
+      te: కావలసిన [FOLDER_NAME] తో క్రొత్త ఫోల్డర్‌ను సృష్టించండి.
+      ఇది మీ ప్రస్తుత వర్కింగ్ డైరెక్టరీలో సంభవిస్తుంది
     id: Membuat folder sesuai keinginan [NAMA_FOLDER].
       Perintah ini berjalan di direktori kamu berada.
   html_terminal: >
@@ -42,6 +46,7 @@
     es: Hacer una copia de un archivo
     ar: عمل نسخة من ملف
     hi: अपनी फ़ाइल की एक प्रति बनाना
+    te: ఫైల్ యొక్క కాపీని చేయండి
     id: Membuat salinan dari sebuah file
   html_terminal: >
     <span data-ty="input">ls</span>
@@ -61,6 +66,7 @@
       फ़ाइलों और फ़ोल्डर्स का नाम भी बदल सकते हैं
     id: Memindahkan file dan folder.
       Bisa juga untuk mengganti nama file dan folder
+     te: ఫైల్‌లు మరియు ఫోల్డర్‌లను తరలించండి. ఫైల్స్ మరియు ఫోల్డర్ల పేరు మార్చవచ్చు
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -75,6 +81,7 @@
     es: Borrar archivo
     ar: حذف ملف
     hi: फाइल हटाना
+    te: తొలగించు [FILE]
     id: Menghapus file
   html_terminal: >
     <span data-ty="input">ls</span>
@@ -93,6 +100,7 @@
     ar: حذف مجلد بشكل متكرر ، مما يعني المجلد وكل شيء فيه
     hi: एक फ़ोल्डर को बार-बार हटाएं,
       जिसका अर्थ है फ़ोल्डर और उसमें सब कुछ हटाना
+    te: [ఫోల్డర్] ను పునరావృతంగా తొలగించండి, అంటే ఫోల్డర్ మరియు దానిలోని ప్రతిదీ
     id: Menghapus sebuah [FOLDER] secara rekursif,
       yang artinya menghapus folder beserta isinya
   html_terminal: >
