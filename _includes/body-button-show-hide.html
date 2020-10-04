@@ -1,0 +1,13 @@
+<amp-accordion disable-session-states>
+    <section>
+    <header class="command-show-header pure-button button-large button-primary{% if page.direction == "rtl" %} button-rtl{% endif %}">
+        <span class="show-more">{{site.data.translations.show_me_action[page.lang]}}</span>
+        <span class="show-less">{{site.data.translations.hide_action[page.lang]}}</span>
+    </header>
+    <amp-script height="300" layout="fixed-height" src="{{ site.url }}/termynal.js">
+        <div class="termynal" data-termynal data-ty-progress-length="10" data-ty-line-delay="800" dir="ltr">
+        {{include.content.html_terminal}}
+        </div>
+    </amp-script>
+    </section>
+</amp-accordion>
