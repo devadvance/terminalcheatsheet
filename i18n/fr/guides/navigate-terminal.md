@@ -1,9 +1,10 @@
 ---
+layout: guide-layout
 title: Comment parcourir les fichiers et dossiers sur un terminal
-extrait: Ce guide est destiné à vous apprendre les bases de la navigation dans les fichiers et dossiers sur un terminal.
-permalien: / guides / navigateur-terminal
-permalink_without_prefix: / guides / navigation-terminal
-lang: en
+excerpt: Ce guide est destiné à vous apprendre les bases de la navigation dans les fichiers et dossiers sur un terminal.
+permalink: /fr/guides/navigate-terminal
+permalink_without_prefix: /guides/navigate-terminal
+lang: fr
 ---
 
 TODO
@@ -84,7 +85,7 @@ Semblable à de nombreuses commandes de terminal, vous pouvez combiner ces deux 
 
 ## Parcourir les dossiers
 
-Vous avez peut-être remarqué que notre répertoire de travail comporte plusieurs parties dans le nom. En général, le caractère `/` (barre oblique) signifie que vous êtes dans un dossier. Ainsi, lorsque vous observez `/ home / user / examples` comme répertoire de travail, cela signifie que:
+Vous avez peut-être remarqué que notre répertoire de travail comporte plusieurs parties dans le nom. En général, le caractère `/` (barre oblique) signifie que vous êtes dans un dossier. Ainsi, lorsque vous observez `/home/user/examples` comme répertoire de travail, cela signifie que:
 
 * Vous êtes à l'intérieur du dossier ** examples **, qui est votre répertoire de travail.
 * Le dossier ** examples ** se trouve à l'intérieur du dossier ** user **.
