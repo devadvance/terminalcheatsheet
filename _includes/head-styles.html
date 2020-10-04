@@ -234,6 +234,17 @@ svg {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
+  visibility: hidden;
+  position: absolute;
+  transition: all 0.5s ease;
+  display: none;
+  right: 1.875rem;
+}
+
+amp-accordion>section[expanded]>:last-child {
+  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 .navbar-dropdown li {
@@ -241,6 +252,7 @@ svg {
   text-transform: uppercase;
   margin: 0 1rem;
   line-height: 2.4rem;
+  white-space: nowrap;
 }
 
 .navbar-dropdown>section>header:after {
