@@ -1,10 +1,14 @@
 - id: cat_file
   command: cat [FILE]
   descriptions:
-    en: This command has many uses, but most commonly for beginners, cat is used to output the contents of a [FILE] to the terminal
-    es: Este comando tiene muchos usos, pero más comúnmente para principiantes, cat se usa para enviar el contenido de un archivo al terminal
-    ar: يستخدم هذا الأمر العديد من الاستخدامات ، ولكن الأكثر شيوعًا للمبتدئين ، يتم استخد cat لإخراج محتويات ملف ملف المحطة
-    hi: इस आदेश के कई उपयोग हैं, लेकिन शुरुआती लोगों के लिए इस्का इस्तेमाल फ़ाइल सामग्री को आउटपुट करने मे काम आता है
+    en: This command has many uses, but most commonly for beginners,
+      cat is used to output the contents of a [FILE] to the terminal
+    es: Este comando tiene muchos usos, pero más comúnmente para principiantes,
+      cat se usa para enviar el contenido de un archivo al terminal
+    ar: يستخدم هذا الأمر العديد من الاستخدامات ، ولكن الأكثر شيوعًا
+      للمبتدئين ، يتم استخد cat لإخراج محتويات ملف ملف المحطة
+    hi: इस आदेश के कई उपयोग हैं, लेकिन शुरुआती लोगों के लिए इस्का इस्तेमाल
+      फ़ाइल सामग्री को आउटपुट करने मे काम आता है
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
@@ -12,10 +16,14 @@
 - id: mkdir
   command: mkdir [FOLDER_NAME]
   descriptions:
-    en: Create a new folder with the desired [FOLDER_NAME]. This occurs in your current working directory
-    es: Cree una nueva carpeta con el nombre deseado. Esto ocurre en su directorio de trabajo actual
-    ar: إنشاء دليل جديد بالاسم المطلوب ؛. يحدث هذا في دليل العمل الحالي الخاص بك
-    hi: वांछित नाम के साथ एक नया फ़ोल्डर बनाएं | यह आपके वर्तमान निर्देशिका मे होगा
+    en: Create a new folder with the desired [FOLDER_NAME].
+      This occurs in your current working directory
+    es: Cree una nueva carpeta con el nombre deseado.
+      Esto ocurre en su directorio de trabajo actual
+    ar: إنشاء دليل جديد بالاسم المطلوب ؛.
+      يحدث هذا في دليل العمل الحالي الخاص بك
+    hi: वांछित नाम के साथ एक नया फ़ोल्डर बनाएं |
+      यह आपके वर्तमान निर्देशिका मे होगा
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music</span>
@@ -41,9 +49,11 @@
   command: mv [FILE] [MOVED_FILE]
   descriptions:
     en: Move files and folders. Can also rename files and folders
-    es: Mover archivos y carpetas. También puede renombrar archivos y carpetas
+    es: Mover archivos y carpetas.
+      También puede renombrar archivos y carpetas
     ar: نقل الملفات والمجلدات. يمكن أيضًا إعادة تسمية الملفات والمجلدات
-    hi: फाइलों और फ़ोल्डर्स को स्थानांतरित करना | फ़ाइलों और फ़ोल्डर्स का नाम भी बदल सकते हैं
+    hi: फाइलों और फ़ोल्डर्स को स्थानांतरित करना |
+      फ़ाइलों और फ़ोल्डर्स का नाम भी बदल सकते हैं
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -68,10 +78,13 @@
 - id: rm_recursive
   command: rm -r [FOLDER]
   descriptions:
-    en: Delete a [FOLDER] recursively, which means the folder and everything in it
-    es: Eliminar recursivamente un [FOLDER], lo que significa el carpetas y todo lo que contiene
+    en: Delete a [FOLDER] recursively,
+      which means the folder and everything in it
+    es: Eliminar recursivamente un [FOLDER],
+      lo que significa el carpetas y todo lo que contiene
     ar: حذف مجلد بشكل متكرر ، مما يعني المجلد وكل شيء فيه
-    hi: एक फ़ोल्डर को बार-बार हटाएं, जिसका अर्थ है फ़ोल्डर और उसमें सब कुछ हटाना
+    hi: एक फ़ोल्डर को बार-बार हटाएं,
+      जिसका अर्थ है फ़ोल्डर और उसमें सब कुछ हटाना
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder hello.txt</span>
