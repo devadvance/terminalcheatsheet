@@ -9,6 +9,8 @@
       للمبتدئين ، يتم استخد cat لإخراج محتويات ملف ملف المحطة
     hi: इस आदेश के कई उपयोग हैं, लेकिन शुरुआती लोगों के लिए इस्का इस्तेमाल
       फ़ाइल सामग्री को आउटपुट करने मे काम आता है
+    pt: Este comando tem muitos usos, mas mais comumente para iniciantes,
+      cat é usado para emitir o conteúdo de um [ARQUIVO] para o terminal
     id: Perintah ini banyak kegunaannya, namun umumnya untuk pemula,
       cat digunakan untuk memunculkan isi dari [FILE] ke terminal
     pt: Este comando tem muitos usos, mas comumente para iniciantes,
@@ -28,6 +30,8 @@
       يحدث هذا في دليل العمل الحالي الخاص بك
     hi: वांछित नाम के साथ एक नया फ़ोल्डर बनाएं |
       यह आपके वर्तमान निर्देशिका मे होगा
+    pt: Criar uma nova pasta com o desejado [NOME_DA_PASTA].
+      Isto ocorre em seu diretório de trabalho atual
     id: Membuat folder sesuai keinginan [NAMA_FOLDER].
       Perintah ini berjalan di direktori kamu berada.
     pt: Crie uma nova pasta com o [NOME_DA_PASTA] desejada.
@@ -46,6 +50,7 @@
     es: Hacer una copia de un archivo
     ar: عمل نسخة من ملف
     hi: अपनी फ़ाइल की एक प्रति बनाना
+    pt: Fazer uma cópia do arquivo
     id: Membuat salinan dari sebuah file
     pt: Faça uma cópia de um arquivo
   html_terminal: >
@@ -64,6 +69,7 @@
     ar: نقل الملفات والمجلدات. يمكن أيضًا إعادة تسمية الملفات والمجلدات
     hi: फाइलों और फ़ोल्डर्स को स्थानांतरित करना |
       फ़ाइलों और फ़ोल्डर्स का नाम भी बदल सकते हैं
+    pt: Mover arquivos e pastas. Também pode renomear arquivos e pastas
     id: Memindahkan file dan folder.
       Bisa juga untuk mengganti nama file dan folder
     pt: Mova arquivos e pastas. Também pode renomear arquivos e pastas
@@ -81,6 +87,7 @@
     es: Borrar archivo
     ar: حذف ملف
     hi: फाइल हटाना
+    pt: Deletar arquivo
     id: Menghapus file
     pt: Excluir [ARQUIVO]
   html_terminal: >
@@ -100,6 +107,8 @@
     ar: حذف مجلد بشكل متكرر ، مما يعني المجلد وكل شيء فيه
     hi: एक फ़ोल्डर को बार-बार हटाएं,
       जिसका अर्थ है फ़ोल्डर और उसमें सब कुछ हटाना
+    pt: Eliminar uma [PASTA] recursivamente,
+      o que significa a pasta e tudo que nela está
     id: Menghapus sebuah [FOLDER] secara rekursif,
       yang artinya menghapus folder beserta isinya
     pt: Exclua uma [PASTA] recursivamente,
