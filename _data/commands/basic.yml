@@ -1,6 +1,7 @@
 - id: ls
   command: ls
   descriptions:
+    pt: Lista todos os arquivos no diretório atual
     en: List the normal files and folders in the current directory in condensed
       format
     es: Enumera los archivos y carpetas normales en el directorio actual
@@ -14,6 +15,7 @@
 - id: pwd
   command: pwd
   descriptions:
+    pt: Mostra o caminho completo para para o diretório atual.
     en: Output the full path of the current working directory for this terminal
     es: Emita la ruta del directorio actual para este terminal
     ar: إخراج المسار الكامل لدليل العمل الحالي لهذه المحطة
@@ -26,6 +28,7 @@
 - id: cd
   command: cd
   descriptions:
+    pt: Altera o diretório, quando utilizado sozinho por padrão mudará para o diretório inicial
     en: Change your current working directory. When used by itself, it will
       default to changing to your home directory
     es: Cambia tu directorio de trabajo actual. Cuando se usa solo, por defecto
@@ -41,6 +44,7 @@
 - id: cd_folder
   command: cd [FOLDER]
   descriptions:
+    pt: Altera do diretório atual para a pasta informada
     en: Change your current working directory to the desired [FOLDER]
     es: Cambia su directorio de trabajo actual al [FOLDER] deseado
     ar: تغيير دليل العمل الحالي الخاص بك إلى المجلد المطلو
@@ -55,6 +59,7 @@
 - id: cd_back
   command: cd ..
   descriptions:
+    pt: Altera o diretório do atual para um nível anterior
     en: Change your current working directory to the parent directory
     es: Cambia tu directorio de trabajo actual al directorio principal
     ar: تغيير دليل العمل الحالي الخاص بك إلى الدليل الأصل
