@@ -5,37 +5,45 @@
     en: How to open terminal on macOS
     es: Cómo abrir terminal en macOS
     ar: كيفية استدعاء محطة على macOS
+    pt: Como abrir o terminal em macOS
   link:
     en: /guides/open-terminal-macos
     es: /es/guides/open-terminal-macos
     ar: /ar/guides/open-terminal-macos
+    pt: /pt/guides/open-terminal-macos
 
 - id: navigate-work-files
   title:
     en: How to navigate files and folders on a terminal
     es: Cómo navegar con archivos y carpetas en un terminal
     ar: كيفية التنقل في الملفات والمجلدات على جهاز طرفية
+    pt: Como navegar em arquivos e pastas em um terminal
   link:
     en: /guides/navigate-terminal
     es: /es/guides/navigate-terminal
     ar: /ar/guides/navigate-terminal
+    pt: /pt/guides/navigate-terminal
 
 - id: curl-rest-api
   title:
     en: How to use curl to test a REST API
     es: Cómo usar curl para probar una API REST (servicios web)
     ar: كيفية استخدام curl لاختبار REST API
+    pt: Como usar o enrolamento para testar um REST API
   link:
     en: /guides/curl-rest-api
     es: /es/guides/curl-rest-api
     ar: /ar/guides/curl-rest-api
+    pt: /pt/guides/curl-rest-api
 
 - id: basic-web-server-macos-linux
   title:
     en: How to start a basic web server on macOS or Linux
     es: Cómo iniciar un servidor web básico en macOS o Linux
     ar: كيفية بدء تشغيل خادم ويب أساسي على نظام macOS أو Linux
+    pt: Como iniciar um servidor web básico em MacOS ou Linux
   link:
     en: /guides/basic-web-server-macos-linux
     es: /es/guides/basic-web-server-macos-linux
     ar: /ar/guides/basic-web-server-macos-linux
+    pt: /pt/guides/basic-web-server-macos-linux
