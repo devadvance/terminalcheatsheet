@@ -121,22 +121,22 @@ files_section_title:
   pt: Modificar arquivos e pastas
   id: Memodifikasi file dan folder
   te: ఫైల్‌లు మరియు ఫోల్డర్‌లను సవరించండి
-  files_section_description:
-  en: These commands will help you create,
+files_section_description:
+   en: These commands will help you create,
     modify, and delete files and folders.
-  es: Estos comandos lo ayudarán a crear,
+   es: Estos comandos lo ayudarán a crear,
     modificar y eliminar archivos y carpetas.
-  ar: ستساعدك هذه الأوامر على
+   ar: ستساعدك هذه الأوامر على
     إنشاء وتعديل وحذف الملفات والمجلدات.
-  hi: ये कमांड आपको फ़ाइलों और फ़ोल्डरों को बनाने,
+   hi: ये कमांड आपको फ़ाइलों और फ़ोल्डरों को बनाने,
     संशोधित करने और हटाने में मदद करेंगे।
-  fr: Ces commandes vous aideront à créer,
+   fr: Ces commandes vous aideront à créer,
     modifier, et supprimer des fichiers ainsi que des dossiers.
-  pt: Esses comandos o ajudarão a criar,
+   pt: Esses comandos o ajudarão a criar,
     modificar e excluir arquivos e pastas.
-  id: Perintah ini akan membantumu membuat,
+   id: Perintah ini akan membantumu membuat,
     memodifikasi, dan menghapus file dan folder.
-  te:ఈ ఆదేశాలు మీకు సృష్టించడానికి సహాయపడతాయి,
+   te: ఈ ఆదేశాలు మీకు సృష్టించడానికి సహాయపడతాయి,
     ఫైల్‌లను మరియు ఫోల్డర్‌లను సవరించండి మరియు తొలగించండి.
 more_coming_soon:
   en: More coming soon!
