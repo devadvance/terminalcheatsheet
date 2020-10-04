@@ -7,6 +7,8 @@
     ar: سرد الملفات والمجلدات العادية في الدليل الحالي بتنسيق مكثف
     hi: संघनित रूप में वर्तमान निर्देशिका में सामान्य फाइलों और फ़ोल्डर की
       सूची करने हेतु
+    id: Menampilkan daftar file dan folder di direktori
+      dimana kamu berada dalam format yang ringkas
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Documents Music</span>
@@ -19,6 +21,8 @@
     ar: إخراج المسار الكامل لدليل العمل الحالي لهذه المحطة
     hi: इस टर्मिनल के लिए वर्तमान कार्य निर्देशिका का पूरा रास्ता आउटपुट करने
       हेतु
+    id: Menampilkan output penuh lokasi direktori
+      dimana kamu berada pada terminal
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -34,6 +38,8 @@
       عند استخدامه بمفرده ، سيتم تغييره افتراضيًا إلى دليل المنزل
     hi: अपनी वर्तमान कार्य निर्देशिका बदलें ।  जब खुद के द्वारा इस्तेमाल किया,
       यह अपने घर निर्देशिका को बदलने के लिए डिफ़ॉल्ट होगा
+    id: Berpindah direktori. Jika digunakan sendiri, maka akan
+      memindahkan kamu ke home direktori
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>
@@ -45,6 +51,7 @@
     es: Cambia su directorio de trabajo actual al [FOLDER] deseado
     ar: تغيير دليل العمل الحالي الخاص بك إلى المجلد المطلو
     hi: अपनी वर्तमान कार्य निर्देशिका से वांछित फ़ोल्डर मे जाने के लिये
+    id: Berpindah direktori sesuai dengan [FOLDER] yang diinginkan
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -59,6 +66,7 @@
     es: Cambia tu directorio de trabajo actual al directorio principal
     ar: تغيير دليل العمل الحالي الخاص بك إلى الدليل الأصل
     hi: अपनी वर्तमान कार्य निर्देशिका से अपने घर निर्देशिका को बदलने के लिए
+    id: Berpindah ke direktori induk
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me/Desktop</span>
