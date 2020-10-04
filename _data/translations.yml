@@ -42,7 +42,7 @@ site_description:
   id: Semua hal yang kamu butuhkan untuk memulai dan menjalankan
     terminal disemua sistem operasi.
   te: ఆపరేటింగ్ సిస్టమ్స్ అంతటా టెర్మినల్స్ పై
-మీకు అవసరమైన సమాచారం ఇక్కడ తెలుసుకొండి
+   మీకు అవసరమైన సమాచారం ఇక్కడ తెలుసుకొండి
 hero_title:
   en: What is this?
   es: ¿Que es esto?
@@ -110,8 +110,8 @@ basic_section_description:
     explore e execute ações simples em seu terminal.
   id: Berikut perintah-perintah penting yang akan membantumu bernavigasi,
     menjelajah, and melakukan tindakan sederhana di terminal kamu.
-  te: మీ టెర్మినల్‌ లో నావిగేట్ చెయ్యడానికి, అన్వేషించడానికి, మరియు సాధారణ చర్యలను
-చేయడానికి ఈ ముఖ్యమైన కమాండ్స్ మీకు సహాయపడతాయి,
+  te: మీ టెర్మినల్‌ లో నావిగేట్ చెయ్యడానికి,అన్వేషించడానికి,మరియు సాధారణ 
+   చర్యలను చేయడానికి ఈ ముఖ్యమైన కమాండ్స్ మీకు సహాయపడతాయి,
 files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
@@ -165,7 +165,7 @@ show_me_action:
   fr: Montrer
   pt: Mostrar
   id: Tunjukkan
-  te: చూపించు 
+  te: చూపించు
 hide_action:
   en: Hide
   es: Ocultar
