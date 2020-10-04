@@ -1,0 +1,12 @@
+# Configuration for yamllnit
+# For info, see https://yamllint.readthedocs.io/en/stable/configuration.html
+
+extends: default
+
+ignore: |
+  .github/workflows/
+
+rules:
+  document-start: disable
+  comments:
+    min-spaces-from-content: 1

@@ -2,27 +2,32 @@
 # Translations for commands are found in the commands.yml file.
 # Main page
 supported_langs:
-    en:
-      name: English
-      prefix: 
-    es:
-      name: Español
-      prefix: /es
-    ar:
-      name: العربي
-      prefix: /ar
-    hi:
-      name: हिंदी
-      prefix: /hi
-    fr:
-      name: Français
-      prefix: /fr
+  en:
+    name: English
+    prefix:
+  es:
+    name: Español
+    prefix: /es
+  ar:
+    name: العربي
+    prefix: /ar
+  hi:
+    name: हिंदी
+    prefix: /hi
+  fr:
+    name: Français
+    prefix: /fr
 site_description:
-  en: All the knowledge you need to get up and running on terminals across operating systems.
-  es: Todo el conocimiento que necesita para ponerse en funcionamiento en terminales en todos los sistemas operativos.
-  ar: كل ما تحتاجه من المعرفة للحصول على الأجهزة الطرفية وتشغيلها عبر أنظمة التشغيل
-  hi: ऑपरेटिंग सिस्टम पर टर्मिनलों पर उठने और चलने के लिए आपको आवश्यक सभी ज्ञान।
-  fr: Toutes ce que vous avez besoin de savoir pour utiliser des terminaux sur différents systèmes d'exploitation.
+  en: All the knowledge you need to get up and running
+    on terminals across operating systems.
+  es: Todo el conocimiento que necesita para ponerse en funcionamiento
+    en terminales en todos los sistemas operativos.
+  ar: كل ما تحتاجه من المعرفة للحصول على
+    الأجهزة الطرفية وتشغيلها عبر أنظمة التشغيل
+  hi: ऑपरेटिंग सिस्टम पर टर्मिनलों पर उठने और चलने
+    के लिए आपको आवश्यक सभी ज्ञान।
+  fr: Toutes ce que vous avez besoin de savoir pour
+    utiliser des terminaux sur différents systèmes d'exploitation.
 hero_title:
   en: What is this?
   es: ¿Que es esto?
@@ -30,27 +35,44 @@ hero_title:
   hi: यह क्या है?
   fr: Qu'est-ce que c'est ?
 hero_description:
-  en: You might be an aspiring developer. Perhaps you just want to brush up on some basic terminal commands. No matter what, you've found the right place. Visit the menu for other languages.
-  es: Puedes ser un aspirante a desarrollador de software. Tal vez solo desee repasar algunos comandos básicos del terminal. No importa qué, has encontrado el lugar correcto. Visite el menú para otros idiomas.
-  ar: قد تكون مطورًا طموحًا. ربما تريد فقط تنظيف بعض أوامر المحطة الطرفية الأساسية. مهما وجدت ، لقد وجدت المكان الصحيح. قم بزيارة القائمة للغات أخرى.
-  hi: आप एक आकांक्षी डेवलपर हो सकते हैं। शायद आप बस कुछ बुनियादी टर्मिनल कमांड पर ब्रश करना चाहते हैं। कोई बात नहीं, आपने सही जगह पाई है। अन्य भाषाओं के लिए मेनू पर जाएँ।
-  fr: Vous pourriez vouloir devenir développeur. Peut-être voulez-vous juste faire le point sur quelques commandes basique du terminal. Dans tous les cas, vous êtes au bon endroit. Visitez le menu pour d'autres langues.
+  en: You might be an aspiring developer.
+    Perhaps you just want to brush up on some basic terminal commands.
+    No matter what, you've found the right place.
+    Visit the menu for other languages.
+  es: Puedes ser un aspirante a desarrollador de software.
+    Tal vez solo desee repasar algunos comandos básicos del terminal.
+    No importa qué, has encontrado el lugar correcto.
+    Visite el menú para otros idiomas.
+  ar: قد تكون مطورًا طموحًا.
+    ربما تريد فقط تنظيف بعض أوامر المحطة الطرفية الأساسية.
+    مهما وجدت ، لقد وجدت المكان الصحيح.
+    قم بزيارة القائمة للغات أخرى.
+  hi: आप एक आकांक्षी डेवलपर हो सकते हैं।
+    शायद आप बस कुछ बुनियादी टर्मिनल कमांड पर ब्रश करना चाहते हैं।
+    कोई बात नहीं, आपने सही जगह पाई है।
+    अन्य भाषाओं के लिए मेनू पर जाएँ।
+  fr: Vous pourriez vouloir devenir développeur.
+    Peut-être voulez-vous juste faire le point sur
+    quelques commandes basique du terminal.
+    Dans tous les cas, vous êtes au bon endroit.
+    Visitez le menu pour d'autres langues.
 basic_section_title:
   en: The basics
   es: Los basicos
   ar: أساسيات
   hi: मूल बातें
-basic_section_description:
-  en: These essential commands will help you navigate, explore, and perform simple actions on your terminal.
-  es: Estos comandos esenciales lo ayudarán a navegar, explorar y realizar acciones simples en su terminal.
-  ar: ستساعدك هذه الأوامر الأساسية على التنقل واستكشاف وتنفيذ إجراءات بسيطة على جهازك.ये आवश्यक आदेश आपको अपने टर्मिनल पर सरल कार्यों को नेविगेट करने, पता लगाने और प्रदर्शन करने में मदद करेंगे।
-  hi: ये आवश्यक आदेश आपको अपने टर्मिनल पर सरल कार्यों को नेविगेट करने, पता लगाने और प्रदर्शन करने में मदद करेंगे।
   fr: Les bases
 basic_section_description:
-  en: These essential commands will help you navigate, explore, and perform simple actions on your terminal.
-  es: Estos comandos esenciales lo ayudarán a navegar, explorar y realizar acciones simples en su terminal.
-  ar: ستساعدك هذه الأوامر الأساسية على التنقل واستكشاف وتنفيذ إجراءات بسيطة على جهازك.
-  fr: Ces commmandes essentielles vous aideront à naviguer, explorer, et à réaliser de simples actions dans votre terminal.
+  en: These essential commands will help you navigate,
+    explore, and perform simple actions on your terminal.
+  es: Estos comandos esenciales lo ayudarán a navegar,
+    explorar y realizar acciones simples en su terminal.
+  ar: ستساعدك هذه الأوامر الأساسية على التنقل
+    واستكشاف وتنفيذ إجراءات بسيطة على جهازك.
+  hi: ये आवश्यक आदेश आपको अपने टर्मिनल पर सरल कार्यों को नेविगेट करने,
+    पता लगाने और प्रदर्शन करने में मदद करेंगे।
+  fr: Ces commmandes essentielles vous aideront à naviguer,
+    explorer, et à réaliser de simples actions dans votre terminal.
 files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
@@ -58,11 +80,16 @@ files_section_title:
   hi: फ़ाइलों और फ़ोल्डरों को संशोधित करें
   fr: Modifier des fichiers et dossiers
 files_section_description:
-  en: These commands will help you create, modify, and delete files and folders.
-  es: Estos comandos lo ayudarán a crear, modificar y eliminar archivos y carpetas.
-  ar:  ستساعدك هذه الأوامر على إنشاء وتعديل وحذف الملفات والمجلدات.
-  hi: ये कमांड आपको फ़ाइलों और फ़ोल्डरों को बनाने, संशोधित करने और हटाने में मदद करेंगे।
-  fr: Ces commandes vous aideront à créer, modifier, et supprimer des fichiers ainsi que des dossiers.
+  en: These commands will help you create,
+    modify, and delete files and folders.
+  es: Estos comandos lo ayudarán a crear,
+    modificar y eliminar archivos y carpetas.
+  ar: ستساعدك هذه الأوامر على
+    إنشاء وتعديل وحذف الملفات والمجلدات.
+  hi: ये कमांड आपको फ़ाइलों और फ़ोल्डरों को बनाने,
+    संशोधित करने और हटाने में मदद करेंगे।
+  fr: Ces commandes vous aideront à créer,
+    modifier, et supprimer des fichiers ainsi que des dossiers.
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
