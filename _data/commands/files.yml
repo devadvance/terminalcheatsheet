@@ -9,6 +9,8 @@
       للمبتدئين ، يتم استخد cat لإخراج محتويات ملف ملف المحطة
     hi: इस आदेश के कई उपयोग हैं, लेकिन शुरुआती लोगों के लिए इस्का इस्तेमाल
       फ़ाइल सामग्री को आउटपुट करने मे काम आता है
+    id: Perintah ini banyak kegunaannya, namun umumnya untuk pemula,
+      cat digunakan untuk memunculkan isi dari [FILE] ke terminal
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
@@ -24,6 +26,8 @@
       يحدث هذا في دليل العمل الحالي الخاص بك
     hi: वांछित नाम के साथ एक नया फ़ोल्डर बनाएं |
       यह आपके वर्तमान निर्देशिका मे होगा
+    id: Membuat folder sesuai keinginan [NAMA_FOLDER].
+      Perintah ini berjalan di direktori kamu berada.
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music</span>
@@ -38,6 +42,7 @@
     es: Hacer una copia de un archivo
     ar: عمل نسخة من ملف
     hi: अपनी फ़ाइल की एक प्रति बनाना
+    id: Membuat salinan dari sebuah file
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -54,6 +59,8 @@
     ar: نقل الملفات والمجلدات. يمكن أيضًا إعادة تسمية الملفات والمجلدات
     hi: फाइलों और फ़ोल्डर्स को स्थानांतरित करना |
       फ़ाइलों और फ़ोल्डर्स का नाम भी बदल सकते हैं
+    id: Memindahkan file dan folder.
+      Bisa juga untuk mengganti nama file dan folder
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -68,6 +75,7 @@
     es: Borrar archivo
     ar: حذف ملف
     hi: फाइल हटाना
+    id: Menghapus file
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
@@ -85,6 +93,8 @@
     ar: حذف مجلد بشكل متكرر ، مما يعني المجلد وكل شيء فيه
     hi: एक फ़ोल्डर को बार-बार हटाएं,
       जिसका अर्थ है फ़ोल्डर और उसमें सब कुछ हटाना
+    id: Menghapus sebuah [FOLDER] secara rekursif,
+      yang artinya menghapus folder beserta isinya
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder hello.txt</span>
