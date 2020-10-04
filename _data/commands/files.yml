@@ -13,6 +13,8 @@
       cat é usado para emitir o conteúdo de um [ARQUIVO] para o terminal
     id: Perintah ini banyak kegunaannya, namun umumnya untuk pemula,
       cat digunakan untuk memunculkan isi dari [FILE] ke terminal
+    pt: Este comando tem muitos usos, mas comumente para iniciantes,
+      cat se usa para enviar o conteúdo de um [ARQUIVO] para o terminal
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
@@ -32,6 +34,8 @@
       Isto ocorre em seu diretório de trabalho atual
     id: Membuat folder sesuai keinginan [NAMA_FOLDER].
       Perintah ini berjalan di direktori kamu berada.
+    pt: Crie uma nova pasta com o [NOME_DA_PASTA] desejada.
+      Isso ocorre em seu diretório de trabalho atual
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music</span>
@@ -48,6 +52,7 @@
     hi: अपनी फ़ाइल की एक प्रति बनाना
     pt: Fazer uma cópia do arquivo
     id: Membuat salinan dari sebuah file
+    pt: Faça uma cópia de um arquivo
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -67,6 +72,7 @@
     pt: Mover arquivos e pastas. Também pode renomear arquivos e pastas
     id: Memindahkan file dan folder.
       Bisa juga untuk mengganti nama file dan folder
+    pt: Mova arquivos e pastas. Também pode renomear arquivos e pastas
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -83,6 +89,7 @@
     hi: फाइल हटाना
     pt: Deletar arquivo
     id: Menghapus file
+    pt: Excluir [ARQUIVO]
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
@@ -104,6 +111,8 @@
       o que significa a pasta e tudo que nela está
     id: Menghapus sebuah [FOLDER] secara rekursif,
       yang artinya menghapus folder beserta isinya
+    pt: Exclua uma [PASTA] recursivamente,
+      o que significa excluir a pasta e tudo que ela contém
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder hello.txt</span>
