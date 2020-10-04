@@ -17,6 +17,9 @@ supported_langs:
   fr:
     name: Français
     prefix: /fr
+  id:
+    name: Bahasa
+    prefix: /id
 site_description:
   en: All the knowledge you need to get up and running
     on terminals across operating systems.
@@ -28,12 +31,15 @@ site_description:
     के लिए आपको आवश्यक सभी ज्ञान।
   fr: Toutes ce que vous avez besoin de savoir pour
     utiliser des terminaux sur différents systèmes d'exploitation.
+  id: Semua hal yang kamu butuhkan untuk memulai dan menjalankan
+    terminal disemua sistem operasi.
 hero_title:
   en: What is this?
   es: ¿Que es esto?
   ar: ما هذا؟
   hi: यह क्या है?
   fr: Qu'est-ce que c'est ?
+  id: Apakah ini?
 hero_description:
   en: You might be an aspiring developer.
     Perhaps you just want to brush up on some basic terminal commands.
@@ -56,12 +62,17 @@ hero_description:
     quelques commandes basique du terminal.
     Dans tous les cas, vous êtes au bon endroit.
     Visitez le menu pour d'autres langues.
+  id: Kamu mungkin seorang calon pengembang.
+    mungkin kamu hanya memoles beberapa perintah terminal dasar.
+    Bukan masalah, kamu telah menemukan tempat yang tepat.
+    Kunjungi menu untuk bahasa lain.
 basic_section_title:
   en: The basics
   es: Los basicos
   ar: أساسيات
   hi: मूल बातें
   fr: Les bases
+  id: Dasar-dasar
 basic_section_description:
   en: These essential commands will help you navigate,
     explore, and perform simple actions on your terminal.
@@ -73,12 +84,15 @@ basic_section_description:
     पता लगाने और प्रदर्शन करने में मदद करेंगे।
   fr: Ces commmandes essentielles vous aideront à naviguer,
     explorer, et à réaliser de simples actions dans votre terminal.
+  id: Berikut perintah-perintah penting yang akan membantumu bernavigasi,
+    menjelajah, and melakukan tindakan sederhana di terminal kamu.
 files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
   ar: تعديل الملفات والمجلدات
   hi: फ़ाइलों और फ़ोल्डरों को संशोधित करें
   fr: Modifier des fichiers et dossiers
+  id: Memodifikasi file dan folder
 files_section_description:
   en: These commands will help you create,
     modify, and delete files and folders.
@@ -90,12 +104,15 @@ files_section_description:
     संशोधित करने और हटाने में मदद करेंगे।
   fr: Ces commandes vous aideront à créer,
     modifier, et supprimer des fichiers ainsi que des dossiers.
+  id: Perintah ini akan membantumu membuat, 
+    memodifikasi, dan menghapus file dan folder.
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
   ar: المزيد قادم قريبا!
   hi: अधिक जल्द ही आ रहा!
   fr: Plus à venir !
+  id: Selebihnya datang segera!
 
 # Buttons
 begin_reading:
@@ -104,18 +121,21 @@ begin_reading:
   ar: أبدا
   hi: शुरू हो जाओ
   fr: Commencer
+  id: Memulai
 show_me_action:
   en: Show me
   es: Enséñame
   ar: أرني
   hi: मुझे दिखाओ
   fr: Montrer
+  id: Tunjukkan
 hide_action:
   en: Hide
   es: Ocultar
   ar: إخفاء
   hi: छिपाना
   fr: Cacher
+  id: Sembunyikan
 
 # Layout items
 contact:
@@ -124,30 +144,35 @@ contact:
   ar: اتصل
   hi: संपर्क करें
   fr: Contact
+  id: Kontak
 more_resources:
   en: More resources
   es: Más recursos
   ar: المزيد من الموارد
   hi: और अधिक संसाधनों
   fr: Plus de ressources
+  id: Sumber lebih
 guides:
   en: Guides
   es: Guías
   ar: دليل
   hi: गाइड
   fr: Guides
+  id: Panduan
 language:
   en: Language
   es: Idioma
   ar: لغة
   hi: भाषा
   fr: Langue
+  id: Bahasa
 feedback:
   en: Feedback
   es: Comentarios
   ar: اقتراحات
   hi: प्रतिपुष्टि
   fr: Commentaires
+  id: Umpan balik
 
 # Guide index
 guides_available_title:
@@ -156,9 +181,11 @@ guides_available_title:
   ar: الأدلة المتاحة
   hi: उपलब्ध गाइड
   fr: Guides disponibles
+  id: Panduan tersedia
 guides_available_desc:
   en: Here are all of the guides that are currently available.
   es: Aquí están todas las guías que están disponibles actualmente.
   ar: فيما يلي كافة الأدلة المتوفرة حاليًا.
   hi: यहां उन सभी गाइडों के बारे में बताया गया है जो वर्तमान में उपलब्ध हैं।
   fr: Voici tous les guides actuellement disponibles.
+  id: Berikut panduan yang sekarang tersedia.
