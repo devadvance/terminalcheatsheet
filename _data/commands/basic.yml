@@ -21,8 +21,7 @@
     ar: إخراج المسار الكامل لدليل العمل الحالي لهذه المحطة
     hi: इस टर्मिनल के लिए वर्तमान कार्य निर्देशिका का पूरा रास्ता आउटपुट करने
       हेतु
-    id: Menampilkan output penuh lokasi direktori dimana kamu berada untuk terminal
-      yang sedang kamu gunakan
+    id: Menampilkan output penuh lokasi direktori dimana kamu berada pada terminal
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
