@@ -20,6 +20,9 @@ supported_langs:
   pt:
     name: Português
     prefix: /pt
+  id:
+    name: Bahasa
+    prefix: /id
 site_description:
   en: All the knowledge you need to get up and running
     on terminals across operating systems.
@@ -33,6 +36,8 @@ site_description:
     utiliser des terminaux sur différents systèmes d'exploitation.
   pt: Todo o conhecimento de que você precisa para começar a trabalhar 
     em terminair de vários sistemas operacionais
+  id: Semua hal yang kamu butuhkan untuk memulai dan menjalankan
+    terminal disemua sistem operasi.
 hero_title:
   en: What is this?
   es: ¿Que es esto?
@@ -40,6 +45,7 @@ hero_title:
   hi: यह क्या है?
   fr: Qu'est-ce que c'est ?
   pt: O que é isso?
+  id: Apakah ini?
 hero_description:
   en: You might be an aspiring developer.
     Perhaps you just want to brush up on some basic terminal commands.
@@ -66,6 +72,10 @@ hero_description:
     Talvez você queira apenas revisar alguns comandos básicos do terminal.
     Não importa o motivo, você encontrou o lugar certo.
     Visite o menu para outros idiomas.
+  id: Kamu mungkin seorang calon pengembang.
+    mungkin kamu hanya memoles beberapa perintah terminal dasar.
+    Bukan masalah, kamu telah menemukan tempat yang tepat.
+    Kunjungi menu untuk bahasa lain.
 basic_section_title:
   en: The basics
   es: Los basicos
@@ -73,6 +83,7 @@ basic_section_title:
   hi: मूल बातें
   fr: Les bases
   pt: O básico
+  id: Dasar-dasar
 basic_section_description:
   en: These essential commands will help you navigate,
     explore, and perform simple actions on your terminal.
@@ -86,6 +97,8 @@ basic_section_description:
     explorer, et à réaliser de simples actions dans votre terminal.
   pt: Esses comandos essenciais irão ajuá-lo a navegar,
     explore e execute ações simples em seu terminal.
+  id: Berikut perintah-perintah penting yang akan membantumu bernavigasi,
+    menjelajah, and melakukan tindakan sederhana di terminal kamu.
 files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
@@ -93,6 +106,7 @@ files_section_title:
   hi: फ़ाइलों और फ़ोल्डरों को संशोधित करें
   fr: Modifier des fichiers et dossiers
   pt: Modificar arquivos e pastas
+  id: Memodifikasi file dan folder
 files_section_description:
   en: These commands will help you create,
     modify, and delete files and folders.
@@ -106,6 +120,8 @@ files_section_description:
     modifier, et supprimer des fichiers ainsi que des dossiers.
   pt: Esses comandos o ajudarão a criar,
     modificar e excluir arquivos e pastas.
+  id: Perintah ini akan membantumu membuat,
+    memodifikasi, dan menghapus file dan folder.
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
@@ -113,6 +129,7 @@ more_coming_soon:
   hi: अधिक जल्द ही आ रहा!
   fr: Plus à venir !
   pt: Mais em breve!
+  id: Selebihnya datang segera!
 
 # Buttons
 begin_reading:
@@ -122,6 +139,7 @@ begin_reading:
   hi: शुरू हो जाओ
   fr: Commencer
   pt: Início
+  id: Memulai
 show_me_action:
   en: Show me
   es: Enséñame
@@ -129,6 +147,7 @@ show_me_action:
   hi: मुझे दिखाओ
   fr: Montrer
   pt: Mostrar
+  id: Tunjukkan
 hide_action:
   en: Hide
   es: Ocultar
@@ -136,6 +155,7 @@ hide_action:
   hi: छिपाना
   fr: Cacher
   pt: Ocultar
+  id: Sembunyikan
 
 # Layout items
 contact:
@@ -145,6 +165,7 @@ contact:
   hi: संपर्क करें
   fr: Contact
   pt: Contato
+  id: Kontak
 more_resources:
   en: More resources
   es: Más recursos
@@ -152,6 +173,7 @@ more_resources:
   hi: और अधिक संसाधनों
   fr: Plus de ressources
   pt: Mais recursos
+  id: Sumber lebih
 guides:
   en: Guides
   es: Guías
@@ -159,6 +181,7 @@ guides:
   hi: गाइड
   fr: Guides
   pt: Guias
+  id: Panduan
 language:
   en: Language
   es: Idioma
@@ -166,6 +189,7 @@ language:
   hi: भाषा
   fr: Langue
   pt: Idioma
+  id: Bahasa
 feedback:
   en: Feedback
   es: Comentarios
@@ -173,6 +197,7 @@ feedback:
   hi: प्रतिपुष्टि
   fr: Commentaires
   pt: Comentários
+  id: Umpan balik
 
 # Guide index
 guides_available_title:
@@ -182,6 +207,7 @@ guides_available_title:
   hi: उपलब्ध गाइड
   fr: Guides disponibles
   pt: Guias disponíveis
+  id: Panduan tersedia
 guides_available_desc:
   en: Here are all of the guides that are currently available.
   es: Aquí están todas las guías que están disponibles actualmente.
@@ -189,3 +215,4 @@ guides_available_desc:
   hi: यहां उन सभी गाइडों के बारे में बताया गया है जो वर्तमान में उपलब्ध हैं।
   fr: Voici tous les guides actuellement disponibles.
   pt: Aqui estão todas as guias disponíveis atualmente.
+  id: Berikut panduan yang sekarang tersedia.
