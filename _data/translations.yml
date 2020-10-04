@@ -187,14 +187,14 @@ contact:
   id: Kontak
   te: సంప్రదించండి
 more_resources:
-   en: More resources
-   es: Más recursos
-   ar: المزيد من الموارد
-   hi: और अधिक संसाधनों
-   fr: Plus de ressources
-   pt: Mais recursos
-   id: Sumber lebih
-   te: మరిన్ని వనరులు
+  en: More resources
+  es: Más recursos
+  ar: المزيد من الموارد
+  hi: और अधिक संसाधनों
+  fr: Plus de ressources
+  pt: Mais recursos
+  id: Sumber lebih
+  te: మరిన్ని వనరులు
 guides:
   en: Guides
   es: Guías
