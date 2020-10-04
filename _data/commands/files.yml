@@ -31,7 +31,7 @@
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder</span>
 
-- id: cp
+-id: cp
   command: cp [FILE] [DUPLICATE_FILE]
   descriptions:
     en: Make a copy of a file
