@@ -28,7 +28,8 @@
 - id: cd
   command: cd
   descriptions:
-    pt: Altera o diretório, quando utilizado sozinho por padrão mudará para o diretório inicial
+    pt: Altera o diretório, quando utilizado sozinho por padrão mudará para o 
+    diretório inicial
     en: Change your current working directory. When used by itself, it will
       default to changing to your home directory
     es: Cambia tu directorio de trabajo actual. Cuando se usa solo, por defecto
