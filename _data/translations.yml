@@ -121,8 +121,7 @@ files_section_title:
   pt: Modificar arquivos e pastas
   id: Memodifikasi file dan folder
   te: ఫైల్‌లు మరియు ఫోల్డర్‌లను సవరించండి
-  
-files_section_description:
+  files_section_description:
   en: These commands will help you create,
     modify, and delete files and folders.
   es: Estos comandos lo ayudarán a crear,
