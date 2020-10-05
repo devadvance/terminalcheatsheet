@@ -85,7 +85,7 @@ Mirip dengan banyak perintah terminal, Anda dapat menggabungkan dua opsi ini. Un
 
 ## Navigasi folder
 
-Anda mungkin telah memperhatikan bahwa direktori kerja kami memiliki banyak bagian di namanya. Secara umum, karakter `/` (garis miring) berarti Anda berada di dalam folder. Jadi, ketika Anda mengamati `/ home / user / example` sebagai direktori kerja Anda, itu berarti:
+Anda mungkin telah memperhatikan bahwa direktori kerja kami memiliki banyak bagian di namanya. Secara umum, karakter `/` (garis miring) berarti Anda berada di dalam folder. Jadi, ketika Anda mengamati `/home/user/examples` sebagai direktori kerja Anda, itu berarti:
 
 * Anda berada di dalam folder **contoh**, yang merupakan direktori kerja Anda.
 * Folder **contoh** ada di dalam folder **pengguna**.

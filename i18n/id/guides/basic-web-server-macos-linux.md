@@ -29,7 +29,7 @@ Untuk mengikuti panduan ini, kamu perlu:
 
 Pertama, kamu perlu untuk bernavigasi ke folder dimana halaman web atau konten web disimpan. Jika kamu tidak yakin bagaimana melakukannya, kamu mungkin ingin membaca [Panduan ini terlebih dahulu](navigate-terminal)
 
-Mari kita katakan konten web kamu berada pada folder `/home/user/contoh`. Kita ingin melakukan tiga hal:
+Mari kita katakan konten web kamu berada pada folder `/home/user/examples`. Kita ingin melakukan tiga hal:
 
 1. Memastikan kita berada pada direktori yang tepat menggunakan `pwd`.
 2. Memeriksa jika kita memiliki konten web pada folder menggunakan `ls`.
@@ -42,7 +42,7 @@ Berikut beberapa gabungan dari langkah-langkah:
 </div>
 
 
-Pada contoh diatas, kita menggunakan `pwd` untuk memastikan `/home/user/contoh` adalah direktori dimana kita berada. Lalu kita menggunakan `ls` untuk menunjukkan daftar konten pada direktori dimana kita berada untuk memastikan kita memiliki file HTML disitu. Kamu bisa mencatat file **hello.html**.
+Pada contoh diatas, kita menggunakan `pwd` untuk memastikan `/home/user/examples` adalah direktori dimana kita berada. Lalu kita menggunakan `ls` untuk menunjukkan daftar konten pada direktori dimana kita berada untuk memastikan kita memiliki file HTML disitu. Kamu bisa mencatat file **hello.html**.
 
 Akhirnya, kita melihat isi dari **hello.html** menggunakan `cat` untuk memastikan bahwa ini benar sebuah HTML.
 
