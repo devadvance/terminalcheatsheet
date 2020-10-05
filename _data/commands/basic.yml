@@ -3,15 +3,15 @@
   descriptions:
     pt: Lista todos os arquivos no diretório atual
     en: List the normal files and folders in the current directory in condensed
-        format
+      format
     es: Enumera los archivos y carpetas normales en el directorio actual
     ar: سرد الملفات والمجلدات العادية في الدليل الحالي بتنسيق مكثف
     hi: संघनित रूप में वर्तमान निर्देशिका में सामान्य फाइलों और फ़ोल्डर की
-        सूची करने हेतु
+      सूची करने हेतु
     te: ప్రస్తుత డైరెక్టరీలో సాధారణ ఫైళ్లు మరియు ఫోల్డర్‌లను ఘనీకృత
-        ఆకృతిలో జాబితా చేయండి
+      ఆకృతిలో జాబితా చేయండి
     id: Menampilkan daftar file dan folder di direktori
-        dimana kamu berada dalam format yang ringkas
+      dimana kamu berada dalam format yang ringkas
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Documents Music</span>
@@ -24,11 +24,11 @@
     es: Emita la ruta del directorio actual para este terminal
     ar: إخراج المسار الكامل لدليل العمل الحالي لهذه المحطة
     hi: इस टर्मिनल के लिए वर्तमान कार्य निर्देशिका का पूरा रास्ता आउटपुट करने
-        हेतु
+      हेतु
     te: ఈ టెర్మినల్ కోసం ప్రస్తుత వర్కింగ్ డైరెక్టరీ యొక్క పూర్తి
-        మార్గాన్ని అవుట్పుట్ చేయండి
+      మార్గాన్ని అవుట్పుట్ చేయండి
     id: Menampilkan output penuh lokasi direktori
-        dimana kamu berada pada terminal
+      dimana kamu berada pada terminal
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -36,20 +36,20 @@
 - id: cd
   command: cd
   descriptions:
-    pt: "Altera o diretório, quando utilizado sozinho por padrão mudará para o
-        diretório inicial"
+    pt: Altera o diretório, quando utilizado sozinho por padrão mudará para o
+      diretório inicial
     en: Change your current working directory. When used by itself, it will
-        default to changing to your home directory
+      default to changing to your home directory
     es: Cambia tu directorio de trabajo actual. Cuando se usa solo, por defecto
-        cambiará a su directorio de inicio
+      cambiará a su directorio de inicio
     ar: تغيير دليل العمل الحالي الخاص بك.
-        عند استخدامه بمفرده ، سيتم تغييره افتراضيًا إلى دليل المنزل
+      عند استخدامه بمفرده ، سيتم تغييره افتراضيًا إلى دليل المنزل
     hi: अपनी वर्तमान कार्य निर्देशिका बदलें ।  जब खुद के द्वारा इस्तेमाल किया,
-        यह अपने घर निर्देशिका को बदलने के लिए डिफ़ॉल्ट होगा
+      यह अपने घर निर्देशिका को बदलने के लिए डिफ़ॉल्ट होगा
     te: మీ ప్రస్తుత పని డైరెక్టరీని మార్చండి. స్వయంగా ఉపయోగించినప్పుడు,
-        ఇది మీ హోమ్ డైరెక్టరీకి మార్చడం డిఫాల్ట్‌గా ఉంటుంది
+      ఇది మీ హోమ్ డైరెక్టరీకి మార్చడం డిఫాల్ట్‌గా ఉంటుంది
     id: Berpindah direktori. Jika digunakan sendiri, maka akan
-        memindahkan kamu ke home direktori
+      memindahkan kamu ke home direktori
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>
