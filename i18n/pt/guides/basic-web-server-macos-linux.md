@@ -1,7 +1,7 @@
 ---
 layout: guide-layout
-title: TODO
-excerpt: TODO
+title: Como iniciar um servidor web básico no macOS ou Linux
+excerpt: Esse guia ensina como usar Python para iniciar um servidor web básico a partir de qualquer pastas no seu computador macOS ou Linux.
 permalink: /pt/guides/basic-web-server-macos-linux
 permalink_without_prefix: /guides/basic-web-server-macos-linux
 lang: pt
