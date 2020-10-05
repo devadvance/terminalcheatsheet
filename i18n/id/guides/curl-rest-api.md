@@ -14,7 +14,7 @@ lang: id
 
 ## Pengantar
 
-Panduan ini bertujuan untuk mengajarkan mu dasar penggunaan sebuah REST API menggunakan [curl](https://github.com/curl/curl). Selama mengikuti intruksi ini, perlu diketahui bahwa file komputer dan folder mu akan kemungkinan besar berbeda dengan sampel. Jika kamu sudah mempunyai banyak pengalaman dengan terminal di macOS, lihat [perintah di beranda untuk materi referensi yang cepat](/).
+Panduan ini bertujuan untuk mengajarkan mu dasar penggunaan REST API menggunakan [curl](https://github.com/curl/curl). Selama mengikuti intruksi ini, perlu diketahui bahwa file komputer dan folder mu akan kemungkinan besar berbeda dengan sampel. Jika kamu sudah mempunyai banyak pengalaman dengan terminal di macOS, lihat [perintah di beranda untuk materi referensi yang cepat](/).
 
 ## Prasyarat
 
@@ -22,10 +22,10 @@ Selama mengikuti panduan ini, anda perlu:
 
 * Akses ke terminal Unix pada environment macOS atau Linux apapun.
 * Mengetahui bagaimana membuka terminal. Jika anda tidak yakin, kunjungi instruksi untuk [macOS](open-terminal-macos) atau Linux (coming soon).
-* A REST API yang akan kamu berinteraksi dengannya. Kami menggunakan `https://jsonplaceholder.typicode.com` sebagai contoh dalam panduan ini.
+* REST API yang akan kamu berinteraksi dengannya. Kami menggunakan `https://jsonplaceholder.typicode.com` sebagai contoh dalam panduan ini.
 * Curl terinstall dalam komputer anda. Sebagian besar dari macOS dan Linux komputer sudah terinstall. Jika tidak, kamu perlu meninjau petunjuk teknis. [Situs instalasi curl](https://curl.haxx.se/docs/install.html){:target="_blank" rel="noopener"}.
 
-## Mari Mulai Dengan GET!
+## Mari mulai dengan GET!
 
 Pertama buka terminal anda
 
@@ -40,7 +40,7 @@ Katakanlah sekarang anda memiliki REST APIs dimana anda akan berinteraksi dengan
     "completed": false
 }
 ```
-Meskipun kami dapat membuka contoh URL di browser, banyak REST APIs tidak memperbolehkan kita melakukannya. Mari kita menggunakan curl sebagai gantinya.
+Meskipun kami dapat membuka contoh URL di browser, banyak REST APIs tidak memperbolehkan kita melakukannya. Mari kita gunakan curl sebagai gantinya.
 
 Di dalam terminal anda, ketik `curl https://jsonplaceholder.typicode.com/todos/1` lalu tekan **Enter**. Anda akan melihat hasil yang mirip dengan ini:
 
@@ -50,7 +50,7 @@ Di dalam terminal anda, ketik `curl https://jsonplaceholder.typicode.com/todos/1
 
 Tanpa opsi apapun, `curl` secara default berinteraksi dengan server menggunakan **GET** HTTP request method, umumnya hanya digunakan untuk membaca data. Kami akan membahas metode HTTP request lainnya kedepannya dalam panduan ini.
 
-Mari menambahkan opsi `o` untuk menyimpan output sebagai file, alih-alih menampilkannya langsung di terminal. Ketik `curl -o test.json https://jsonplaceholder.typicode.com/todos/1` lalu tekan **Enter**:
+Mari menambahkan opsi `-o` untuk menyimpan output sebagai file, alih-alih menampilkannya langsung di terminal. Ketik `curl -o test.json https://jsonplaceholder.typicode.com/todos/1` lalu tekan **Enter**:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-get-output-en.gif" width="665" height="387" alt="Demo of basic curl command with file output" layout="responsive"></amp-anim>
@@ -62,7 +62,7 @@ Jika mau, kami dapat memeriksa info secara lebih detail tentang interasi ini mel
   <amp-anim src="/assets/guides/curl-rest-api/curl-get-verbose-en.gif" width="665" height="387" alt="Demo of basic curl command with verbose output" layout="responsive"></amp-anim>
 </div>
 
-## Menggunakan Metode HTTP request yang berbeda menggunakan curl
+## Menggunakan metode HTTP request yang berbeda menggunakan curl
 
 Sekarang kami telah mengetahui kueri dasar dari REST API menggunakan curl, kami dapat mencoba metode HTTP yang berbeda. Anda dapat membaca secara detail tentang perbedaan metode permintaan HTTP di [Wikipedia](https://id.wikipedia.org/wiki/Protokol_Transfer_Hiperteks#Request_methods)
 
@@ -71,7 +71,7 @@ Sekarang kami telah mengetahui kueri dasar dari REST API menggunakan curl, kami 
 Metode permintaan HTTP **POST** sangat sering digunakan untuk membuat atau memperbarui data di server saat berinteraksi dengan REST API. Untuk melakukan hal tersebut, anda perlu mengetahui beberapa opsi baru untuk perintah `curl`:
 
 * `-X [HTTP_METHOD]` - Kami perlu memberitahu `curl` metode permintaan HTTP mana yang akan digunakan. Opsi `-X`, diikuti dnegan nama metode, memungkinkan kami melakukan hal tersebut.
-* `-H [HTTP_HEADER]` - Ketika mengirim data ke server, kami perlu memberitahu server bagaimana menginterpretasi 1s dan 0s. Itu bisa menjadi data JSON, formulir, email, dll.
+* `-H [HTTP_HEADER]` - Saat mengirim data ke server, kami perlu memberitahu server bagaimana menginterpretasi 1s dan 0s. Itu bisa menjadi data JSON, formulir, email, dll.
 * `-d [YOUR_DATA]` - Terakhir, kami perlu menentukan data mana yang `curl` harus dikirim ke server.
 
 Mari gabungkan opsi-opsi ini menjadi satu perintah lengkap:
@@ -134,7 +134,7 @@ Anda akan melihat bahwa banyak REST APIs mengembalikan data yang dihapus atau ti
 
 Terkadang, kami perlu mengetahui tipe dari permintaan atau data yang kita kirim ke server. Untuk melakukannya, anda dapat menggunakan metode **OPTIONS** permintaan HTTP.
 
-Anda perlu menggunakan opsi `-v` yang anda pelajari sebelumnya. Ini akan akan mengaktifkan output yang lebih detail jadi anda dapat melihat “opsi-opsi” yang didukung oleh server
+Anda perlu menggunakan opsi `-v` seperti yang anda pelajari sebelumnya. Ini akan akan mengaktifkan output yang lebih detail jadi anda dapat melihat “opsi-opsi” yang didukung oleh server
 
 Mari mencoba dengan mengetik `curl -v -X OPTIONS https://jsonplaceholder.typicode.com/posts` lalu tekan **Enter**:
 
@@ -155,4 +155,4 @@ Itu memberi tahu mu metode permintaan HTTP mana yang diizinkan oleh server REST 
 
 ## Pembungkus
 
-Sekarang anda telah mengetahui beberapa tentang cara menggunakan `curl` untuk berinteraksi dengan REST APIs dan server-server. Ini adalah perintah dan alat yang sangat berguna 
+Sekarang anda telah mengetahui beberapa tentang cara menggunakan `curl` untuk berinteraksi dengan REST APIs dan server-server. Ini adalah perintah dan alat yang sangat berguna. 
