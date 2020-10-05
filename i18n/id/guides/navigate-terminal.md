@@ -7,12 +7,12 @@ permalink_without_prefix: /guides/navigate-terminal
 lang: id
 ---
 
-**Daftar Isi**
+**Daftar isi**
 
 * TOC
 {:toc}
 
-# Pengantar
+## Pengantar
 
 Panduan ini dimaksudkan untuk mengajari Anda dasar-dasar menavigasi file dan folder di terminal. Saat Anda mengikuti petunjuk ini, perlu diingat bahwa file dan folder komputer Anda kemungkinan besar akan berbeda dari sampel. Jika Anda sudah memiliki banyak pengalaman dengan terminal, lihat [perintah di beranda untuk bahan referensi cepat](/id).
 
@@ -20,7 +20,7 @@ Panduan ini dimaksudkan untuk mengajari Anda dasar-dasar menavigasi file dan fol
 
 Untuk mengikuti panduan ini, Anda membutuhkan:
 
-* Akses ke terminal Unix di Linux atau lingkungan macOS apa pun.
+* Akses ke terminal Unix pada environment macOS atau Linux apapun.
 * Untuk mengetahui cara membuka jendela terminal. Jika Anda tidak yakin, kunjungi petunjuk untuk [macOS](open-terminal-macos) atau Linux (segera hadir).
 
 ## Ayo mulai!
