@@ -14,14 +14,14 @@ lang: id
 
 ## Pengantar
 
-Jika kamu sedang mengerjakan halaman web atau konten web lainnya, kamu mungkin membutuhkan sesuatu yang mudah dan cepat untuk menjalankan web server dasar. Panduan ini akan mengajarkan bagaimana menggunakan perintah python untuk menjalankan web server dasar pada komputer milikmu. Saat kamu mengikuti instruksi ini, perlu diingat bahwa file dan folder anda mungkin saja berbeda dari contoh. Jika kamu sudah cukup berpengalaman menggunakan terminal, cobalah [Perintah pada halaman utama untuk referensi materi](/).
+Jika kamu sedang mengerjakan halaman web atau konten web lainnya, kamu mungkin membutuhkan sesuatu yang mudah dan cepat untuk menjalankan web server dasar. Panduan ini akan mengajarkan bagaimana menggunakan perintah python untuk menjalankan web server dasar pada komputer milikmu. Saat kamu mengikuti instruksi ini, perlu diingat bahwa file dan folder anda mungkin saja berbeda dari contoh. Jika kamu sudah cukup berpengalaman menggunakan terminal, cobalah [Perintah pada halaman utama untuk referensi materi](/id/).
 
 ## Prasyarat
 
 Untuk mengikuti panduan ini, kamu perlu:
 
 * Akses ke terminal Unix pada environment macOS atau Linux apapun.
-* Untuk mengetahui cara membuka terminal window. Jika kamu tidak yakin, kunjungi instruksi untuk [macOS](open-terminal-macos) atau linux (segera hadir).
+* Untuk mengetahui cara membuka jendela terminal. Jika Anda tidak yakin, kunjungi petunjuk untuk [macOS](open-terminal-macos) atau Linux (segera hadir).
 * Jika kamu tidak yakin, ikuti [Panduan ini untuk mengetahui caranya](navigate-terminal)
 * python3 terinstall pada komputermu. Ini hadir secara default pada versi terbaru dari macOS dan banyak distribusi Linux.
 
@@ -29,7 +29,7 @@ Untuk mengikuti panduan ini, kamu perlu:
 
 Pertama, kamu perlu untuk bernavigasi ke folder dimana halaman web atau konten web disimpan. Jika kamu tidak yakin bagaimana melakukannya, kamu mungkin ingin membaca [Panduan ini terlebih dahulu](navigate-terminal)
 
-Mari kita katakan konten web kamu berada pada folder `/home/user/contoh`. Kita ingin melakukan tiga hal:
+Mari kita katakan konten web kamu berada pada folder `/home/user/examples`. Kita ingin melakukan tiga hal:
 
 1. Memastikan kita berada pada direktori yang tepat menggunakan `pwd`.
 2. Memeriksa jika kita memiliki konten web pada folder menggunakan `ls`.
@@ -42,7 +42,7 @@ Berikut beberapa gabungan dari langkah-langkah:
 </div>
 
 
-Pada contoh diatas, kita menggunakan `pwd` untuk memastikan `/home/user/contoh` adalah direktori dimana kita berada. Lalu kita menggunakan `ls` untuk menunjukkan daftar konten pada direktori dimana kita berada untuk memastikan kita memiliki file HTML disitu. Kamu bisa mencatat file **hello.html**.
+Pada contoh diatas, kita menggunakan `pwd` untuk memastikan `/home/user/examples` adalah direktori dimana kita berada. Lalu kita menggunakan `ls` untuk menunjukkan daftar konten pada direktori dimana kita berada untuk memastikan kita memiliki file HTML disitu. Kamu bisa mencatat file **hello.html**.
 
 Akhirnya, kita melihat isi dari **hello.html** menggunakan `cat` untuk memastikan bahwa ini benar sebuah HTML.
 
@@ -118,5 +118,4 @@ Kamu akan mengamati hasil seperti ini:
 
 ## Kesimpulan
 
-Kamu telah belajar bagaimana cara untuk menjalankan web server dasar pada komputermu. Ini akan membantumu untuk tugas seperti pengembangan web dan programming python. Jika kamu tertarik untuk belajar lebih atau programming dengan Python, kamu bisa mengunjungi
-[https://www.python.org](https://www.python.org){:target="_blank" rel="noopener"}.
+Kamu telah belajar bagaimana cara untuk menjalankan web server dasar pada komputermu. Ini akan membantumu untuk tugas seperti pengembangan web dan programming python. Jika kamu tertarik untuk belajar lebih atau programming dengan Python, kamu bisa mengunjungi [https://www.python.org](https://www.python.org){:target="_blank" rel="noopener"}.

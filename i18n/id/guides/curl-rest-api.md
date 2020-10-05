@@ -7,21 +7,21 @@ permalink_without_prefix: /guides/curl-rest-api
 lang: id
 ---
 
-**Tabel Konten**
+**Daftar isi**
 
 * TOC
 {:toc}
 
 ## Pengantar
 
-Panduan ini bertujuan untuk mengajarkan mu dasar penggunaan REST API menggunakan [curl](https://github.com/curl/curl). Selama mengikuti intruksi ini, perlu diketahui bahwa file komputer dan folder mu akan kemungkinan besar berbeda dengan sampel. Jika kamu sudah mempunyai banyak pengalaman dengan terminal di macOS, lihat [perintah di beranda untuk materi referensi yang cepat](/).
+Panduan ini bertujuan untuk mengajarkan mu dasar penggunaan REST API menggunakan [curl](https://github.com/curl/curl). Selama mengikuti intruksi ini, perlu diketahui bahwa file komputer dan folder mu akan kemungkinan besar berbeda dengan sampel. Jika kamu sudah mempunyai banyak pengalaman dengan terminal di macOS, lihat [perintah di beranda untuk materi referensi yang cepat](/id/).
 
 ## Prasyarat
 
 Selama mengikuti panduan ini, anda perlu:
 
 * Akses ke terminal Unix pada environment macOS atau Linux apapun.
-* Mengetahui bagaimana membuka terminal. Jika anda tidak yakin, kunjungi instruksi untuk [macOS](open-terminal-macos) atau Linux (coming soon).
+* Untuk mengetahui cara membuka jendela terminal. Jika Anda tidak yakin, kunjungi petunjuk untuk [macOS](open-terminal-macos) atau Linux (segera hadir).
 * REST API yang akan kamu berinteraksi dengannya. Kami menggunakan `https://jsonplaceholder.typicode.com` sebagai contoh dalam panduan ini.
 * Curl terinstall dalam komputer anda. Sebagian besar dari macOS dan Linux komputer sudah terinstall. Jika tidak, kamu perlu meninjau petunjuk teknis. [Situs instalasi curl](https://curl.haxx.se/docs/install.html){:target="_blank" rel="noopener"}.
 
@@ -32,6 +32,7 @@ Pertama buka terminal anda
 Curl adalah “alat baris perintah untuk mentransfer data yang ditentukan dengan sintaks URL", yang membuatnya berguna untuk berinteraksi dengan REST APIs dan sumber situs lainnya. Ia sudah digunakan oleh ribuan, tetapi kami hanya mengulas sedikit di panduan ini.
 
 Katakanlah sekarang anda memiliki REST APIs dimana anda akan berinteraksi dengannya. Sebagai contoh, [https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} mengembalikan data dalam format JSON yang mirip dengan ini: 
+
 ```
 {
     "userId": 1,
@@ -40,6 +41,7 @@ Katakanlah sekarang anda memiliki REST APIs dimana anda akan berinteraksi dengan
     "completed": false
 }
 ```
+
 Meskipun kami dapat membuka contoh URL di browser, banyak REST APIs tidak memperbolehkan kita melakukannya. Mari kita gunakan curl sebagai gantinya.
 
 Di dalam terminal anda, ketik `curl https://jsonplaceholder.typicode.com/todos/1` lalu tekan **Enter**. Anda akan melihat hasil yang mirip dengan ini:
@@ -155,4 +157,4 @@ Itu memberi tahu mu metode permintaan HTTP mana yang diizinkan oleh server REST 
 
 ## Pembungkus
 
-Sekarang anda telah mengetahui beberapa tentang cara menggunakan `curl` untuk berinteraksi dengan REST APIs dan server-server. Ini adalah perintah dan alat yang sangat berguna. 
+Sekarang anda telah mengetahui beberapa tentang cara menggunakan `curl` untuk berinteraksi dengan REST APIs dan server-server. Ini adalah perintah dan alat yang sangat berguna.

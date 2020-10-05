@@ -7,14 +7,14 @@ permalink_without_prefix: /guides/open-terminal-macos
 lang: id
 ---
 
-**Daftar Isi**
+**Daftar isi**
 
 * TOC
 {:toc}
 
 ## Pengantar
 
-Panduan ini dimaksudkan untuk mengajari Anda cara menemukan terminal di macOS dan cara membuka terminal di macOS. Jika Anda sudah memiliki banyak pengalaman dengan terminal, lihat [perintah di beranda untuk bahan referensi cepat](/id).
+Panduan ini dimaksudkan untuk mengajari Anda cara menemukan terminal di macOS dan cara membuka terminal di macOS. Jika Anda sudah memiliki banyak pengalaman dengan terminal, lihat [perintah di beranda untuk bahan referensi cepat](/id/).
 
 ## Prasyarat
 
@@ -67,4 +67,4 @@ Baik Anda menggunakan Spotlight atau Finder, jendela terminal akan terbuka.
   <amp-img src="/assets/guides/open-terminal-macos/terminal-open-en.png" width="585" height="389" alt="An open terminal window" layout="responsive"></amp-img>
 </div>
 
-Sekarang Anda telah membuka terminal Anda, cobalah beberapa perintah di [lembar contekan](/id/#dasar)!
+Sekarang Anda telah membuka terminal Anda, cobalah beberapa perintah di [lembar contekan](/id/#basic)!
