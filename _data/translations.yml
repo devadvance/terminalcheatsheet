@@ -26,6 +26,9 @@ supported_langs:
   te:
     name: తెలుగు
     prefix: /te
+  ru:
+    name: Русский
+    prefix: /ru    
 site_description:
   en: All the knowledge you need to get up and running
     on terminals across operating systems.
@@ -43,6 +46,8 @@ site_description:
     terminal disemua sistem operasi.
   te: ఆపరేటింగ్ సిస్టమ్స్ అంతటా టెర్మినల్స్ పై
    మీకు అవసరమైన సమాచారం ఇక్కడ తెలుసుకొండి
+   ru: Все знания, необходимые для начала работы
+     в терминалах операционных систем.
 hero_title:
   en: What is this?
   es: ¿Que es esto?
@@ -52,6 +57,7 @@ hero_title:
   pt: O que é isso?
   id: Apakah ini?
   te: ఇది ఏమిటి?
+  ru: Что это?
 hero_description:
   en: You might be an aspiring developer.
     Perhaps you just want to brush up on some basic terminal commands.
@@ -86,6 +92,10 @@ hero_description:
     బహుశా మీరు కొన్ని ప్రాథమిక టెర్మినల్ కమాండ్స్ మెరగించుకోవాలనుకుంటున్న
    ఏమైనా, మీరు సరైన వెబ్సైటు కనుగొన్నారు.
     ఇతర భాషల కోసం మెనుని సందర్శించండి.
+  ru: Возможно, вы начинающий разработчик.
+     Возможно, вы просто хотите освежить некоторые основные команды терминала.
+     Несмотря ни на что, вы нашли нужное место.
+     Перейдите в меню для выбора других языков.
 basic_section_title:
   en: The basics
   es: Los basicos
@@ -95,6 +105,7 @@ basic_section_title:
   pt: O básico
   id: Dasar-dasar
   te: ప్రాథాన్యాలు
+  ru: Основы
 basic_section_description:
   en: These essential commands will help you navigate,
     explore, and perform simple actions on your terminal.
@@ -112,6 +123,8 @@ basic_section_description:
     menjelajah, and melakukan tindakan sederhana di terminal kamu.
   te: మీ టెర్మినల్‌ లో నావిగేట్ చెయ్యడానికి,అన్వేషించడానికి,మరియు సాధారణ
    చర్యలను చేయడానికి ఈ ముఖ్యమైన కమాండ్స్ మీకు సహాయపడతాయి,
+  ru: Эти важные команды помогут вам сориентироваться,
+     исследуйте и выполняйте простые действия на своем терминале.
 files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
@@ -121,6 +134,7 @@ files_section_title:
   pt: Modificar arquivos e pastas
   id: Memodifikasi file dan folder
   te: ఫైల్‌లు మరియు ఫోల్డర్‌లను సవరించండి
+  ru: Изменить файлы и папки
 files_section_description:
   en: These commands will help you create,
     modify, and delete files and folders.
@@ -138,6 +152,8 @@ files_section_description:
     memodifikasi, dan menghapus file dan folder.
   te: ఫైల్‌లను మరియు ఫోల్డర్‌లను సృష్టించడానికి, సవరించడానికి, మరియు
    తొలగించడానికి ఈ కమాండ్స్ మీకు సృష్టించడానికి సహాయపడతాయి
+  ru: Эти команды помогут вам создать,
+     изменять и удалять файлы и папки.
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
@@ -147,6 +163,7 @@ more_coming_soon:
   pt: Mais em breve!
   id: Selebihnya datang segera!
   te: త్వరలో మరిన్ని రాబోతున్నాయి!
+  ru: Продолжение следует!
 # Buttons
 begin_reading:
   en: Get started
@@ -157,6 +174,7 @@ begin_reading:
   pt: Início
   id: Memulai
   te: ప్రారంభించడానికి
+  ru: Начать
 show_me_action:
   en: Show me
   es: Enséñame
@@ -166,6 +184,7 @@ show_me_action:
   pt: Mostrar
   id: Tunjukkan
   te: చూపించు
+  ru: Показать
 hide_action:
   en: Hide
   es: Ocultar
@@ -175,6 +194,7 @@ hide_action:
   pt: Ocultar
   id: Sembunyikan
   te: దాచు
+  ru: Скрыть
 
 # Layout items
 contact:
@@ -186,6 +206,7 @@ contact:
   pt: Contato
   id: Kontak
   te: సంప్రదించండి
+  ru: Контакты
 more_resources:
   en: More resources
   es: Más recursos
@@ -195,6 +216,7 @@ more_resources:
   pt: Mais recursos
   id: Sumber lebih
   te: మరిన్ని వనరులు
+  ru: Больше ресурсов
 guides:
   en: Guides
   es: Guías
@@ -204,6 +226,7 @@ guides:
   pt: Guias
   id: Panduan
   te: గైడ్లు
+  ru: Гайды
 language:
   en: Language
   es: Idioma
@@ -213,6 +236,7 @@ language:
   pt: Idioma
   id: Bahasa
   te: భాష
+  ru: Язык
 feedback:
   en: Feedback
   es: Comentarios
@@ -222,6 +246,7 @@ feedback:
   pt: Comentários
   id: Umpan balik
   te: అభిప్రాయం
+  ru: Фидбек
 # Guide index
 guides_available_title:
   en: Available guides
@@ -232,6 +257,7 @@ guides_available_title:
   pt: Guias disponíveis
   id: Panduan tersedia
   te: అందుబాటులో ఉన్న గైడ్‌లు
+  ru: Доступные гайды
 guides_available_desc:
   en: Here are all of the guides that are currently available.
   es: Aquí están todas las guías que están disponibles actualmente.
@@ -241,3 +267,4 @@ guides_available_desc:
   pt: Aqui estão todas as guias disponíveis atualmente.
   id: Berikut panduan yang sekarang tersedia.
   te: ప్రస్తుతం అందుబాటులో ఉన్న అన్ని గైడ్‌లు ఇక్కడ ఉన్నాయి.
+  ru: Все гайды, доступные в настоящее время.
