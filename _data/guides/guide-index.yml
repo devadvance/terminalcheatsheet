@@ -7,12 +7,14 @@
     ar: كيفية استدعاء محطة على macOS
     pt: Como abrir o terminal em macOS
     hi: macOS पर टर्मिनल कैसे खोलें
+    id: Cara membuka terminal di macOS
   link:
     en: /guides/open-terminal-macos
     es: /es/guides/open-terminal-macos
     ar: /ar/guides/open-terminal-macos
     pt: /pt/guides/open-terminal-macos
     hi: /hi/guides/open-terminal-macos
+    id: /id/guides/open-terminal-macos
 
 - id: navigate-work-files
   title:
@@ -21,12 +23,14 @@
     ar: كيفية التنقل في الملفات والمجلدات على جهاز طرفية
     pt: Como navegar em arquivos e pastas em um terminal
     hi: टर्मिनल पर फ़ाइलों और फ़ोल्डरों को कैसे नेविगेट करें
+    id: Cara menavigasi file dan folder di terminal
   link:
     en: /guides/navigate-terminal
     es: /es/guides/navigate-terminal
     ar: /ar/guides/navigate-terminal
     pt: /pt/guides/navigate-terminal
     hi: /hi/guides/navigate-terminal
+    id: /id/guides/navigate-terminal
 
 - id: curl-rest-api
   title:
@@ -35,12 +39,14 @@
     ar: كيفية استخدام curl لاختبار REST API
     pt: Como usar o enrolamento para testar um REST API
     hi: REST API का परीक्षण करने के लिए कर्ल का उपयोग कैसे करें
+    id: Panduan menggunakan curl untuk menguji REST API
   link:
     en: /guides/curl-rest-api
     es: /es/guides/curl-rest-api
     ar: /ar/guides/curl-rest-api
     pt: /pt/guides/curl-rest-api
     hi: /hi/guides/curl-rest-api
+    id: /id/guides/curl-rest-api
 
 - id: basic-web-server-macos-linux
   title:
@@ -49,9 +55,11 @@
     ar: كيفية بدء تشغيل خادم ويب أساسي على نظام macOS أو Linux
     pt: Como iniciar um servidor web básico em MacOS ou Linux
     hi: macOS या Linux पर एक बेसिक वेब सर्वर कैसे शुरू करें
+    id: Bagaimana cara menjalankan web server dasar pada macOS atau Linux
   link:
     en: /guides/basic-web-server-macos-linux
     es: /es/guides/basic-web-server-macos-linux
     ar: /ar/guides/basic-web-server-macos-linux
     pt: /pt/guides/basic-web-server-macos-linux
     hi: /hi/guides/basic-web-server-macos-linux
+    id: /id/guides/basic-web-server-macos-linux
