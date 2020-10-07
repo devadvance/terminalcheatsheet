@@ -31,7 +31,7 @@ Start by opening your terminal.
 
 curl is a "command-line tool for transferring data specified with URL syntax", which makes it very useful for interacting with REST APIs and other web resources. It has thousands of uses, but we are going to review just a few in this guide.
 
-Let us say you have a REST API that you want to interact with. For example, [https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} returns JSON data that is similar to this:
+Let us say you have a REST API that you want to interact with. For example, [https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} returns JSON data that is similar to this:
 
 ```
 {
