@@ -1,7 +1,7 @@
 ---
 layout: guide-layout
-title: TODO
-excerpt: TODO
+title: उपलब्ध गाइड
+excerpt: Terminal Cheat Sheet से उपलब्ध सभी गाइड
 permalink: /hi/guides/
 permalink_without_prefix: /guides/
 lang: hi
