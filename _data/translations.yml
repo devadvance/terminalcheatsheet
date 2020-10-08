@@ -28,7 +28,7 @@ supported_langs:
     prefix: /te
   ru:
     name: Русский
-    prefix: /ru    
+    prefix: /ru
 site_description:
   en: All the knowledge you need to get up and running
     on terminals across operating systems.
@@ -45,9 +45,9 @@ site_description:
   id: Semua hal yang kamu butuhkan untuk memulai dan menjalankan
     terminal disemua sistem operasi.
   te: ఆపరేటింగ్ సిస్టమ్స్ అంతటా టెర్మినల్స్ పై
-   మీకు అవసరమైన సమాచారం ఇక్కడ తెలుసుకొండి
-   ru: Все знания, необходимые для начала работы
-     в терминалах операционных систем.
+    మీకు అవసరమైన సమాచారం ఇక్కడ తెలుసుకొండి
+  ru: Все знания, необходимые для начала работы
+    в терминалах операционных систем.
 hero_title:
   en: What is this?
   es: ¿Que es esto?
@@ -90,12 +90,12 @@ hero_description:
     Kunjungi menu untuk bahasa lain.
   te: మీరు ఉత్సాహఉన్న డెవలపర్ కావచ్చు.
     బహుశా మీరు కొన్ని ప్రాథమిక టెర్మినల్ కమాండ్స్ మెరగించుకోవాలనుకుంటున్న
-   ఏమైనా, మీరు సరైన వెబ్సైటు కనుగొన్నారు.
+    ఏమైనా, మీరు సరైన వెబ్సైటు కనుగొన్నారు.
     ఇతర భాషల కోసం మెనుని సందర్శించండి.
   ru: Возможно, вы начинающий разработчик.
-     Возможно, вы просто хотите освежить некоторые основные команды терминала.
-     Несмотря ни на что, вы нашли нужное место.
-     Перейдите в меню для выбора других языков.
+    Возможно, вы просто хотите освежить некоторые основные команды терминала.
+    Несмотря ни на что, вы нашли нужное место.
+    Перейдите в меню для выбора других языков.
 basic_section_title:
   en: The basics
   es: Los basicos
@@ -122,9 +122,9 @@ basic_section_description:
   id: Berikut perintah-perintah penting yang akan membantumu bernavigasi,
     menjelajah, and melakukan tindakan sederhana di terminal kamu.
   te: మీ టెర్మినల్‌ లో నావిగేట్ చెయ్యడానికి,అన్వేషించడానికి,మరియు సాధారణ
-   చర్యలను చేయడానికి ఈ ముఖ్యమైన కమాండ్స్ మీకు సహాయపడతాయి,
+    చర్యలను చేయడానికి ఈ ముఖ్యమైన కమాండ్స్ మీకు సహాయపడతాయి,
   ru: Эти важные команды помогут вам сориентироваться,
-     исследуйте и выполняйте простые действия на своем терминале.
+    исследуйте и выполняйте простые действия на своем терминале.
 files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
@@ -151,9 +151,9 @@ files_section_description:
   id: Perintah ini akan membantumu membuat,
     memodifikasi, dan menghapus file dan folder.
   te: ఫైల్‌లను మరియు ఫోల్డర్‌లను సృష్టించడానికి, సవరించడానికి, మరియు
-   తొలగించడానికి ఈ కమాండ్స్ మీకు సృష్టించడానికి సహాయపడతాయి
+    తొలగించడానికి ఈ కమాండ్స్ మీకు సృష్టించడానికి సహాయపడతాయి
   ru: Эти команды помогут вам создать,
-     изменять и удалять файлы и папки.
+    изменять и удалять файлы и папки.
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
