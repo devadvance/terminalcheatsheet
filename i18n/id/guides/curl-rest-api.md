@@ -31,7 +31,7 @@ Pertama buka terminal anda
 
 Curl adalah “alat baris perintah untuk mentransfer data yang ditentukan dengan sintaks URL", yang membuatnya berguna untuk berinteraksi dengan REST APIs dan sumber situs lainnya. Ia sudah digunakan oleh ribuan, tetapi kami hanya mengulas sedikit di panduan ini.
 
-Katakanlah sekarang anda memiliki REST APIs dimana anda akan berinteraksi dengannya. Sebagai contoh, [https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} mengembalikan data dalam format JSON yang mirip dengan ini: 
+Katakanlah sekarang anda memiliki REST APIs dimana anda akan berinteraksi dengannya. Sebagai contoh, [https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} mengembalikan data dalam format JSON yang mirip dengan ini: 
 
 ```
 {

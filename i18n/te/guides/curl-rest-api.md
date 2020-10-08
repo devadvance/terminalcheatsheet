@@ -30,7 +30,7 @@ REST API తో సంభాషించే ప్రాథమికాలను
 
 కర్ల్ అనేది "command-line tool for transferring data specified with URL syntax", ఇది REST API లు మరియు ఇతర వెబ్ వనరులతో సంభాషించడానికి చాలా ఉపయోగకరంగా ఉంటుంది. దీనికి వేలాది ఉపయోగాలు ఉన్నాయి, కానీ మేము ఈ గైడ్‌లో కొన్నింటిని సమీక్షించబోతున్నాము.
 
-మీరు ఇంటరాక్ట్ చేయదలిచిన REST API మీకు ఉంది. ఉదాహరణకి, [https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} దీనికి సమానమైన JSON డేటాను అందిస్తుంది:
+మీరు ఇంటరాక్ట్ చేయదలిచిన REST API మీకు ఉంది. ఉదాహరణకి, [https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} దీనికి సమానమైన JSON డేటాను అందిస్తుంది:
 
 ```
 {

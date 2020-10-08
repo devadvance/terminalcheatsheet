@@ -14,7 +14,7 @@ lang: id
 
 ## Pengantar
 
-Panduan ini dimaksudkan untuk mengajari Anda dasar-dasar menavigasi file dan folder di terminal. Saat Anda mengikuti petunjuk ini, perlu diingat bahwa file dan folder komputer Anda kemungkinan besar akan berbeda dari sampel. Jika Anda sudah memiliki banyak pengalaman dengan terminal, lihat [perintah di beranda untuk bahan referensi cepat](/id).
+Panduan ini dimaksudkan untuk mengajari Anda dasar-dasar menavigasi file dan folder di terminal. Saat Anda mengikuti petunjuk ini, perlu diingat bahwa file dan folder komputer Anda kemungkinan besar akan berbeda dari sampel. Jika Anda sudah memiliki banyak pengalaman dengan terminal, lihat [perintah di beranda untuk bahan referensi cepat](/id/).
 
 ## Prasyarat
 
@@ -31,13 +31,13 @@ Saat menggunakan terminal, Anda bekerja dari dalam folder tertentu di komputer A
 
 Segera setelah Anda membuka terminal, Anda akan berada di dalam direktori kerja. Ketik `pwd` di terminal dan tekan **Enter**. `pwd` adalah singkatan dari "print working directory". Output dari perintah ini memberi tahu Anda folder mana yang merupakan direktori kerja Anda saat ini.
 
-Pada contoh tangkapan layar di bawah ini, direktori kerja kami adalah folder bernama **contoh**:
+Pada contoh tangkapan layar di bawah ini, direktori kerja kami adalah folder bernama **examples**:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" layout="responsive"></amp-img>
 </div>
 
-Selanjutnya, Anda dapat menjelajahi konten direktori kerja. Ketik `ls` ke terminal Anda dan tekan **Enter**. `ls` adalah singkatan dari" list ". Perintah ini mencantumkan semua file dan folder di direktori kerja Anda. Dalam contoh kami, ini menunjukkan semua file dan folder dalam **contoh**:
+Selanjutnya, Anda dapat menjelajahi konten direktori kerja. Ketik `ls` ke terminal Anda dan tekan **Enter**. `ls` adalah singkatan dari "list". Perintah ini mencantumkan semua file dan folder di direktori kerja Anda. Dalam contoh kami, ini menunjukkan semua file dan folder dalam **examples**:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" layout="responsive"></amp-img>
@@ -65,7 +65,7 @@ Perintah `ls` memiliki opsi tambahan yang dapat mengubah cara fungsinya.
 
 Coba ketikkan `ls -a` dan tekan **Enter** untuk menampilkan semua file, termasuk file tersembunyi. Di banyak komputer, file-file ini dimulai dengan titik dan disembunyikan secara default. Contoh umum dari file ini mencakup hal-hal seperti "*.DS_Store*" (di macOS), "*.profile*" (di Linux), dan "*.gitignore*" (saat menggunakan Git untuk proyek Anda).
 
-Perhatikan bagaimana kita sekarang dapat mengamati **.Hidden-file**, yang tidak ditampilkan dengan perintah `ls` sebelumnya:
+Perhatikan bagaimana kita sekarang dapat mengamati **.hidden-file**, yang tidak ditampilkan dengan perintah `ls` sebelumnya:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" layout="responsive"></amp-img>
@@ -87,14 +87,14 @@ Mirip dengan banyak perintah terminal, Anda dapat menggabungkan dua opsi ini. Un
 
 Anda mungkin telah memperhatikan bahwa direktori kerja kami memiliki banyak bagian di namanya. Secara umum, karakter `/` (garis miring) berarti Anda berada di dalam folder. Jadi, ketika Anda mengamati `/home/user/examples` sebagai direktori kerja Anda, itu berarti:
 
-* Anda berada di dalam folder **contoh**, yang merupakan direktori kerja Anda.
-* Folder **contoh** ada di dalam folder **pengguna**.
+* Anda berada di dalam folder **examples**, yang merupakan direktori kerja Anda.
+* Folder **examples** ada di dalam folder **user**.
 * Folder **user** ada di dalam folder **home**.
 * Folder **home** ada di dalam sistem file komputer Anda dan tidak ada apa pun di luarnya.
 
 Sekarang kita dapat mengubah direktori kerja kita. Dalam contoh kami, kami melihat dua folder saat menggunakan `ls` untuk mencantumkan semuanya (**folder1** dan **folder2**).
 
-Ketik `cd [FOLDER_NAME]` dan tekan **Enter**. Direktori kerja Anda sekarang sudah berubah. `cd` adalah singkatan dari" direktori perubahan ". Anda dapat mengetik `pwd` lagi dan menekan **Enter** untuk memverifikasi bahwa Anda telah mengubah direktori kerja Anda. Dalam contoh kami, kami mengubah direktori kerja kami ke **folder1**:
+Ketik `cd [FOLDER_NAME]` dan tekan **Enter**. Direktori kerja Anda sekarang sudah berubah. `cd` adalah singkatan dari "change directory" ("direktori perubahan"). Anda dapat mengetik `pwd` lagi dan menekan **Enter** untuk memverifikasi bahwa Anda telah mengubah direktori kerja Anda. Dalam contoh kami, kami mengubah direktori kerja kami ke **folder1**:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="terminal cd command" layout="responsive"></amp-img>
@@ -112,7 +112,7 @@ Jika Anda ingin "naik" ke folder sebelumnya, Anda dapat mengetik `cd ..` dan tek
   <amp-img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" layout="responsive"></amp-img>
 </div>
 
-Ide untuk "turun" ke dalam folder atau "ke atas" dari folder sangat umum digunakan saat menggunakan terminal. Ketika terminal memerintahkan, Anda menggunakan nama folder saat "turun" satu level dan `..` berarti naik" naik "satu level.
+Ide untuk "turun" ke dalam folder atau "ke atas" dari folder sangat umum digunakan saat menggunakan terminal. Ketika terminal memerintahkan, Anda menggunakan nama folder saat "turun" satu level dan `..` berarti "naik" satu level.
 
 ## Melihat konten file
 

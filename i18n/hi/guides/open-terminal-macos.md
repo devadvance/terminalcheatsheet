@@ -1,9 +1,9 @@
 ---
 
 layout: guide-layout
-title: How to open terminal on macOS
-excerpt: This guide is intended to teach you how to find terminal on macOS and how to open terminal on macOS.
-permalink: /guides/open-terminal-macos
+title: macOS पर टर्मिनल कैसे खोलें
+excerpt: इस पथप्रदर्शक का उद्देश्य आपको यह सिखाना है कि macOS पर टर्मिनल कैसे खोजें और macOS पर टर्मिनल कैसे खोलें।
+permalink: /hi/guides/open-terminal-macos
 permalink_without_prefix: /guides/open-terminal-macos
 lang: hi
 ---
@@ -14,9 +14,9 @@ lang: hi
 {:toc}
 
 
-## प्रस्तावना
+## परिचय
 
-इस पथप्रदर्शक का उद्देश्य आपको यह सिखाना है कि macOS पर टर्मिनल कैसे खोजें और macOS पर टर्मिनल कैसे खोलें। यदि आपके पास टर्मिनल के साथ पहले से ही बहुत अनुभव है, तो देखें [त्वरित संदर्भ सामग्री के लिए होमपेज पर कमांड](/).
+इस पथप्रदर्शक का उद्देश्य आपको यह सिखाना है कि macOS पर टर्मिनल कैसे खोजें और macOS पर टर्मिनल कैसे खोलें। यदि आपके पास टर्मिनल के साथ पहले से ही बहुत अनुभव है, तो देखें [त्वरित संदर्भ सामग्री के लिए होमपेज पर कमांड](/hi/).
 
 ## आवश्यक शर्तें
 
@@ -69,5 +69,5 @@ lang: hi
   <amp-img src="/assets/guides/open-terminal-macos/terminal-open-en.png" width="585" height="389" alt="An open terminal window" layout="responsive"></amp-img>
 </div>
 
-अब जब आपने अपना टर्मिनल खोल दिया है, तो कुछ कमांड्स पर प्रयास करें [cheat sheet](/#basic)!
+अब जब आपने अपना टर्मिनल खोल दिया है, तो कुछ कमांड्स पर प्रयास करें [cheat sheet](/hi/#basic)!
 
