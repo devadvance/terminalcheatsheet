@@ -77,7 +77,7 @@ Another option for listing files is typing `ls -l` and pressing **Enter**. This 
   <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" layout="responsive"></amp-img>
 </div>
 
-Similar to many terminal commmands, you can combine these two options. To do this, type `ls -la` and press **Enter**, which will list **all** items in **long** format:
+Similar to many terminal commands, you can combine these two options. To do this, type `ls -la` and press **Enter**, which will list **all** items in **long** format:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" layout="responsive"></amp-img>
