@@ -26,9 +26,9 @@ supported_langs:
   te:
     name: తెలుగు
     prefix: /te
-  ru:
-    name: Русский
-    prefix: /ru
+  # ru:
+  #  name: Русский
+  #  prefix: /ru
 site_description:
   en: All the knowledge you need to get up and running
     on terminals across operating systems.
