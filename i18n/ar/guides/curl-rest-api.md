@@ -32,7 +32,7 @@ direction: rtl
 
 curl هي "أداة سطر أوامر لنقل البيانات المحددة باستخدام بنية عنوان URL" ، مما يجعلها مفيدة جدًا للتفاعل مع REST APIs وموارد الويب الأخرى. يحتوي على آلاف الاستخدامات ، لكننا سنراجع القليل منها في هذا الدليل.
 
-دعنا نقول أن لديك واجهة برمجة تطبيقات REST API تريد التفاعل معها. على سبيل المثال ، يعرض [https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"}. بيانات JSON التي تبدو مثله:
+دعنا نقول أن لديك واجهة برمجة تطبيقات REST API تريد التفاعل معها. على سبيل المثال ، يعرض [https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"}. بيانات JSON التي تبدو مثله:
 
 ```
 {
@@ -106,7 +106,7 @@ curl هي "أداة سطر أوامر لنقل البيانات المحددة �
   <amp-anim src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="عرض ملف البيانات" layout="responsive"></amp-anim>
 </div>
 
-يمكنك الآن استخدام هذا الملف كجزء من أمر `curl`. بدلاً من وضع البيانات في الأمر ، يمكنك * الرجوع * إلى الملف باستخدام `-d @ [FILENAME]`. يمكننا تجربته عن طريق كتابة `curl -X POST -H 'Content-Type: application/json' -d @ data.json https://jsonplaceholder.typicode.com/posts` والضغط على **Enter**:
+يمكنك الآن استخدام هذا الملف كجزء من أمر `curl`. بدلاً من وضع البيانات في الأمر ، يمكنك * الرجوع * إلى الملف باستخدام `-d @ [FILENAME]`. يمكننا تجربته عن طريق كتابة `curl -X POST -H 'Content-Type: application/json' -d @data.json https://jsonplaceholder.typicode.com/posts` والضغط على **Enter**:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="عرض توضيحي لأمر POST curl مع ملف" layout="responsive"></amp-anim>

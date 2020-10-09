@@ -31,7 +31,7 @@ Commencez par ouvrir votre terminal.
 
 curl est un "outil de ligne de commande pour le transfert de données spécifiées avec la syntaxe URL", ce qui le rend très utile pour interagir avec les APIs REST et d'autres ressources web. Il a des milliers d'utilisations, mais nous allons en passer quelques-unes en revue dans ce guide.
 
-Disons que vous avez une API REST avec laquelle vous souhaitez interagir. Par exemple, [https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} renvoie des données JSON similaires à celle-ci :
+Disons que vous avez une API REST avec laquelle vous souhaitez interagir. Par exemple, [https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} renvoie des données JSON similaires à celle-ci :
 
 ```
 {
@@ -78,7 +78,7 @@ La méthode de requête HTTP **POST** est très fréquemment utilisée pour cré
 
 Mettons ces options ensemble dans une commande complète :
 
-`curl -X POST -H 'Content-Type : application/json' -d '{"title" : "foo", "body" : "bar", "userId" : 123}' https://jsonplaceholder.typicode.com/posts`
+`curl -X POST -H 'Content-Type: application/json' -d '{"title": "foo","body": "bar","userId": 123}' https://jsonplaceholder.typicode.com/posts`
 
 Vous pouvez taper ou copier cela dans la fenêtre de votre terminal et appuyer sur **Entrée** pour l'envoyer, comme ceci :
 
@@ -104,7 +104,7 @@ Si vous l'avez créé avec succès, vous devriez pouvoir `cat` le fichier, comme
   <amp-anim src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="Démonstration du fichier de données" layout="responsive"></amp-anim>
 </div>
 
-Vous pouvez maintenant utiliser ce fichier dans le cadre de votre commande `curl`. Au lieu de mettre les données dans la commande, vous pouvez vous *référer* au fichier en utilisant `-d @[NOM_DU_FICHIER]`. Nous pouvons l'essayer en tapant `curl -X POST -H 'Content-Type : application/json' -d @data.json https://jsonplaceholder.typicode.com/posts` et en appuyant sur **Entrée** :
+Vous pouvez maintenant utiliser ce fichier dans le cadre de votre commande `curl`. Au lieu de mettre les données dans la commande, vous pouvez vous *référer* au fichier en utilisant `-d @[NOM_DU_FICHIER]`. Nous pouvons l'essayer en tapant `curl -X POST -H 'Content-Type: application/json' -d @data.json https://jsonplaceholder.typicode.com/posts` et en appuyant sur **Entrée** :
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="Démonstration de la commande POST curl avec un fichier" layout="responsive"></amp-anim>
@@ -114,7 +114,7 @@ Vous pouvez maintenant utiliser ce fichier dans le cadre de votre commande `curl
 
 La méthode de requête HTTP **PUT** est souvent utilisée pour mettre à jour les données existantes sur le serveur lors de l'interaction avec une API REST. Comme dans l'exemple de **POST**, nous voulons définir la méthode, le format des données et les données lors de l'utilisation de la commande `curl`.
 
-Essayons de mettre à jour un élément existant. Tapez `curl -X PUT -H 'Content-Type : application/json' -d '{"title" : "foo_updated", "body" : "bar_updated", "userId" : 123}' https://jsonplaceholder.typicode.com/posts/1` et appuyez sur **Entrée**, comme ceci :
+Essayons de mettre à jour un élément existant. Tapez `curl -X PUT -H 'Content-Type: application/json' -d '{"title": "foo_updated","body": "bar_updated","userId": 123}' https://jsonplaceholder.typicode.com/posts/1` et appuyez sur **Entrée**, comme ceci :
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-put-basic-en.gif" width="665" height="387" alt="Démonstration de la commande de curl PUT" layout="responsive"></amp-anim>

@@ -1,7 +1,7 @@
 ---
 layout: guide-layout
-title: TODO
-excerpt: TODO
+title: REST API లు మరియు సర్వర్‌లతో ఇంటరాక్ట్ అవ్వడానికి curl ను ఉపయోగించడం
+excerpt: REST API లు మరియు సర్వర్‌లతో ఇంటరాక్ట్ అవ్వడానికి curl ను ఉపయోగించడం
 permalink: /te/guides/curl-rest-api
 permalink_without_prefix: /guides/curl-rest-api
 lang: te
@@ -13,16 +13,20 @@ lang: te
 {:toc}
 
 ## పరిచయం
-REST API తో సంభాషించే ప్రాథమికాలను మీకు నేర్పడానికి ఈ గైడ్ ఉద్దేశించబడింది. మీరు ఈ సూచనలను అనుసరిస్తున్నప్పుడు, మీ కంప్యూటర్ యొక్క ఫైల్‌లు మరియు ఫోల్డర్‌లు నమూనాల నుండి భిన్నంగా ఉంటాయని గుర్తుంచుకోండి. మాక్ ఓస్ టెర్మినల్‌తో మీకు ఇప్పటికే చాలా అనుభవం ఉంటే, [శీఘ్ర సూచన పదార్థం కోసం హోమ్‌పేజీలోని ఆదేశాలను] చూడండి (/).
+
+REST API తో సంభాషించే ప్రాథమికాలను మీకు నేర్పడానికి ఈ గైడ్ ఉద్దేశించబడింది. మీరు ఈ సూచనలను అనుసరిస్తున్నప్పుడు, మీ కంప్యూటర్ యొక్క ఫైల్‌లు మరియు ఫోల్డర్‌లు నమూనాల నుండి భిన్నంగా ఉంటాయని గుర్తుంచుకోండి. మీకు ఇప్పటికే టెర్మినల్‌తో చాలా అనుభవం ఉంటే, [శీఘ్ర రిఫరెన్స్ మెటీరియల్ కోసం హోమ్‌పేజీలోని ఆదేశాలను చూడండి](/te/).
 
 ## ముందస్తు అవసరాలు
 
 ఈ మార్గదర్శిని అనుసరించడానికి, మీకు ఇది అవసరం:
 
-* ఏదైనా లైనక్స్ లేదా మాకోస్ వాతావరణంలో యునిక్స్ టెర్మినల్‌కు ప్రాప్యత.
-* టెర్మినల్ విండోను ఎలా తెరవాలో తెలుసుకోవడానికి. మీకు ఖచ్చితంగా తెలియకపోతే, [మాకోస్] (ఓపెన్-టెర్మినల్-మాకోస్) లేదా లైనక్స్ (త్వరలో వస్తుంది) కోసం సూచనలను సందర్శించండి.
+* ఏదైనా Linux లేదా macOS వాతావరణంలో యునిక్స్ టెర్మినల్‌కు ప్రాప్యత.
+* టెర్మినల్ విండోను ఎలా తెరవాలో తెలుసుకోవడానికి. మీకు ఖచ్చితంగా తెలియకపోతే, [macOS](open-terminal-macos) లేదా Linux (త్వరలో వస్తుంది) కోసం సూచనలను సందర్శించండి.
 * మీరు ఇంటరాక్ట్ చేయదలిచిన REST API. మేము ఈ గైడ్‌లో ఉదాహరణగా `https://jsonplaceholder.typicode.com` ని ఉపయోగిస్తున్నాము.
-* మీ కంప్యూటర్‌లో కర్ల్ యుటిలిటీ ఇన్‌స్టాల్ చేయబడింది. చాలా మాకోస్ మరియు లైనక్స్ కంప్యూటర్లు దీనిని ప్రీఇన్స్టాల్ చేశాయి. కాకపోతే, మీరు సాంకేతిక సూచనలను కర్ల్ ఇన్‌స్టాలేషన్ వెబ్‌సైట్‌లో (https://curl.haxx.se/docs/install.html) సమీక్షించాల్సి ఉంటుంది{: target = "_blank" rel = "noopener"}.
+* మీ కంప్యూటర్‌లో కర్ల్ యుటిలిటీ ఇన్‌స్టాల్ చేయబడింది. చాలా macOS మరియు Linux కంప్యూటర్లు దీనిని ప్రీఇన్స్టాల్ చేశాయి. కాకపోతే, [మీరు సాంకేతిక సూచనలను కర్ల్ ఇన్‌స్టాలేషన్ వెబ్‌సైట్‌లో](https://curl.haxx.se/docs/install.html){:target="_blank" rel="noopener"} సమీక్షించాల్సి ఉంటుంది.
+
+(https://curl.haxx.se/docs/install.html){: target = "_blank" rel = "noopener"}
+(https://curl.haxx.se/docs/install.html){:target="_blank" rel="noopener"}
 
 ## GET తో ప్రారంభిద్దాం!
 
@@ -102,7 +106,7 @@ REST API తో సంభాషించేటప్పుడు సర్వర
   <amp-anim src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="Demo of data file" layout="responsive"></amp-anim>
 </div>
 
-ఇప్పుడు మీరు మీ `curl` ఆదేశంలో భాగంగా ఆ ఫైల్‌ను ఉపయోగించవచ్చు. డేటాను ఆదేశంలో ఉంచడానికి బదులుగా, మీరు `-d @ [FILENAME]` ను ఉపయోగించి ఫైల్‌ను * సూచించవచ్చు. ` curl -X POST -H 'Content-Type: application/json' -d @data.జేసన్ https://jsonplaceholder.typicode.com/posts` అని టైప్ చేసి **Enter** నొక్కడం ద్వారా మనం దీన్ని ప్రయత్నించవచ్చు.
+ఇప్పుడు మీరు మీ `curl` ఆదేశంలో భాగంగా ఆ ఫైల్‌ను ఉపయోగించవచ్చు. డేటాను ఆదేశంలో ఉంచడానికి బదులుగా, మీరు `-d @[FILENAME]` ను ఉపయోగించి ఫైల్‌ను * సూచించవచ్చు. `curl -X POST -H 'Content-Type: application/json' -d @data.json https://jsonplaceholder.typicode.com/posts` అని టైప్ చేసి **Enter** నొక్కడం ద్వారా మనం దీన్ని ప్రయత్నించవచ్చు.
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="Demo of POST curl command with a file" layout="responsive"></amp-anim>
@@ -112,7 +116,7 @@ REST API తో సంభాషించేటప్పుడు సర్వర
 
 REST API తో సంభాషించేటప్పుడు సర్వర్‌లో ఉన్న డేటాను నవీకరించడానికి **PUT** HTTP అభ్యర్థన పద్ధతి తరచుగా ఉపయోగించబడుతుంది. **POST** తో ఉదాహరణ మాదిరిగానే, మేము `curl` ఆదేశాన్ని ఉపయోగిస్తున్నప్పుడు పద్ధతి, డేటా ఫార్మాట్ మరియు డేటాను సెట్ చేయాలనుకుంటున్నాము.
 
-ఇప్పటికే ఉన్న అంశాన్ని నవీకరించడానికి ప్రయత్నిద్దాం. `curl -X PUT -H 'Content-Type: application/json' -d '{"title": "foo_updated","body": "bar_updated","userId": 123}'  https://jsonplaceholder. typicode.com/posts/1` మరియు **Enter** నొక్కండి, ఇలా:
+ఇప్పటికే ఉన్న అంశాన్ని నవీకరించడానికి ప్రయత్నిద్దాం. `curl -X PUT -H 'Content-Type: application/json' -d '{"title": "foo_updated","body": "bar_updated","userId": 123}' https://jsonplaceholder.typicode.com/posts/1` మరియు **Enter** నొక్కండి, ఇలా:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-put-basic-en.gif" width="665" height="387" alt="Demo of PUT curl command" layout="responsive"></amp-anim>
