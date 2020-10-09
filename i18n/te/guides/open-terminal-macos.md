@@ -1,27 +1,27 @@
 ---
 layout: guide-layout
-title: TODO
-excerpt: TODO
+title: macOS లో టెర్మినల్‌ను ఎలా తెరవాలో
+excerpt: macOS లో టెర్మినల్‌ను ఎలా తెరవాలో
 permalink: /te/guides/open-terminal-macos
 permalink_without_prefix: /guides/open-terminal-macos
 lang: te
 ---
 
-TODO
+**విషయ సూచిక**
 
 * TOC
 {:toc}
 
 ## పరిచయం
 
-ఈ గైడ్ మాకోస్‌లో టెర్మినల్‌ను ఎలా కనుగొనాలో మరియు మాకోస్‌లో టెర్మినల్‌ను ఎలా తెరవాలో నేర్పడానికి ఉద్దేశించబడింది. మీకు ఇప్పటికే టెర్మినల్‌తో చాలా అనుభవం ఉంటే, చూడండి [the commands on the homepage for quick reference material](/).
+ఈ గైడ్ macOS లో టెర్మినల్‌ను ఎలా కనుగొనాలో మరియు macOS లో టెర్మినల్‌ను ఎలా తెరవాలో నేర్పడానికి ఉద్దేశించబడింది. మీకు ఇప్పటికే టెర్మినల్‌తో చాలా అనుభవం ఉంటే, [శీఘ్ర రిఫరెన్స్ మెటీరియల్ కోసం హోమ్‌పేజీలోని ఆదేశాలను చూడండి](/te/).
 
 ## ముందస్తు అవసరాలు
 
 ఈ మార్గదర్శిని అనుసరించడానికి, మీకు ఇది అవసరం:
 
 * macOS సియెర్రా (10.12) లేదా అంతకంటే ఎక్కువ
-* ఫైండర్ మరియు ప్రాథమిక మాకోస్ పరస్పర చర్యలతో పరిచయం
+* ఫైండర్ మరియు ప్రాథమిక macOS పరస్పర చర్యలతో పరిచయం
 
 ## స్పాట్‌లైట్ శోధనతో టెర్మినల్‌ను ఎలా తెరవాలి
 
@@ -67,4 +67,4 @@ TODO
   <amp-img src="/assets/guides/open-terminal-macos/terminal-open-en.png" width="585" height="389" alt="An open terminal window" layout="responsive"></amp-img>
 </div>
 
-ఇప్పుడు మీరు మీ టెర్మినల్ తెరిచారు, లోని కొన్ని ఆదేశాలను ప్రయత్నించండి [cheat sheet](/#basic)!
+ఇప్పుడు మీరు మీ టెర్మినల్ తెరిచారు, లోని కొన్ని ఆదేశాలను ప్రయత్నించండి [cheat sheet](/te/#basic)!
