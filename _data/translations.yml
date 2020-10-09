@@ -14,14 +14,14 @@ supported_langs:
   hi:
     name: हिंदी
     prefix: /hi
-  fr:
-    name: Français
-    prefix: /fr
+  # fr:
+  #  name: Français
+  #  prefix: /fr
   pt:
     name: Português
     prefix: /pt
   id:
-    name: Bahasa
+    name: Bahasa Indonesia
     prefix: /id
   te:
     name: తెలుగు
