@@ -12,3 +12,23 @@ github_username: devadvance
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:year/:month/:day/:title
+
+plugins:
+  - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: "demo_env/**"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "i18n/new_language_templates/**"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "i18n/fr/**"
+    values:
+      sitemap: false
