@@ -27,7 +27,7 @@ lang: te
 
 ## సరైన ఫోల్డర్‌ను కనుగొనడం ద్వారా ప్రారంభించండి
 
-మొదట, మీరు మీ వెబ్ పేజీలు లేదా వెబ్ కంటెంట్ సేవ్ చేయబడిన ఫోల్డర్‌కు నావిగేట్ చేయాలి. దీన్ని ఎలా చేయాలో మీకు తెలియకపోతే, మీరు చదవాలనుకోవచ్చు [this guide first](navigate-terminal).
+మొదట, మీరు మీ వెబ్ పేజీలు లేదా వెబ్ కంటెంట్ సేవ్ చేయబడిన ఫోల్డర్‌కు నావిగేట్ చేయాలి. దీన్ని ఎలా చేయాలో మీకు తెలియకపోతే, మీరు చదవాలనుకోవచ్చు [ఈ గైడ్ మొదట](navigate-terminal).
 
 మీ వెబ్ కంటెంట్ ఫోల్డర్‌లో ఉందని చెప్పండి `/home/user/examples`. మేము మూడు పనులు చేయాలనుకుంటున్నాము:
 
@@ -97,7 +97,7 @@ lang: te
   <amp-img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Directory listing in the web browser" layout="responsive"></amp-img>
 </div>
 
-మా ఉదాహరణలో, మాకు ** index.html ** అనే ఫైల్ లేదు కాబట్టి మా వెబ్ బ్రౌజర్ అందుబాటులో ఉన్న ఫైళ్ళను జాబితా చేసింది. బ్రౌజర్‌లో తెరవడానికి మీరు నిర్దిష్ట ఫైల్‌పై క్లిక్ చేయవచ్చు. మేము ఇంతకు ముందు తనిఖీ చేసిన **hello.html** పై క్లిక్ చేద్దాం:
+మా ఉదాహరణలో, మాకు **index.html** అనే ఫైల్ లేదు కాబట్టి మా వెబ్ బ్రౌజర్ అందుబాటులో ఉన్న ఫైళ్ళను జాబితా చేసింది. బ్రౌజర్‌లో తెరవడానికి మీరు నిర్దిష్ట ఫైల్‌పై క్లిక్ చేయవచ్చు. మేము ఇంతకు ముందు తనిఖీ చేసిన **hello.html** పై క్లిక్ చేద్దాం:
 
 <div class="center guideimages">
   <amp-img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Hello world page" layout="responsive"></amp-img>

@@ -106,7 +106,7 @@ REST API తో సంభాషించేటప్పుడు సర్వర
   <amp-anim src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="Demo of data file" layout="responsive"></amp-anim>
 </div>
 
-ఇప్పుడు మీరు మీ `curl` ఆదేశంలో భాగంగా ఆ ఫైల్‌ను ఉపయోగించవచ్చు. డేటాను ఆదేశంలో ఉంచడానికి బదులుగా, మీరు `-d @ [FILENAME]` ను ఉపయోగించి ఫైల్‌ను * సూచించవచ్చు. ` curl -X POST -H 'Content-Type: application/json' -d @data.జేసన్ https://jsonplaceholder.typicode.com/posts` అని టైప్ చేసి **Enter** నొక్కడం ద్వారా మనం దీన్ని ప్రయత్నించవచ్చు.
+ఇప్పుడు మీరు మీ `curl` ఆదేశంలో భాగంగా ఆ ఫైల్‌ను ఉపయోగించవచ్చు. డేటాను ఆదేశంలో ఉంచడానికి బదులుగా, మీరు `-d @[FILENAME]` ను ఉపయోగించి ఫైల్‌ను * సూచించవచ్చు. `curl -X POST -H 'Content-Type: application/json' -d @data.json https://jsonplaceholder.typicode.com/posts` అని టైప్ చేసి **Enter** నొక్కడం ద్వారా మనం దీన్ని ప్రయత్నించవచ్చు.
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="Demo of POST curl command with a file" layout="responsive"></amp-anim>
@@ -116,7 +116,7 @@ REST API తో సంభాషించేటప్పుడు సర్వర
 
 REST API తో సంభాషించేటప్పుడు సర్వర్‌లో ఉన్న డేటాను నవీకరించడానికి **PUT** HTTP అభ్యర్థన పద్ధతి తరచుగా ఉపయోగించబడుతుంది. **POST** తో ఉదాహరణ మాదిరిగానే, మేము `curl` ఆదేశాన్ని ఉపయోగిస్తున్నప్పుడు పద్ధతి, డేటా ఫార్మాట్ మరియు డేటాను సెట్ చేయాలనుకుంటున్నాము.
 
-ఇప్పటికే ఉన్న అంశాన్ని నవీకరించడానికి ప్రయత్నిద్దాం. `curl -X PUT -H 'Content-Type: application/json' -d '{"title": "foo_updated","body": "bar_updated","userId": 123}'  https://jsonplaceholder. typicode.com/posts/1` మరియు **Enter** నొక్కండి, ఇలా:
+ఇప్పటికే ఉన్న అంశాన్ని నవీకరించడానికి ప్రయత్నిద్దాం. `curl -X PUT -H 'Content-Type: application/json' -d '{"title": "foo_updated","body": "bar_updated","userId": 123}' https://jsonplaceholder.typicode.com/posts/1` మరియు **Enter** నొక్కండి, ఇలా:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-put-basic-en.gif" width="665" height="387" alt="Demo of PUT curl command" layout="responsive"></amp-anim>

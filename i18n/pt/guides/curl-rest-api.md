@@ -31,7 +31,7 @@ Comece abrindo seu terminal.
 
 curl é uma "ferramenta de linha de comando para transferir dados especificados com sintaxe de URL", o que o torna muito útil para interagir com APIs REST e outros recursos da web. Ele tem milhares de usos, mas revisaremos apenas alguns neste guia.
 
-Digamos que você tenha uma API REST com a qual deseja interagir. Por exemplo, [https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} retorna dados JSON que são semelhante a este:
+Digamos que você tenha uma API REST com a qual deseja interagir. Por exemplo, [https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} retorna dados JSON que são semelhante a este:
 
 ```
 {
@@ -104,7 +104,7 @@ Se você conseguiu criar o arquivo com sucesso, deve ser capaz usar o comando `c
   <amp-anim src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="Demo of data file" layout="responsive"></amp-anim>
 </div>
 
-Agora você pode usar esse arquivo como parte do comando `curl`. Em vez de colocar os dados no comando, você pode *se referir* ao arquivo usando `-d @[FILENAME]`. Podemos tentar digitando `curl -X POST -H 'Content-Type: application/json' -d @ data.json https://jsonplaceholder.typicode.com/posts` e pressionando **Enter**:
+Agora você pode usar esse arquivo como parte do comando `curl`. Em vez de colocar os dados no comando, você pode *se referir* ao arquivo usando `-d @[FILENAME]`. Podemos tentar digitando `curl -X POST -H 'Content-Type: application/json' -d @data.json https://jsonplaceholder.typicode.com/posts` e pressionando **Enter**:
 
 <div class="center guideimages">
   <amp-anim src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="Demo of POST curl command with a file" layout="responsive"></amp-anim>
