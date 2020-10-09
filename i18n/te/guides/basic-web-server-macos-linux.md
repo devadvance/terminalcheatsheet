@@ -1,6 +1,6 @@
 ---
 layout: guide-layout
-title: MacOS మరియు Linux లో ప్రాథమిక వెబ్ సర్వర్‌ను ఎలా ప్రారంభించాలి 
+title: MacOS మరియు Linux లో ప్రాథమిక వెబ్ సర్వర్‌ను ఎలా ప్రారంభించాలి
 excerpt: ఈ గైడ్ మీ కంప్యూటర్‌లో ప్రాథమిక వెబ్ సర్వర్‌ను ప్రారంభించడానికి Python ఆదేశాన్ని నేర్పుతుంద
 permalink: /te/guides/basic-web-server-macos-linux
 permalink_without_prefix: /guides/basic-web-server-macos-linux
