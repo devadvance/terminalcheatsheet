@@ -32,7 +32,7 @@ Empiece por abrir su terminal.
 
 curl es una herramienta de línea de comandos "orientado a la transferencia de archivos" con sintaxis de URL, lo que la hace muy útil para interactuar con API REST y otros recursos web. Tiene miles de usos, pero revisaremos solo algunos en esta guía.
 
-Supongamos que tiene una API REST con la que desea interactuar. Por ejemplo, [https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} devuelve datos JSON que se ven así:
+Supongamos que tiene una API REST con la que desea interactuar. Por ejemplo, [https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1){:target="_blank" rel="noopener"} devuelve datos JSON que se ven así:
 
 ```
 {

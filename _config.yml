@@ -1,11 +1,12 @@
 # Site settings
 title: Terminal Cheat Sheet
-email: 
-description: > # this means to ignore newlines until "baseurl:"
-  All the knowledge you need to get up and running on terminals across operating systems.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://terminalcheatsheet.com" # the base hostname & protocol for your site
-github_username:  devadvance
+email: hello@terminalcheatsheet.com
+description: > # Ignore newlines until "baseurl:"
+  All the knowledge you need to get up and
+  running on terminals across operating systems.
+baseurl: "" # Subpath of the site. Currently no subpath
+url: "https://terminalcheatsheet.com" # Base protocol and hostname
+github_username: devadvance
 
 # Build settings
 markdown: kramdown
