@@ -2,9 +2,9 @@
 layout: guide-layout
 title: Como navegar em arquivos e pastas em um terminal
 excerpt: Este guia tem como objetivo ensinar os fundamentos básicos da navegação em arquivos e pastas em um terminal.
-permalink: /pt/guides/navigate-terminal
+permalink: /pt-BR/guides/navigate-terminal
 permalink_without_prefix: /guides/navigate-terminal
-lang: pt
+lang: pt-BR
 ---
 
 **Índice**
@@ -14,14 +14,14 @@ lang: pt
 
 ## Introdução
 
-Este guia tem como objetivo ensinar os fundamentos básicos da navegação em arquivos e pastas em um terminal. Ao seguir essas instruções, lembre-se de que os arquivos e pastas do seu computador provavelmente serão diferentes dos exemplos. Se você já tem muita experiência com o terminal, verifique [os comandos na página inicial para o material de referência rápida] (/).
+Este guia tem como objetivo ensinar os fundamentos básicos da navegação em arquivos e pastas em um terminal. Ao seguir essas instruções, lembre-se de que os arquivos e pastas do seu computador provavelmente serão diferentes dos exemplos. Se você já tem muita experiência com o terminal, vá para [os comandos na página inicial para o material de referência rápida](/pt-BR/).
 
 ## Pré-requisitos
 
 Para seguir este guia, você precisará de:
 
-* Acesso a um terminal Unix em qualquer ambiente Linux ou macOS.
-* Para saber como abrir uma janela de terminal. Se você não tiver certeza, visite as instruções para [macOS] (open-terminal-macos) ou Linux (em breve).
+* Acesso a um terminal Unix em qualquer ambiente macOS ou Linux.
+* Saber como abrir uma janela do terminal. Se você não sabe ao certo, visite as instruções para [macOS](open-terminal-macos) ou Linux (em breve).
 
 ## Vamos começar!
 

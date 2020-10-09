@@ -17,9 +17,9 @@ supported_langs:
   # fr:
   #  name: Français
   #  prefix: /fr
-  pt:
+  pt-BR:
     name: Português
-    prefix: /pt
+    prefix: /pt-BR
   id:
     name: Bahasa Indonesia
     prefix: /id
@@ -40,7 +40,7 @@ site_description:
     के लिए आपको आवश्यक सभी ज्ञान।
   fr: Toutes ce que vous avez besoin de savoir pour
     utiliser des terminaux sur différents systèmes d'exploitation.
-  pt: Todo o conhecimento de que você precisa para começar a trabalhar
+  pt-BR: Todo o conhecimento de que você precisa para começar a trabalhar
     em terminair de vários sistemas operacionais
   id: Semua hal yang kamu butuhkan untuk memulai dan menjalankan
     terminal disemua sistem operasi.
@@ -54,7 +54,7 @@ hero_title:
   ar: ما هذا؟
   hi: यह क्या है?
   fr: Qu'est-ce que c'est ?
-  pt: O que é isso?
+  pt-BR: O que é isso?
   id: Apakah ini?
   te: ఇది ఏమిటి?
   ru: Что это?
@@ -80,7 +80,7 @@ hero_description:
     quelques commandes basique du terminal.
     Dans tous les cas, vous êtes au bon endroit.
     Visitez le menu pour d'autres langues.
-  pt: Você pode ser um aspirante a desenvolvedor de software.
+  pt-BR: Você pode ser um aspirante a desenvolvedor de software.
     Talvez você queira apenas revisar alguns comandos básicos do terminal.
     Não importa o motivo, você encontrou o lugar certo.
     Visite o menu para outros idiomas.
@@ -102,7 +102,7 @@ basic_section_title:
   ar: أساسيات
   hi: मूल बातें
   fr: Les bases
-  pt: O básico
+  pt-BR: O básico
   id: Dasar-dasar
   te: ప్రాథాన్యాలు
   ru: Основы
@@ -117,7 +117,7 @@ basic_section_description:
     पता लगाने और प्रदर्शन करने में मदद करेंगे।
   fr: Ces commmandes essentielles vous aideront à naviguer,
     explorer, et à réaliser de simples actions dans votre terminal.
-  pt: Esses comandos essenciais irão ajuá-lo a navegar,
+  pt-BR: Esses comandos essenciais irão ajuá-lo a navegar,
     explore e execute ações simples em seu terminal.
   id: Berikut perintah-perintah penting yang akan membantumu bernavigasi,
     menjelajah, and melakukan tindakan sederhana di terminal kamu.
@@ -131,7 +131,7 @@ files_section_title:
   ar: تعديل الملفات والمجلدات
   hi: फ़ाइलों और फ़ोल्डरों को संशोधित करें
   fr: Modifier des fichiers et dossiers
-  pt: Modificar arquivos e pastas
+  pt-BR: Modificar arquivos e pastas
   id: Memodifikasi file dan folder
   te: ఫైల్‌లు మరియు ఫోల్డర్‌లను సవరించండి
   ru: Изменить файлы и папки
@@ -146,7 +146,7 @@ files_section_description:
     संशोधित करने और हटाने में मदद करेंगे।
   fr: Ces commandes vous aideront à créer,
     modifier, et supprimer des fichiers ainsi que des dossiers.
-  pt: Esses comandos o ajudarão a criar,
+  pt-BR: Esses comandos o ajudarão a criar,
     modificar e excluir arquivos e pastas.
   id: Perintah ini akan membantumu membuat,
     memodifikasi, dan menghapus file dan folder.
@@ -160,7 +160,7 @@ more_coming_soon:
   ar: المزيد قادم قريبا!
   hi: अधिक जल्द ही आ रहा!
   fr: Plus à venir !
-  pt: Mais em breve!
+  pt-BR: Mais em breve!
   id: Selebihnya datang segera!
   te: త్వరలో మరిన్ని రాబోతున్నాయి!
   ru: Продолжение следует!
@@ -171,7 +171,7 @@ begin_reading:
   ar: أبدا
   hi: शुरू हो जाओ
   fr: Commencer
-  pt: Início
+  pt-BR: Início
   id: Memulai
   te: ప్రారంభించడానికి
   ru: Начать
@@ -181,7 +181,7 @@ show_me_action:
   ar: أرني
   hi: मुझे दिखाओ
   fr: Montrer
-  pt: Mostrar
+  pt-BR: Mostrar
   id: Tunjukkan
   te: చూపించు
   ru: Показать
@@ -191,7 +191,7 @@ hide_action:
   ar: إخفاء
   hi: छिपाना
   fr: Cacher
-  pt: Ocultar
+  pt-BR: Ocultar
   id: Sembunyikan
   te: దాచు
   ru: Скрыть
@@ -203,7 +203,7 @@ contact:
   ar: اتصل
   hi: संपर्क करें
   fr: Contact
-  pt: Contato
+  pt-BR: Contato
   id: Kontak
   te: సంప్రదించండి
   ru: Контакты
@@ -213,7 +213,7 @@ more_resources:
   ar: المزيد من الموارد
   hi: और अधिक संसाधनों
   fr: Plus de ressources
-  pt: Mais recursos
+  pt-BR: Mais recursos
   id: Sumber lebih
   te: మరిన్ని వనరులు
   ru: Больше ресурсов
@@ -223,7 +223,7 @@ guides:
   ar: دليل
   hi: गाइड
   fr: Guides
-  pt: Guias
+  pt-BR: Guias
   id: Panduan
   te: గైడ్లు
   ru: Гайды
@@ -233,7 +233,7 @@ language:
   ar: لغة
   hi: भाषा
   fr: Langue
-  pt: Idioma
+  pt-BR: Idioma
   id: Bahasa
   te: భాష
   ru: Язык
@@ -243,7 +243,7 @@ feedback:
   ar: اقتراحات
   hi: प्रतिपुष्टि
   fr: Commentaires
-  pt: Comentários
+  pt-BR: Comentários
   id: Umpan balik
   te: అభిప్రాయం
   ru: Фидбек
@@ -254,7 +254,7 @@ guides_available_title:
   ar: الأدلة المتاحة
   hi: उपलब्ध गाइड
   fr: Guides disponibles
-  pt: Guias disponíveis
+  pt-BR: Guias disponíveis
   id: Panduan tersedia
   te: అందుబాటులో ఉన్న గైడ్‌లు
   ru: Доступные гайды
@@ -264,7 +264,7 @@ guides_available_desc:
   ar: فيما يلي كافة الأدلة المتوفرة حاليًا.
   hi: यहां उन सभी गाइडों के बारे में बताया गया है जो वर्तमान में उपलब्ध हैं।
   fr: Voici tous les guides actuellement disponibles.
-  pt: Aqui estão todas as guias disponíveis atualmente.
+  pt-BR: Aqui estão todas as guias disponíveis atualmente.
   id: Berikut panduan yang sekarang tersedia.
   te: ప్రస్తుతం అందుబాటులో ఉన్న అన్ని గైడ్‌లు ఇక్కడ ఉన్నాయి.
   ru: Все гайды, доступные в настоящее время.
