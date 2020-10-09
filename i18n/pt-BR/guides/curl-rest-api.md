@@ -2,9 +2,9 @@
 layout: guide-layout
 title: Como usar o curl para testar uma REST API
 excerpt: Como usar o curl para testar uma REST API
-permalink: /pt/guides/curl-rest-api
+permalink: /pt-BR/guides/curl-rest-api
 permalink_without_prefix: /guides/curl-rest-api
-lang: pt
+lang: pt-BR
 ---
 
 **Índice**
@@ -14,7 +14,7 @@ lang: pt
 
 ## Introdução
 
-Este guia tem como objetivo ensinar os fundamentos da interação com uma API REST usando [curl](https://github.com/curl/curl). Ao seguir essas instruções, lembre-se de que os arquivos e pastas do seu computador provavelmente serão diferentes dos exemplos. Se você já tem muita experiência com terminal no macOS, verifique [os comandos na página inicial para material de referência rápida](/).
+Este guia tem como objetivo ensinar os fundamentos da interação com uma API REST usando [curl](https://github.com/curl/curl). Ao seguir essas instruções, lembre-se de que os arquivos e pastas do seu computador provavelmente serão diferentes dos exemplos. Se você já tem muita experiência com terminal no macOS, verifique [os comandos na página inicial para material de referência rápida](/pt-BR/).
 
 ## Pré-requisitos
 

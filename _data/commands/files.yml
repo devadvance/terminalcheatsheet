@@ -14,7 +14,7 @@
       చేయడానికి పిల్లి ఉపయోగించబడుతుంది
     id: Perintah ini banyak kegunaannya, namun umumnya untuk pemula,
       cat digunakan untuk memunculkan isi dari [FILE] ke terminal
-    pt: Este comando tem muitos usos, mas comumente para iniciantes,
+    pt-BR: Este comando tem muitos usos, mas comumente para iniciantes,
       cat se usa para enviar o conteúdo de um [ARQUIVO] para o terminal
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
@@ -35,7 +35,7 @@
       ఇది మీ ప్రస్తుత వర్కింగ్ డైరెక్టరీలో సంభవిస్తుంది
     id: Membuat folder sesuai keinginan [NAMA_FOLDER].
       Perintah ini berjalan di direktori kamu berada.
-    pt: Crie uma nova pasta com o [NOME_DA_PASTA] desejada.
+    pt-BR: Crie uma nova pasta com o [NOME_DA_PASTA] desejada.
       Isso ocorre em seu diretório de trabalho atual
   html_terminal: >
     <span data-ty="input">ls</span>
@@ -53,7 +53,7 @@
     hi: अपनी फ़ाइल की एक प्रति बनाना
     te: ఫైల్ యొక్క కాపీని చేయండి
     id: Membuat salinan dari sebuah file
-    pt: Fazer uma cópia de um arquivo
+    pt-BR: Fazer uma cópia de um arquivo
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -74,7 +74,7 @@
       ఫైల్స్ మరియు ఫోల్డర్ల పేరు మార్చవచ్చు
     id: Memindahkan file dan folder.
       Bisa juga untuk mengganti nama file dan folder
-    pt: Mover arquivos e pastas. Também pode renomear arquivos e pastas
+    pt-BR: Mover arquivos e pastas. Também pode renomear arquivos e pastas
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -91,7 +91,7 @@
     hi: फाइल हटाना
     te: తొలగించు [FILE]
     id: Menghapus file
-    pt: Excluir [ARQUIVO]
+    pt-BR: Excluir [ARQUIVO]
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
@@ -113,7 +113,7 @@
       అంటే ఫోల్డర్ మరియు దానిలోని ప్రతిదీ
     id: Menghapus sebuah [FOLDER] secara rekursif,
       yang artinya menghapus folder beserta isinya
-    pt: Eliminar uma [PASTA] recursivamente,
+    pt-BR: Eliminar uma [PASTA] recursivamente,
       o que significa excluir a pasta e tudo que ela contém
   html_terminal: >
     <span data-ty="input">ls</span>

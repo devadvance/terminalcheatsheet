@@ -2,9 +2,9 @@
 layout: guide-layout
 title: Como abrir o terminal no macOS
 excerpt: Esse guia tem o propósito de ensinar-lhe como encontrar terminal no macOS e como abrir o terminal no macOS.
-permalink: /pt/guides/open-terminal-macos
+permalink: /pt-BR/guides/open-terminal-macos
 permalink_without_prefix: /guides/open-terminal-macos
-lang: pt
+lang: pt-BR
 ---
 
 Índice
@@ -14,7 +14,7 @@ lang: pt
 
 ## Introdução
 
-Esse guia tem o propósito de ensinar-lhe como encontrar o terminal no macOS e como abrir o terminal no macOS. Se você tem bastante experiência com terminal, vá para [os comandos da página inicial para um materil de referência rápida](/).
+Esse guia tem o propósito de ensinar-lhe como encontrar o terminal no macOS e como abrir o terminal no macOS. Se você tem bastante experiência com terminal, vá para [os comandos da página inicial para um materil de referência rápida](/pt-BR/).
 
 ## Pré-requisitos
 
@@ -67,4 +67,4 @@ Seja usando Spotlight ou Finder, uma janela de terminal irá abrir.
   <amp-img src="/assets/guides/open-terminal-macos/terminal-open-en.png" width="585" height="389" alt="An open terminal window" layout="responsive"></amp-img>
 </div>
 
-Agora que você já abriu seu terminal, experimente alguns comandos no [dicas](/#basic)!
+Agora que você já abriu seu terminal, experimente alguns comandos no [dicas](/pt-BR/#basic)!
