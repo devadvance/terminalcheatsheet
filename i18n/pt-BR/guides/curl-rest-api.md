@@ -14,14 +14,14 @@ lang: pt-BR
 
 ## Introdução
 
-Este guia tem como objetivo ensinar os fundamentos da interação com uma API REST usando [curl](https://github.com/curl/curl). Ao seguir essas instruções, lembre-se de que os arquivos e pastas do seu computador provavelmente serão diferentes dos exemplos. Se você já tem muita experiência com terminal no macOS, verifique [os comandos na página inicial para material de referência rápida](/pt-BR/).
+Este guia tem como objetivo ensinar os fundamentos da interação com uma API REST usando [curl](https://github.com/curl/curl). Ao seguir essas instruções, lembre-se de que os arquivos e pastas do seu computador provavelmente serão diferentes dos exemplos. Se você já tem muita experiência com o terminal, vá para [os comandos na página inicial para o material de referência rápida](/pt-BR/).
 
 ## Pré-requisitos
 
 Para seguir este guia, você vai precisar de:
 
-* Acesso a um terminal Unix em qualquer ambiente Linux ou macOS.
-* Saber como abrir uma janela de terminal. Se você não tiver certeza, visite as instruções para [macOS](open-terminal-macos) ou Linux (em breve).
+* Acesso a um terminal Unix em qualquer ambiente macOS ou Linux.
+* Saber como abrir uma janela do terminal. Se você não sabe ao certo, visite as instruções para [macOS](open-terminal-macos) ou Linux (em breve).
 * Uma API REST com a qual você deseja interagir. Estamos usando `https://jsonplaceholder.typicode.com`, como exemplo, neste guia.
 * O comando curl instalado em seu computador. A maioria dos computadores macOS e Linux o tem pré-instalado. Caso contrário, você precisará revisar as instruções técnicas [no site de instalação do curl](https://curl.haxx.se/docs/install.html){:target="_blank" rel="noopener"}.
 

@@ -7,14 +7,14 @@ permalink_without_prefix: /guides/open-terminal-macos
 lang: pt-BR
 ---
 
-Índice
+**Índice**
 
 * TOC
 {:toc}
 
 ## Introdução
 
-Esse guia tem o propósito de ensinar-lhe como encontrar o terminal no macOS e como abrir o terminal no macOS. Se você tem bastante experiência com terminal, vá para [os comandos da página inicial para um materil de referência rápida](/pt-BR/).
+Esse guia tem o propósito de ensinar-lhe como encontrar o terminal no macOS e como abrir o terminal no macOS. Se você já tem muita experiência com o terminal, vá para [os comandos na página inicial para o material de referência rápida](/pt-BR/).
 
 ## Pré-requisitos
 

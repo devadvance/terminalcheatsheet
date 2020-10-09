@@ -14,16 +14,16 @@ lang: pt-BR
 
 ## Introdução
 
-Se você está trabalhando em páginas web ou outros tipos de conteúdo para web, você pode precisar de uma maneira fácil e rápida de iniciar um servidor básico. Esse guia vai te ensinar um comando Python para iniciar um servidor web básico no seu computador. Conforme você seguir as instruções, lembre-se que os arquivos e pastas do seu computador provavelmente serão diferentes dos exemplos. Se você já tem bastante experiência com o terminal, confira [os comandos na página inicial para material de referência rápida](/pt-BR/).
+Se você está trabalhando em páginas web ou outros tipos de conteúdo para web, você pode precisar de uma maneira fácil e rápida de iniciar um servidor básico. Esse guia vai te ensinar um comando Python para iniciar um servidor web básico no seu computador. Conforme você seguir as instruções, lembre-se que os arquivos e pastas do seu computador provavelmente serão diferentes dos exemplos. Se você já tem muita experiência com o terminal, vá para [os comandos na página inicial para o material de referência rápida](/pt-BR/).
 
 ## Pré-requisitos
 
 Para seguir esse guia, você precisará:
 
-- Acesso a um terminal Unix em qualquer ambiente macOS ou Linux.
-- Saber como abrir uma janela do terminal. Se você não sabe ao certo, visite as instruções para [macOS](open-terminal-macos) ou Linux (em breve).
-- Saber como navegar entre arquivos e pastas em um terminal. Se você não sabe ao certo, siga [esse guia antes para aprender](navigate-terminal).
-- Python3 instalado no seu computador. Isso vem instalado por padrão nas versões recentes do macOS e em várias distribuições do Linux.
+* Acesso a um terminal Unix em qualquer ambiente macOS ou Linux.
+* Saber como abrir uma janela do terminal. Se você não sabe ao certo, visite as instruções para [macOS](open-terminal-macos) ou Linux (em breve).
+* Saber como navegar entre arquivos e pastas em um terminal. Se você não sabe ao certo, siga [esse guia antes para aprender](navigate-terminal).
+* Python3 instalado no seu computador. Isso vem instalado por padrão nas versões recentes do macOS e em várias distribuições do Linux.
 
 ## Comece encontrando a pasta certa
 
