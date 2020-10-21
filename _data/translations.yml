@@ -26,6 +26,9 @@ supported_langs:
   te:
     name: తెలుగు
     prefix: /te
+  ja:
+    name: 日本语
+    prefix: /ja
   # ru:
   #  name: Русский
   #  prefix: /ru
@@ -48,6 +51,8 @@ site_description:
     మీకు అవసరమైన సమాచారం ఇక్కడ తెలుసుకొండి
   ru: Все знания, необходимые для начала работы
     в терминалах операционных систем.
+  ja: 全ての知識が、全体のオペレーションシステムで、
+    ターミナルを起動して実行するために必要だった。
 hero_title:
   en: What is this?
   es: ¿Que es esto?
@@ -58,6 +63,7 @@ hero_title:
   id: Apakah ini?
   te: ఇది ఏమిటి?
   ru: Что это?
+  ja: これは何ですか？
 hero_description:
   en: You might be an aspiring developer.
     Perhaps you just want to brush up on some basic terminal commands.
@@ -96,6 +102,11 @@ hero_description:
     Возможно, вы просто хотите освежить некоторые основные команды терминала.
     Несмотря ни на что, вы нашли нужное место.
     Перейдите в меню для выбора других языков.
+  ja:
+    あなたは意欲的な開発者かもしれません。
+    おそらく、いくつかの基本的なターミナルコマンドをより良くしたいだけです。
+    何があっても、あなたは正しい場所を見つけてきました。
+    他の言語のメニューにアクセスしてください。
 basic_section_title:
   en: The basics
   es: Los basicos
@@ -106,6 +117,7 @@ basic_section_title:
   id: Dasar-dasar
   te: ప్రాథాన్యాలు
   ru: Основы
+  ja: 基礎
 basic_section_description:
   en: These essential commands will help you navigate,
     explore, and perform simple actions on your terminal.
@@ -125,6 +137,8 @@ basic_section_description:
     చర్యలను చేయడానికి ఈ ముఖ్యమైన కమాండ్స్ మీకు సహాయపడతాయి,
   ru: Эти важные команды помогут вам сориентироваться,
     исследуйте и выполняйте простые действия на своем терминале.
+  ja: これらの重要なコマンドは、端末で簡単なアクションをナビゲート、
+    探索、および実行するのに役立ちます。
 files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
@@ -135,6 +149,7 @@ files_section_title:
   id: Memodifikasi file dan folder
   te: ఫైల్‌లు మరియు ఫోల్డర్‌లను సవరించండి
   ru: Изменить файлы и папки
+  ja: ファイルとフォルダを変更する
 files_section_description:
   en: These commands will help you create,
     modify, and delete files and folders.
@@ -154,6 +169,8 @@ files_section_description:
     తొలగించడానికి ఈ కమాండ్స్ మీకు సృష్టించడానికి సహాయపడతాయి
   ru: Эти команды помогут вам создать,
     изменять и удалять файлы и папки.
+  ja: これらのコマンドは、ファイルやフォルダーの作成、
+    変更、および削除に役立ちます。
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
@@ -164,6 +181,7 @@ more_coming_soon:
   id: Selebihnya datang segera!
   te: త్వరలో మరిన్ని రాబోతున్నాయి!
   ru: Продолжение следует!
+  ja: もうすぐに来る！
 # Buttons
 begin_reading:
   en: Get started
@@ -175,6 +193,7 @@ begin_reading:
   id: Memulai
   te: ప్రారంభించడానికి
   ru: Начать
+  ja: 始めましょう
 show_me_action:
   en: Show me
   es: Enséñame
@@ -185,6 +204,7 @@ show_me_action:
   id: Tunjukkan
   te: చూపించు
   ru: Показать
+  ja: 見せて
 hide_action:
   en: Hide
   es: Ocultar
@@ -195,7 +215,7 @@ hide_action:
   id: Sembunyikan
   te: దాచు
   ru: Скрыть
-
+  ja: 隠して
 # Layout items
 contact:
   en: Contact
@@ -207,6 +227,7 @@ contact:
   id: Kontak
   te: సంప్రదించండి
   ru: Контакты
+  ja: お問い合わせ
 more_resources:
   en: More resources
   es: Más recursos
@@ -217,6 +238,7 @@ more_resources:
   id: Sumber lebih
   te: మరిన్ని వనరులు
   ru: Больше ресурсов
+  ja: より多くのリソース
 guides:
   en: Guides
   es: Guías
@@ -227,6 +249,7 @@ guides:
   id: Panduan
   te: గైడ్లు
   ru: Гайды
+  ja: ガイド
 language:
   en: Language
   es: Idioma
@@ -237,6 +260,7 @@ language:
   id: Bahasa
   te: భాష
   ru: Язык
+  ja: 言語
 feedback:
   en: Feedback
   es: Comentarios
@@ -247,6 +271,7 @@ feedback:
   id: Umpan balik
   te: అభిప్రాయం
   ru: Фидбек
+  ja: フィードバック
 # Guide index
 guides_available_title:
   en: Available guides
@@ -258,6 +283,7 @@ guides_available_title:
   id: Panduan tersedia
   te: అందుబాటులో ఉన్న గైడ్‌లు
   ru: Доступные гайды
+  ja: 利用可能なガイド
 guides_available_desc:
   en: Here are all of the guides that are currently available.
   es: Aquí están todas las guías que están disponibles actualmente.
@@ -268,3 +294,4 @@ guides_available_desc:
   id: Berikut panduan yang sekarang tersedia.
   te: ప్రస్తుతం అందుబాటులో ఉన్న అన్ని గైడ్‌లు ఇక్కడ ఉన్నాయి.
   ru: Все гайды, доступные в настоящее время.
+  ja: 現在利用可能なすべてのガイドは次のとおりです。
