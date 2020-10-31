@@ -16,6 +16,8 @@
       cat digunakan untuk memunculkan isi dari [FILE] ke terminal
     pt-BR: Este comando tem muitos usos, mas comumente para iniciantes,
       cat se usa para enviar o conteúdo de um [ARQUIVO] para o terminal
+    je: このコマンドには多くの用途がありますが、最も一般的には初心者向けです。
+       catは、[FILE]の内容を端末に出力するために使用されます
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
@@ -37,6 +39,8 @@
       Perintah ini berjalan di direktori kamu berada.
     pt-BR: Crie uma nova pasta com o [NOME_DA_PASTA] desejada.
       Isso ocorre em seu diretório de trabalho atual
+    je: 目的の[FOLDER_NAME]で新しいフォルダを作成します。
+       これは、現在の作業ディレクトリで発生します
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music</span>
@@ -54,6 +58,7 @@
     te: ఫైల్ యొక్క కాపీని చేయండి
     id: Membuat salinan dari sebuah file
     pt-BR: Fazer uma cópia de um arquivo
+    je: ファイルのコピーを作成する
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -75,6 +80,7 @@
     id: Memindahkan file dan folder.
       Bisa juga untuk mengganti nama file dan folder
     pt-BR: Mover arquivos e pastas. Também pode renomear arquivos e pastas
+    je: ファイルとフォルダを移動します。 ファイルやフォルダの名前を変更することもできます
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -92,6 +98,7 @@
     te: తొలగించు [FILE]
     id: Menghapus file
     pt-BR: Excluir [ARQUIVO]
+    je: ファイルを削除する
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
@@ -115,6 +122,7 @@
       yang artinya menghapus folder beserta isinya
     pt-BR: Eliminar uma [PASTA] recursivamente,
       o que significa excluir a pasta e tudo que ela contém
+    je: [FOLDER]を再帰的に削除します。これは、フォルダーとその中のすべてを意味します
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder hello.txt</span>
