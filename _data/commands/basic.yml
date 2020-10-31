@@ -12,6 +12,8 @@
       ఆకృతిలో జాబితా చేయండి
     id: Menampilkan daftar file dan folder di direktori
       dimana kamu berada dalam format yang ringkas
+    fr: Répertoriez les fichiers et dossiers normaux du répertoire courant
+      au format condensé
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Documents Music</span>
@@ -29,6 +31,8 @@
       మార్గాన్ని అవుట్పుట్ చేయండి
     id: Menampilkan output penuh lokasi direktori
       dimana kamu berada pada terminal
+    fr: Affiche le chemin complet du répertoire de travail actuel
+      pour ce terminal
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -50,6 +54,9 @@
       ఇది మీ హోమ్ డైరెక్టరీకి మార్చడం డిఫాల్ట్‌గా ఉంటుంది
     id: Berpindah direktori. Jika digunakan sendiri, maka akan
       memindahkan kamu ke home direktori
+    fr: Modifiez votre répertoire de travail actuel.
+      Lorsqu'il est utilisé seul, il passera par défaut
+      à votre répertoire personnel
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>
@@ -64,6 +71,7 @@
     hi: अपनी वर्तमान कार्य निर्देशिका से वांछित फ़ोल्डर मे जाने के लिये
     te: మీ ప్రస్తుత పని డైరెక్టరీని కావలసిన [ఫోల్డర్] కు మార్చండి
     id: Berpindah direktori sesuai dengan [FOLDER] yang diinginkan
+    fr: Remplacez votre répertoire de travail actuel par le [FOLDER] souhaité
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -81,6 +89,7 @@
     hi: अपनी वर्तमान कार्य निर्देशिका से अपने घर निर्देशिका को बदलने के लिए
     te: మీ ప్రస్తుత వర్కింగ్ డైరెక్టరీని పేరెంట్ డైరెక్టరీకి మార్చండి
     id: Berpindah ke direktori induk
+    fr: Remplacez votre répertoire de travail actuel par le répertoire parent
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me/Desktop</span>

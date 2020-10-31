@@ -16,6 +16,9 @@
       cat digunakan untuk memunculkan isi dari [FILE] ke terminal
     pt-BR: Este comando tem muitos usos, mas comumente para iniciantes,
       cat se usa para enviar o conteúdo de um [ARQUIVO] para o terminal
+    fr: Cette commande a de nombreuses utilisations, mais le plus
+      souvent pour les débutants, cat est utilisé pour afficher
+      le contenu d'un [FILE] vers le terminal
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
@@ -37,6 +40,8 @@
       Perintah ini berjalan di direktori kamu berada.
     pt-BR: Crie uma nova pasta com o [NOME_DA_PASTA] desejada.
       Isso ocorre em seu diretório de trabalho atual
+    fr: Créez un nouveau dossier avec le [FOLDER_NAME] souhaité.
+      Cela se produit dans votre répertoire de travail actuel
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music</span>
@@ -54,6 +59,7 @@
     te: ఫైల్ యొక్క కాపీని చేయండి
     id: Membuat salinan dari sebuah file
     pt-BR: Fazer uma cópia de um arquivo
+    fr: Faire une copie d'un fichier
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -75,6 +81,8 @@
     id: Memindahkan file dan folder.
       Bisa juga untuk mengganti nama file dan folder
     pt-BR: Mover arquivos e pastas. Também pode renomear arquivos e pastas
+    fr: Déplacer des fichiers et des dossiers.
+      Peut également renommer des fichiers et des dossiers
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -92,6 +100,7 @@
     te: తొలగించు [FILE]
     id: Menghapus file
     pt-BR: Excluir [ARQUIVO]
+    fr: Supprimer [FILE]
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
@@ -115,6 +124,8 @@
       yang artinya menghapus folder beserta isinya
     pt-BR: Eliminar uma [PASTA] recursivamente,
       o que significa excluir a pasta e tudo que ela contém
+    fr: Supprimer un [FOLDER] de manière récursive,
+      ce qui signifie le dossier et tout ce qu'il contient
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder hello.txt</span>
