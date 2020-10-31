@@ -12,8 +12,8 @@
       ఆకృతిలో జాబితా చేయండి
     id: Menampilkan daftar file dan folder di direktori
       dimana kamu berada dalam format yang ringkas
-    bn: এটি কনডেন্সযুক্ত ফর্ম্যাটে বর্তমান ডিরেক্টরিতে সাধারণ 
-      এবং ফোল্ডারগুলি তালিকাভুক্ত করবে    
+    bn: এটি কনডেন্সযুক্ত ফর্ম্যাটে বর্তমান ডিরেক্টরিতে সাধারণ
+      এবং ফোল্ডারগুলি তালিকাভুক্ত করবে
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Documents Music</span>
@@ -31,7 +31,7 @@
       మార్గాన్ని అవుట్పుట్ చేయండి
     id: Menampilkan output penuh lokasi direktori
       dimana kamu berada pada terminal
-    bn: এটি এই টার্মিনালের জন্য বর্তমান কার্যনির্বাহী ডিরেক্টরিটির 
+    bn: এটি এই টার্মিনালের জন্য বর্তমান কার্যনির্বাহী ডিরেক্টরিটির
       পুরো পথ আউটপুট করবে
   html_terminal: >
     <span data-ty="input">pwd</span>
@@ -54,8 +54,8 @@
       ఇది మీ హోమ్ డైరెక్టరీకి మార్చడం డిఫాల్ట్‌గా ఉంటుంది
     id: Berpindah direktori. Jika digunakan sendiri, maka akan
       memindahkan kamu ke home direktori
-    bn: এটি আপনার বর্তমান কার্যকারী ডিরেক্টরিটি পরিবর্তন করবে। 
-    যখন নিজে নিজে ব্যবহার করা হবে তখন এটি আপনার হোম ডিরেক্টরিতে পরিবর্তিত হয়ে যাবে
+    bn: এটি আপনার বর্তমান কার্যকারী ডিরেক্টরিটি পরিবর্তন করবে।
+      যখন নিজে নিজে ব্যবহার করা হবে তখন এটি আপনার হোম ডিরেক্টরিতে পরিবর্তিত হয়ে যাবে
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>
@@ -88,7 +88,8 @@
     hi: अपनी वर्तमान कार्य निर्देशिका से अपने घर निर्देशिका को बदलने के लिए
     te: మీ ప్రస్తుత వర్కింగ్ డైరెక్టరీని పేరెంట్ డైరెక్టరీకి మార్చండి
     id: Berpindah ke direktori induk
-    bn: এটি আপনার বর্তমান ওয়ার্কিং ডিরেক্টরিটিকে পিতামাতার ডিরেক্টরিতে পরিবর্তন করবে
+    bn: এটি আপনার বর্তমান ওয়ার্কিং ডিরেক্টরিটিকে পিতামাতার
+      ডিরেক্টরিতে পরিবর্তন করবে
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me/Desktop</span>
