@@ -12,8 +12,8 @@
       ఆకృతిలో జాబితా చేయండి
     id: Menampilkan daftar file dan folder di direktori
       dimana kamu berada dalam format yang ringkas
-    bn: এটি কনডেন্সযুক্ত ফর্ম্যাটে বর্তমান ডিরেক্টরিতে সাধারণ ফাইল
-      এবং ফোল্ডারগুলি তালিকাভুক্ত করবে
+    bn: এটি কনডেন্সযুক্ত ফর্ম্যাটে বর্তমান ডিরেক্টরিতে সাধারণ 
+      এবং ফোল্ডারগুলি তালিকাভুক্ত করবে    
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Documents Music</span>
@@ -55,7 +55,7 @@
     id: Berpindah direktori. Jika digunakan sendiri, maka akan
       memindahkan kamu ke home direktori
     bn: এটি আপনার বর্তমান কার্যকারী ডিরেক্টরিটি পরিবর্তন করবে। 
-      যখন নিজে নিজে ব্যবহার করা হবে তখন এটি আপনার হোম ডিরেক্টরিতে পরিবর্তিত হয়ে যাবে
+    যখন নিজে নিজে ব্যবহার করা হবে তখন এটি আপনার হোম ডিরেক্টরিতে পরিবর্তিত হয়ে যাবে
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>
