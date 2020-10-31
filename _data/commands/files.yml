@@ -16,6 +16,7 @@
       cat digunakan untuk memunculkan isi dari [FILE] ke terminal
     pt-BR: Este comando tem muitos usos, mas comumente para iniciantes,
       cat se usa para enviar o conteúdo de um [ARQUIVO] para o terminal
+    bn: এই কমান্ডটির অনেকগুলি ব্যবহার রয়েছে তবে প্রাথমিকভাবে প্রাথমিকভাবে এটি একটি [ফাইল] এর সামগ্রীগুলি টার্মিনালে আউটপুট করতে ব্যবহৃত হয়
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
@@ -37,6 +38,7 @@
       Perintah ini berjalan di direktori kamu berada.
     pt-BR: Crie uma nova pasta com o [NOME_DA_PASTA] desejada.
       Isso ocorre em seu diretório de trabalho atual
+    bn: এটি পছন্দসই [FOLDER_NAME] সহ একটি নতুন ফোল্ডার তৈরি করবে his এটি আপনার বর্তমান কার্যকারী ডিরেক্টরিতে ঘটে
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music</span>
@@ -54,6 +56,7 @@
     te: ఫైల్ యొక్క కాపీని చేయండి
     id: Membuat salinan dari sebuah file
     pt-BR: Fazer uma cópia de um arquivo
+    bn: এটি কোনও ফাইলের একটি অনুলিপি তৈরি করবে
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -75,6 +78,7 @@
     id: Memindahkan file dan folder.
       Bisa juga untuk mengganti nama file dan folder
     pt-BR: Mover arquivos e pastas. Também pode renomear arquivos e pastas
+    bn: এটি ফাইল এবং ফোল্ডার সরিয়ে ফেলবে। এটি ফাইল এবং ফোল্ডারগুলির নাম পরিবর্তন করতেও ব্যবহৃত হতে পারে
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -92,6 +96,7 @@
     te: తొలగించు [FILE]
     id: Menghapus file
     pt-BR: Excluir [ARQUIVO]
+    bn: এটি [ফাইল] মুছে ফেলবে
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
@@ -115,6 +120,7 @@
       yang artinya menghapus folder beserta isinya
     pt-BR: Eliminar uma [PASTA] recursivamente,
       o que significa excluir a pasta e tudo que ela contém
+    bn: এটি একটি [ফোল্ডার] পুনরাবৃত্তভাবে মুছে ফেলবে, যার অর্থ ফোল্ডার এবং এর মধ্যে থাকা সমস্ত কিছুই
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder hello.txt</span>
