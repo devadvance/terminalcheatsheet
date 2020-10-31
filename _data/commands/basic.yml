@@ -31,7 +31,8 @@
       మార్గాన్ని అవుట్పుట్ చేయండి
     id: Menampilkan output penuh lokasi direktori
       dimana kamu berada pada terminal
-    fr: Affiche le chemin complet du répertoire de travail actuel pour ce terminal
+    fr: Affiche le chemin complet du répertoire de travail actuel
+      pour ce terminal
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -54,7 +55,8 @@
     id: Berpindah direktori. Jika digunakan sendiri, maka akan
       memindahkan kamu ke home direktori
     fr: Modifiez votre répertoire de travail actuel.
-      Lorsqu'il est utilisé seul, il passera par défaut à votre répertoire personnel
+      Lorsqu'il est utilisé seul, il passera par défaut
+      à votre répertoire personnel
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>

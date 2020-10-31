@@ -16,8 +16,8 @@
       cat digunakan untuk memunculkan isi dari [FILE] ke terminal
     pt-BR: Este comando tem muitos usos, mas comumente para iniciantes,
       cat se usa para enviar o conteúdo de um [ARQUIVO] para o terminal
-    fr: Cette commande a de nombreuses utilisations, mais le plus souvent pour les débutants,
-      cat est utilisé pour afficher le contenu d'un [FILE] vers le terminal
+    fr: Cette commande a de nombreuses utilisations, mais le plus souvent pour les
+      débutants, cat est utilisé pour afficher le contenu d'un [FILE] vers le terminal
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
