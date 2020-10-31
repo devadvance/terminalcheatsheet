@@ -19,6 +19,9 @@
     zh-CN: 以压缩格式列出当前目录中的普通文件和文件夹
     fr: Répertoriez les fichiers et dossiers normaux du répertoire courant
       au format condensé
+    ta: இது தற்போதைய கோப்பகத்தில் சாதாரண கோப்புகள்
+      மற்றும் கோப்புறைகளை அமுக்கப்பட்ட
+      வடிவத்தில் பட்டியலிடும்
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Documents Music</span>
@@ -42,6 +45,8 @@
     zh-CN: 输出此终端当前工作目录的完整路径
     fr: Affiche le chemin complet du répertoire de travail actuel
       pour ce terminal
+    ta: இந்த முனையத்திற்கான தற்போதைய
+      பணி கோப்பகத்தின் முழு பாதையையும் இது வெளியிடும்
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -72,6 +77,10 @@
     fr: Modifiez votre répertoire de travail actuel.
       Lorsqu'il est utilisé seul, il passera par défaut
       à votre répertoire personnel
+    ta: இது உங்கள் தற்போதைய பணி
+      அடைவை மாற்றும்.தானாகவே
+      பயன்படுத்தும்போது, ​​அது உங்கள் வீட்டு அடைவுக்கு மாறுவதற்கு
+      இயல்புநிலையாக இருக்கும்
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>
@@ -90,6 +99,8 @@
     je: 現在の作業ディレクトリを目的の[フォルダ]に変更します
     zh-CN: 将当前工作目录更改为所需的文件夹
     fr: Remplacez votre répertoire de travail actuel par le [FOLDER] souhaité
+    ta: இது உங்கள் தற்போதைய
+      பணி அடைவை விரும்பிய [FOLDER] க்கு மாற்றும்
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -112,6 +123,8 @@
     je: 現在の作業ディレクトリを親ディレクトリに変更します
     zh-CN: 将您当前的工作目录更改为父目录
     fr: Remplacez votre répertoire de travail actuel par le répertoire parent
+    ta: இது உங்கள் தற்போதைய
+      பணி அடைவை பெற்றோர் கோப்பகமாக மாற்றும்
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me/Desktop</span>
