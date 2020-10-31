@@ -26,12 +26,15 @@ supported_langs:
   te:
     name: తెలుగు
     prefix: /te
-  ja:
-    name: 日本语
-    prefix: /ja
   # ru:
   #  name: Русский
   #  prefix: /ru
+  ja:
+    name: 日本语
+    prefix: /ja
+  bn:
+    name: বাংলা
+    prefix: /bn
 site_description:
   en: All the knowledge you need to get up and running
     on terminals across operating systems.
@@ -53,6 +56,8 @@ site_description:
     в терминалах операционных систем.
   ja: 全ての知識が、全体のオペレーションシステムで、
     ターミナルを起動して実行するために必要だった。
+  bn: আপনার উঠে পড়ার জন্য প্রয়োজনীয় সমস্ত জ্ঞান
+    অপারেটিং সিস্টেম জুড়ে টার্মিনাল উপর।
 hero_title:
   en: What is this?
   es: ¿Que es esto?
@@ -64,6 +69,7 @@ hero_title:
   te: ఇది ఏమిటి?
   ru: Что это?
   ja: これは何ですか？
+  bn: এটা কি?
 hero_description:
   en: You might be an aspiring developer.
     Perhaps you just want to brush up on some basic terminal commands.
@@ -107,6 +113,10 @@ hero_description:
     おそらく、いくつかの基本的なターミナルコマンドをより良くしたいだけです。
     何があっても、あなたは正しい場所を見つけてきました。
     他の言語のメニューにアクセスしてください。
+  bn: আপনি একজন উচ্চাকাঙ্ক্ষী বিকাশকারী হতে পারেন।
+    সম্ভবত আপনি কিছু বেসিক টার্মিনাল কমান্ডগুলি ব্রাশ করতে চান।
+    যাই হোক না কেন, আপনি সঠিক জায়গাটি খুঁজে পেয়েছেন।
+    অন্যান্য ভাষার জন্য মেনু দেখুন।
 basic_section_title:
   en: The basics
   es: Los basicos
@@ -118,6 +128,7 @@ basic_section_title:
   te: ప్రాథాన్యాలు
   ru: Основы
   ja: 基礎
+  bn: অধিকার
 basic_section_description:
   en: These essential commands will help you navigate,
     explore, and perform simple actions on your terminal.
@@ -139,6 +150,8 @@ basic_section_description:
     исследуйте и выполняйте простые действия на своем терминале.
   ja: これらの重要なコマンドは、端末で簡単なアクションをナビゲート、
     探索、および実行するのに役立ちます。
+  bn: এই প্রয়োজনীয় আদেশগুলি আপনাকে নেভিগেট করতে সহায়তা করবে,
+    আপনার টার্মিনালে অন্বেষণ করুন এবং সাধারণ ক্রিয়া সম্পাদন করুন।
 files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
@@ -150,6 +163,7 @@ files_section_title:
   te: ఫైల్‌లు మరియు ఫోల్డర్‌లను సవరించండి
   ru: Изменить файлы и папки
   ja: ファイルとフォルダを変更する
+  bn: ফাইল এবং ফোল্ডারগুলি সংশোধন করুন
 files_section_description:
   en: These commands will help you create,
     modify, and delete files and folders.
@@ -171,6 +185,8 @@ files_section_description:
     изменять и удалять файлы и папки.
   ja: これらのコマンドは、ファイルやフォルダーの作成、
     変更、および削除に役立ちます。
+  bn: এই আদেশগুলি আপনাকে তৈরি করতে সহায়তা করবে,
+    ফাইল এবং ফোল্ডারগুলি সংশোধন করুন এবং মুছুন।
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
@@ -182,6 +198,7 @@ more_coming_soon:
   te: త్వరలో మరిన్ని రాబోతున్నాయి!
   ru: Продолжение следует!
   ja: もうすぐに来る！
+  bn: আরও শীঘ্রই আসছে!
 # Buttons
 begin_reading:
   en: Get started
@@ -194,6 +211,7 @@ begin_reading:
   te: ప్రారంభించడానికి
   ru: Начать
   ja: 始めましょう
+  bn: এবার শুরু করা যাক
 show_me_action:
   en: Show me
   es: Enséñame
@@ -205,6 +223,7 @@ show_me_action:
   te: చూపించు
   ru: Показать
   ja: 見せて
+  bn: আমাকে দেখাও
 hide_action:
   en: Hide
   es: Ocultar
@@ -216,6 +235,8 @@ hide_action:
   te: దాచు
   ru: Скрыть
   ja: 隠して
+  bn: লুকান
+
 # Layout items
 contact:
   en: Contact
@@ -228,6 +249,7 @@ contact:
   te: సంప్రదించండి
   ru: Контакты
   ja: お問い合わせ
+  bn: যোগাযোগ
 more_resources:
   en: More resources
   es: Más recursos
@@ -239,6 +261,7 @@ more_resources:
   te: మరిన్ని వనరులు
   ru: Больше ресурсов
   ja: より多くのリソース
+  bn: আরও সংস্থান
 guides:
   en: Guides
   es: Guías
@@ -250,6 +273,7 @@ guides:
   te: గైడ్లు
   ru: Гайды
   ja: ガイド
+  bn: গাইড
 language:
   en: Language
   es: Idioma
@@ -261,6 +285,7 @@ language:
   te: భాష
   ru: Язык
   ja: 言語
+  bn: ভাষা
 feedback:
   en: Feedback
   es: Comentarios
@@ -272,6 +297,7 @@ feedback:
   te: అభిప్రాయం
   ru: Фидбек
   ja: フィードバック
+  bn: মতামত
 # Guide index
 guides_available_title:
   en: Available guides
@@ -284,6 +310,7 @@ guides_available_title:
   te: అందుబాటులో ఉన్న గైడ్‌లు
   ru: Доступные гайды
   ja: 利用可能なガイド
+  bn: উপলব্ধ গাইড
 guides_available_desc:
   en: Here are all of the guides that are currently available.
   es: Aquí están todas las guías que están disponibles actualmente.
@@ -295,3 +322,4 @@ guides_available_desc:
   te: ప్రస్తుతం అందుబాటులో ఉన్న అన్ని గైడ్‌లు ఇక్కడ ఉన్నాయి.
   ru: Все гайды, доступные в настоящее время.
   ja: 現在利用可能なすべてのガイドは次のとおりです。
+  bn: এখানে বর্তমানে উপলব্ধ যে সমস্ত গাইড রয়েছে সেগুলি এখানে।
