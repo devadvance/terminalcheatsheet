@@ -14,6 +14,7 @@
       dimana kamu berada dalam format yang ringkas
     je: 現在のディレクトリ内の通常のファイルとフォルダを要約して一覧表示します
       フォーマット
+    zh-CN: 以压缩格式列出当前目录中的普通文件和文件夹
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Documents Music</span>
@@ -32,6 +33,7 @@
     id: Menampilkan output penuh lokasi direktori
       dimana kamu berada pada terminal
     je: この端末の現在の作業ディレクトリのフルパスを出力します
+    zh-CN: 输出此终端当前工作目录的完整路径
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -55,6 +57,7 @@
       memindahkan kamu ke home direktori
     je: 現在の作業ディレクトリを変更します。単独で使用すると、
       デフォルトでは、ホームディレクトリに移動します
+    zh-CN: 更改您的当前工作目录。 单独使用时，它将默认更改为您的主目录
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>
@@ -70,6 +73,7 @@
     te: మీ ప్రస్తుత పని డైరెక్టరీని కావలసిన [ఫోల్డర్] కు మార్చండి
     id: Berpindah direktori sesuai dengan [FOLDER] yang diinginkan
     je: 現在の作業ディレクトリを目的の[フォルダ]に変更します
+    zh-CN: 将当前工作目录更改为所需的文件夹
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -88,6 +92,7 @@
     te: మీ ప్రస్తుత వర్కింగ్ డైరెక్టరీని పేరెంట్ డైరెక్టరీకి మార్చండి
     id: Berpindah ke direktori induk
     je: 現在の作業ディレクトリを親ディレクトリに変更します
+    zh-CN: 将您当前的工作目录更改为父目录
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me/Desktop</span>
