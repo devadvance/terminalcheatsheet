@@ -18,6 +18,12 @@
       cat se usa para enviar o conteúdo de um [ARQUIVO] para o terminal
     bn: এই কমান্ডটির অনেকগুলি ব্যবহার রয়েছে তবে প্রাথমিকভাবে প্রাথমিকভাবে এটি
       একটি [ফাইল] এর সামগ্রীগুলি টার্মিনালে আউটপুট করতে ব্যবহৃত হয়
+    je: このコマンドには多くの用途がありますが、最も一般的には初心者向けです。
+       catは、[FILE]の内容を端末に出力するために使用されます
+    zh-CN: 此命令有许多用途，但最常见于初学者，cat用于将文件内容输出到终端
+    fr: Cette commande a de nombreuses utilisations, mais le plus
+      souvent pour les débutants, cat est utilisé pour afficher
+      le contenu d'un [FILE] vers le terminal
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
@@ -41,6 +47,11 @@
       Isso ocorre em seu diretório de trabalho atual
     bn: এটি পছন্দসই [FOLDER_NAME] সহ একটি নতুন ফোল্ডার তৈরি করবে।
       এটি আপনার বর্তমান ওয়ার্কিং ডিরেক্টরিতে ঘটে
+    je: 目的の[FOLDER_NAME]で新しいフォルダを作成します。
+       これは、現在の作業ディレクトリで発生します
+    zh-CN: 使用所需的FOLDER_NAME创建一个新文件夹。 这发生在您当前的工作目录中
+    fr: Créez un nouveau dossier avec le [FOLDER_NAME] souhaité.
+      Cela se produit dans votre répertoire de travail actuel
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music</span>
@@ -59,6 +70,9 @@
     id: Membuat salinan dari sebuah file
     pt-BR: Fazer uma cópia de um arquivo
     bn: এটি কোনও ফাইলের একটি অনুলিপি তৈরি করবে
+    je: ファイルのコピーを作成する
+    zh-CN: 制作文件副本
+    fr: Faire une copie d'un fichier
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -82,6 +96,10 @@
     pt-BR: Mover arquivos e pastas. Também pode renomear arquivos e pastas
     bn: এটি ফাইল এবং ফোল্ডার সরিয়ে ফেলবে।
       এটি ফাইল এবং ফোল্ডারগুলির নাম পরিবর্তন করতেও ব্যবহৃত হতে পারে
+    je: ファイルとフォルダを移動します。 ファイルやフォルダの名前を変更することもできます
+    zh-CN: 移动文件和文件夹。 也可以重命名文件和文件夹
+    fr: Déplacer des fichiers et des dossiers.
+      Peut également renommer des fichiers et des dossiers
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -100,6 +118,9 @@
     id: Menghapus file
     pt-BR: Excluir [ARQUIVO]
     bn: এটি [ফাইল] মুছে ফেলবে
+    je: ファイルを削除する
+    zh-CN: 删除文件
+    fr: Supprimer [FILE]
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
@@ -125,6 +146,10 @@
       o que significa excluir a pasta e tudo que ela contém
     bn: এটি একটি [ফোল্ডার] পুনরাবৃত্তভাবে মুছে ফেলবে,
       যার অর্থ ফোল্ডার এবং এর মধ্যে থাকা সমস্ত কিছুই
+    je: FOLDER を再帰的に削除します。これは、フォルダーとその中のすべてを意味します
+    zh-CN: 递归删除文件夹，这意味着该文件夹及其中的所有内容
+    fr: Supprimer un [FOLDER] de manière récursive,
+      ce qui signifie le dossier et tout ce qu'il contient
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder hello.txt</span>
