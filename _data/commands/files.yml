@@ -121,9 +121,8 @@
     id: Menghapus sebuah [FOLDER] secara rekursif,
       yang artinya menghapus folder beserta isinya
     pt-BR: Eliminar uma [PASTA] recursivamente,
-      o que significa excluir a pasta e tudo que ela contém
-    je: [FOLDER]を再帰的に削除し、
-       これは、フォルダとその中のすべてを意味します
+      o que significa excluir a pasta e tudo que ela contém,
+    je: [FOLDER]を再帰的に削除し、これは、フォルダとその中のすべてを意味します
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder hello.txt</span>
