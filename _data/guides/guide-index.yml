@@ -9,6 +9,7 @@
     hi: macOS पर टर्मिनल कैसे खोलें
     id: Cara membuka terminal di macOS
     te: macOS లో టెర్మినల్‌ను ఎలా తెరవాలో
+    fr: Comment ouvrir le terminal sur macOS
   link:
     en: /guides/open-terminal-macos
     es: /es/guides/open-terminal-macos
@@ -17,6 +18,7 @@
     hi: /hi/guides/open-terminal-macos
     id: /id/guides/open-terminal-macos
     te: /te/guides/open-terminal-macos
+    fr: /fr/guides/open-terminal-macos
 
 - id: navigate-work-files
   title:
@@ -27,6 +29,7 @@
     hi: टर्मिनल पर फ़ाइलों और फ़ोल्डरों को कैसे नेविगेट करें
     id: Cara menavigasi file dan folder di terminal
     te: టెర్మినలో ఫైల్‌ లు మరియు ఫోల్డర్‌లను ఎలా నావిగేట్ చేయాలి
+    fr: Comment parcourir les fichiers et dossiers sur un terminal
   link:
     en: /guides/navigate-terminal
     es: /es/guides/navigate-terminal
@@ -35,6 +38,7 @@
     hi: /hi/guides/navigate-terminal
     id: /id/guides/navigate-terminal
     te: /te/guides/navigate-terminal
+    fr: /fr/guides/navigate-terminal
 
 - id: curl-rest-api
   title:
@@ -45,6 +49,7 @@
     hi: REST API का परीक्षण करने के लिए कर्ल का उपयोग कैसे करें
     id: Panduan menggunakan curl untuk menguji REST API
     te: REST API లు మరియు సర్వర్‌లతో ఇంటరాక్ట్ అవ్వడానికి curl ను ఉపయోగించడం
+    fr: Comment utiliser curl pour tester une REST API
   link:
     en: /guides/curl-rest-api
     es: /es/guides/curl-rest-api
@@ -53,6 +58,7 @@
     hi: /hi/guides/curl-rest-api
     id: /id/guides/curl-rest-api
     te: /te/guides/curl-rest-api
+    fr: /fr/guides/curl-rest-api
 
 - id: basic-web-server-macos-linux
   title:
@@ -63,6 +69,7 @@
     hi: macOS या Linux पर एक बेसिक वेब सर्वर कैसे शुरू करें
     id: Bagaimana cara menjalankan web server dasar pada macOS atau Linux
     te: MacOS మరియు Linux లో ప్రాథమిక వెబ్ సర్వర్‌ను ఎలా ప్రారంభించాలి
+    fr: Comment démarrer un serveur Web de base sur macOS ou Linux
   link:
     en: /guides/basic-web-server-macos-linux
     es: /es/guides/basic-web-server-macos-linux
@@ -71,3 +78,4 @@
     hi: /hi/guides/basic-web-server-macos-linux
     id: /id/guides/basic-web-server-macos-linux
     te: /te/guides/basic-web-server-macos-linux
+    fr: /fr/guides/basic-web-server-macos-linux
