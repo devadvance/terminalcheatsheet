@@ -28,6 +28,9 @@
       ஆனால் பொதுவாக ஆரம்பநிலைக்கு,
       இது [FILE] இன் உள்ளடக்கங்களை முனையத்திற்கு வெளியிடுவதற்குப்
       பயன்படுத்தப்படுகிறது
+    ru: Эта команда имеет множество применений,
+      но чаще всего для новичков она используется
+      для вывода содержимого [FILE] на терминал.
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
@@ -59,6 +62,8 @@
     ta: இது விரும்பிய [FOLDER_NAME]
       உடன் புதிய கோப்புறையை உருவாக்கும்.
       இது உங்கள் தற்போதைய பணி அடைவில் நிகழ்கிறது
+    ru: Будет создана новая папка с желаемой [FOLDER_NAME].
+      Это происходит в вашем текущем рабочем каталоге
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music</span>
@@ -81,6 +86,7 @@
     zh-CN: 制作文件副本
     fr: Faire une copie d'un fichier
     ta: இது ஒரு கோப்பின் நகலை உருவாக்கும்
+    ru: Это сделает копию файла
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -110,6 +116,8 @@
       Peut également renommer des fichiers et des dossiers
     ta: இது கோப்புகள் மற்றும் கோப்புறைகளை நகர்த்தும்.
       இது கோப்புகள் மற்றும் கோப்புறைகளை மறுபெயரிடலாம்
+    ru: Он будет перемещать файлы и папки.
+      Также можно переименовывать файлы и папки
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -132,6 +140,7 @@
     zh-CN: 删除文件
     fr: Supprimer [FILE]
     ta: இது [FILE] ஐ நீக்கும்
+    ru: Будет удален [ФАЙЛ]
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
@@ -163,6 +172,8 @@
       ce qui signifie le dossier et tout ce qu'il contient
     ta: இது ஒரு [FOLDER] ஐ மீண்டும் மீண்டும் நீக்கும்,
       அதாவது கோப்புறை மற்றும் அதில் உள்ள அனைத்தையும் குறிக்கும்
+    ru: Он рекурсивно удалит [FOLDER],
+      что означает папку и все, что в ней
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder hello.txt</span>

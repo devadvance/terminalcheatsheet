@@ -22,6 +22,8 @@
     ta: இது தற்போதைய கோப்பகத்தில் சாதாரண கோப்புகள்
       மற்றும் கோப்புறைகளை அமுக்கப்பட்ட
       வடிவத்தில் பட்டியலிடும்
+    ru: Он перечислит обычные файлы и папки
+      в текущем каталоге в сжатом формате.
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Documents Music</span>
@@ -47,6 +49,8 @@
       pour ce terminal
     ta: இந்த முனையத்திற்கான தற்போதைய
       பணி கோப்பகத்தின் முழு பாதையையும் இது வெளியிடும்
+    ru: Он выведет полный путь к текущему рабочему
+      каталогу для этого терминала.
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -81,6 +85,9 @@
       அடைவை மாற்றும்.தானாகவே
       பயன்படுத்தும்போது, ​​அது உங்கள் வீட்டு அடைவுக்கு மாறுவதற்கு
       இயல்புநிலையாக இருக்கும்
+    ru: Это изменит ваш текущий рабочий каталог.
+      При самостоятельном использовании он по умолчанию
+      переходит в ваш домашний каталог.
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>
@@ -101,6 +108,7 @@
     fr: Remplacez votre répertoire de travail actuel par le [FOLDER] souhaité
     ta: இது உங்கள் தற்போதைய
       பணி அடைவை விரும்பிய [FOLDER] க்கு மாற்றும்
+    ru: Это изменит ваш текущий рабочий каталог на желаемый [ПАПКА]
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -125,6 +133,7 @@
     fr: Remplacez votre répertoire de travail actuel par le répertoire parent
     ta: இது உங்கள் தற்போதைய
       பணி அடைவை பெற்றோர் கோப்பகமாக மாற்றும்
+    ru: Он изменит ваш текущий рабочий каталог на родительский.
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me/Desktop</span>
