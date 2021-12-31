@@ -108,7 +108,7 @@
     fr: Remplacez votre répertoire de travail actuel par le [FOLDER] souhaité
     ta: இது உங்கள் தற்போதைய
       பணி அடைவை விரும்பிய [FOLDER] க்கு மாற்றும்
-    ru: Это изменит ваш текущий рабочий каталог на желаемый [ПАПКА]
+    ru: Это изменит ваш текущий рабочий каталог на желаемый [FOLDER]
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>

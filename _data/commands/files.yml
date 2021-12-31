@@ -140,7 +140,7 @@
     zh-CN: 删除文件
     fr: Supprimer [FILE]
     ta: இது [FILE] ஐ நீக்கும்
-    ru: Будет удален [ФАЙЛ]
+    ru: Будет удален [FILE]
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
