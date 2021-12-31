@@ -26,18 +26,18 @@ supported_langs:
   te:
     name: తెలుగు
     prefix: /te
-  # ru:
+  #ru:
   #  name: Русский
   #  prefix: /ru
-  zh-CN:
-    name: 简体中文
-    prefix: /zh-CN
-  ja:
-    name: 日本语
-    prefix: /ja
-  bn:
-    name: বাংলা
-    prefix: /bn
+  #zh-CN:
+  #  name: 简体中文
+  #  prefix: /zh-CN
+  #ja:
+  #  name: 日本语
+  #  prefix: /ja
+  #bn:
+  #  name: বাংলা
+  #  prefix: /bn
 site_description:
   en: All the knowledge you need to get up and running
     on terminals across operating systems.
