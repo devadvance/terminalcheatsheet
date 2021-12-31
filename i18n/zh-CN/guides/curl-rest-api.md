@@ -1,10 +1,10 @@
 ---
-布局: 指南布局
-标题: 如何使用curl测试REST API
-摘录: 如何使用curl测试REST API
-永久链接: /guides/curl-rest-api-zh-CN
-无前缀永久链接: /guides/curl-rest-api
-语言: 中文
+layout: guide-layout
+title: 如何使用curl测试REST API
+excerpt: 如何使用curl测试REST API
+permalink: /zh-CN/guides/curl-rest-api
+permalink_without_prefix: /guides/curl-rest-api
+lang: zh-CN
 ---
 
 **目录**

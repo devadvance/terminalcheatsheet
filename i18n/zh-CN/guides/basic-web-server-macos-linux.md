@@ -1,10 +1,10 @@
 ---
-布局: 如何在macOS或Linux上启动基本的web服务器
-标题: 本指南将教您如何使用Python从macOS或Linux计算机上的任何文件夹启动基本的web服务器。
-摘录: 本指南将教您如何使用Python从macOS或Linux计算机上的任何文件夹启动基本web服务器
-永久链接: /guides/basic-web-server-macos-linux-zh-CN
-无前缀永久链接: /guides/basic-web-server-macos-linux-zh-CN
-语言: 中文
+layout: guide-layout
+title: 如何在macOS或Linux上启动基本的web服务器
+excerpt: 本指南将教您如何使用Python从macOS或Linux计算机上的任何文件夹启动基本的web服务器。
+permalink: /zh-CN/guides/basic-web-server-macos-linux
+permalink_without_prefix: /guides/basic-web-server-macos-linux
+lang: zh-CN
 ---
 
 **目录**
@@ -14,22 +14,22 @@
 
 ## 导言
 
-如果您正在处理网页或其他web内容，则可能需要一种简单快捷的方法来启动基本web服务器。 本指南将教你一个Python命令在您的计算机上启动一个基本的web服务器。 按照这些说明操作时，请记住，计算机的文件和文件夹可能与示例不同。 如果您已经有很多使用终端的经验，请查看[主页上的命令以获取快速参考资料](/).
+如果您正在处理网页或其他web内容，则可能需要一种简单快捷的方法来启动基本web服务器。 本指南将教你一个Python命令在您的计算机上启动一个基本的web服务器。 按照这些说明操作时，请记住，计算机的文件和文件夹可能与示例不同。 如果您已经有很多使用终端的经验，请查看[主页上的命令以获取快速参考资料](/zh-CN/).
 
 ## 先决条件
 
 为了遵循本指南，您需要:
 
-*在任何macOS或Linux环境中访问Unix终端。
-*要知道如何打开终端窗口。 如果您不确定，请访问[mac OS]（开放终端-mac os）或Linux（即将推出）的说明。
-*要知道如何浏览终端上的文件和文件夹。 如果您不确定，请按照[本指南首先了解如何]（navigate-terminal）。
-*Python3安装在您的计算机上。 这是默认安装在最新版本的macOS和许多Linux发行版上。
+* 在任何macOS或Linux环境中访问Unix终端。
+* 要知道如何打开终端窗口。 如果您不确定，请访问[mac OS](open-terminal-macos) 或Linux（即将推出）的说明。
+* 要知道如何浏览终端上的文件和文件夹。 如果您不确定，请按照[本指南首先了解如何](navigate-terminal)。
+* Python3安装在您的计算机上。 这是默认安装在最新版本的macOS和许多Linux发行版上。
 
 ## 首先找到正确的文件夹
 
-首先，您需要导航到保存网页或web内容的文件夹。 如果你不知道如何做到这一点，你可能想阅读[本指南第一]（导航终端）。
+首先，您需要导航到保存网页或web内容的文件夹。 如果你不知道如何做到这一点，你可能想阅读[本指南第一](navigate-terminal)。
 
-让我们说，你的web内容在文件夹"/home/user/examples"中。 我们要做三件事:
+让我们说，你的web内容在文件夹`/home/user/examples`中。 我们要做三件事:
 
 1. 确保我们使用"pwd"在正确的工作目录中。
 2. 检查文件夹中是否有使用"ls"的web内容。
@@ -41,7 +41,7 @@
   <amp-anim src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" layout="responsive"></amp-anim>
 </div>
 
-在上面的例子中，我们使用'pwd'来验证'/home/user/examples'是我们的工作目录。 然后我们使用'ls'列出工作目录的内容，以确保我们在那里有一个HTML文件。 你可以注意到**你好。html**文件。
+在上面的例子中，我们使用`pwd`来验证`/home/user/examples`是我们的工作目录。 然后我们使用'ls'列出工作目录的内容，以确保我们在那里有一个HTML文件。 你可以注意到**你好。html**文件。
 
 最后，我们查看**hello的内容。html**使用'猫'，以确保它是真正的HTML。
 
@@ -65,9 +65,9 @@
 
 让我们来看看这个命令的作用:
 
-*'python3'指示终端使用Python3做一些事情。
-*'-m http.服务器"指示Python运行web服务器。
-*'8000'指示Python使用8000作为web服务器的端口。
+* 'python3'指示终端使用Python3做一些事情。
+* '-m http.服务器"指示Python运行web服务器。
+* '8000'指示Python使用8000作为web服务器的端口。
 
 让我们尝试运行它:
 
