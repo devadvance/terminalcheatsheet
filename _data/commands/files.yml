@@ -22,6 +22,10 @@
     fr: Cette commande a de nombreuses utilisations, mais le plus
       souvent pour les débutants, cat est utilisé pour afficher
       le contenu d'un [FILE] vers le terminal
+    ta: இந்த கட்டளை பல பயன்பாடுகளைக் கொண்டுள்ளது,
+      ஆனால் பொதுவாக ஆரம்பநிலைக்கு,
+      இது [FILE] இன் உள்ளடக்கங்களை முனையத்திற்கு வெளியிடுவதற்குப்
+      பயன்படுத்தப்படுகிறது
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
@@ -48,6 +52,9 @@
     zh-CN: 使用所需的FOLDER_NAME创建一个新文件夹。 这发生在您当前的工作目录中
     fr: Créez un nouveau dossier avec le [FOLDER_NAME] souhaité.
       Cela se produit dans votre répertoire de travail actuel
+    ta: இது விரும்பிய [FOLDER_NAME]
+      உடன் புதிய கோப்புறையை உருவாக்கும்.
+      இது உங்கள் தற்போதைய பணி அடைவில் நிகழ்கிறது
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music</span>
@@ -68,6 +75,7 @@
     je: ファイルのコピーを作成する
     zh-CN: 制作文件副本
     fr: Faire une copie d'un fichier
+    ta: இது ஒரு கோப்பின் நகலை உருவாக்கும்
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -93,6 +101,8 @@
     zh-CN: 移动文件和文件夹。 也可以重命名文件和文件夹
     fr: Déplacer des fichiers et des dossiers.
       Peut également renommer des fichiers et des dossiers
+    ta: இது கோப்புகள் மற்றும் கோப்புறைகளை நகர்த்தும்.
+      இது கோப்புகள் மற்றும் கோப்புறைகளை மறுபெயரிடலாம்
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -113,6 +123,7 @@
     je: ファイルを削除する
     zh-CN: 删除文件
     fr: Supprimer [FILE]
+    ta: இது [FILE] ஐ நீக்கும்
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
@@ -140,6 +151,8 @@
     zh-CN: 递归删除文件夹，这意味着该文件夹及其中的所有内容
     fr: Supprimer un [FOLDER] de manière récursive,
       ce qui signifie le dossier et tout ce qu'il contient
+    ta: இது ஒரு [FOLDER] ஐ மீண்டும் மீண்டும் நீக்கும்,
+      அதாவது கோப்புறை மற்றும் அதில் உள்ள அனைத்தையும் குறிக்கும்
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music example_folder hello.txt</span>
