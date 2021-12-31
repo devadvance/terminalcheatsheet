@@ -14,9 +14,9 @@ supported_langs:
   hi:
     name: हिंदी
     prefix: /hi
-  # fr:
-  #  name: Français
-  #  prefix: /fr
+  fr:
+   name: Français
+   prefix: /fr
   pt-BR:
     name: Português
     prefix: /pt-BR
