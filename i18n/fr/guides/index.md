@@ -1,7 +1,7 @@
 ---
 layout: guide-layout
-title: TODO
-excerpt: TODO
+title: Guides disponibles
+excerpt: Tous les guides disponibles dans Terminal Cheat Sheet
 permalink: /fr/guides/
 permalink_without_prefix: /guides/
 lang: fr

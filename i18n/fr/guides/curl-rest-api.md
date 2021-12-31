@@ -7,7 +7,7 @@ permalink_without_prefix: /guides/curl-rest-api
 lang: fr
 ---
 
-**Table of contents**
+**Table des matières**
 
 * TOC
 {:toc}

@@ -14,9 +14,9 @@ supported_langs:
   hi:
     name: हिंदी
     prefix: /hi
-  # fr:
-  #  name: Français
-  #  prefix: /fr
+  fr:
+    name: Français
+    prefix: /fr
   pt-BR:
     name: Português
     prefix: /pt-BR
@@ -27,8 +27,17 @@ supported_langs:
     name: తెలుగు
     prefix: /te
   # ru:
-  #  name: Русский
-  #  prefix: /ru
+  #   name: Русский
+  #   prefix: /ru
+  # zh-CN:
+  #   name: 简体中文
+  #   prefix: /zh-CN
+  # ja:
+  #   name: 日本语
+  #   prefix: /ja
+  # bn:
+  #   name: বাংলা
+  #   prefix: /bn
 site_description:
   en: All the knowledge you need to get up and running
     on terminals across operating systems.
@@ -48,6 +57,11 @@ site_description:
     మీకు అవసరమైన సమాచారం ఇక్కడ తెలుసుకొండి
   ru: Все знания, необходимые для начала работы
     в терминалах операционных систем.
+  zh-CN: 你需要掌握的跨操作系统终端指令的一站式资料站
+  ja: 全ての知識が、全体のオペレーションシステムで、
+    ターミナルを起動して実行するために必要だった。
+  bn: আপনার উঠে পড়ার জন্য প্রয়োজনীয় সমস্ত জ্ঞান
+    অপারেটিং সিস্টেম জুড়ে টার্মিনাল উপর।
 hero_title:
   en: What is this?
   es: ¿Que es esto?
@@ -58,6 +72,9 @@ hero_title:
   id: Apakah ini?
   te: ఇది ఏమిటి?
   ru: Что это?
+  zh-CN: 这是什么？
+  ja: これは何ですか？
+  bn: এটা কি?
 hero_description:
   en: You might be an aspiring developer.
     Perhaps you just want to brush up on some basic terminal commands.
@@ -96,6 +113,19 @@ hero_description:
     Возможно, вы просто хотите освежить некоторые основные команды терминала.
     Несмотря ни на что, вы нашли нужное место.
     Перейдите в меню для выбора других языков.
+  zh-CN: 你可能是一名有抱负的开发人员，
+    你也可能只是想开始摸索一些基本的终端指令。
+    无论你是谁，你来对地方了。
+    访问目录以浏览其他语言。
+  ja:
+    あなたは意欲的な開発者かもしれません。
+    おそらく、いくつかの基本的なターミナルコマンドをより良くしたいだけです。
+    何があっても、あなたは正しい場所を見つけてきました。
+    他の言語のメニューにアクセスしてください。
+  bn: আপনি একজন উচ্চাকাঙ্ক্ষী বিকাশকারী হতে পারেন।
+    সম্ভবত আপনি কিছু বেসিক টার্মিনাল কমান্ডগুলি ব্রাশ করতে চান।
+    যাই হোক না কেন, আপনি সঠিক জায়গাটি খুঁজে পেয়েছেন।
+    অন্যান্য ভাষার জন্য মেনু দেখুন।
 basic_section_title:
   en: The basics
   es: Los basicos
@@ -106,6 +136,9 @@ basic_section_title:
   id: Dasar-dasar
   te: ప్రాథాన్యాలు
   ru: Основы
+  zh-CN: 基础训练
+  ja: 基礎
+  bn: অধিকার
 basic_section_description:
   en: These essential commands will help you navigate,
     explore, and perform simple actions on your terminal.
@@ -125,6 +158,12 @@ basic_section_description:
     చర్యలను చేయడానికి ఈ ముఖ్యమైన కమాండ్స్ మీకు సహాయపడతాయి,
   ru: Эти важные команды помогут вам сориентироваться,
     исследуйте и выполняйте простые действия на своем терминале.
+  zh-CN: 这些必学的简单指令会帮助你在终端上导览，
+    探索，以及执行简单操作。
+  ja: これらの重要なコマンドは、端末で簡単なアクションをナビゲート、
+    探索、および実行するのに役立ちます。
+  bn: এই প্রয়োজনীয় আদেশগুলি আপনাকে নেভিগেট করতে সহায়তা করবে,
+    আপনার টার্মিনালে অন্বেষণ করুন এবং সাধারণ ক্রিয়া সম্পাদন করুন।
 files_section_title:
   en: Modify files and folders
   es: Modificar archivos y carpetas
@@ -135,6 +174,9 @@ files_section_title:
   id: Memodifikasi file dan folder
   te: ఫైల్‌లు మరియు ఫోల్డర్‌లను సవరించండి
   ru: Изменить файлы и папки
+  zh-CN: 改动文件及文件夹
+  ja: ファイルとフォルダを変更する
+  bn: ফাইল এবং ফোল্ডারগুলি সংশোধন করুন
 files_section_description:
   en: These commands will help you create,
     modify, and delete files and folders.
@@ -154,6 +196,12 @@ files_section_description:
     తొలగించడానికి ఈ కమాండ్స్ మీకు సృష్టించడానికి సహాయపడతాయి
   ru: Эти команды помогут вам создать,
     изменять и удалять файлы и папки.
+  zh-CN: 这些指令可以帮助你创建，
+    改动，以及删除文件及文件夹。
+  ja: これらのコマンドは、ファイルやフォルダーの作成、
+    変更、および削除に役立ちます。
+  bn: এই আদেশগুলি আপনাকে তৈরি করতে সহায়তা করবে,
+    ফাইল এবং ফোল্ডারগুলি সংশোধন করুন এবং মুছুন।
 more_coming_soon:
   en: More coming soon!
   es: ¡Más muy pronto!
@@ -164,6 +212,9 @@ more_coming_soon:
   id: Selebihnya datang segera!
   te: త్వరలో మరిన్ని రాబోతున్నాయి!
   ru: Продолжение следует!
+  zh-CN: 更多指令即将推出！
+  ja: もうすぐに来る！
+  bn: আরও শীঘ্রই আসছে!
 # Buttons
 begin_reading:
   en: Get started
@@ -175,6 +226,9 @@ begin_reading:
   id: Memulai
   te: ప్రారంభించడానికి
   ru: Начать
+  zh-CN: 开始
+  ja: 始めましょう
+  bn: এবার শুরু করা যাক
 show_me_action:
   en: Show me
   es: Enséñame
@@ -185,6 +239,9 @@ show_me_action:
   id: Tunjukkan
   te: చూపించు
   ru: Показать
+  zh-CN: 让我看看
+  ja: 見せて
+  bn: আমাকে দেখাও
 hide_action:
   en: Hide
   es: Ocultar
@@ -195,6 +252,9 @@ hide_action:
   id: Sembunyikan
   te: దాచు
   ru: Скрыть
+  zh-CN: 隐藏
+  ja: 隠して
+  bn: লুকান
 
 # Layout items
 contact:
@@ -207,6 +267,9 @@ contact:
   id: Kontak
   te: సంప్రదించండి
   ru: Контакты
+  zh-CN: 联络我们
+  ja: お問い合わせ
+  bn: যোগাযোগ
 more_resources:
   en: More resources
   es: Más recursos
@@ -217,6 +280,9 @@ more_resources:
   id: Sumber lebih
   te: మరిన్ని వనరులు
   ru: Больше ресурсов
+  zh-CN: 更多其他资源
+  ja: より多くのリソース
+  bn: আরও সংস্থান
 guides:
   en: Guides
   es: Guías
@@ -227,6 +293,9 @@ guides:
   id: Panduan
   te: గైడ్లు
   ru: Гайды
+  zh-CN: 教学
+  ja: ガイド
+  bn: গাইড
 language:
   en: Language
   es: Idioma
@@ -237,6 +306,9 @@ language:
   id: Bahasa
   te: భాష
   ru: Язык
+  zh-CN: 语言
+  ja: 言語
+  bn: ভাষা
 feedback:
   en: Feedback
   es: Comentarios
@@ -247,6 +319,9 @@ feedback:
   id: Umpan balik
   te: అభిప్రాయం
   ru: Фидбек
+  zh-CN: 意见反馈
+  ja: フィードバック
+  bn: মতামত
 # Guide index
 guides_available_title:
   en: Available guides
@@ -258,6 +333,9 @@ guides_available_title:
   id: Panduan tersedia
   te: అందుబాటులో ఉన్న గైడ్‌లు
   ru: Доступные гайды
+  zh-CN: 可用教学
+  ja: 利用可能なガイド
+  bn: উপলব্ধ গাইড
 guides_available_desc:
   en: Here are all of the guides that are currently available.
   es: Aquí están todas las guías que están disponibles actualmente.
@@ -268,3 +346,6 @@ guides_available_desc:
   id: Berikut panduan yang sekarang tersedia.
   te: ప్రస్తుతం అందుబాటులో ఉన్న అన్ని గైడ్‌లు ఇక్కడ ఉన్నాయి.
   ru: Все гайды, доступные в настоящее время.
+  zh-CH: 这里显示了所有可供查阅的教学指南。
+  ja: 現在利用可能なすべてのガイドは次のとおりです。
+  bn: এখানে বর্তমানে উপলব্ধ যে সমস্ত গাইড রয়েছে সেগুলি এখানে।

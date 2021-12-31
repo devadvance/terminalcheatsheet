@@ -7,7 +7,7 @@ permalink_without_prefix: /guides/open-terminal-macos
 lang: fr
 ---
 
-**Sommaire**
+**Table des matières**
 
 * TOC
 {:toc}

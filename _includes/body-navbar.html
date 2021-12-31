@@ -1,91 +1,87 @@
-  <!-- Start navbar -->
-  <nav class="header-navbar">
-    <div class="nav-title">
-      <a href="{{site.data.translations.supported_langs[page.lang].prefix}}/" class="text-decoration-none">Terminal Cheat Sheet</a>
-    </div>
-    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="sidebar-trigger lg-hide">☰</div>
-    <div class="nav-items md-hide sm-hide xs-hide">
-      <ul class="list-reset horiz-list">
+<nav class="navbar">
+  <details class="navbar-sidebar navbar-details navbar-top-details">
+    <summary id="navbar-main-menu-title" class="navbar-details-title">☰</summary>
+    <div class="navbar-details-content">
+      <ul aria-labelledby="navbar-main-menu-title">
         <li>
-          <amp-accordion layout="container" disable-session-states="" class="navbar-dropdown">
-            <section>
-              <header>{{site.data.translations.language[page.lang]}}</header>
-              <ul class="list-reset">
+          <details class="navbar-details">
+            <summary id="navbar-language-subsection-title" class="navbar-details-title">{{site.data.translations.language[page.lang]}}</summary>
+            <div class="navbar-details-content">
+              <ul aria-labelledby="navbar-language-subsection-title">
                 {% for supported_lang in site.data.translations.supported_langs %}
                 <li><a href="{{supported_lang[1].prefix}}{{page.permalink_without_prefix}}" class="text-decoration-none">{{supported_lang[1].name}}</a></li>
                 {% endfor %}
               </ul>
-            </section>
-          </amp-accordion>
+            </div>
+          </details>
         </li>
         <li>
-          <amp-accordion layout="container" disable-session-states="" class="navbar-dropdown">
-            <section>
-              <header>{{site.data.translations.guides[page.lang]}}</header>
-              <ul class="list-reset">
+          <details class="navbar-details">
+            <summary id="navbar-guides-subsection-title" class="navbar-details-title">{{site.data.translations.guides[page.lang]}}</summary>
+            <div class="navbar-details-content">
+              <ul aria-labelledby="navbar-guides-subsection-title">
                 {% for guide in site.data.guides.guide-index %}
                 <li><a href="{{guide.link[page.lang]}}" class="text-decoration-none">{{guide.title[page.lang]}}</a></li>
                 {% endfor %}
               </ul>
-            </section>
-          </amp-accordion>
+            </div>
+          </details>
         </li>
         <li>
-          <amp-accordion layout="container" disable-session-states="" class="navbar-dropdown">
-            <section>
-              <header>{{site.data.translations.more_resources[page.lang]}}</header>
-              <ul class="list-reset">
+          <details class="navbar-details">
+            <summary id="navbar-resources-subsection-title" class="navbar-details-title">{{site.data.translations.more_resources[page.lang]}}</summary>
+            <div class="navbar-details-content">
+              <ul aria-labelledby="navbar-resources-subsection-title">
                 <li><a href="https://linux.die.net/man/" class="text-decoration-none" target="_blank" rel="noopener">Linux man pages</a></li>
                 <li><a href="mailto:hello@terminalcheatsheet.com" class="text-decoration-none" target="_blank" rel="noopener">{{site.data.translations.contact[page.lang]}}</a></li>
                 <li><a href="https://rebrand.ly/TCSFeedback" class="text-decoration-none" target="_blank" rel="noopener">{{site.data.translations.feedback[page.lang]}}</a></li>
               </ul>
-            </section>
-          </amp-accordion>
+            </div>
+          </details>
         </li>
+        {% include body-shareicons.html %}
       </ul>
     </div>
-  </nav>
-
-  <!-- Start sidebar -->
-  <amp-sidebar id="header-sidebar" class="custom-sidebar" layout="nodisplay" side="left">
-    <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="sidebar-trigger sidebar-close-button">✕</div>
-    <ul class="list-reset">
+  </details>
+  <div class="navbar-title"><a href="{{site.data.translations.supported_langs[page.lang].prefix}}/" class="text-decoration-none">Terminal Cheat Sheet</a></div>
+  <div class="navbar-horiz">
+    <ul class="navbar-horiz-list">
       <li>
-        <amp-accordion layout="container" disable-session-states="" class="sidebar-dropdown">
-          <section>
-            <header>{{site.data.translations.language[page.lang]}}</header>
-            <ul class="list-reset">
-              {% for supported_lang in site.data.translations.supported_langs %}
-              <li><a href="{{supported_lang[1].prefix}}{{page.permalink_without_prefix}}" class="text-decoration-none">{{supported_lang[1].name}}</a></li>
-              {% endfor %}
+        <details class="navbar-details navbar-top-details">
+          <summary id="navbar-languages-title" class="navbar-details-title">{{site.data.translations.language[page.lang]}}</summary>
+          <div class="navbar-details-content">
+            <ul aria-labelledby="navbar-languages-title">
+                {% for supported_lang in site.data.translations.supported_langs %}
+                <li><a href="{{supported_lang[1].prefix}}{{page.permalink_without_prefix}}" class="text-decoration-none">{{supported_lang[1].name}}</a></li>
+                {% endfor %}
             </ul>
-          </section>
-        </amp-accordion>
+          </div>
+        </details>
       </li>
       <li>
-        <amp-accordion layout="container" disable-session-states="" class="sidebar-dropdown">
-          <section>
-            <header>{{site.data.translations.guides[page.lang]}}</header>
-            <ul class="list-reset">
-              {% for guide in site.data.guides.guide-index %}
-              <li><a href="{{guide.link[page.lang]}}" class="text-decoration-none">{{guide.title[page.lang]}}</a></li>
-              {% endfor %}
+        <details class="navbar-details navbar-top-details">
+          <summary id="navbar-guides-title" class="navbar-details-title">{{site.data.translations.guides[page.lang]}}</summary>
+          <div class="navbar-details-content">
+            <ul aria-labelledby="navbar-guides-title">
+                {% for guide in site.data.guides.guide-index %}
+                <li><a href="{{guide.link[page.lang]}}" class="text-decoration-none">{{guide.title[page.lang]}}</a></li>
+                {% endfor %}
             </ul>
-          </section>
-        </amp-accordion>
+          </div>
+        </details>
       </li>
       <li>
-        <amp-accordion layout="container" disable-session-states="" class="sidebar-dropdown">
-          <section>
-            <header>{{site.data.translations.more_resources[page.lang]}}</header>
-            <ul class="list-reset">
+        <details class="navbar-details navbar-top-details">
+          <summary id="navbar-resources-title" class="navbar-details-title">{{site.data.translations.more_resources[page.lang]}}</summary>
+          <div class="navbar-details-content">
+            <ul aria-labelledby="navbar-resources-title">
               <li><a href="https://linux.die.net/man/" class="text-decoration-none" target="_blank" rel="noopener">Linux man pages</a></li>
               <li><a href="mailto:hello@terminalcheatsheet.com" class="text-decoration-none" target="_blank" rel="noopener">{{site.data.translations.contact[page.lang]}}</a></li>
               <li><a href="https://rebrand.ly/TCSFeedback" class="text-decoration-none" target="_blank" rel="noopener">{{site.data.translations.feedback[page.lang]}}</a></li>
             </ul>
-          </section>
-        </amp-accordion>
+          </div>
+        </details>
       </li>
-      {% include body-shareicons.html %}
     </ul>
-  </amp-sidebar>
+  </div>
+</nav>
