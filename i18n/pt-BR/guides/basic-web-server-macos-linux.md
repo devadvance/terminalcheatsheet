@@ -117,4 +117,4 @@ Você verá um resultado como esse:
 
 ## Conclusão
 
-Você aprendeu como iniciar um servidor web básico no seu computador. Isso vai te ajudar com tarefas como desenvolvimento web e programação em Python. Se você está interessado em aprender mais ou programar em Python, você pode visitar [https://www.python.org](https://www.python.org){:target="\_blank" rel="noopener"}.
+Você aprendeu como iniciar um servidor web básico no seu computador. Isso vai te ajudar com tarefas como desenvolvimento web e programação em Python. Se você está interessado em aprender mais ou programar em Python, você pode visitar [https://www.python.org](https://www.python.org){:target="_blank" rel="noopener"}.
