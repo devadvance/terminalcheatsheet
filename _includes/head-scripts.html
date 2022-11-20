@@ -1,10 +1,50 @@
-<link rel="preload" href="https://cdn.ampproject.org/v0.js" as="script">
-<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script src="/termynal.js"></script>
 
-<script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
-<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
-<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
-<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
-<script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
-<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+<script>
+  let terminalAnimationTracker = [];
+
+  function copyRequestHandler(event) {
+    const stringToCopy = event.target.getAttribute("data-command");
+    if (stringToCopy && stringToCopy != "") {
+      navigator.clipboard.writeText(stringToCopy);
+    }
+  }
+
+  // Once the page is ready, go through it and add progressive enhancements.
+  // These require JavaScript, but the page will work without it!
+  window.addEventListener('DOMContentLoaded', (event) => {
+    // Grab all copy buttons on the page by class.
+    const copyButtons = document.querySelectorAll('.copy-button')
+    copyButtons.forEach(button => {
+      // Add a click listener.
+      button.addEventListener('click', copyRequestHandler);
+      // Enable the button.
+      button.disabled = false;
+    });
+
+    // Grab all the show terminal details elements on the page by class.
+    const showTerminals = document.querySelectorAll('.show-terminal-details');
+    let numberOfTerminals = 0;
+    showTerminals.forEach(showTerminalElement => {
+      showTerminalElement.setAttribute("data-terminal-number", numberOfTerminals);
+      numberOfTerminals++;
+      showTerminalElement.addEventListener("toggle", (event) => {
+        if (event.target.open) {
+          // When the details element is opened, create a new animation using Termynal.
+          // Save it in the array so we don't create duplicates and don't leak memory.
+          const termynalHolder = showTerminalElement.querySelector(".termynal-holder");
+          terminalAnimationTracker[showTerminalElement.getAttribute("data-terminal-number")] = new Termynal(termynalHolder);
+          showTerminalElement.querySelector(".show-more").classList.toggle("hidden");
+          showTerminalElement.querySelector(".show-less").classList.toggle("hidden");
+          console.log("Details was opened!");
+        } else {
+          // Detele it from the array so we don't leak memory.
+          delete terminalAnimationTracker[showTerminalElement.getAttribute("data-terminal-number")];
+          showTerminalElement.querySelector(".show-more").classList.toggle("hidden");
+          showTerminalElement.querySelector(".show-less").classList.toggle("hidden");
+          console.log("Details was closed!");
+        }
+      });
+    });
+  });
+</script>

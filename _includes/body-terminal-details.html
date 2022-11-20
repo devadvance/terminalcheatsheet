@@ -1,0 +1,11 @@
+<details class="show-terminal-details">
+    <summary class="command-show-header pure-button button-large button-primary{% if page.direction == "rtl" %} button-rtl{% endif %}">
+        <span class="show-more">{{site.data.translations.show_me_action[page.lang]}}</span>
+        <span class="show-less hidden">{{site.data.translations.hide_action[page.lang]}}</span>
+    </summary>
+    <div class="termynal-holder">
+        <div class="termynal" data-termynal data-ty-progress-length="10" data-ty-line-delay="800" dir="ltr">
+        {{include.content.html_terminal}}
+        </div>
+    </div>
+</details>

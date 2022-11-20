@@ -29,10 +29,10 @@
           <div class="command-details">
             <code class="command-name{% if page.direction == "rtl" %} general-rtl{% endif %}" dir="ltr">{{command.command}}</code>
             <div class="command-description{% if page.direction == "rtl" %} general-rtl{% endif %}">{{command.descriptions[page.lang]}}</div>
-            {% include body-button-copy.html content=command %}
+            {% include body-copy-button.html data-command=command.command %}
           </div>
           <div class="command-show-section">
-            {% include body-button-show-hide.html content=command %}
+            {% include body-terminal-details.html content=command %}
           </div>
         </div>
         {% endfor %}

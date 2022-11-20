@@ -7,10 +7,7 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
 
-<!-- See https://amp.dev/documentation/guides-and-tutorials/learn/spec/amp-boilerplate/ -->
-<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-<style amp-custom="">
+<style>
 /*!
 Pure v1.0.0
 Copyright 2013 Yahoo!
@@ -128,8 +125,8 @@ p.dropcap:first-child:first-letter {
 }
 
 footer {
-  width: 100vw;
-  max-width: 100vw;
+  width: 100%;
+  max-width: 100%;
   height: 8.125rem;
   background-color: var(--color-neutral-dark);
   color: #ffffff;
@@ -338,30 +335,6 @@ article:first-of-type {
   right: 0;
 }
 
-/* Consent for analytics styles. Used later */
-#userConsent {
-  position: relative;
-  bottom: unset;
-  left: unset;
-  right: unset;
-  background-color: inherit;
-  width: unset;
-}
-
-#userConsentFlow {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  background: rgba(0,0,0,.7);
-}
-
-.consentPopup {
-  margin-top: 1.875rem;
-  padding: 0.625rem;
-}
-
 [data-termynal] {
     direction: ltr;
     width: 100%;
@@ -505,7 +478,7 @@ pre.highlight {
 
 .command-show-header {
   width: 8rem;
-  margin-left: auto;
+  margin-left: calc(100% - 8rem);
 }
 
 section[expanded] > header > .show-more {
@@ -677,6 +650,35 @@ details.navbar-details > summary {
   .navbar-title {
     margin: 0 0 0 2rem;
   }
+}
+
+figure.fill-parent {
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+}
+
+a.image-link {
+  display: flex;
+}
+
+img.responsive, video.responsive {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.termynal-holder {
+  height: 18.75rem;
+  width: 100%;
+}
+
+.command-details > .copy-button {
+  margin-left: auto;
+}
+
+.hidden {
+  display: none;
 }
 
 </style>
