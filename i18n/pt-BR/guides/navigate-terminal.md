@@ -34,31 +34,31 @@ Assim que você abrir o terminal, você estará dentro de um diretório de traba
 Na captura de tela de amostra abaixo, nosso diretório de trabalho é uma pasta chamada **exemplos**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" class="responsive" />
 </div>
 
 Em seguida, você pode explorar o conteúdo do diretório de trabalho. Digite `ls` em seu terminal e pressione **Enter**. `ls` significa "list" ("lista"). Este comando lista todos os arquivos e pastas em seu diretório de trabalho. Em nosso exemplo, ele mostra todos os arquivos e pastas em **exemplos**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" class="responsive" />
 </div>
 
 Isso é semelhante a abrir seu aplicativo de navegador de arquivos e examinar o conteúdo de sua pasta de diretório de trabalho:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" class="responsive" />
 </div>
 
 Você pode listar todo o conteúdo de pastas que não sejam seu diretório de trabalho digitando `ls [FOLDER_NAME]`. É como dar uma olhada em outra pasta, sem alterar nosso diretório de trabalho. No exemplo abaixo, estamos examinando o conteúdo da **folder1**. Podemos observar que **folder2** possui apenas um arquivo denominado **file3.pdf**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command folder" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command folder" class="responsive" />
 </div>
 
 Isso é semelhante a examinar o conteúdo de uma pasta dentro de seu diretório de trabalho em seu aplicativo de navegador de arquivos:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="file browser folder peek" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="file browser folder peek" class="responsive" />
 </div>
 
 O comando `ls` possui opções adicionais que podem alterar a forma como ele funciona.
@@ -68,19 +68,19 @@ Tente digitar `ls -a` e pressionar **Enter** para exibir todos os arquivos, incl
 Observe como agora podemos observar **.hidden-file**, que não estava sendo exibido com o comando `ls` anterior:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" class="responsive" />
 </div>
 
 Outra opção para listar arquivos é digitar `ls -l` e pressionar **Enter**. Esta opção gera uma longa lista. Isso significa que ele exibe detalhes adicionais para os arquivos e pastas. Além dos nomes de arquivos e pastas, ele também mostrará atributos, como quando foram modificados pela última vez e seu tamanho:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" class="responsive" />
 </div>
 
 Semelhante a muitos comandos de terminal, você pode combinar essas duas opções. Para fazer isso, digite `ls -la` e pressione **Enter**, que irá listar **todos** os itens no formato **long**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" class="responsive" />
 </div>
 
 ## Navegando nas pastas
@@ -97,19 +97,19 @@ Agora podemos mudar nosso diretório de trabalho. Em nosso exemplo, vimos duas p
 Digite `cd [FOLDER_NAME]` e pressione **Enter**. Seu diretório de trabalho foi alterado. `cd` significa "change directory" ("alterar diretório"). Você pode digitar `pwd` novamente e pressionar **Enter** para verificar se mudou seu diretório de trabalho. Em nossa amostra, mudamos nosso diretório de trabalho para **folder1**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="terminal cd command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="terminal cd command" class="responsive" />
 </div>
 
 Isso é semelhante a clicar em uma pasta em seu aplicativo de navegador de arquivos. Você mudou a pasta em que está:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="macOS folder change directory" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="macOS folder change directory" class="responsive" />
 </div>
 
 Se você quiser "subir" para a pasta anterior, digite `cd ..` e pressione **Enter**. Isso o levará a um nível de pasta:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" class="responsive" />
 </div>
 
 Essa ideia de ir "descer" em uma pasta ou "subir" de uma pasta é muito comum ao usar o terminal. Quando, em comandos de terminal, você usa nomes de pastas ao "descer" um nível e `..` para significar "subir" um nível.
@@ -123,7 +123,7 @@ Para arquivos de texto, um comando útil ao trabalhar no terminal é digitar `ca
 Um dos usos mais comuns é exibir o conteúdo de um arquivo de texto no terminal. Na captura de tela abaixo, estamos exibindo o conteúdo de **hello.txt** em nosso diretório de trabalho:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="terminal cat command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="terminal cat command" class="responsive" />
 </div>
 
 ## Conclusão

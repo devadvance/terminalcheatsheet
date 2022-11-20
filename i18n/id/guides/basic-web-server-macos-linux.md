@@ -38,7 +38,7 @@ Mari kita katakan konten web kamu berada pada folder `/home/user/examples`. Kita
 Berikut beberapa gabungan dari langkah-langkah:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" class="responsive" />
 </div>
 
 
@@ -52,17 +52,8 @@ Sekarang kita siap untuk menjalankan Python web server!
 
 Karena ini seringkali sudah terinstall pada komputer secara default, kita akan menggunakan python untuk menjalankan web server dasar.
 
-Kita akan menggunakan perintah ini untuk menjalankan web server: `python3 -m http.server 8000` <amp-iframe sandbox="allow-scripts"
-  class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-  title="Command copy button iframe"
-  width="84"
-  height="36"
-  frameborder="0"
-  src="{{site.url}}/copier.html#python3 -m http.server 8000">
-  <button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copy</button>
-</amp-iframe>
+Kita akan menggunakan perintah ini untuk menjalankan web server: `python3 -m http.server 8000`
+{% include body-copy-button.html data-command="python3 -m http.server 8000" %}
 
 Mari kita jelajahi apa yang dilakukan oleh perintah ini:
 
@@ -73,35 +64,26 @@ Mari kita jelajahi apa yang dilakukan oleh perintah ini:
 Mari coba menjalankannya:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" class="responsive" />
 </div>
 
 Jika kamu mengamati hal di atas, web server sekarang berjalan pada komputermu.
 
 ## Periksa konten web milikmu
 
-Berikutnya, kita bisa memeriksa jika konten web sudah terlihat pada web browser. Kita bisa membuka URL lokal untuk menelusuri konten: `http://localhost:8000` <amp-iframe sandbox="allow-scripts"
-  class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-  title="Command copy button iframe"
-  width="84"
-  height="36"
-  frameborder="0"
-  src="{{site.url}}/copier.html#http://localhost:8000">
-  <button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copy</button>
-</amp-iframe>
+Berikutnya, kita bisa memeriksa jika konten web sudah terlihat pada web browser. Kita bisa membuka URL lokal untuk menelusuri konten: `http://localhost:8000`
+{% include body-copy-button.html data-command="http://localhost:8000" %}
 
 Pada contoh kami diatas, ini menunjukkan kita mengamati pada web browser:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Directory listing in the web browser" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Directory listing in the web browser" class="responsive" />
 </div>
 
 Pada contoh kami, kami tidak memiliki file bernama **index.html** jadi web browser menunjukkan daftar file. Kamu bisa klik file tertentu untuk membukanya pada browser. Biarkan kami klik pada file **hello.html** yang kita periksa sebelumnya:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Hello world page" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Hello world page" class="responsive" />
 </div>
 
 Kita sekarang mengamati sebuah halaman web!
@@ -113,7 +95,7 @@ Ketika kamu telah selesai menggunakan web server, kamu bisa memberhentikannya da
 Kamu akan mengamati hasil seperti ini:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Stop Python web server" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Stop Python web server" class="responsive" />
 </div>
 
 ## Kesimpulan

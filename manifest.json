@@ -1,10 +1,11 @@
 {
-  "short_name": "TerminalCS",
   "name": "Terminal Cheat Sheet",
+  "short_name": "Cheat Sheet",
+  "display": "standalone",
   "theme_color": "#ffccbc",
   "background_color": "#ffccbc",
-  "start_url": "/?utm_source=a2hs",
-  "display": "standalone",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
   "icons": [
     {
       "src": "launcher-icon-1x.png",
@@ -30,6 +31,5 @@
       "sizes": "512x512",
       "purpose": "any maskable"
     }
-  ],
-  "start_url": "/"
+  ]
 }

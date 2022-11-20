@@ -38,7 +38,7 @@ Disons que votre contenu web est dans ce dossier `/home/user/examples`. On veut 
 Voilà l'ensemble des étapes :
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" class="responsive" />
 </div>
 
 Dans l'exemple ci-desus, on utilise `pwd` pour vérifier que `/home/user/examples` est bien notre répertoire de travail. Ensuite, on utilise `ls` pour lister les contenus du répertoire de travail afin d'être sûr qu'il y a un fichier HTML dedans. Vous pouvez remarquer le fichier **hello.html**.
@@ -51,17 +51,8 @@ Nous sommes maintenant prêt à lancer notre serveur web !
 
 Étant donné qu'il est souvent installé sur les machines par défaut, nous allons utiliser Python pour démarrer un serveur web basique.
 
-Nous allons utiliser cette commande pour lancer un serveur web : `python3 -m http.server 8000` <amp-iframe sandbox="allow-scripts"
-  class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-  title="Command copy button iframe"
-  width="84"
-  height="36"
-  frameborder="0"
-  src="{{site.url}}/copier.html#python3 -m http.server 8000">
-  <button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copy</button>
-</amp-iframe>
+Nous allons utiliser cette commande pour lancer un serveur web : `python3 -m http.server 8000`
+{% include body-copy-button.html data-command="python3 -m http.server 8000" %}
 
 Regardons de plus près ce que fait cette commande :
 
@@ -72,7 +63,7 @@ Regardons de plus près ce que fait cette commande :
 Essayons de le démarrer :
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" class="responsive" />
 </div>
 
 Si vous regardez ce qu'il y a au dessus, le serveur web est maintenant lancé sur votre machine.
@@ -80,28 +71,19 @@ Si vous regardez ce qu'il y a au dessus, le serveur web est maintenant lancé su
 
 ## Vérifier votre contenu web
 
-Ensuite, nous pouvons vérifier si notre contenu web s'affiche dans un navigateur web. On peut ouvrir une URL en local pour naviguer dans le contenu : `http://localhost:8000` <amp-iframe sandbox="allow-scripts"
-  class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-  title="Command copy button iframe"
-  width="84"
-  height="36"
-  frameborder="0"
-  src="{{site.url}}/copier.html#http://localhost:8000">
-  <button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copy</button>
-</amp-iframe>
+Ensuite, nous pouvons vérifier si notre contenu web s'affiche dans un navigateur web. On peut ouvrir une URL en local pour naviguer dans le contenu : `http://localhost:8000`
+{% include body-copy-button.html data-command="http://localhost:8000" %}
 
 Dans notre exemple au dessus, voilà ce qu'on observe dans un navigateur web : 
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Directory listing in the web browser" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Directory listing in the web browser" class="responsive" />
 </div>
 
 Dans notre exemple, nous n'avons pas de fichier nommé **index.html** donc notre navigateur web a listé tous les fichiers disponibles. Vous pouvez cliquer sur un fichier pour l'ouvrir dans le navigateur. Cliquons sur le fichier **hello.html** que nous avons regardé tout à l'heure : 
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Hello world page" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Hello world page" class="responsive" />
 </div>
 
 On peut maintenant voir la page web !

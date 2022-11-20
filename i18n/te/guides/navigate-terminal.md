@@ -34,31 +34,31 @@ lang: te
 దిగువ నమూనా స్క్రీన్ షాట్‌లో, మా వర్కింగ్ డైరెక్టరీ **examples** అనే ఫోల్డర్:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" class="responsive" />
 </div>
 
 తరువాత, మీరు వర్కింగ్ డైరెక్టరీలోని విషయాలను అన్వేషించవచ్చు. మీ టెర్మినల్‌లో `ls` అని టైప్ చేసి **Enter** నొక్కండి. `ls` అంటే "list" ("జాబితా"). ఈ ఆదేశం మీ వర్కింగ్ డైరెక్టరీలోని అన్ని ఫైల్స్ మరియు ఫోల్డర్లను జాబితా చేస్తుంది. మా నమూనాలో, ఇది అన్ని ఫైళ్ళను మరియు ఫోల్డర్లను **examples** లో చూపిస్తుంది:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" class="responsive" />
 </div>
 
 ఇది మీ ఫైల్ బ్రౌజర్ అనువర్తనాన్ని తెరవడానికి మరియు మీ వర్కింగ్ డైరెక్టరీ ఫోల్డర్‌లోని విషయాలను పరిశీలించడానికి సమానంగా ఉంటుంది:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" class="responsive" />
 </div>
 
 `ls [FOLDER_NAME]` అని టైప్ చేయడం ద్వారా మీ పని డైరెక్టరీ లేని ఫోల్డర్లలోని అన్ని విషయాలను మీరు జాబితా చేయవచ్చు. ఇది మా వర్కింగ్ డైరెక్టరీని మార్చకుండా, మరొక ఫోల్డర్ లోపల చూడటం వంటిది. దిగువ ఉదాహరణలో, మేము **folder1** యొక్క విషయాలను పరిశీలిస్తున్నాము. **folder1** లో **file3.pdf** అనే ఒకే ఒక ఫైల్ ఉందని మేము గమనించవచ్చు:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command folder" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command folder" class="responsive" />
 </div>
 
 ఇది మీ ఫైల్ బ్రౌజర్ అనువర్తనంలో మీ వర్కింగ్ డైరెక్టరీలోని ఫోల్డర్ యొక్క విషయాలను పరిశీలించడానికి సమానంగా ఉంటుంది:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="file browser folder peek" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="file browser folder peek" class="responsive" />
 </div>
 
 `ls` కమాండ్ అదనపు ఎంపికలను కలిగి ఉంది, అది ఎలా పనిచేస్తుందో మార్చగలదు.
@@ -68,19 +68,19 @@ lang: te
 మునుపటి `ls` ఆదేశంతో ప్రదర్శించబడని **.hidden-file** ను మనం ఇప్పుడు ఎలా గమనించవచ్చో గమనించండి:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" class="responsive" />
 </div>
 
 ఫైళ్ళను జాబితా చేయడానికి మరొక ఎంపిక `ls -l` అని టైప్ చేసి **Enter** నొక్కండి. ఈ ఐచ్చికము పొడవైన జాబితాను సృష్టిస్తుంది. ఇది ఫైల్‌లు మరియు ఫోల్డర్‌ల కోసం అదనపు వివరాలను ప్రదర్శిస్తుంది. ఫైల్స్ మరియు ఫోల్డర్ల పేర్లతో పాటు, ఇది చివరిగా సవరించబడినప్పుడు మరియు వాటి పరిమాణం వంటి లక్షణాలను కూడా చూపుతుంది:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" class="responsive" />
 </div>
 
 అనేక టెర్మినల్ ఆదేశాల మాదిరిగానే, మీరు ఈ రెండు ఎంపికలను మిళితం చేయవచ్చు. ఇది చేయుటకు, `ls -la` అని టైప్ చేసి **Enter** నొక్కండి, ఇది **అన్ని** అంశాలను పొడవైన ఆకృతిలో జాబితా చేస్తుంది:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" class="responsive" />
 </div>
 
 ## నావిగేట్ ఫోల్డర్లు
@@ -97,19 +97,19 @@ lang: te
 `cd [FOLDER_NAME]` అని టైప్ చేసి **Enter** నొక్కండి. మీ వర్కింగ్ డైరెక్టరీ ఇప్పుడు మార్చబడింది. `cd` అంటే "change directory" ("మార్పు డైరెక్టరీ"). మీరు మీ పని డైరెక్టరీని మార్చారని ధృవీకరించడానికి మీరు మళ్ళీ `pwd` అని టైప్ చేసి **Enter** నొక్కండి. మా నమూనాలో, మేము మా వర్కింగ్ డైరెక్టరీని **folder1** కి మార్చాము:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="terminal cd command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="terminal cd command" class="responsive" />
 </div>
 
 ఇది మీ ఫైల్ బ్రౌజర్ అనువర్తనంలోని ఫోల్డర్‌లో క్లిక్ చేయడానికి సమానం. మీరు ఉన్న ఫోల్డర్‌ను మీరు పూర్తిగా మార్చారు:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="macOS folder change directory" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="macOS folder change directory" class="responsive" />
 </div>
 
 మీరు మా మునుపటి ఫోల్డర్‌కు "పైకి" వెళ్లాలనుకుంటే, మీరు `cd ..` అని టైప్ చేసి **Enter** నొక్కండి. ఇది మీకు ఒక ఫోల్డర్ స్థాయిని తెస్తుంది:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" class="responsive" />
 </div>
 
 టెర్మినల్ ఉపయోగిస్తున్నప్పుడు ఫోల్డర్‌లోకి "డౌన్" లేదా ఫోల్డర్ నుండి "పైకి" వెళ్ళే ఈ ఆలోచన చాలా సాధారణం. టెర్మినల్ ఆదేశించినప్పుడు, మీరు ఒక స్థాయికి "క్రిందికి" వెళ్ళేటప్పుడు ఫోల్డర్ల పేర్లను ఉపయోగిస్తారు మరియు `..` ఒక స్థాయికి "పైకి" వెళ్లడం అని అర్థం.
@@ -123,7 +123,7 @@ lang: te
 టెర్మినల్‌లో టెక్స్ట్ ఫైల్ యొక్క విషయాలను ప్రదర్శించడం చాలా సాధారణ ఉపయోగాలలో ఒకటి. దిగువ స్క్రీన్ షాట్లో, మేము మా పని డైరెక్టరీలో **hello.txt** యొక్క విషయాలను ప్రదర్శిస్తున్నాము:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="terminal cat command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="terminal cat command" class="responsive" />
 </div>
 
 ## ముగింపు

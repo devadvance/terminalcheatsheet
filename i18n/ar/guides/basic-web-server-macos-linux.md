@@ -39,7 +39,7 @@ direction: rtl
 إليك مجموعة الخطوات:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="التنقل والتحقق من محتوى الويب" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="التنقل والتحقق من محتوى الويب" class="responsive" />
 </div>
 
 نستخدم `pwd` لنرى أن `/home/user/examples` هو دليل العمل الخاص بنا. ثم نستخدم `ls` لسرد محتويات دليل العمل للتأكد من وجود ملف HTML هناك. يمكنك مشاهدة ملف **hello.html**.
@@ -52,17 +52,8 @@ direction: rtl
 
 نظرًا لأنه يتم تثبيته بشكل متكرر على أجهزة الكمبيوتر بشكل افتراضي ، سنستخدم Python لتشغيل خادم ويب أساسي.
 
-سنستخدم هذا الأمر لبدء خادم الويب: `python3 -m http.server 8000` <amp-iframe sandbox="allow-scripts"
-  class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-  title="Command copy button iframe"
-  width="84"
-  height="36"
-  frameborder="0"
-  src="{{site.url}}/copier.html#python3 -m http.server 8000">
-  <button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copy</button>
-</amp-iframe>
+سنستخدم هذا الأمر لبدء خادم الويب: `python3 -m http.server 8000`
+{% include body-copy-button.html data-command="python3 -m http.server 8000" %}
 
 دعونا نستكشف ما يفعله هذا الأمر:
 
@@ -73,35 +64,26 @@ direction: rtl
 دعونا نحاول تشغيله:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="ابدأ خادم الويب Python" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="ابدأ خادم الويب Python" class="responsive" />
 </div>
 
 إذا رأيت ما سبق ، فإن خادم الويب يعمل الآن على جهاز الكمبيوتر الخاص بك.
 
 ## تحقق من محتوى الويب الخاص بك
 
-بعد ذلك ، يمكننا التحقق مما إذا كان محتوى الويب الخاص بنا يظهر في متصفح الويب. يمكننا فتح عنوان URL محلي لمعرفة المحتوى: `http://localhost:8000` <amp-iframe sandbox="allow-scripts"
-  class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-  title="Command copy button iframe"
-  width="84"
-  height="36"
-  frameborder="0"
-  src="{{site.url}}/copier.html#http://localhost:8000">
-  <button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copy</button>
-</amp-iframe>
+بعد ذلك ، يمكننا التحقق مما إذا كان محتوى الويب الخاص بنا يظهر في متصفح الويب. يمكننا فتح عنوان URL محلي لمعرفة المحتوى: `http://localhost:8000`
+{% include body-copy-button.html data-command="http://localhost:8000" %}
 
 في مثالنا أعلاه ، هذا ما نراه في متصفح الويب:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="قائمة الدليل في متصفح الويب" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="قائمة الدليل في متصفح الويب" class="responsive" />
 </div>
 
 في مثالنا ، لم يكن لدينا ملف يسمى **index.html** لذا قام متصفح الويب الخاص بنا بإدراج الملفات المتاحة. يمكنك النقر فوق ملف معين لرؤيته في المتصفح. دعنا نضغط على **hello.html** التي فحصناها سابقًا:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="قائمة الدليل في متصفح الويب" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="قائمة الدليل في متصفح الويب" class="responsive" />
 </div>
 
 نحن نرى الآن صفحة الويب!
@@ -113,7 +95,7 @@ direction: rtl
 سترى نتيجة مثل هذه:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="أوقف خادم الويب Python" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="أوقف خادم الويب Python" class="responsive" />
 </div>
 
 ## خاتمة

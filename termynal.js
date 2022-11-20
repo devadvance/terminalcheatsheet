@@ -188,14 +188,3 @@ class Termynal {
         return attrs;
     }
 }
-
-/*
- * This script is for use by an <amp-script> tag. That means that
- * document.* is scoped to the specific element and this script is running
- * inside of a web worker.
- */
-
-let term = document.getElementsByClassName('termynal')[0];
-if (term) {
-    new Termynal(term);
-}

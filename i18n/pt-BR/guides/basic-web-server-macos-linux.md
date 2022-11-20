@@ -38,7 +38,7 @@ Vamos considerar que seu conteúdo web está na pasta `/home/user/examples`. Que
 Aqui está uma combinação dos passos:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navegando e checando conteúdo web" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navegando e checando conteúdo web" class="responsive" />
 </div>
 
 No exemplo acima, nós usamos `pwd` para verificar que `/home/user/examples` é o nosso diretório atual. Então usamos `ls` para listar o conteúdo no diretório atual para garantir que temos um arquivo HTML ali. Note o arquivo **hello.html**.
@@ -51,17 +51,8 @@ Agora nós estamos prontos para iniciar nosso servidor web!
 
 Já que o Python é frequentemente instalado nos computadores por padrão, nós o usaremos para rodar um servidor web básico.
 
-Vamos usar esse comando para iniciar o servidor web: `python3 -m http.server 8000`<amp-iframe sandbox="allow-scripts"
-class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-title="Command copy button iframe"
-width="84"
-height="36"
-frameborder="0"
-src="{{site.url}}/copier.html#python3 -m http.server 8000">
-<button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copiar</button>
-</amp-iframe>
+Vamos usar esse comando para iniciar o servidor web: `python3 -m http.server 8000`
+{% include body-copy-button.html data-command="python3 -m http.server 8000" %}
 
 Vamos explorar o que esse comando faz:
 
@@ -72,35 +63,26 @@ Vamos explorar o que esse comando faz:
 Vamos tentar rodá-lo:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Iniciar o servidor web Python" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Iniciar o servidor web Python" class="responsive" />
 </div>
 
 Se você observar acima, o servidor web agora está rodando no seu computador.
 
 ## Checar seu conteúdo web
 
-Em seguida, podemos checar se nosso conteúdo web está aparecendo no navegador web. Podemos abrir uma URL local para navegar pelo conteúdo: `http://localhost:8000` <amp-iframe sandbox="allow-scripts"
-class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-title="Command copy button iframe"
-width="84"
-height="36"
-frameborder="0"
-src="{{site.url}}/copier.html#http://localhost:8000">
-<button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copiar</button>
-</amp-iframe>
+Em seguida, podemos checar se nosso conteúdo web está aparecendo no navegador web. Podemos abrir uma URL local para navegar pelo conteúdo: `http://localhost:8000`
+{% include body-copy-button.html data-command="http://localhost:8000" %}
 
 Em nosso exemplo acima, isso é o que observamos em um navegador web:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Listagem de diretórios no navegador web" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Listagem de diretórios no navegador web" class="responsive" />
 </div>
 
 No nosso exemplo, não tínhamos um arquivo chamado **index.html**, então nosso navegador apenas listou os arquivos disponíveis. Você pode clicar em um arquivo específico para abri-lo no navegador. Vamos clicar no **hello.html** que checamos mais cedo:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Página de Hello world" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Página de Hello world" class="responsive" />
 </div>
 
 Agora nós observamos a página web!
@@ -112,7 +94,7 @@ Quando você terminar de usar o servidor web, você pode pará-lo a partir do te
 Você verá um resultado como esse:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Parar servidor web Python" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Parar servidor web Python" class="responsive" />
 </div>
 
 ## Conclusão
