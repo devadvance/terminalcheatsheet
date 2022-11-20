@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="{{page.lang}}"{% if page.direction %} dir="{{page.direction}}"{% endif %}>
 <head>
-  {% include head-meta-new.html %}
+  {% include head-meta.html %}
   {% include head-hreflangs.html %}
-  {% include head-scripts-new.html %}
-  {% include head-styles-new.html %}
+  {% include head-scripts.html %}
+  {% include head-fonts.html %}
+  {% include head-styles.html %}
 </head>
 <body>
   {% include body-navbar.html %}
@@ -21,6 +22,6 @@
     </div>
   </article>
 
-  {% include body-footer-new.html %}
+  {% include body-footer.html %}
 </body>
 </html>
