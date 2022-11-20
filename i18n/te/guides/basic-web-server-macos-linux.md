@@ -38,7 +38,7 @@ lang: te
 దశల కలయిక ఇక్కడ ఉంది:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" class="responsive" />
 </div>
 
 పై ఉదాహరణలో, మేము ఉపయోగిస్తాము `pwd` దాన్ని ధృవీకరించడానికి `/home/user/examples` మా వర్కింగ్ డైరెక్టరీ. అప్పుడు మేము ఉపయోగిస్తాము `ls` మాకు అక్కడ ఒక HTML ఫైల్ ఉందని నిర్ధారించుకోవడానికి వర్కింగ్ డైరెక్టరీలోని విషయాలను జాబితా చేయడానికి. మీరు గమనించవచ్చు **hello.html** ఫైల్.
@@ -51,17 +51,8 @@ lang: te
 
 ఇది డిఫాల్ట్‌గా కంప్యూటర్‌లలో తరచుగా ఇన్‌స్టాల్ చేయబడినందున, మేము ప్రాథమిక వెబ్ సర్వర్‌ను అమలు చేయడానికి పైథాన్‌ను ఉపయోగించబోతున్నాము.
 
-వెబ్ సర్వర్‌ను ప్రారంభించడానికి మేము ఈ ఆదేశాన్ని ఉపయోగించబోతున్నాము: `python3 -m http.server 8000` <amp-iframe sandbox="allow-scripts"
-  class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-  title="Command copy button iframe"
-  width="84"
-  height="36"
-  frameborder="0"
-  src="{{site.url}}/copier.html#python3 -m http.server 8000">
-  <button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copy</button>
-</amp-iframe>
+వెబ్ సర్వర్‌ను ప్రారంభించడానికి మేము ఈ ఆదేశాన్ని ఉపయోగించబోతున్నాము: `python3 -m http.server 8000`
+{% include body-copy-button.html data-command="python3 -m http.server 8000" %}
 
 ఈ ఆదేశం ఏమి చేస్తుందో అన్వేషించండి:
 
@@ -72,35 +63,26 @@ lang: te
 దీన్ని అమలు చేయడానికి ప్రయత్నిద్దాం:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" class="responsive" />
 </div>
 
 మీరు పైన పేర్కొన్న వాటిని గమనిస్తే, వెబ్ సర్వర్ ఇప్పుడు మీ కంప్యూటర్‌లో నడుస్తోంది.
 
 ## మీ వెబ్ కంటెంట్‌ను తనిఖీ చేయండి
 
-తరువాత, మా వెబ్ కంటెంట్ వెబ్ బ్రౌజర్‌లో చూపిస్తుందో లేదో తనిఖీ చేయవచ్చు. కంటెంట్‌ను బ్రౌజ్ చేయడానికి మేము స్థానిక URL ని తెరవవచ్చు: `http://localhost:8000` <amp-iframe sandbox="allow-scripts"
-  class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-  title="Command copy button iframe"
-  width="84"
-  height="36"
-  frameborder="0"
-  src="{{site.url}}/copier.html#http://localhost:8000">
-  <button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copy</button>
-</amp-iframe>
+తరువాత, మా వెబ్ కంటెంట్ వెబ్ బ్రౌజర్‌లో చూపిస్తుందో లేదో తనిఖీ చేయవచ్చు. కంటెంట్‌ను బ్రౌజ్ చేయడానికి మేము స్థానిక URL ని తెరవవచ్చు: `http://localhost:8000`
+{% include body-copy-button.html data-command="http://localhost:8000" %}
 
 పై మా ఉదాహరణలో, వెబ్ బ్రౌజర్‌లో మనం గమనించేది ఇదే:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Directory listing in the web browser" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Directory listing in the web browser" class="responsive" />
 </div>
 
 మా ఉదాహరణలో, మాకు **index.html** అనే ఫైల్ లేదు కాబట్టి మా వెబ్ బ్రౌజర్ అందుబాటులో ఉన్న ఫైళ్ళను జాబితా చేసింది. బ్రౌజర్‌లో తెరవడానికి మీరు నిర్దిష్ట ఫైల్‌పై క్లిక్ చేయవచ్చు. మేము ఇంతకు ముందు తనిఖీ చేసిన **hello.html** పై క్లిక్ చేద్దాం:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Hello world page" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Hello world page" class="responsive" />
 </div>
 
 మేము ఇప్పుడు వెబ్ పేజీని గమనిస్తున్నాము!
@@ -112,7 +94,7 @@ lang: te
 మీరు ఇలాంటి ఫలితాన్ని గమనిస్తారు:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Stop Python web server" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Stop Python web server" class="responsive" />
 </div>
 
 ## ముగింపు

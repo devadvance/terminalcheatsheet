@@ -34,31 +34,31 @@ lang: hi
 नीचे दिए गए नमूना स्क्रीनशॉट में, हमारी वर्किंग डायरेक्टरी एक फ़ोल्डर है जिसका नाम **examples** है:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" class="responsive" />
 </div>
 
 इसके बाद, आप कार्यशील निर्देशिका की सामग्री का पता लगा सकते हैं। अपने टर्मिनल में `ls` टाइप करें और **Enter** दबाएं। `ls` का अर्थ है "list" ("सूची")। यह कमांड आपके वर्किंग डायरेक्टरी की सभी फाइलों और फोल्डर को सूचीबद्ध करता है। हमारे नमूने में, यह **examples** में सभी फ़ाइलों और फ़ोल्डरों को दिखाता है:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" class="responsive" />
 </div>
 
 यह आपके फ़ाइल ब्राउज़र एप्लिकेशन को खोलने और आपके कार्यशील निर्देशिका फ़ोल्डर की सामग्री की जांच करने के समान है:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" class="responsive" />
 </div>
 
 आप उन फ़ोल्डरों की सभी सामग्रियों को सूचीबद्ध कर सकते हैं जो `ls [FOLDER_NAME]` लिखकर आपकी कार्यशील निर्देशिका नहीं हैं। यह हमारे कार्य निर्देशिका को बदले बिना किसी अन्य फ़ोल्डर के अंदर झांकने जैसा है। नीचे दिए गए उदाहरण में, हम **folder1** की सामग्री की जांच कर रहे हैं। हम यह देख सकते हैं कि **folder1** में केवल एक फ़ाइल है **file3.pdf**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command folder" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command folder" class="responsive" />
 </div>
 
 यह आपके फ़ाइल ब्राउज़र एप्लिकेशन में आपकी कार्यशील निर्देशिका के भीतर एक फ़ोल्डर की सामग्री की जांच करने के समान है:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="file browser folder peek" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="file browser folder peek" class="responsive" />
 </div>
 
 `ls` कमांड के पास अतिरिक्त विकल्प हैं जो बदल सकते हैं कि यह कैसे कार्य करता है।
@@ -68,19 +68,19 @@ lang: hi
 ध्यान दें कि अब हम कैसे **.hidden_file** देख सकते हैं, जिसे पिछले `ls` कमांड के साथ प्रदर्शित नहीं किया गया था:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" class="responsive" />
 </div>
 
 फ़ाइलों को सूचीबद्ध करने के लिए एक अन्य विकल्प `ls -l` टाइप कर रहा है और **Enter** दबा रहा है। यह विकल्प एक लंबी सूची बनाता है। इसका मतलब है कि यह फ़ाइलों और फ़ोल्डरों के लिए अतिरिक्त विवरण प्रदर्शित करता है। फ़ाइलों और फ़ोल्डरों के नाम के अलावा, यह विशेषताओं को भी दिखाएगा, जैसे कि जब वे अंतिम बार संशोधित किए गए थे और उनका आकार:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" class="responsive" />
 </div>
 
 कई टर्मिनल कमानों के समान, आप इन दो विकल्पों को जोड़ सकते हैं। ऐसा करने के लिए, `ls -la` टाइप करें और **Enter** दबाएं, जो **सभी** आइटमों को **लंबे** प्रारूप में सूचीबद्ध करेगा:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" class="responsive" />
 </div>
 
 ## फ़ोल्डरों को नेविगेट करना
@@ -97,19 +97,19 @@ lang: hi
 `cd [FOLDER_NAME]` टाइप करें और **Enter** दबाएं। आपकी कार्यशील निर्देशिका अब बदल गई है। `cd` का अर्थ है "change directory" ("परिवर्तन निर्देशिका")। आप यह सत्यापित करने के लिए कि आपने अपनी कार्यशील निर्देशिका बदल दी है, आप फिर से `pwd` टाइप कर सकते हैं और दर्ज करें। हमारे नमूने में, हमने अपनी वर्किंग डायरेक्टरी को **folder1** में बदल दिया है:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="terminal cd command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="terminal cd command" class="responsive" />
 </div>
 
 यह आपके फ़ाइल ब्राउज़र एप्लिकेशन के फ़ोल्डर में क्लिक करने के समान है। आपने उस फ़ोल्डर को पूरी तरह से स्विच कर दिया है जिसमें आप हैं:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="macOS folder change directory" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="macOS folder change directory" class="responsive" />
 </div>
 
 यदि आप हमारे पिछले फ़ोल्डर में "ऊपर" जाना चाहते हैं, तो आप `cd ..` टाइप कर सकते हैं और **Enter** दबाएं। यह आपको एक फ़ोल्डर स्तर लाएगा:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" class="responsive" />
 </div>
 
 टर्मिनल का उपयोग करते समय फ़ोल्डर में "डाउन" या फ़ोल्डर से "अप" जाने का यह विचार बहुत आम है। जब टर्मिनल कमांड करता है, तो आप "डाउन" ए लेवल और `..` का मतलब लेवल पर जाने के लिए फोल्डर के नाम का इस्तेमाल करते हैं।
@@ -123,7 +123,7 @@ lang: hi
 सबसे आम उपयोगों में से एक टर्मिनल में एक पाठ फ़ाइल की सामग्री को प्रदर्शित करना है। नीचे दिए गए स्क्रीनशॉट में, हम अपनी कार्यशील निर्देशिका में **hello.txt** की सामग्री प्रदर्शित कर रहे हैं:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="terminal cat command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="terminal cat command" class="responsive" />
 </div>
 
 ## निष्कर्ष

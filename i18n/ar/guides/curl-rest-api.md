@@ -48,7 +48,7 @@ curl هي "أداة سطر أوامر لنقل البيانات المحددة �
 في نافذة الجهاز ، اكتب `curl https://jsonplaceholder.typicode.com/todos/1` واضغط على **Enter**. يجب أن ترى نتيجة مشابهة لهذا:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-get-basic-en.gif" width="665" height="387" alt="عرض تجريبي لأمر curl الأساسي" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-get-basic-en.gif" width="665" height="387" alt="عرض تجريبي لأمر curl الأساسي" class="responsive" />
 </div>
 
 بدون أي خيارات ، يتحول `curl` افتراضيًا إلى التفاعل مع الخادم باستخدام طريقة طلب **GET** HTTP ، والتي تُستخدم عمومًا لقراءة البيانات فقط. سنغطي طرق طلب HTTP الأخرى لاحقًا في هذا الدليل.
@@ -56,14 +56,14 @@ curl هي "أداة سطر أوامر لنقل البيانات المحددة �
 دعنا نضيف الخيار "-o" لحفظ الإخراج كملف بدلاً من إظهاره مباشرةً في نافذة المحطة الطرفية. اكتب `curl -o test.json https://jsonplaceholder.typicode.com/todos/1` واضغط على **Enter**:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-get-output-en.gif" width="665" height="387" alt="عرض توضيحي لأمر curl الأساسي مع إخراج الملف" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-get-output-en.gif" width="665" height="387" alt="عرض توضيحي لأمر curl الأساسي مع إخراج الملف" class="responsive" />
 </div>
 
 إذا أردنا ، يمكننا رؤية معلومات أكثر تفصيلاً حول هذا التفاعل عبر الشبكة. للقيام بذلك ، يمكنك إضافة الخيار "-v" إلى أي أمر `curl`. اكتب `curl -v https://jsonplaceholder.typicode.com/todos/1` واضغط على **Enter**:
 
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-get-verbose-en.gif" width="665" height="387" alt="عرض توضيحي لأمر curl الأساسي مع إخراج مطول" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-get-verbose-en.gif" width="665" height="387" alt="عرض توضيحي لأمر curl الأساسي مع إخراج مطول" class="responsive" />
 </div>
 
 ## استخدام طرق طلب HTTP مختلفة مع curl
@@ -85,7 +85,7 @@ curl هي "أداة سطر أوامر لنقل البيانات المحددة �
 يمكنك كتابة ذلك أو نسخه في نافذة الجهاز والضغط على **Enter** لإرساله ، على النحو التالي:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-post-basic-en.gif" width="665" height="387" alt="عرض توضيحي لأمر POST curl" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-post-basic-en.gif" width="665" height="387" alt="عرض توضيحي لأمر POST curl" class="responsive" />
 </div>
 
 كما يمكنك أن تقول ، كان هناك الكثير من البيانات لمحاولة وضعها في أمر واحد. يمكننا إرسال البيانات باستخدام ملف بدلاً من ذلك لجعلها أسهل وقابلة للتكرار.
@@ -103,13 +103,13 @@ curl هي "أداة سطر أوامر لنقل البيانات المحددة �
 إذا قمت بإنشائه بنجاح ، فيجب أن تكون قادرًا على `cat` الملف ، مثل هذا:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="عرض ملف البيانات" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="عرض ملف البيانات" class="responsive" />
 </div>
 
 يمكنك الآن استخدام هذا الملف كجزء من أمر `curl`. بدلاً من وضع البيانات في الأمر ، يمكنك * الرجوع * إلى الملف باستخدام `-d @ [FILENAME]`. يمكننا تجربته عن طريق كتابة `curl -X POST -H 'Content-Type: application/json' -d @data.json https://jsonplaceholder.typicode.com/posts` والضغط على **Enter**:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="عرض توضيحي لأمر POST curl مع ملف" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="عرض توضيحي لأمر POST curl مع ملف" class="responsive" />
 </div>
 
 ### وضع
@@ -119,7 +119,7 @@ curl هي "أداة سطر أوامر لنقل البيانات المحددة �
 دعنا نحاول تحديث عنصر موجود. اكتب `curl -X PUT -H 'Content-Type: application/json' -d '{"title": "foo_updated","body": "bar_updated","userId": 123}' https://jsonplaceholder.typicode.com/posts/1` واضغط على **Enter** ، مثل هذا:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-put-basic-en.gif" width="665" height="387" alt="عرض توضيحي لأمر PUT curl" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-put-basic-en.gif" width="665" height="387" alt="عرض توضيحي لأمر PUT curl" class="responsive" />
 </div>
 
 يمكنك أيضًا استخدام ملف بيانات بنفس الطريقة التي استخدمتها مع طريقة طلب **POST** HTTP ، باستخدام "-d @ [FILENAME]`.
@@ -129,7 +129,7 @@ curl هي "أداة سطر أوامر لنقل البيانات المحددة �
 إذا كنت ترغب في إزالة البيانات من الخادم ، فمن المحتمل أن تستخدم طريقة طلب **DELETE** HTTP عند التفاعل مع واجهة برمجة تطبيقات REST API. هذا أكثر بساطة قليلاً مقارنة بالأمثلة السابقة. ستستخدم `-X DELETE` لتحديد طريقة طلب **DELETE** HTTP وتحديد عنوان URL لمورد معين لحذفه. جربه عن طريق كتابة `curl -X DELETE https://jsonplaceholder.typicode.com/posts/1` والضغط على **Enter**:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-delete-basic-en.gif" width="665" height="387" alt="عرض توضيحي لأمر DELETE curl" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-delete-basic-en.gif" width="665" height="387" alt="عرض توضيحي لأمر DELETE curl" class="responsive" />
 </div>
 
 ستلاحظ أن العديد من واجهات برمجة تطبيقات REST API تقوم إما بإرجاع البيانات المحذوفة أو عدم إرجاع البيانات عند استخدام طريقة طلب **DELETE** HTTP.
@@ -143,7 +143,7 @@ curl هي "أداة سطر أوامر لنقل البيانات المحددة �
 لنجربها عن طريق كتابة `curl -v -X OPTIONS https://jsonplaceholder.typicode.com/posts` والضغط على **Enter**:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-options-verbose-en.gif" width="665" height="387" alt="عرض توضيحي لأمر OPTIONS curl بإخراج مطول" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-options-verbose-en.gif" width="665" height="387" alt="عرض توضيحي لأمر OPTIONS curl بإخراج مطول" class="responsive" />
 </div>
 
 أثناء التمرير عبر نافذة المحطة الطرفية ، سترى معلومات مثل هذه:

@@ -1,14 +1,12 @@
 <!doctype html>
 <html amp="" lang="{{page.lang}}"{% if page.direction %} dir="{{page.direction}}"{% endif %}>
 <head>
-  {% include head-meta.html %}
+  {% include head-meta-new.html %}
   {% include head-hreflangs.html %}
-  {% include head-scripts.html %}
-  {% include head-styles.html %}
+  {% include head-scripts-new.html %}
+  {% include head-styles-new.html %}
 </head>
 <body>
-  {% include body-serviceworker.html %}
-  {% include body-analytics.html %}
   {% include body-navbar.html %}
 
   <article class="section-neutral-primary">
@@ -23,6 +21,6 @@
     </div>
   </article>
 
-  {% include body-footer.html %}
+  {% include body-footer-new.html %}
 </body>
 </html>

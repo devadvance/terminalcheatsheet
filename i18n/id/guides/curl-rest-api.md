@@ -47,7 +47,7 @@ Meskipun kami dapat membuka contoh URL di browser, banyak REST APIs tidak memper
 Di dalam terminal anda, ketik `curl https://jsonplaceholder.typicode.com/todos/1` lalu tekan **Enter**. Anda akan melihat hasil yang mirip dengan ini:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-get-basic-en.gif" width="665" height="387" alt="Demo of basic curl command" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-get-basic-en.gif" width="665" height="387" alt="Demo of basic curl command" class="responsive" />
 </div>
 
 Tanpa opsi apapun, `curl` secara default berinteraksi dengan server menggunakan **GET** HTTP request method, umumnya hanya digunakan untuk membaca data. Kami akan membahas metode HTTP request lainnya kedepannya dalam panduan ini.
@@ -55,13 +55,13 @@ Tanpa opsi apapun, `curl` secara default berinteraksi dengan server menggunakan 
 Mari menambahkan opsi `-o` untuk menyimpan output sebagai file, alih-alih menampilkannya langsung di terminal. Ketik `curl -o test.json https://jsonplaceholder.typicode.com/todos/1` lalu tekan **Enter**:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-get-output-en.gif" width="665" height="387" alt="Demo of basic curl command with file output" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-get-output-en.gif" width="665" height="387" alt="Demo of basic curl command with file output" class="responsive" />
 </div>
 
 Jika mau, kami dapat memeriksa info secara lebih detail tentang interasi ini melalui jaringan. Untuk melakukan ini, anda dapat menambahkan opsi `v` ke apapun perintah `curl`. Ketik `curl -v https://jsonplaceholder.typicode.com/todos/1` lalu tekan **Enter**:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-get-verbose-en.gif" width="665" height="387" alt="Demo of basic curl command with verbose output" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-get-verbose-en.gif" width="665" height="387" alt="Demo of basic curl command with verbose output" class="responsive" />
 </div>
 
 ## Menggunakan metode HTTP request yang berbeda menggunakan curl
@@ -83,7 +83,7 @@ Mari gabungkan opsi-opsi ini menjadi satu perintah lengkap:
 Anda dapat mengetik atau mensalin itu ke terminal jendela anda lalu tekan **Enter** untuk mengirimnya, seperti ini:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-post-basic-en.gif" width="665" height="387" alt="Demo of POST curl command" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-post-basic-en.gif" width="665" height="387" alt="Demo of POST curl command" class="responsive" />
 </div>
 
 Seperti yang anda ketahui, ada banyak data untuk dicoba dimasukkan ke dalam satu perintah. Kami dapat mengirim data menggunakan file sebagai gantinya agar lebih mudah dan berulang.
@@ -101,13 +101,13 @@ Buat file baru bernama `data.json` dengan data berikut:
 Jika anda berhasil membuatnya, anda dapat ke file `cat`, seperti ini: 
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="Demo of data file" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="Demo of data file" class="responsive" />
 </div>
 
 Sekarang anda dapat menggunakan file tersebut sebagai bagain salah satu dari perintah `curl`. Alih-alih memasukkan data ke dalam perintah, anda dapat *refer* ke file dengan menggunakan `-d @[FILENAME]`. Kami dapat mencobanya dengan mengetik `curl -X POST -H 'Content-Type: application/json' -d @data.json https://jsonplaceholder.typicode.com/posts` lalu tekan **Enter**:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="Demo of POST curl command with a file" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="Demo of POST curl command with a file" class="responsive" />
 </div>
 
 ### PUT
@@ -117,7 +117,7 @@ Metode **PUT** permintaan HTTP sering digunakan untuk memperbarui data yang ada 
 Mari mencoba memperbarui item yang sudah ada. Ketik `curl -X PUT -H 'Content-Type: application/json' -d '{"title": "foo_updated","body": "bar_updated","userId": 123}' https://jsonplaceholder.typicode.com/posts/1` lalu tekan **Enter**, seperti ini:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-put-basic-en.gif" width="665" height="387" alt="Demo of PUT curl command" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-put-basic-en.gif" width="665" height="387" alt="Demo of PUT curl command" class="responsive" />
 </div>
 
 Anda juga dapat menggunakan file data dengan cara yang sama seperti yang anda lakukan dengan metode **POST** permintaan HTTP, dengan menggunakan `-d @[FILENAME]`.
@@ -127,7 +127,7 @@ Anda juga dapat menggunakan file data dengan cara yang sama seperti yang anda la
 Jika anda ingin menghapus data dari server, anda kemungkinan akan menggunakan metode **DELETE** permintaan HTTP saat berinteraksi dengan REST API. Ini snagat lebih jelas dibandingkan dengan cara yang sebelumnya. Anda akan menggunakan `-X DELETE` untuk menentukan metode **DELETE** permintaan HTTP dan menentukan sumber URL secara spesifik yang akan dihapus. Coba ketik `curl -X DELETE https://jsonplaceholder.typicode.com/posts/1` lalu tekan **Enter**:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-delete-basic-en.gif" width="665" height="387" alt="Demo of DELETE curl command" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-delete-basic-en.gif" width="665" height="387" alt="Demo of DELETE curl command" class="responsive" />
 </div>
 
 Anda akan melihat bahwa banyak REST APIs mengembalikan data yang dihapus atau tidak ada data saat menggunakan metode **DELETE** permintaan HTTP.
@@ -141,7 +141,7 @@ Anda perlu menggunakan opsi `-v` seperti yang anda pelajari sebelumnya. Ini akan
 Mari mencoba dengan mengetik `curl -v -X OPTIONS https://jsonplaceholder.typicode.com/posts` lalu tekan **Enter**:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-options-verbose-en.gif" width="665" height="387" alt="Demo of OPTIONS curl command with verbose output" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-options-verbose-en.gif" width="665" height="387" alt="Demo of OPTIONS curl command with verbose output" class="responsive" />
 </div>
 
 Saat anda menggulir jendela terminal anda, anda akan mengamati informasi yang seperti ini:
