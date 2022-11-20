@@ -34,31 +34,31 @@ Dès que vous ouvrez le terminal, vous serez dans un répertoire de travail. Tap
 Dans l'exemple de capture d'écran ci-dessous, notre répertoire de travail est un dossier appelé ** exemples **:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="terminal pwd command" class="responsive" />
 </div>
 
 Ensuite, vous pouvez explorer le contenu du répertoire de travail. Tapez «ls» dans votre terminal et appuyez sur ** Entrée **. «ls» signifie «liste». Cette commande répertorie tous les fichiers et dossiers de votre répertoire de travail. Dans notre exemple, il montre tous les fichiers et dossiers dans ** exemples **:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="terminal list command" class="responsive" />
 </div>
 
 Cela revient à ouvrir votre application de navigateur de fichiers et à examiner le contenu de votre dossier de répertoire de travail:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-finder-en.png" width="665" height="387" alt="file browser show contents" class="responsive" />
 </div>
 
 Vous pouvez lister tout le contenu des dossiers qui ne sont pas votre répertoire de travail en tapant «ls [FOLDER_NAME]». C'est comme jeter un œil à l'intérieur d'un autre dossier, sans changer notre répertoire de travail. Dans l'exemple ci-dessous, nous examinons le contenu de ** dossier1 **. Nous pouvons observer que ** dossier1 ** n'a qu'un seul fichier appelé ** file3.pdf **:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command folder" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command folder" class="responsive" />
 </div>
 
 Ceci est similaire à l'examen du contenu d'un dossier dans votre répertoire de travail dans votre application de navigateur de fichiers:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="file browser folder peek" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-folder1-finder-en.png" width="665" height="387" alt="file browser folder peek" class="responsive" />
 </div>
 
 La commande `ls` a des options supplémentaires qui peuvent changer son fonctionnement.
@@ -68,19 +68,19 @@ Essayez de taper «ls -a» et appuyez sur ** Entrée ** pour afficher tous les f
 Notez comment nous pouvons maintenant observer **. Hidden-file **, qui n'était pas affiché avec la commande précédente `ls`:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="terminal ls all command" class="responsive" />
 </div>
 
 Une autre option pour lister les fichiers est de taper `ls -l` et d'appuyer sur ** Entrée **. Cette option génère une longue liste. Cela signifie qu'il affiche des détails supplémentaires pour les fichiers et les dossiers. En plus des noms de fichiers et de dossiers, il affichera également des attributs, tels que la date de leur dernière modification et leur taille:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="terminal ls long command" class="responsive" />
 </div>
 
 Semblable à de nombreuses commandes de terminal, vous pouvez combiner ces deux options. Pour ce faire, tapez `ls -la` et appuyez sur ** Entrée **, qui listera ** tous ** les éléments au format ** long **:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="terminal ls long all command" class="responsive" />
 </div>
 
 ## Parcourir les dossiers
@@ -97,19 +97,19 @@ Nous pouvons maintenant changer notre répertoire de travail. Dans notre exemple
 Tapez «cd [FOLDER_NAME]» et appuyez sur ** Entrée **. Votre répertoire de travail est maintenant modifié. `cd` signifie" changer de répertoire ". Vous pouvez taper à nouveau `pwd` et appuyer sur ** Entrée ** pour vérifier que vous avez changé votre répertoire de travail. Dans notre exemple, nous avons changé notre répertoire de travail en ** folder1 **:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="terminal cd command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="terminal cd command" class="responsive" />
 </div>
 
 Cela revient à cliquer dans un dossier dans votre application de navigateur de fichiers. Vous avez complètement changé le dossier dans lequel vous vous trouvez:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="macOS folder change directory" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-finder-en.png" width="665" height="387" alt="macOS folder change directory" class="responsive" />
 </div>
 
 Si vous vouliez aller «en haut» à notre dossier précédent, vous pouvez taper «cd ..» et appuyer sur ** Entrée **. Cela vous fera monter d'un niveau de dossier:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="terminal cd folder1 and back" class="responsive" />
 </div>
 
 Cette idée d'aller «vers le bas» dans un dossier ou «vers le haut» d'un dossier est très courante lors de l'utilisation du terminal. Lorsque le terminal commande, vous utilisez les noms de dossiers pour «descendre» d'un niveau et «..» pour signifier «monter» d'un niveau.
@@ -123,7 +123,7 @@ Pour les fichiers texte, une commande utile lorsque vous travaillez dans le term
 L'une des utilisations les plus courantes est d'afficher le contenu d'un fichier texte dans le terminal. Dans la capture d'écran ci-dessous, nous affichons le contenu de ** hello.txt ** dans notre répertoire de travail:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="terminal cat command" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="terminal cat command" class="responsive" />
 </div>
 
 ## Conclusion

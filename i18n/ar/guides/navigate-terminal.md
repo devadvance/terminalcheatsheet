@@ -35,31 +35,31 @@ direction: rtl
 في نموذج لقطة الشاشة أدناه ، دليل العمل لدينا هو مجلد يسمى **examples**.
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="المحطة pwd أمر" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/pwd-en.png" width="665" height="387" alt="المحطة pwd أمر" class="responsive" />
 </div>
 
 بعد ذلك ، يمكنك استكشاف محتويات دليل العمل. اكتب `ls` في جهازك واضغط على **Enter**. `ls` لتقف على "قائمة". يسرد هذا الأمر جميع الملفات والمجلدات في دليل العمل الخاص بك:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="المحطة list أمر" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-en.png" width="665" height="387" alt="المحطة list أمر" class="responsive" />
 </div>
 
 يشبه هذا فتح تطبيق متصفح الملفات الخاص بك والنظر في محتويات مجلد دليل العمل الخاص بك:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-finder-ar.png" width="665" height="387" alt="متصفح الملفات تظهر المحتويات" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-finder-ar.png" width="665" height="387" alt="متصفح الملفات تظهر المحتويات" class="responsive" />
 </div>
 
 يمكنك سرد جميع المحتويات في المجلدات التي ليست دليل عملك عن طريق كتابة `ls [FOLDER_NAME]`. يشبه هذا إلقاء نظرة خاطفة داخل مجلد آخر ، دون تغيير دليل العمل الخاص بنا. في المثال أدناه ، نبحث في محتويات **folder1**. يمكننا أن نرى أن **folder1** بها ملف واحد فقط يسمى **file3.pdf**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command مجلد" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-folder1-en.png" width="665" height="387" alt="ls command مجلد" class="responsive" />
 </div>
 
 يشبه هذا النظر في محتويات مجلد داخل دليل العمل الخاص بك في تطبيق متصفح الملفات الخاص بك:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-folder1-finder-ar.png" width="665" height="387" alt="ملف متصفح ملف نظرة خاطفة" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-folder1-finder-ar.png" width="665" height="387" alt="ملف متصفح ملف نظرة خاطفة" class="responsive" />
 </div>
 
 يحتوي الأمر `ls` على خيارات إضافية يمكنها تغيير طريقة عملها.
@@ -69,19 +69,19 @@ direction: rtl
 لاحظ كيف يمكننا الآن رؤية **hidden-file** ، والتي لم يتم عرضها باستخدام الأمر `ls` السابق:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="المحطة ls all أمر" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-a-en.png" width="665" height="387" alt="المحطة ls all أمر" class="responsive" />
 </div>
 
 خيار آخر لسرد الملفات هو كتابة `ls -l` والضغط على **Enter**. هذا الخيار يولد قائمة طويلة. هذا يعني أنه يعرض تفاصيل إضافية للملفات والمجلدات. بالإضافة إلى أسماء الملفات والمجلدات ، سيعرض أيضًا سمات ، مثل تاريخ آخر تعديل لها وحجمها:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="المحطة ls long أمر" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-l-en.png" width="665" height="387" alt="المحطة ls long أمر" class="responsive" />
 </div>
 
 على غرار العديد من أوامر المحطة الطرفية ، يمكنك الجمع بين هذين الخيارين. للقيام بذلك ، اكتب `ls -la` واضغط على **Enter** ، والتي ستدرج **جميع** العناصر بتنسيق **long**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="المحطة ls long all أمر" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/ls-la-en.png" width="665" height="387" alt="المحطة ls long all أمر" class="responsive" />
 </div>
 
 ## التنقل بين المجلدات
@@ -98,19 +98,19 @@ direction: rtl
 اكتب `cd [FOLDER_NAME]` واضغط على **Enter**. تم تغيير دليل العمل الخاص بك الآن. يشير `cd` إلى "تغيير الدليل". يمكنك كتابة `pwd` مرة أخرى والضغط على **Enter** للتحقق من أنك قمت بتغيير دليل العمل الخاص بك. في نموذجنا ، قمنا بتغيير دليل العمل الخاص بنا إلى **folder1**:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="المحطة cd أمر" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-en.png" width="665" height="387" alt="المحطة cd أمر" class="responsive" />
 </div>
 
 هذا مشابه للنقر فوق مجلد في تطبيق متصفح الملفات الخاص بك. لقد قمت بتبديل المجلد الذي أنت فيه تمامًا:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-finder-ar.png" width="665" height="387" alt="macOS مجلد تغيير الدليل" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-finder-ar.png" width="665" height="387" alt="macOS مجلد تغيير الدليل" class="responsive" />
 </div>
 
 إذا أردت الانتقال "لأعلى" إلى المجلد السابق ، يمكنك كتابة `cd ..` والضغط على **Enter**. سيؤدي ذلك إلى رفع مستوى مجلد واحد:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="المحطة cd folder1 والعودة" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cd-folder1-and-back-en.png" width="665" height="387" alt="المحطة cd folder1 والعودة" class="responsive" />
 </div>
 
 فكرة الذهاب "لأسفل" إلى مجلد أو "للخروج" من المجلد شائعة جدًا عند استخدام الجهاز. عند أوامر المحطة الطرفية ، يمكنك استخدام أسماء المجلدات عند "خفض" المستوى و `..` لتعني "الصعود" إلى المستوى.
@@ -124,7 +124,7 @@ direction: rtl
 أحد الاستخدامات الأكثر شيوعًا هو عرض محتويات ملف نصي في الجهاز. في لقطة الشاشة أدناه ، نعرض محتويات **hello.txt** في دليل العمل الخاص بنا:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="المحطة cat أمر" layout="responsive"></amp-img>
+  <img src="/assets/guides/navigate-work-files/cat-hello-en.png" width="665" height="387" alt="المحطة cat أمر" class="responsive" />
 </div>
 
 ## خاتمة

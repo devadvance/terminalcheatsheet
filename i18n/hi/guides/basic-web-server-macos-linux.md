@@ -38,7 +38,7 @@ lang: hi
 यहाँ चरणों का संयोजन है:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" class="responsive" />
 </div>
 
 को नेविगेट और जाँचना उपरोक्त उदाहरण में, हम `pwd` का उपयोग करके यह सत्यापित करते हैं कि `/home/user/examples` हमारी कार्यशील निर्देशिका है। तब हम वर्किंग डायरेक्टरी की सामग्री को सूचीबद्ध करने के लिए `ls` का उपयोग करते हैं ताकि हम यह सुनिश्चित कर सकें कि हमारे पास एक HTML फ़ाइल है। आप **hello.html** फ़ाइल नोट कर सकते हैं।
@@ -51,17 +51,8 @@ lang: hi
 
 क्योंकि यह अक्सर डिफ़ॉल्ट रूप से कंप्यूटर पर स्थापित होता है, हम एक मूल वेब सर्वर को चलाने के लिए पायथन का उपयोग करने जा रहे हैं।
 
-हम एक वेब सर्वर शुरू करने के लिए इस कमांड का उपयोग करने जा रहे हैं: `python3 -m http.server 8000` <amp-iframe sandbox="allow-scripts"
-  class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-  title="Command copy button iframe"
-  width="84"
-  height="36"
-  frameborder="0"
-  src="{{site.url}}/copier.html#python3 -m http.server 8000">
-  <button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copy</button>
-</amp-iframe>
+हम एक वेब सर्वर शुरू करने के लिए इस कमांड का उपयोग करने जा रहे हैं: `python3 -m http.server 8000`
+{% include body-copy-button.html data-command="python3 -m http.server 8000" %}
 
 आइए देखें कि यह कमांड क्या करती है:
 
@@ -72,35 +63,26 @@ lang: hi
 आइए इसे चलाने का प्रयास करें:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" class="responsive" />
 </div>
 
 यदि आप ऊपर देखते हैं, तो वेब सर्वर अब आपके कंप्यूटर पर चल रहा है।
 
 ## अपनी वेब सामग्री की जाँच करें
 
-अगला, हम जाँच सकते हैं कि हमारी वेब सामग्री किसी वेब ब्राउज़र में दिखाई दे रही है या नहीं। हम सामग्री को ब्राउज़ करने के लिए एक स्थानीय URL खोल सकते हैं: `http://localhost:8000` <amp-iframe sandbox="allow-scripts"
-  class="copy-frame{% if page.direction == "rtl" %} button-rtl{% endif %}"
-  title="Command copy button iframe"
-  width="84"
-  height="36"
-  frameborder="0"
-  src="{{site.url}}/copier.html#http://localhost:8000">
-  <button class="pure-button button-large button-primary"
-    placeholder
-    disabled>Copy</button>
-</amp-iframe>
+अगला, हम जाँच सकते हैं कि हमारी वेब सामग्री किसी वेब ब्राउज़र में दिखाई दे रही है या नहीं। हम सामग्री को ब्राउज़ करने के लिए एक स्थानीय URL खोल सकते हैं: `http://localhost:8000`
+{% include body-copy-button.html data-command="http://localhost:8000" %}
 
 ऊपर हमारे उदाहरण में, यह वही है जो हम एक वेब ब्राउज़र में देखते हैं:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Directory listing in the web browser" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/directory-listing-en.png" width="665" height="387" alt="Directory listing in the web browser" class="responsive" />
 </div>
 
 हमारे उदाहरण में, हमारे पास **index.html** नामक फ़ाइल नहीं थी। इसलिए हमारे वेब ब्राउज़र ने उपलब्ध को सूचीबद्ध किया फ़ाइलें। आप इसे ब्राउज़र में खोलने के लिए किसी विशिष्ट फ़ाइल पर क्लिक कर सकते हैं। आइए हम उन **hello.html** पर क्लिक करें, जिन्हें हमने पहले चेक किया था:
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Hello world page" layout="responsive"></amp-img>
+  <img src="/assets/guides/basic-web-server-macos-linux/hello-world-page-en.png" width="665" height="387" alt="Hello world page" class="responsive" />
 </div>
 
 अब हम वेब पेज का निरीक्षण करते हैं!
@@ -112,7 +94,7 @@ lang: hi
 आप इस तरह एक परिणाम देखेंगे:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Stop Python web server" layout="responsive"></amp-anim>
+  <img src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Stop Python web server" class="responsive" />
 </div>
 
 ## निष्कर्ष

@@ -9,13 +9,12 @@ Terminal Cheat Sheet aims to balance approachability through straightforward con
 ## Tech stack
 
 * [Jekyll](https://jekyllrb.com/) - static site builder that works with GitHub pages
-* [AMP](https://amp.dev/documentation/components/) - used to enforce speed, simplicity, and SEO
 
 **Libraries**
 
 * [PureCSS](https://purecss.io/) - used for basic components and grid
 * [Workbox](https://developers.google.com/web/tools/workbox) - used for offline support/PWA functionality
-* [Termynal](https://github.com/ines/termynal) - modified a bit to work with `<amp-script>`
+* [Termynal](https://github.com/ines/termynal) - modified a bit previously to work with AMP. Forked now for maintainability
 
 **Infra**
 
@@ -29,7 +28,7 @@ You'll need to set up Jekyll for local development. Visit https://jekyllrb.com/d
 
 Checkout the code from GitHub and then run `jekyll serve` in the repo directory.
 
-Since this is AMP code, make sure you [validate locally](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_amp/#browser-developer-console) before merging.
+Ensure you validate with Lighthouse and other performance tools locally.
 
 ## Contributing
 

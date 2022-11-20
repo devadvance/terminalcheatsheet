@@ -47,7 +47,7 @@ curl एक "command-line tool है जो URL सिंटैक्स के
 अपनी टर्मिनल विंडो में, `curl https://jsonplaceholder.typicode.com/todos/1` टाइप करें और **Enter** दबाएं। आपको इसके समान परिणाम का अनुभव करना चाहिए:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-get-basic-en.gif" width="665" height="387" alt="Demo of basic curl command" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-get-basic-en.gif" width="665" height="387" alt="Demo of basic curl command" class="responsive" />
 </div>
 
 किसी भी विकल्प के बिना, **curl** सर्वर के साथ बातचीत करने के लिए कर्ल डिफॉल्ट **GET** HTTP अनुरोध विधि, जो आमतौर पर केवल डेटा पढ़ने के लिए उपयोग की जाती है। हम इस गाइड में बाद में अन्य HTTP अनुरोध विधियों को कवर करेंगे।
@@ -55,13 +55,13 @@ curl एक "command-line tool है जो URL सिंटैक्स के
 चलो टर्मिनल विंडो में सीधे दिखाने के बजाय आउटपुट को फ़ाइल के रूप में सहेजने के लिए `-o` विकल्प जोड़ें। टाइप करें `curl -o test.json https://jsonplaceholder.typicode.com/todos/1` और **Enter** दबाएं:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-get-output-en.gif" width="665" height="387" alt="Demo of basic curl command with file output" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-get-output-en.gif" width="665" height="387" alt="Demo of basic curl command with file output" class="responsive" />
 </div>
 
 यदि हम चाहें, तो हम नेटवर्क पर इस इंटरैक्शन के बारे में अधिक विस्तृत जानकारी की जांच कर सकते हैं। ऐसा करने के लिए, आप `-v` विकल्प को किसी भी `curl` कमांड में जोड़ सकते हैं। टाइप करें `curl -v https://jsonplaceholder.typicode.com/todos/1` और **Enter** दबाएं:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-get-verbose-en.gif" width="665" height="387" alt="Demo of basic curl command with verbose output" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-get-verbose-en.gif" width="665" height="387" alt="Demo of basic curl command with verbose output" class="responsive" />
 </div>
 
 ## curl के साथ विभिन्न HTTP अनुरोध विधियों का उपयोग करना
@@ -83,7 +83,7 @@ REST API के साथ सहभागिता करते समय सर
 आप इसे अपनी टर्मिनल विंडो में टाइप या कॉपी कर सकते हैं और इसे भेजने के लिए **Enter** दबाएं, इस तरह:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-post-basic-en.gif" width="665" height="387" alt="Demo of POST curl command" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-post-basic-en.gif" width="665" height="387" alt="Demo of POST curl command" class="responsive" />
 </div>
 
 जैसा कि आप बता सकते हैं, कि एक ही कमांड में डालने के लिए बहुत सारा डेटा था। हम इसे आसान और दोहराए जाने के बजाय किसी फ़ाइल का उपयोग करके डेटा भेज सकते हैं।
@@ -101,13 +101,13 @@ REST API के साथ सहभागिता करते समय सर
 यदि आपने इसे सफलतापूर्वक बनाया है, तो आपको इस तरह से फ़ाइल को `cat` करने में सक्षम होना चाहिए:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="Demo of data file" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="Demo of data file" class="responsive" />
 </div>
 
 अब आप उस फाइल को अपने `curl` कमांड के हिस्से के रूप में उपयोग कर सकते हैं। डेटा को कमांड में डालने के बजाय, आप फ़ाइल को `-d @[FILENAME]` का उपयोग करके संदर्भित कर सकते हैं। हम `curl -X POST -H 'Content-Type: application/json' -d @data.json https://jsonplaceholder.typicode.com/posts` टाइप करके और **Enter** दबाकर इसे आज़मा सकते हैं:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="Demo of POST curl command with a file" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="Demo of POST curl command with a file" class="responsive" />
 </div>
 
 ### PUT (डाल)
@@ -117,7 +117,7 @@ REST API के साथ सहभागिता करते समय सर
 आइए मौजूदा आइटम को अपडेट करने का प्रयास करें। टाइप करें `curl -X PUT -H 'Content-Type: application/json' -d '{"title": "foo_updated","body": "bar_updated","userId": 123}' https://jsonplaceholder.typicode.com/posts/1` और इस तरह **Enter** दर्ज करें दबाएं:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-put-basic-en.gif" width="665" height="387" alt="Demo of PUT curl command" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-put-basic-en.gif" width="665" height="387" alt="Demo of PUT curl command" class="responsive" />
 </div>
 
 आप एक डेटा फ़ाइल का उपयोग उसी तरह कर सकते हैं, जैसा आपने **POST** HTTP अनुरोध विधि के साथ किया था, `-d @[FILENAME]` का उपयोग करके।
@@ -127,7 +127,7 @@ REST API के साथ सहभागिता करते समय सर
 यदि आप सर्वर से डेटा हटाना चाहते हैं, तो आप REST API के साथ इंटरैक्ट करते समय **DELETE** HTTP अनुरोध पद्धति का उपयोग करेंगे। पिछले उदाहरणों की तुलना में यह थोड़ा अधिक सादा है। आप **DELETE** HTTP अनुरोध विधि को निर्दिष्ट करने और हटाने के लिए एक विशिष्ट संसाधन URL निर्दिष्ट करने के लिए `-X DELETE` का उपयोग करेंगे। `curl -X DELETE https://jsonplaceholder.typicode.com/posts/1` टाइप करके और इसे दबाकर **Enter**: टाइप करके देखें।
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-delete-basic-en.gif" width="665" height="387" alt="Demo of DELETE curl command" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-delete-basic-en.gif" width="665" height="387" alt="Demo of DELETE curl command" class="responsive" />
 </div>
 
 आप ध्यान देंगे कि बहुत से REST API या तो डिलीट किए गए डेटा या कोई डेटा नहीं लौटाते हैं जब **DELETE** HTTP अनुरोध विधि का उपयोग करते हैं।
@@ -141,7 +141,7 @@ REST API के साथ सहभागिता करते समय सर
 आइए इसे `curl -v -X OPTIONS https://jsonplaceholder.typicode.com/posts` में टाइप करके और **Enter** दबाकर आज़माएँ:
 
 <div class="center guideimages">
-  <amp-anim src="/assets/guides/curl-rest-api/curl-options-verbose-en.gif" width="665" height="387" alt="Demo of OPTIONS curl command with verbose output" layout="responsive"></amp-anim>
+  <img src="/assets/guides/curl-rest-api/curl-options-verbose-en.gif" width="665" height="387" alt="Demo of OPTIONS curl command with verbose output" class="responsive" />
 </div>
 
 जैसे ही आप अपनी टर्मिनल विंडो पर स्क्रॉल करते हैं, आप इस तरह से जानकारी देखेंगे:

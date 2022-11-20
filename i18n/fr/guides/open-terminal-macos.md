@@ -30,19 +30,19 @@ Pour suivre ce guide, vous avez besoin de :
 Commencez par ouvrir la recherche Spotlight en utilisant le raccourci clavier ou en cliquant sur le bouton. Le raccourci clavier est `⌘ command + ESPACE`. Vous pouvez aussi cliquer sur le bouton loupe (🔍) en haut à droite de votre barre de menu. Il ressemble à ça :
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/spotlight-button-en.png" width="90" height="70" alt="Bouton de recherche Spotlight" layout="fixed"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/spotlight-button-en.png" width="90" height="70" alt="Bouton de recherche Spotlight" layout="fixed">
 </div>
 
 Une fois le raccourci clavier utilisé ou le bouton cliqué, la barre de recherche Spotlight apparaîtra. Elle ressemble à ça :
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/spotlight-search-en.png" width="680" height="56" alt="Barre de recherche Spotlight" layout="responsive"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/spotlight-search-en.png" width="680" height="56" alt="Barre de recherche Spotlight" class="responsive" />
 </div>
 
 Maintenant, vous pouvez tapez `terminal` dans la barre de recherche pour trouver l'application terminal. Les résultats de recherche ressembleront à cela :
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/spotlight-results-en.png" width="680" height="430" alt="Résultats de recherche Spotlight" layout="responsive"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/spotlight-results-en.png" width="680" height="430" alt="Résultats de recherche Spotlight" class="responsive" />
 </div>
 
 Vous pouvez désormais appuyer sur `ENTER` ou cliquer sur l'application pour ouvrir le terminal.
@@ -52,13 +52,13 @@ Vous pouvez désormais appuyer sur `ENTER` ou cliquer sur l'application pour ouv
 Démarrez depuis votre bureau ou une fenêtre finder. Vous trouvez **Finder** dans la barre de menu si vous êtes au bon endroit. Maintenant, cliquez sur le bouton **Aller** dans la barre de menu et cliquez sur **Utilitaires** pour ouvrir Finder au bon endroit.
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/go-menu-en.png" width="470" height="420" alt="Menu aller Finder" layout="responsive"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/go-menu-en.png" width="470" height="420" alt="Menu aller Finder" class="responsive" />
 </div>
 
 Cliquer sur cela ouvre le dossier **Utilitaires**. Maintenant, cherchez l'application **Terminal** dans ce dossier, et double-cliquez dessus pour l'ouvrir.
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/finder-utilities-en.png" width="865" height="471" alt="Naviguer le dossier Utilitaires dans Finder" layout="responsive"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/finder-utilities-en.png" width="865" height="471" alt="Naviguer le dossier Utilitaires dans Finder" class="responsive" />
 </div>
 
 ## Terminé ! Terminal est bien ouvert !
@@ -66,7 +66,7 @@ Cliquer sur cela ouvre le dossier **Utilitaires**. Maintenant, cherchez l'applic
 Que vous ayez utilisé Spotlight ou Finder, une fenêtre terminal s'est ouverte.
 
 <div class="center guideimages">
-  <amp-img src="/assets/guides/open-terminal-macos/terminal-open-en.png" width="585" height="389" alt="Une fenêtre terminal ouverte" layout="responsive"></amp-img>
+  <img src="/assets/guides/open-terminal-macos/terminal-open-en.png" width="585" height="389" alt="Une fenêtre terminal ouverte" class="responsive" />
 </div>
 
 Maintenant que vous avez ouvert le terminal, essayez quelques commandes de la [cheat sheet](/#basic)!
