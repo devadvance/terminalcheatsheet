@@ -42,13 +42,11 @@
           terminalAnimationTracker[showTerminalElement.getAttribute("data-terminal-number")] = new Termynal(termynalHolder);
           showTerminalElement.querySelector(".show-more").classList.toggle("hidden");
           showTerminalElement.querySelector(".show-less").classList.toggle("hidden");
-          console.log("Details was opened!");
         } else {
-          // Detele it from the array so we don't leak memory.
+          // Delete it from the array so we don't leak memory.
           delete terminalAnimationTracker[showTerminalElement.getAttribute("data-terminal-number")];
           showTerminalElement.querySelector(".show-more").classList.toggle("hidden");
           showTerminalElement.querySelector(".show-less").classList.toggle("hidden");
-          console.log("Details was closed!");
         }
       });
     });
