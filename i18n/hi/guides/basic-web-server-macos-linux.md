@@ -38,7 +38,22 @@ lang: hi
 यहाँ चरणों का संयोजन है:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Navigating and checking web content">
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Navigating and checking web content</figcaption>
+</figure>
 </div>
 
 को नेविगेट और जाँचना उपरोक्त उदाहरण में, हम `pwd` का उपयोग करके यह सत्यापित करते हैं कि `/home/user/examples` हमारी कार्यशील निर्देशिका है। तब हम वर्किंग डायरेक्टरी की सामग्री को सूचीबद्ध करने के लिए `ls` का उपयोग करते हैं ताकि हम यह सुनिश्चित कर सकें कि हमारे पास एक HTML फ़ाइल है। आप **hello.html** फ़ाइल नोट कर सकते हैं।
@@ -63,7 +78,22 @@ lang: hi
 आइए इसे चलाने का प्रयास करें:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Start Python web server">
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Start Python web server</figcaption>
+</figure>
 </div>
 
 यदि आप ऊपर देखते हैं, तो वेब सर्वर अब आपके कंप्यूटर पर चल रहा है।
@@ -94,7 +124,22 @@ lang: hi
 आप इस तरह एक परिणाम देखेंगे:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Stop Python web server" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Stop Python web server">
+    <source src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Stop Python web server</figcaption>
+</figure>
 </div>
 
 ## निष्कर्ष

@@ -47,7 +47,22 @@ Bien que nous puissions ouvrir cet exemple d'URL dans notre navigateur web, de n
 Dans la fenêtre de votre terminal, tapez `curl https://jsonplaceholder.typicode.com/todos/1` et appuyez sur **Entrée**. Vous devriez obtenir un résultat similaire à celui-ci :
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-get-basic-en.gif" width="665" height="387" alt="Démonstration de la commande curl de base" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Démonstration de la commande curl de base">
+    <source src="/assets/guides/curl-rest-api/curl-get-basic-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-get-basic-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Démonstration de la commande curl de base</figcaption>
+</figure>
 </div>
 
 Sans aucune option, `curl` interagit par défaut avec le serveur en utilisant une méthode de requête HTTP **GET**, qui est généralement utilisée pour la lecture des données uniquement. Nous traiterons des autres méthodes de requête HTTP plus loin dans ce guide.
@@ -55,13 +70,43 @@ Sans aucune option, `curl` interagit par défaut avec le serveur en utilisant un
 Ajoutons l'option `-o` pour enregistrer le resultat sous forme de fichier au lieu de l'afficher directement dans la fenêtre du terminal. Tapez `curl -o test.json https://jsonplaceholder.typicode.com/todos/1` et appuyez sur **Entrée** :
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-get-output-en.gif" width="665" height="387" alt="Démonstration de la commande curl de base avec sortie de fichier" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Démonstration de la commande curl de base avec sortie de fichier">
+    <source src="/assets/guides/curl-rest-api/curl-get-output-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-get-output-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Démonstration de la commande curl de base avec sortie de fichier</figcaption>
+</figure>
 </div>
 
 Si nous le voulons, nous pouvons examiner des informations plus détaillées sur cette interaction sur le réseau. Pour ce faire, vous pouvez ajouter l'option `-v` à toute commande `-curl`. Tapez `curl -v https://jsonplaceholder.typicode.com/todos/1` et appuyez sur **Entrée** :
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-get-verbose-en.gif" width="665" height="387" alt="Démonstration de la commande curl de base avec une sortie verbeuse" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Démonstration de la commande curl de base avec une sortie verbeuse">
+    <source src="/assets/guides/curl-rest-api/curl-get-verbose-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-get-verbose-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Démonstration de la commande curl de base avec une sortie verbeuse</figcaption>
+</figure>
 </div>
 
 ## Utilisation de différentes méthodes de requête HTTP avec curl
@@ -83,7 +128,22 @@ Mettons ces options ensemble dans une commande complète :
 Vous pouvez taper ou copier cela dans la fenêtre de votre terminal et appuyer sur **Entrée** pour l'envoyer, comme ceci :
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-post-basic-en.gif" width="665" height="387" alt="Démonstration de la commande POST curl" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Démonstration de la commande POST curl">
+    <source src="/assets/guides/curl-rest-api/curl-post-basic-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-post-basic-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Démonstration de la commande POST curl</figcaption>
+</figure>
 </div>
 
 Comme vous pouvez le voir, il y avait beaucoup de données à mettre dans une seule commande. Nous pouvons envoyer des données à l'aide d'un fichier pour les rendre plus faciles et répétables.
@@ -101,13 +161,43 @@ Créez un nouveau fichier appelé `data.json` avec les données suivantes :
 Si vous l'avez créé avec succès, vous devriez pouvoir `cat` le fichier, comme ceci :
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="Démonstration du fichier de données" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Démonstration du fichier de données">
+    <source src="/assets/guides/curl-rest-api/nano-datajson-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/nano-datajson-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Démonstration du fichier de données</figcaption>
+</figure>
 </div>
 
 Vous pouvez maintenant utiliser ce fichier dans le cadre de votre commande `curl`. Au lieu de mettre les données dans la commande, vous pouvez vous *référer* au fichier en utilisant `-d @[NOM_DU_FICHIER]`. Nous pouvons l'essayer en tapant `curl -X POST -H 'Content-Type: application/json' -d @data.json https://jsonplaceholder.typicode.com/posts` et en appuyant sur **Entrée** :
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="Démonstration de la commande POST curl avec un fichier" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Démonstration de la commande POST curl avec un fichier">
+    <source src="/assets/guides/curl-rest-api/curl-post-file-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-post-file-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Démonstration de la commande POST curl avec un fichier</figcaption>
+</figure>
 </div>
 
 ### PUT
@@ -117,7 +207,22 @@ La méthode de requête HTTP **PUT** est souvent utilisée pour mettre à jour l
 Essayons de mettre à jour un élément existant. Tapez `curl -X PUT -H 'Content-Type: application/json' -d '{"title": "foo_updated","body": "bar_updated","userId": 123}' https://jsonplaceholder.typicode.com/posts/1` et appuyez sur **Entrée**, comme ceci :
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-put-basic-en.gif" width="665" height="387" alt="Démonstration de la commande de curl PUT" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Démonstration de la commande de curl PUT">
+    <source src="/assets/guides/curl-rest-api/curl-put-basic-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-put-basic-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Démonstration de la commande de curl PUT</figcaption>
+</figure>
 </div>
 
 Vous pouvez également utiliser un fichier de données de la même manière que vous l'avez fait avec la méthode de requête HTTP **POST**, en utilisant `-d @[FILENAME]`.
@@ -127,7 +232,22 @@ Vous pouvez également utiliser un fichier de données de la même manière que 
 Si vous souhaitez supprimer des données du serveur, vous utiliserez probablement la méthode de requête HTTP **DELETE** lors de l'interaction avec une API REST. Cette méthode est un peu plus simple que les exemples précédents. Vous utiliserez `-X DELETE` pour spécifier la méthode de requête HTTP **DELETE** et spécifier une URL de ressource spécifique à supprimer. Essayez-le en tapant `curl -X DELETE https://jsonplaceholder.typicode.com/posts/1` et en appuyant sur **Entrée** :
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-delete-basic-en.gif" width="665" height="387" alt="Démonstration de la commande DELETE curl" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Démonstration de la commande DELETE curl">
+    <source src="/assets/guides/curl-rest-api/curl-delete-basic-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-delete-basic-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Démonstration de la commande DELETE curl</figcaption>
+</figure>
 </div>
 
 Vous remarquerez que de nombreuses API REST renvoient soit les données supprimées soit aucune donnée lorsqu'elles utilisent la méthode de requête HTTP **DELETE**.
@@ -141,7 +261,22 @@ Vous devrez utiliser l'option `-v` que vous avez apprise plus tôt. Cela activer
 Essayons de le faire en tapant `curl -v -X OPTIONS https://jsonplaceholder.typicode.com/posts` et en appuyant sur **Entrée** :
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-options-verbose-en.gif" width="665" height="387" alt="Démonstration de la commande OPTIONS curl avec sortie verbeuse" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Démonstration de la commande OPTIONS curl avec sortie verbeuse">
+    <source src="/assets/guides/curl-rest-api/curl-options-verbose-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-options-verbose-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Démonstration de la commande OPTIONS curl avec sortie verbeuse</figcaption>
+</figure>
 </div>
 
 En faisant défiler la fenêtre de votre terminal, vous observerez de telles informations :

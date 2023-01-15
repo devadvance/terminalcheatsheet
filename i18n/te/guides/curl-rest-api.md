@@ -49,7 +49,22 @@ REST API తో సంభాషించే ప్రాథమికాలను
 మీ టెర్మినల్ విండోలో, `curl https://jsonplaceholder.typicode.com/todos/1` టైప్ చేయండి మరియు నొక్కండి **Enter**. ఇలాంటి ఫలితాన్ని మీరు చూడాలి.
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-get-basic-en.gif" width="665" height="387" alt="Demo of basic curl command" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Demo of basic curl command">
+    <source src="/assets/guides/curl-rest-api/curl-get-basic-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-get-basic-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Demo of basic curl command</figcaption>
+</figure>
 </div>
 
 ఏ ఎంపికలు లేకుండా, `curl` ,**GET** HTTP అభ్యర్ధన పద్ధతిని ఉపయోగించి సర్వర్‌తో ఇంటరాక్ట్ అవ్వడానికి డిఫాల్ట్‌లు, ఇది సాధారణంగా డేటాను చదవడానికి మాత్రమే ఉపయోగించబడుతుంది. మేము ఈ గైడ్‌లో ఇతర హెచ్‌టిటిపి అభ్యర్థన పద్ధతులను తరువాత కవర్ చేస్తాము.
@@ -57,13 +72,43 @@ REST API తో సంభాషించే ప్రాథమికాలను
 టెర్మినల్ విండోలో నేరుగా చూపించే బదులు అవుట్‌పుట్‌ను ఫైల్‌గా సేవ్ చేయడానికి `-o` ఎంపికను చేర్చుదాం. `curl -o test.json https://jsonplaceholder.typicode.com/todos/1` అని టైప్ చేయండి, మరియు ఎంటర్ నొక్కండి
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-get-output-en.gif" width="665" height="387" alt="Demo of basic curl command with file output" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Demo of basic curl command with file output">
+    <source src="/assets/guides/curl-rest-api/curl-get-output-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-get-output-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Demo of basic curl command with file output</figcaption>
+</figure>
 </div>
 
 మనకు కావాలంటే, నెట్‌వర్క్ ద్వారా ఈ పరస్పర చర్య గురించి మరింత వివరమైన సమాచారాన్ని పరిశీలించవచ్చు. దీన్ని చేయడానికి, మీరు ఏదైనా `curl` ఆదేశానికి` -v` ఎంపికను జోడించవచ్చు. `curl -v https://jsonplaceholder.typicode.com/todos/1` అని టైప్ చేసి **Enter** నొక్కండి:
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-get-verbose-en.gif" width="665" height="387" alt="Demo of basic curl command with verbose output" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Demo of basic curl command with verbose output">
+    <source src="/assets/guides/curl-rest-api/curl-get-verbose-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-get-verbose-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Demo of basic curl command with verbose output</figcaption>
+</figure>
 </div>
 
 ## curl తో విభిన్న HTTP అభ్యర్థన పద్ధతులను ఉపయోగించడం
@@ -85,7 +130,22 @@ REST API తో సంభాషించేటప్పుడు సర్వర
 మీరు దానిని మీ టెర్మినల్ విండోలో టైప్ చేయవచ్చు లేదా కాపీ చేయవచ్చు మరియు పంపించడానికి **Enter** నొక్కండి, ఇలా:
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-post-basic-en.gif" width="665" height="387" alt="Demo of POST curl command" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Demo of POST curl command">
+    <source src="/assets/guides/curl-rest-api/curl-post-basic-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-post-basic-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Demo of POST curl command</figcaption>
+</figure>
 </div>
 
 మీరు చెప్పగలిగినట్లుగా, ఒకే ఆదేశాన్ని ఉంచడానికి ప్రయత్నించడానికి ఇది చాలా డేటా. ఫైల్‌ను సులభంగా మరియు పునరావృతం చేయడానికి బదులుగా డేటాను పంపవచ్చు.
@@ -103,13 +163,43 @@ REST API తో సంభాషించేటప్పుడు సర్వర
 మీరు దీన్ని విజయవంతంగా సృష్టించినట్లయితే, మీరు ఫైల్‌ను `cat` చేయగలరు,
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/nano-datajson-en.gif" width="665" height="387" alt="Demo of data file" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Demo of data file">
+    <source src="/assets/guides/curl-rest-api/nano-datajson-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/nano-datajson-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Demo of data file</figcaption>
+</figure>
 </div>
 
 ఇప్పుడు మీరు మీ `curl` ఆదేశంలో భాగంగా ఆ ఫైల్‌ను ఉపయోగించవచ్చు. డేటాను ఆదేశంలో ఉంచడానికి బదులుగా, మీరు `-d @[FILENAME]` ను ఉపయోగించి ఫైల్‌ను * సూచించవచ్చు. `curl -X POST -H 'Content-Type: application/json' -d @data.json https://jsonplaceholder.typicode.com/posts` అని టైప్ చేసి **Enter** నొక్కడం ద్వారా మనం దీన్ని ప్రయత్నించవచ్చు.
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-post-file-en.gif" width="665" height="387" alt="Demo of POST curl command with a file" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Demo of POST curl command with a file">
+    <source src="/assets/guides/curl-rest-api/curl-post-file-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-post-file-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Demo of POST curl command with a file</figcaption>
+</figure>
 </div>
 
 ### PUT
@@ -119,7 +209,22 @@ REST API తో సంభాషించేటప్పుడు సర్వర
 ఇప్పటికే ఉన్న అంశాన్ని నవీకరించడానికి ప్రయత్నిద్దాం. `curl -X PUT -H 'Content-Type: application/json' -d '{"title": "foo_updated","body": "bar_updated","userId": 123}' https://jsonplaceholder.typicode.com/posts/1` మరియు **Enter** నొక్కండి, ఇలా:
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-put-basic-en.gif" width="665" height="387" alt="Demo of PUT curl command" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Demo of PUT curl command">
+    <source src="/assets/guides/curl-rest-api/curl-put-basic-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-put-basic-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Demo of PUT curl command</figcaption>
+</figure>
 </div>
 
 `-d @ [FILENAME]` ను ఉపయోగించడం ద్వారా మీరు **POST** HTTP అభ్యర్థన పద్ధతిలో చేసిన విధంగానే డేటా ఫైల్‌ను కూడా ఉపయోగించవచ్చు.
@@ -129,7 +234,22 @@ REST API తో సంభాషించేటప్పుడు సర్వర
 మీరు సర్వర్ నుండి డేటాను తీసివేయాలనుకుంటే, మీరు REST API తో సంభాషించేటప్పుడు **DELETE** HTTP అభ్యర్థన పద్ధతిని ఉపయోగిస్తారు. మునుపటి ఉదాహరణలతో పోలిస్తే ఇది కొంచెం ఎక్కువ. **DELETE** HTTP అభ్యర్థన పద్ధతిని పేర్కొనడానికి మరియు తొలగించడానికి నిర్దిష్ట వనరు URL ను పేర్కొనడానికి మీరు `-X DELETE` ను ఉపయోగిస్తారు. `curl -X DELETE https://jsonplaceholder.typicode.com/posts/1` అని టైప్ చేసి **Enter** నొక్కడం ద్వారా దీన్ని ప్రయత్నించండి:
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-delete-basic-en.gif" width="665" height="387" alt="Demo of DELETE curl command" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Demo of DELETE curl command">
+    <source src="/assets/guides/curl-rest-api/curl-delete-basic-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-delete-basic-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Demo of DELETE curl command</figcaption>
+</figure>
 </div>
 
 **DELETE** HTTP అభ్యర్ధన పద్ధతిని ఉపయోగిస్తున్నప్పుడు చాలా REST API లు తొలగించబడిన డేటాను లేదా డేటాను ఇవ్వవని మీరు గమనించవచ్చు.
@@ -143,7 +263,22 @@ REST API తో సంభాషించేటప్పుడు సర్వర
 `curl -v -X OPTIONS https://jsonplaceholder.typicode.com/posts` అని టైప్ చేసి **Enter** నొక్కడం ద్వారా దీనిని ప్రయత్నిద్దాం.
 
 <div class="center guideimages">
-  <img src="/assets/guides/curl-rest-api/curl-options-verbose-en.gif" width="665" height="387" alt="Demo of OPTIONS curl command with verbose output" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Demo of OPTIONS curl command with verbose output">
+    <source src="/assets/guides/curl-rest-api/curl-options-verbose-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/curl-rest-api/curl-options-verbose-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Demo of OPTIONS curl command with verbose output</figcaption>
+</figure>
 </div>
 
 మీరు మీ టెర్మినల్ విండో ద్వారా స్క్రోల్ చేస్తున్నప్పుడు, మీరు ఇలాంటి సమాచారాన్ని గమనిస్తారు:
