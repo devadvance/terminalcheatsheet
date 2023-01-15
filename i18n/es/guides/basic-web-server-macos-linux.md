@@ -38,7 +38,22 @@ Digamos que su contenido web está en la carpeta `/home/user/examples`. Queremos
 Aquí está el conjunto de pasos:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navegar y comprobar el contenido web" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Navegar y comprobar el contenido web">
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Navegar y comprobar el contenido web</figcaption>
+</figure>
 </div>
 
 Usamos `pwd` para ver que `/home/user/examples` es el **directorio de trabajo** actual. Luego usamos `ls` para listar el contenido del directorio de trabajo para asegurarnos de que tenemos un archivo HTML allí. Puede observar el archivo **hello.html**.
@@ -63,7 +78,22 @@ Exploremos lo que hace este comando:
 Intentemos ejecutarlo:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Iniciar servidor web Python" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Iniciar servidor web Python">
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Iniciar servidor web Python</figcaption>
+</figure>
 </div>
 
 Si ve lo anterior, el servidor web ahora se está ejecutando en su computadora.
@@ -94,7 +124,22 @@ Cuando haya terminado de usar el servidor web, puede detenerlo desde el terminal
 Observará un resultado como este:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Detengar servidor web Python" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Detengar servidor web Python">
+    <source src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Detengar servidor web Python</figcaption>
+</figure>
 </div>
 
 ## Conclusión

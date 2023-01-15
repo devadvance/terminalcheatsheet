@@ -38,7 +38,22 @@ Mari kita katakan konten web kamu berada pada folder `/home/user/examples`. Kita
 Berikut beberapa gabungan dari langkah-langkah:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Navigating and checking web content">
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Navigating and checking web content</figcaption>
+</figure>
 </div>
 
 
@@ -64,7 +79,22 @@ Mari kita jelajahi apa yang dilakukan oleh perintah ini:
 Mari coba menjalankannya:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Start Python web server">
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Start Python web server</figcaption>
+</figure>
 </div>
 
 Jika kamu mengamati hal di atas, web server sekarang berjalan pada komputermu.
@@ -95,7 +125,22 @@ Ketika kamu telah selesai menggunakan web server, kamu bisa memberhentikannya da
 Kamu akan mengamati hasil seperti ini:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Stop Python web server" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Stop Python web server">
+    <source src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Stop Python web server</figcaption>
+</figure>
 </div>
 
 ## Kesimpulan

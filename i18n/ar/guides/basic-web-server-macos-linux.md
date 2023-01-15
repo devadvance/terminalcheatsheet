@@ -39,7 +39,22 @@ direction: rtl
 إليك مجموعة الخطوات:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="التنقل والتحقق من محتوى الويب" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="التنقل والتحقق من محتوى الويب">
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">التنقل والتحقق من محتوى الويب</figcaption>
+</figure>
 </div>
 
 نستخدم `pwd` لنرى أن `/home/user/examples` هو دليل العمل الخاص بنا. ثم نستخدم `ls` لسرد محتويات دليل العمل للتأكد من وجود ملف HTML هناك. يمكنك مشاهدة ملف **hello.html**.
@@ -64,7 +79,22 @@ direction: rtl
 دعونا نحاول تشغيله:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="ابدأ خادم الويب Python" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="ابدأ خادم الويب Python">
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">ابدأ خادم الويب Python</figcaption>
+</figure>
 </div>
 
 إذا رأيت ما سبق ، فإن خادم الويب يعمل الآن على جهاز الكمبيوتر الخاص بك.
@@ -95,7 +125,22 @@ direction: rtl
 سترى نتيجة مثل هذه:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="أوقف خادم الويب Python" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="أوقف خادم الويب Python">
+    <source src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">أوقف خادم الويب Python</figcaption>
+</figure>
 </div>
 
 ## خاتمة

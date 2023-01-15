@@ -38,7 +38,22 @@ Disons que votre contenu web est dans ce dossier `/home/user/examples`. On veut 
 Voilà l'ensemble des étapes :
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Navigating and checking web content">
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Navigating and checking web content</figcaption>
+</figure>
 </div>
 
 Dans l'exemple ci-desus, on utilise `pwd` pour vérifier que `/home/user/examples` est bien notre répertoire de travail. Ensuite, on utilise `ls` pour lister les contenus du répertoire de travail afin d'être sûr qu'il y a un fichier HTML dedans. Vous pouvez remarquer le fichier **hello.html**.
@@ -63,7 +78,22 @@ Regardons de plus près ce que fait cette commande :
 Essayons de le démarrer :
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Start Python web server">
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Start Python web server</figcaption>
+</figure>
 </div>
 
 Si vous regardez ce qu'il y a au dessus, le serveur web est maintenant lancé sur votre machine.

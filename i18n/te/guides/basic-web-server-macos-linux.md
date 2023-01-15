@@ -38,7 +38,22 @@ lang: te
 దశల కలయిక ఇక్కడ ఉంది:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.gif" width="665" height="387" alt="Navigating and checking web content" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Navigating and checking web content">
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/checking-web-content-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Navigating and checking web content</figcaption>
+</figure>
 </div>
 
 పై ఉదాహరణలో, మేము ఉపయోగిస్తాము `pwd` దాన్ని ధృవీకరించడానికి `/home/user/examples` మా వర్కింగ్ డైరెక్టరీ. అప్పుడు మేము ఉపయోగిస్తాము `ls` మాకు అక్కడ ఒక HTML ఫైల్ ఉందని నిర్ధారించుకోవడానికి వర్కింగ్ డైరెక్టరీలోని విషయాలను జాబితా చేయడానికి. మీరు గమనించవచ్చు **hello.html** ఫైల్.
@@ -63,7 +78,22 @@ lang: te
 దీన్ని అమలు చేయడానికి ప్రయత్నిద్దాం:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.gif" width="665" height="387" alt="Start Python web server" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Start Python web server">
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/start-python-http-server-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Start Python web server</figcaption>
+</figure>
 </div>
 
 మీరు పైన పేర్కొన్న వాటిని గమనిస్తే, వెబ్ సర్వర్ ఇప్పుడు మీ కంప్యూటర్‌లో నడుస్తోంది.
@@ -94,7 +124,22 @@ lang: te
 మీరు ఇలాంటి ఫలితాన్ని గమనిస్తారు:
 
 <div class="center guideimages">
-  <img src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.gif" width="665" height="387" alt="Stop Python web server" class="responsive" />
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
+    width="665"
+    height="387"
+    class="responsive"
+    title="Stop Python web server">
+    <source src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.webm"
+      type="video/webm" />
+    <source src="/assets/guides/basic-web-server-macos-linux/stop-python-http-server-en.mp4"
+      type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </video>
+  <figcaption class="center">Stop Python web server</figcaption>
+</figure>
 </div>
 
 ## ముగింపు
