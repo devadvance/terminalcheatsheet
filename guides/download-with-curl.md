@@ -33,12 +33,44 @@ curl is a "command-line tool for transferring data specified with URL syntax". T
 
 For example, [https://terminalcheatsheet.com/sample-file.jpg](https://terminalcheatsheet.com/sample-file.jpg){:target="_blank" rel="noopener"} returns an image file that we can download with curl.
 
-To do so, we will use this command
+### Save with the filename from the URL
+
+If we want to download the file and save it with the same name, we can use this command:
 
 ```
-curl [URL] --output [FILENAME]
+curl --remote-name [URL]
 ```
 
-* `[URL]` - We need to tell `curl` the URL to download.
-* `--output [FILENAME]` - We need to tell `curl` where to save the file.
+`[URL]` is the URL we want to download the file from. `--remote-name` instructs curl to use the name from the URL as the name for the file on the computer.
 
+We can use this shorter command to do the same:
+
+```
+curl -O [URL]
+```
+
+`-O` is a short way of writing `--remote-name` from the previous command.
+
+### Save with a different filename
+
+If we want to download the file and save it with a different name, we can use this command instead:
+
+```
+curl --output [FILENAME] [URL]
+```
+
+* `[URL]` - We tell `curl` the URL to download.
+* `--output [FILENAME]` - We tell `curl` where to save the file.
+
+We can use this shorter command to do the same:
+
+```
+curl -o [FILENAME] [URL]
+```
+
+* `[URL]` - We tell `curl` the URL to download.
+* `-o [FILENAME]` - We tell `curl` where to save the file.
+
+## Wrapping up
+
+Now you know a bit about using `curl` to download files from a URL.
