@@ -16,7 +16,7 @@ lang: fr
 
 ## Introduction
 
-Ce guide a pour but de vous apprendre comment trouver terminal sur macOS et comment ouvrir terminal sur macOS. Si vous avez déjà beaucoup d'expérience avec le terminal, regardez [les commandes sur la page d'accueil pour une aide rapide](/).
+Ce guide a pour but de vous apprendre comment trouver terminal sur macOS et comment ouvrir terminal sur macOS. Si vous avez déjà beaucoup d'expérience avec le terminal, regardez [les commandes sur la page d'accueil pour une aide rapide](/fr/).
 
 ## Pré-requis
 

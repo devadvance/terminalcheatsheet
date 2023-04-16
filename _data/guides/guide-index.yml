@@ -79,3 +79,23 @@
     id: /id/guides/basic-web-server-macos-linux
     te: /te/guides/basic-web-server-macos-linux
     fr: /fr/guides/basic-web-server-macos-linux
+
+- id: curl-download-files
+  title:
+    en: How to download files with curl
+    es: Cómo descargar archivos con curl
+    ar: كيفية تنزيل الملفات باستخدام الـ curl
+    pt-BR: Como baixar arquivos com curl
+    hi: curl के साथ फाइलें कैसे डाउनलोड करें
+    id: Cara mengunduh file dengan curl
+    te: curl తో ఫైళ్ళు డౌన్‌లోడ్ చేయడం ఎలా
+    fr: Comment télécharger des fichiers avec curl
+  link:
+    en: /guides/curl-download-files
+    es: /es/guides/curl-download-files
+    ar: /ar/guides/curl-download-files
+    pt-BR: /pt-BR/guides/curl-download-files
+    hi: /hi/guides/curl-download-files
+    id: /id/guides/curl-download-files
+    te: /te/guides/curl-download-files
+    fr: /fr/guides/curl-download-files
