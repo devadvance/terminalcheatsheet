@@ -29,7 +29,7 @@ In order follow this guide, you will need:
 
 Start by opening your terminal.
 
-curl is a "command-line tool for transferring data specified with URL syntax". This means it can download files from URLs.
+`curl` is a "command-line tool for transferring data specified with URL syntax". This means it can download files from URLs.
 
 For example, [https://terminalcheatsheet.com/sample-file.jpg](https://terminalcheatsheet.com/sample-file.jpg){:target="_blank" rel="noopener"} returns an image file that we can download with curl.
 

@@ -14,7 +14,7 @@ lang: fr
 
 ## Introduction
 
-Ce guide est destiné à vous apprendre les bases de l'interaction avec une API REST en utilisant [curl](https://github.com/curl/curl). En suivant ces instructions, n'oubliez pas que les fichiers et dossiers de votre ordinateur seront probablement différents de ceux des exemples. Si vous avez déjà beaucoup d'expérience avec le terminal sur macOS, consultez [les commandes sur la page d'accueil pour des référence rapidel](/).
+Ce guide est destiné à vous apprendre les bases de l'interaction avec une API REST en utilisant [curl](https://github.com/curl/curl). En suivant ces instructions, n'oubliez pas que les fichiers et dossiers de votre ordinateur seront probablement différents de ceux des exemples. Si vous avez déjà beaucoup d'expérience avec le terminal sur macOS, consultez [les commandes sur la page d'accueil pour des référence rapidel](/fr/).
 
 ## Conditions préalables
 

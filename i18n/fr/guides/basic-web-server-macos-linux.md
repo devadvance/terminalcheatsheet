@@ -14,7 +14,7 @@ lang: fr
 
 ## Introduction
 
-Si vous travaillez sur des pages web ou d'autres contenus web, vous pouvez avoir besoin d'une façon simple et rapide de lancer un serveur web basique. Ce guide va vous apprendre une commande Python pour lancer un serveur web basique sur votre machine. En suivant ces instructions, gardez à l'esprit que vos fichiers et dossiers de votre machine seront probablement différents des exemples. Si vous maitrisez déjà le terminal, allez voir [les commandes de la page d'accueil pour de l'aide](/)
+Si vous travaillez sur des pages web ou d'autres contenus web, vous pouvez avoir besoin d'une façon simple et rapide de lancer un serveur web basique. Ce guide va vous apprendre une commande Python pour lancer un serveur web basique sur votre machine. En suivant ces instructions, gardez à l'esprit que vos fichiers et dossiers de votre machine seront probablement différents des exemples. Si vous maitrisez déjà le terminal, allez voir [les commandes de la page d'accueil pour de l'aide](/fr/)
 
 ## Prérequis
 

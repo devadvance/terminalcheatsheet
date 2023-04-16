@@ -14,7 +14,7 @@ lang: fr
 
 ## Introduction
 
-Ce guide est destiné à vous enseigner les bases de la navigation dans les fichiers et les dossiers sur un terminal. En suivant ces instructions, gardez à l'esprit que les fichiers et dossiers de votre ordinateur seront probablement différents des exemples. Si vous avez déjà beaucoup d'expérience avec le terminal, consultez les commandes sur la page d'accueil pour des références rapides.
+Ce guide est destiné à vous enseigner les bases de la navigation dans les fichiers et les dossiers sur un terminal. En suivant ces instructions, gardez à l'esprit que les fichiers et dossiers de votre ordinateur seront probablement différents des exemples. Si vous avez déjà beaucoup d'expérience avec le terminal, consultez [les commandes sur la page d'accueil pour des références rapides](/fr/).
 
 ## Conditions préalables
 
