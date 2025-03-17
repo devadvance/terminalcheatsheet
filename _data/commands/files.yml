@@ -1,36 +1,20 @@
 - id: cat_file
   command: cat [FILE]
   descriptions:
-    en: This command has many uses, but most commonly for beginners,
-      cat is used to output the contents of a [FILE] to the terminal
-    es: Este comando tiene muchos usos, pero más comúnmente para principiantes,
-      cat se usa para enviar el contenido de un archivo al terminal
-    ar: يستخدم هذا الأمر العديد من الاستخدامات ، ولكن الأكثر شيوعًا
-      للمبتدئين ، يتم استخد لإخراج محتويات ملف ملف المحطة
-    hi: इस आदेश के कई उपयोग हैं, लेकिन शुरुआती लोगों के लिए इस्का इस्तेमाल
-      फ़ाइल सामग्री को आउटपुट करने मे काम आता है
-    te: ఈ ఆదేశానికి చాలా ఉపయోగాలు ఉన్నాయి, కాని సాధారణంగా ప్రారంభకులకు,
-      [FILE] యొక్క విషయాలను టెర్మినల్‌కు అవుట్పుట్
-      చేయడానికి పిల్లి ఉపయోగించబడుతుంది
-    id: Perintah ini banyak kegunaannya, namun umumnya untuk pemula,
-      cat digunakan untuk memunculkan isi dari [FILE] ke terminal
-    pt-BR: Este comando tem muitos usos, mas comumente para iniciantes,
-      cat se usa para enviar o conteúdo de um [ARQUIVO] para o terminal
-    bn: এই কমান্ডটির অনেকগুলি ব্যবহার রয়েছে তবে প্রাথমিকভাবে প্রাথমিকভাবে এটি
-      একটি [ফাইল] এর সামগ্রীগুলি টার্মিনালে আউটপুট করতে ব্যবহৃত হয়
-    je: このコマンドには多くの用途がありますが、最も一般的には初心者向けです。
-       catは、[FILE]の内容を端末に出力するために使用されます
+    en: This command has many uses, but most commonly for beginners, cat is used to output the contents of a [FILE] to the terminal
+    es: Este comando tiene muchos usos, pero más comúnmente para principiantes, cat se usa para enviar el contenido de un archivo al terminal
+    ar: يستخدم هذا الأمر العديد من الاستخدامات ، ولكن الأكثر شيوعًا للمبتدئين ، يتم استخد لإخراج محتويات ملف ملف المحطة
+    hi: इस आदेश के कई उपयोग हैं, लेकिन शुरुआती लोगों के लिए इस्का इस्तेमाल फ़ाइल सामग्री को आउटपुट करने मे काम आता है
+    te: ఈ ఆదేశానికి చాలా ఉపయోగాలు ఉన్నాయి, కాని సాధారణంగా ప్రారంభకులకు, [FILE] యొక్క విషయాలను టెర్మినల్‌కు అవుట్పుట్ చేయడానికి పిల్లి ఉపయోగించబడుతుంది
+    id: Perintah ini banyak kegunaannya, namun umumnya untuk pemula, cat digunakan untuk memunculkan isi dari [FILE] ke terminal
+    pt-BR: Este comando tem muitos usos, mas comumente para iniciantes, cat se usa para enviar o conteúdo de um [ARQUIVO] para o terminal
+    bn: এই কমান্ডটির অনেকগুলি ব্যবহার রয়েছে তবে প্রাথমিকভাবে প্রাথমিকভাবে এটি একটি [ফাইল] এর সামগ্রীগুলি টার্মিনালে আউটপুট করতে ব্যবহৃত হয়
+    je: このコマンドには多くの用途がありますが、最も一般的には初心者向けです。catは、[FILE]の内容を端末に出力するために使用されます
     zh-CN: 此命令有许多用途，但最常见于初学者，cat用于将文件内容输出到终端
-    fr: Cette commande a de nombreuses utilisations, mais le plus
-      souvent pour les débutants, cat est utilisé pour afficher
-      le contenu d'un [FILE] vers le terminal
-    ta: இந்த கட்டளை பல பயன்பாடுகளைக் கொண்டுள்ளது,
-      ஆனால் பொதுவாக ஆரம்பநிலைக்கு,
-      இது [FILE] இன் உள்ளடக்கங்களை முனையத்திற்கு வெளியிடுவதற்குப்
-      பயன்படுத்தப்படுகிறது
-    ru: Эта команда имеет множество применений,
-      но чаще всего для новичков она используется
-      для вывода содержимого [FILE] на терминал.
+    fr: Cette commande a de nombreuses utilisations, mais le plus souvent pour les débutants, cat est utilisé pour afficher le contenu d'un [FILE] vers le terminal
+    ta: இந்த கட்டளை பல பயன்பாடுகளைக் கொண்டுள்ளது, ஆனால் பொதுவாக ஆரம்பநிலைக்கு, இது [FILE] இன் உள்ளடக்கங்களை முனையத்திற்கு வெளியிடுவதற்குப் பயன்படுத்தப்படுகிறது
+    ru: Эта команда имеет множество применений, но чаще всего для новичков она используется для вывода содержимого [FILE] на терминал.
+    ml: ഈ കമാൻഡ് പല ആവശ്യങ്ങൾക്കായി ഉപയോഗിക്കാം, എന്നാൽ പ്രാരംഭതലത്തിൽ സാധാരണയായി [FILE]യുടെ ഉള്ളടക്കം ടെർമിനലിൽ പ്രദർശിപ്പിക്കാൻ ആണ് ഉപയോഗിക്കുന്നത്
   html_terminal: >
     <span data-ty="input">cat hello.txt</span>
     <span data-ty>Hello World!</span>
@@ -38,32 +22,20 @@
 - id: mkdir
   command: mkdir [FOLDER_NAME]
   descriptions:
-    en: Create a new folder with the desired [FOLDER_NAME].
-      This occurs in your current working directory
-    es: Cree una nueva carpeta con el nombre deseado.
-      Esto ocurre en su directorio de trabajo actual
-    ar: إنشاء دليل جديد بالاسم المطلوب ؛.
-      يحدث هذا في دليل العمل الحالي الخاص بك
-    hi: वांछित नाम के साथ एक नया फ़ोल्डर बनाएं |
-      यह आपके वर्तमान निर्देशिका मे होगा
-    te: కావలసిన [FOLDER_NAME] తో క్రొత్త ఫోల్డర్‌ను సృష్టించండి.
-      ఇది మీ ప్రస్తుత వర్కింగ్ డైరెక్టరీలో సంభవిస్తుంది
-    id: Membuat folder sesuai keinginan [NAMA_FOLDER].
-      Perintah ini berjalan di direktori kamu berada.
-    pt-BR: Crie uma nova pasta com o [NOME_DA_PASTA] desejada.
-      Isso ocorre em seu diretório de trabalho atual
-    bn: এটি পছন্দসই [FOLDER_NAME] সহ একটি নতুন ফোল্ডার তৈরি করবে।
-      এটি আপনার বর্তমান ওয়ার্কিং ডিরেক্টরিতে ঘটে
-    je: 目的の[FOLDER_NAME]で新しいフォルダを作成します。
-       これは、現在の作業ディレクトリで発生します
+    en: Create a new folder with the desired [FOLDER_NAME]. This occurs in your current working directory
+    es: Cree una nueva carpeta con el nombre deseado. Esto ocurre en su directorio de trabajo actual
+    ar: إنشاء دليل جديد بالاسم المطلوب ؛. يحدث هذا في دليل العمل الحالي الخاص بك
+    hi: वांछित नाम के साथ एक नया फ़ोल्डर बनाएं | यह आपके वर्तमान निर्देशिका मे होगा
+    te: కావలసిన [FOLDER_NAME] తో క్రొత్త ఫోల్డర్‌ను సృష్టించండి. ఇది మీ ప్రస్తుత వర్కింగ్ డైరెక్టరీలో సంభవిస్తుంది
+    id: Membuat folder sesuai keinginan [NAMA_FOLDER]. Perintah ini berjalan di direktori kamu berada.
+    pt-BR: Crie uma nova pasta com o [NOME_DA_PASTA] desejada. Isso ocorre em seu diretório de trabalho atual
+    bn: এটি পছন্দসই [FOLDER_NAME] সহ একটি নতুন ফোল্ডার তৈরি করবে। এটি আপনার বর্তমান ওয়ার্কিং ডিরেক্টরিতে ঘটে
+    je: 目的の[FOLDER_NAME]で新しいフォルダを作成します。 これは、現在の作業ディレクトリで発生します
     zh-CN: 使用所需的FOLDER_NAME创建一个新文件夹。 这发生在您当前的工作目录中
-    fr: Créez un nouveau dossier avec le [FOLDER_NAME] souhaité.
-      Cela se produit dans votre répertoire de travail actuel
-    ta: இது விரும்பிய [FOLDER_NAME]
-      உடன் புதிய கோப்புறையை உருவாக்கும்.
-      இது உங்கள் தற்போதைய பணி அடைவில் நிகழ்கிறது
-    ru: Будет создана новая папка с желаемой [FOLDER_NAME].
-      Это происходит в вашем текущем рабочем каталоге
+    fr: Créez un nouveau dossier avec le [FOLDER_NAME] souhaité. Cela se produit dans votre répertoire de travail actuel
+    ta: இது விரும்பிய [FOLDER_NAME] உடன் புதிய கோப்புறையை உருவாக்கும். இது உங்கள் தற்போதைய பணி அடைவில் நிகழ்கிறது
+    ru: Будет создана новая папка с желаемой [FOLDER_NAME]. Это происходит в вашем текущем рабочем каталоге
+    ml: ആഗ്രഹിക്കുന്ന [FOLDER_NAME] ഉപയോഗിച്ച് പുതിയ ഫോൾഡർ സൃഷ്ടിക്കുക. ഇത് നിങ്ങളുടെ നിലവിലെ പ്രവർത്തന ഡയറക്ടറിയിൽ നടക്കും
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Music</span>
@@ -87,6 +59,7 @@
     fr: Faire une copie d'un fichier
     ta: இது ஒரு கோப்பின் நகலை உருவாக்கும்
     ru: Это сделает копию файла
+    ml: ഒരു ഫയലിന്റെ പകർപ്പ് സൃഷ്ടിക്കുക
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -98,26 +71,19 @@
   command: mv [FILE] [MOVED_FILE]
   descriptions:
     en: Move files and folders. Can also rename files and folders
-    es: Mover archivos y carpetas.
-      También puede renombrar archivos y carpetas
+    es: Mover archivos y carpetas. También puede renombrar archivos y carpetas
     ar: نقل الملفات والمجلدات. يمكن أيضًا إعادة تسمية الملفات والمجلدات
-    hi: फाइलों और फ़ोल्डर्स को स्थानांतरित करना |
-      फ़ाइलों और फ़ोल्डर्स का नाम भी बदल सकते हैं
-    te: ఫైల్‌లు మరియు ఫోల్డర్‌లను తరలించండి.
-      ఫైల్స్ మరియు ఫోల్డర్ల పేరు మార్చవచ్చు
-    id: Memindahkan file dan folder.
-      Bisa juga untuk mengganti nama file dan folder
+    hi: फाइलों और फ़ोल्डर्स को स्थानांतरित करना | फ़ाइलों और फ़ोल्डर्स का नाम भी बदल सकते हैं
+    te: ఫైల్‌లు మరియు ఫోల్డర్‌లను తరలించండి. ఫైల్స్ మరియు ఫోల్డర్ల పేరు మార్చవచ్చు
+    id: Memindahkan file dan folder. Bisa juga untuk mengganti nama file dan folder
     pt-BR: Mover arquivos e pastas. Também pode renomear arquivos e pastas
-    bn: এটি ফাইল এবং ফোল্ডার সরিয়ে ফেলবে।
-      এটি ফাইল এবং ফোল্ডারগুলির নাম পরিবর্তন করতেও ব্যবহৃত হতে পারে
+    bn: এটি ফাইল এবং ফোল্ডার সরিয়ে ফেলবে। এটি ফাইল এবং ফোল্ডারগুলির নাম পরিবর্তন করতেও ব্যবহৃত হতে পারে
     je: ファイルとフォルダを移動します。 ファイルやフォルダの名前を変更することもできます
     zh-CN: 移动文件和文件夹。 也可以重命名文件和文件夹
-    fr: Déplacer des fichiers et des dossiers.
-      Peut également renommer des fichiers et des dossiers
-    ta: இது கோப்புகள் மற்றும் கோப்புறைகளை நகர்த்தும்.
-      இது கோப்புகள் மற்றும் கோப்புறைகளை மறுபெயரிடலாம்
-    ru: Он будет перемещать файлы и папки.
-      Также можно переименовывать файлы и папки
+    fr: Déplacer des fichiers et des dossiers. Peut également renommer des fichiers et des dossiers
+    ta: இது கோப்புகள் மற்றும் கோப்புறைகளை நகர்த்தும். இது கோப்புகள் மற்றும் கோப்புறைகளை மறுபெயரிடலாம்
+    ru: Он будет перемещать файлы и папки. Также можно переименовывать файлы и папки
+    ml: ഫയലുകളും ഫോൾഡറുകളും നീക്കുക. ഫയലുകളും ഫോൾഡറുകളും പുനർനാമകരണം ചെയ്യാനും കഴിയും
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt</span>
@@ -141,42 +107,9 @@
     fr: Supprimer [FILE]
     ta: இது [FILE] ஐ நீக்கும்
     ru: Будет удален [FILE]
+    ml: [FILE] നീക്കം ചെയ്യുക
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>hello.txt world.txt</span>
     <span data-ty="input">rm hello.txt</span>
-    <span data-ty="input">ls</span>
-    <span data-ty>world.txt</span>
-
-- id: rm_recursive
-  command: rm -r [FOLDER]
-  descriptions:
-    en: Delete a [FOLDER] recursively,
-      which means the folder and everything in it
-    es: Eliminar recursivamente un [FOLDER],
-      lo que significa el carpetas y todo lo que contiene
-    ar: حذف مجلد بشكل متكرر ، مما يعني المجلد وكل شيء فيه
-    hi: एक फ़ोल्डर को बार-बार हटाएं,
-      जिसका अर्थ है फ़ोल्डर और उसमें सब कुछ हटाना
-    te: ఇది [ఫోల్డర్] ను పునరావృతంగా తొలగించండి,
-      అంటే ఫోల్డర్ మరియు దానిలోని ప్రతిదీ
-    id: Menghapus sebuah [FOLDER] secara rekursif,
-      yang artinya menghapus folder beserta isinya
-    pt-BR: Eliminar uma [PASTA] recursivamente,
-      o que significa excluir a pasta e tudo que ela contém
-    bn: এটি একটি [ফোল্ডার] পুনরাবৃত্তভাবে মুছে ফেলবে,
-      যার অর্থ ফোল্ডার এবং এর মধ্যে থাকা সমস্ত কিছুই
-    je: FOLDER を再帰的に削除します。これは、フォルダーとその中のすべてを意味します
-    zh-CN: 递归删除文件夹，这意味着该文件夹及其中的所有内容
-    fr: Supprimer un [FOLDER] de manière récursive,
-      ce qui signifie le dossier et tout ce qu'il contient
-    ta: இது ஒரு [FOLDER] ஐ மீண்டும் மீண்டும் நீக்கும்,
-      அதாவது கோப்புறை மற்றும் அதில் உள்ள அனைத்தையும் குறிக்கும்
-    ru: Он рекурсивно удалит [FOLDER],
-      что означает папку и все, что в ней
-  html_terminal: >
-    <span data-ty="input">ls</span>
-    <span data-ty>Desktop Music example_folder hello.txt</span>
-    <span data-ty="input">rm -r example_folder</span>
-    <span data-ty="input">ls</span>
-    <span data-ty>Desktop Music hello.txt</span>
+    <span data-ty

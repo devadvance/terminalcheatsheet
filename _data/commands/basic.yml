@@ -2,28 +2,19 @@
   command: ls
   descriptions:
     pt-BR: Lista todos os arquivos no diretório atual
-    en: List the normal files and folders in the current directory in condensed
-      format
+    en: List the normal files and folders in the current directory in condensed format
     es: Enumera los archivos y carpetas normales en el directorio actual
     ar: سرد الملفات والمجلدات العادية في الدليل الحالي بتنسيق مكثف
-    hi: संघनित रूप में वर्तमान निर्देशिका में सामान्य फाइलों और फ़ोल्डर की
-      सूची करने हेतु
-    te: ప్రస్తుత డైరెక్టరీలో సాధారణ ఫైళ్లు మరియు ఫోల్డర్‌లను ఘనీకృత
-      ఆకృతిలో జాబితా చేయండి
-    id: Menampilkan daftar file dan folder di direktori
-      dimana kamu berada dalam format yang ringkas
-    bn: এটি কনডেন্সযুক্ত ফর্ম্যাটে বর্তমান ডিরেক্টরিতে সাধারণ
-      এবং ফোল্ডারগুলি তালিকাভুক্ত করবে
-    je: 現在のディレクトリ内の通常のファイルとフォルダを要約して一覧表示します
-      フォーマット
+    hi: संघनित रूप में वर्तमान निर्देशिका में सामान्य फाइलों और फ़ोल्डर की सूची करने हेतु
+    te: ప్రస్తుత డైరెక్టరీలో సాధారణ ఫైళ్లు మరియు ఫోల్డర్‌లను ఘనీకృత ఆకృతిలో జాబితా చేయండి
+    id: Menampilkan daftar file dan folder di direktori dimana kamu berada dalam format yang ringkas
+    bn: এটি কনডেন্সযুক্ত ফর্ম্যাটে বর্তমান ডিরেক্টরিতে সাধারণ এবং ফোল্ডারগুলি তালিকাভুক্ত করবে
+    je: 現在のディレクトリ内の通常のファイルとフォルダを要約して一覧表示します フォーマット
     zh-CN: 以压缩格式列出当前目录中的普通文件和文件夹
-    fr: Répertoriez les fichiers et dossiers normaux du répertoire courant
-      au format condensé
-    ta: இது தற்போதைய கோப்பகத்தில் சாதாரண கோப்புகள்
-      மற்றும் கோப்புறைகளை அமுக்கப்பட்ட
-      வடிவத்தில் பட்டியலிடும்
-    ru: Он перечислит обычные файлы и папки
-      в текущем каталоге в сжатом формате.
+    fr: Répertoriez les fichiers et dossiers normaux du répertoire courant au format condensé
+    ta: இது தற்போதைய கோப்பகத்தில் சாதாரண கோப்புகள் மற்றும் கோப்புறைகளை அமுக்கப்பட்ட வடிவத்தில் பட்டியலிடும்
+    ru: Он перечислит обычные файлы и папки в текущем каталоге в сжатом формате.
+    ml: നിലവിലെ ഡയറക്ടറിയിലെ സാധാരണ ഫയലുകളും ഫോൾഡറുകളും കണ്ട്‌ന്സുചെയ്ത ഫോർമാറ്റിൽ പട്ടികപ്പെടുത്തുക
   html_terminal: >
     <span data-ty="input">ls</span>
     <span data-ty>Desktop Documents Music</span>
@@ -35,22 +26,16 @@
     en: Output the full path of the current working directory for this terminal
     es: Emita la ruta del directorio actual para este terminal
     ar: إخراج المسار الكامل لدليل العمل الحالي لهذه المحطة
-    hi: इस टर्मिनल के लिए वर्तमान कार्य निर्देशिका का पूरा रास्ता आउटपुट करने
-      हेतु
-    te: ఈ టెర్మినల్ కోసం ప్రస్తుత వర్కింగ్ డైరెక్టరీ యొక్క పూర్తి
-      మార్గాన్ని అవుట్పుట్ చేయండి
-    id: Menampilkan output penuh lokasi direktori
-      dimana kamu berada pada terminal
-    bn: এটি এই টার্মিনালের জন্য বর্তমান কার্যনির্বাহী ডিরেক্টরিটির
-      পুরো পথ আউটপুট করবে
+    hi: इस टर्मिनल के लिए वर्तमान कार्य निर्देशिका का पूरा रास्ता आउटपुट करने हेतु
+    te: ఈ టెర్మినల్ కోసం ప్రస్తుత వర్కింగ్ డైరెక్టరీ యొక్క పూర్తి మార్గాన్ని అవుట్పుట్ చేయండి
+    id: Menampilkan output penuh lokasi direktori dimana kamu berada pada terminal
+    bn: এটি এই টার্মিনালের জন্য বর্তমান কার্যনির্বাহী ডিরেক্টরিটির পুরো পথ আউটপুট করবে
     je: この端末の現在の作業ディレクトリのフルパスを出力します
     zh-CN: 输出此终端当前工作目录的完整路径
-    fr: Affiche le chemin complet du répertoire de travail actuel
-      pour ce terminal
-    ta: இந்த முனையத்திற்கான தற்போதைய
-      பணி கோப்பகத்தின் முழு பாதையையும் இது வெளியிடும்
-    ru: Он выведет полный путь к текущему рабочему
-      каталогу для этого терминала.
+    fr: Affiche le chemin complet du répertoire de travail actuel pour ce terminal
+    ta: இந்த முனையத்திற்கான தற்போதைய பணி கோப்பகத்தின் முழு பாதையையும் இது வெளியிடும்
+    ru: Он выведет полный путь к текущему рабочему каталогу для этого терминала.
+    ml: ഈ ടെർമിനലിന് നിലവിലെ പ്രവർത്തന ഡയറക്ടറിയുടെ പൂർണ്ണ പാത പുറത്ത് നൽകുക
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -58,36 +43,20 @@
 - id: cd
   command: cd
   descriptions:
-    pt-BR: Altera o diretório, quando utilizado sozinho por padrão mudará para o
-      diretório inicial
-    en: Change your current working directory. When used by itself, it will
-      default to changing to your home directory
-    es: Cambia tu directorio de trabajo actual. Cuando se usa solo, por defecto
-      cambiará a su directorio de inicio
-    ar: تغيير دليل العمل الحالي الخاص بك.
-      عند استخدامه بمفرده ، سيتم تغييره افتراضيًا إلى دليل المنزل
-    hi: अपनी वर्तमान कार्य निर्देशिका बदलें ।  जब खुद के द्वारा इस्तेमाल किया,
-      यह अपने घर निर्देशिका को बदलने के लिए डिफ़ॉल्ट होगा
-    te: మీ ప్రస్తుత పని డైరెక్టరీని మార్చండి. స్వయంగా ఉపయోగించినప్పుడు,
-      ఇది మీ హోమ్ డైరెక్టరీకి మార్చడం డిఫాల్ట్‌గా ఉంటుంది
-    id: Berpindah direktori. Jika digunakan sendiri, maka akan
-      memindahkan kamu ke home direktori
-    bn: এটি আপনার বর্তমান কার্যকারী ডিরেক্টরিটি পরিবর্তন করবে।
-      যখন নিজে নিজে ব্যবহার করা হবে তখন এটি আপনার হোম
-      ডিরেক্টরিতে পরিবর্তিত হয়ে যাবে
-    je: 現在の作業ディレクトリを変更します。単独で使用すると、
-      デフォルトでは、ホームディレクトリに移動します
+    pt-BR: Altera o diretório, quando utilizado sozinho por padrão mudará para o diretório inicial
+    en: Change your current working directory. When used by itself, it will default to changing to your home directory
+    es: Cambia tu directorio de trabajo actual. Cuando se usa solo, por defecto cambiará a su directorio de inicio
+    ar: تغيير دليل العمل الحالي الخاص بك. عند استخدامه بمفرده ، سيتم تغييره افتراضيًا إلى دليل المنزل
+    hi: अपनी वर्तमान कार्य निर्देशिका बदलें । जब खुद के द्वारा इस्तेमाल किया, यह अपने घर निर्देशिका को बदलने के लिए डिफ़ॉल्ट होगा
+    te: మీ ప్రస్తుత పని డైరెక్టరీని మార్చండి. స్వయంగా ఉపయోగించినప్పుడు, ఇది మీ హోమ్ డైరెక్టరీకి మార్చడం డిఫాల్ట్‌గా ఉంటుంది
+    id: Berpindah direktori. Jika digunakan sendiri, maka akan memindahkan kamu ke home direktori
+    bn: এটি আপনার বর্তমান কার্যকারী ডিরেক্টরিটি পরিবর্তন করবে। যখন নিজে নিজে ব্যবহার করা হবে তখন এটি আপনার হোম ডিরেক্টরিতে পরিবর্তিত হয়ে যাবে
+    je: 現在の作業ディレクトリを変更します。単独で使用すると、デフォルトでは、ホームディレクトリに移動します
     zh-CN: 更改您的当前工作目录。 单独使用时，它将默认更改为您的主目录
-    fr: Modifiez votre répertoire de travail actuel.
-      Lorsqu'il est utilisé seul, il passera par défaut
-      à votre répertoire personnel
-    ta: இது உங்கள் தற்போதைய பணி
-      அடைவை மாற்றும்.தானாகவே
-      பயன்படுத்தும்போது, ​​அது உங்கள் வீட்டு அடைவுக்கு மாறுவதற்கு
-      இயல்புநிலையாக இருக்கும்
-    ru: Это изменит ваш текущий рабочий каталог.
-      При самостоятельном использовании он по умолчанию
-      переходит в ваш домашний каталог.
+    fr: Modifiez votre répertoire de travail actuel. Lorsqu'il est utilisé seul, il passera par défaut à votre répertoire personnel
+    ta: இது உங்கள் தற்போதைய பணி அடைவை மாற்றும்.தானாகவே பயன்படுத்தும்போது, ​​அது உங்கள் வீட்டு அடைவுக்கு மாறுவதற்கு இயல்புநிலையாக இருக்கும்
+    ru: Это изменит ваш текущий рабочий каталог. При самостоятельном использовании он по умолчанию переходит в ваш домашний каталог.
+    ml: നിങ്ങളുടെ നിലവിലെ പ്രവർത്തന ഡയറക്ടറിയെ മാറ്റുക. ഇത് സ്വയം ഉപയോഗിക്കുമ്പോൾ ഡിഫോൾട്ട് ആയി ഹോം ഡയറക്ടറിയിലേക്ക് മാറ്റം നടക്കും
   html_terminal: >
     <span data-ty="input">cd</span>
     <span data-ty>/Users/me</span>
@@ -98,7 +67,7 @@
     pt-BR: Altera do diretório atual para a pasta informada
     en: Change your current working directory to the desired [FOLDER]
     es: Cambia su directorio de trabajo actual al [FOLDER] deseado
-    ar: تغيير دليل العمل الحالي الخاص بك إلى المجلد المطلو
+    ar: تغيير دليل العمل الحالي الخاص بك إلى المجلد المطلوب
     hi: अपनी वर्तमान कार्य निर्देशिका से वांछित फ़ोल्डर मे जाने के लिये
     te: మీ ప్రస్తుత పని డైరెక్టరీని కావలసిన [ఫోల్డర్] కు మార్చండి
     id: Berpindah direktori sesuai dengan [FOLDER] yang diinginkan
@@ -106,9 +75,9 @@
     je: 現在の作業ディレクトリを目的の[フォルダ]に変更します
     zh-CN: 将当前工作目录更改为所需的文件夹
     fr: Remplacez votre répertoire de travail actuel par le [FOLDER] souhaité
-    ta: இது உங்கள் தற்போதைய
-      பணி அடைவை விரும்பிய [FOLDER] க்கு மாற்றும்
+    ta: இது உங்கள் தற்போதைய பணி அடைவை விரும்பிய [FOLDER] க்கு மாற்றும்
     ru: Это изменит ваш текущий рабочий каталог на желаемый [FOLDER]
+    ml: നിങ്ങളുടെ നിലവിലെ പ്രവർത്തന ഡയറക്ടറിയെ ആഗ്രഹിച്ച [FOLDER] ലേക്ക് മാറ്റുക
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me</span>
@@ -126,14 +95,13 @@
     hi: अपनी वर्तमान कार्य निर्देशिका से अपने घर निर्देशिका को बदलने के लिए
     te: మీ ప్రస్తుత వర్కింగ్ డైరెక్టరీని పేరెంట్ డైరెక్టరీకి మార్చండి
     id: Berpindah ke direktori induk
-    bn: এটি আপনার বর্তমান ওয়ার্কিং ডিরেক্টরিটিকে পিতামাতার
-      ডিরেক্টরিতে পরিবর্তন করবে
+    bn: এটি আপনার বর্তমান ওয়ার্কিং ডিরেক্টরিটিকে পিতামাতার ডিরেক্টরিতে পরিবর্তন করবে
     je: 現在の作業ディレクトリを親ディレクトリに変更します
     zh-CN: 将您当前的工作目录更改为父目录
     fr: Remplacez votre répertoire de travail actuel par le répertoire parent
-    ta: இது உங்கள் தற்போதைய
-      பணி அடைவை பெற்றோர் கோப்பகமாக மாற்றும்
+    ta: இது உங்கள் தற்போதைய பணி அடைவை பெற்றோர் கோப்பகமாக மாற்றும்
     ru: Он изменит ваш текущий рабочий каталог на родительский.
+    ml: നിങ്ങളുടെ നിലവിലെ പ്രവർത്തന ഡയറക്ടറിയെ മൂല ഡയറക്ടറിയിലേക്ക് മാറ്റുക
   html_terminal: >
     <span data-ty="input">pwd</span>
     <span data-ty>/Users/me/Desktop</span>
