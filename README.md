@@ -24,9 +24,19 @@ Terminal Cheat Sheet aims to balance approachability through straightforward con
 
 ## Running locally
 
-You'll need to set up Jekyll for local development. Visit https://jekyllrb.com/docs/installation/ for instructions.
+### Dependencies
 
-Checkout the code from GitHub and then run `jekyll serve` in the repo directory.
+* You'll need to set up Ruby and Jekyll for local development. Visit https://jekyllrb.com/docs/installation/ for instructions.
+* Checkout the code from GitHub.
+* Use `make install` to get the necessary dependencies. This uses [Bundler](https://bundler.io), which comes in any modern distribution of Ruby.
+
+### Run
+
+Use `make s` or `make serve` to serve using Jekyll.
+
+This includes livereload to automatically refresh the page when you save changes.
+
+### Test
 
 Ensure you validate with Lighthouse and other performance tools locally.
 
