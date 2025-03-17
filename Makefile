@@ -4,6 +4,7 @@ h help:
 	@egrep '^\S|^$$' Makefile
 
 install:
+	bundle update --bundler
 	bundle install
 
 s serve:

@@ -26,9 +26,9 @@ Terminal Cheat Sheet aims to balance approachability through straightforward con
 
 ### Dependencies
 
-* You'll need to set up Jekyll for local development. Visit https://jekyllrb.com/docs/installation/ for instructions.
-* Checkout the code from GitHub
-* Use `make install` to get the necessary dependencies.
+* You'll need to set up Ruby and Jekyll for local development. Visit https://jekyllrb.com/docs/installation/ for instructions.
+* Checkout the code from GitHub.
+* Use `make install` to get the necessary dependencies. This uses [Bundler](https://bundler.io), which comes in any modern distribution of Ruby.
 
 ### Run
 
